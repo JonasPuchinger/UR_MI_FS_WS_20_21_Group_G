@@ -1,0 +1,12 @@
+[
+    {"Name": "Kramp-Karrenbauer, Annegret", "Partei": "CDU", "id": 47620601, "screen_name": "akk"},
+    {"Name": "Klöckner, Julia", "Partei": "CDU", "id": 29858729, "screen_name": "JuliaKloeckner"},
+    {"Name": "Schulze, Svenja", "Partei": "SPD", "id": 757979230244368385, "screen_name": "SvenjaSchulze68"},
+    {"Name": "Söder, Markus", "Partei": "CSU", "id": 793778228, "screen_name": "Markus_Soeder"},
+    {"Name": "Walter-Borjans, Norbert", "Partei": "SPD", "id": 706536761279782912, "screen_name": "NowaboFM"},
+    {"Name": "Meuthen, Prof. Dr. Norbert", "Partei": "AFD", "id": 710201540116652033, "screen_name": "Joerg_Meuthen"},
+    {"Name": "Beck, Volker", "Partei": "Bündnis 90/Die Grünen", "id": 16337664, "screen_name": "Volker_Beck"},
+    {"Name": "Polenz, Ruprecht", "Partei": "CDU", "id": 3082383264, "screen_name": "polenz_r"},
+    {"Name": "Kühnert, Kevin", "Partei": "SPD", "id": 2764750474, "screen_name": "KuehniKev"},
+    {"Name": "Stegner, Ralf", "Partei": "SPD", "id": 16808099, "screen_name": "Ralf_Stegner"}
+]
