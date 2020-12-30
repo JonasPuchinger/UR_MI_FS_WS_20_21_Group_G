@@ -1,5 +1,6 @@
 import datetime
 
+
 def date_range(start, end, step=13, date_format="%Y-%m-%d"):
     """
     Creates a list with a range of dates.
@@ -17,7 +18,8 @@ def date_range(start, end, step=13, date_format="%Y-%m-%d"):
     for d in range(0, num_days + step, step):
         date_i = start + datetime.timedelta(days=d)
         yield date_i.strftime(date_format)
-        
+
+
 def twitter_requests(screen_names, start, end, step=13, date_format="%Y-%m-%d"):
     """
     Creates a list of requests for Twitter Advanced Search to scrape all historical Tweets
@@ -38,4 +40,3 @@ def twitter_requests(screen_names, start, end, step=13, date_format="%Y-%m-%d"):
                 prev, current = current, next(dates)
             except StopIteration:
                 break
-    
