@@ -1,556 +1,556 @@
-name,screen_name,party,total_tweets_found,tweets_by_politician,ratio
-"Altmaier, Peter",peteraltmaier,CDU,299,254,84.95
-"Annen, Niels",NielsAnnen,SPD,1011,761,75.27
-"Baerbock, Annalena",ABaerbock,Bündnis 90/Die Grünen,355,296,83.38
-"Bahr, Ulrike",MdB_Ulrike_Bahr,SPD,0,0,0
-"Bär, Dorothee",DoroBaer,CSU,1187,1027,86.52
-"Bareiß, Thomas",Thomas_Bareiss,CDU,936,775,82.8
-"Bartke, Dr. Matthias",matthiasbartke,SPD,54,51,94.44
-"Bartol, Sören",soerenbartol,SPD,281,228,81.14
-"Bartsch, Dr. Dietmar",DietmarBartsch,Die Linke,1038,826,79.58
-"Bas, Bärbel",baerbelbas,SPD,739,590,79.84
-"Beermann, Maik",MaikBeermann,CDU,147,101,68.71
-"Behrens, Manfred",Manfredbehrens,CDU,0,0,0
-"Benning, Sybille",SybilleBenning,CDU,0,0,0
-"Bilger, Steffen",SteffenBilger,CDU,211,161,76.3
-"Binding, Lothar",Lothar_Binding,SPD,96,92,95.83
-"Birkwald, Matthias W.",MWBirkwald,Die Linke,106,96,90.57
-"Brantner, Dr. Franziska",fbrantner,Bündnis 90/Die Grünen,985,840,85.28
-"Braun, Dr. Helge",HBraun,CDU,86,78,90.7
-"Brehmer, Heike",HeikeBrehmerMdB,CDU,46,43,93.48
-"Brinkhaus, Ralph",rbrinkhaus,CDU,141,140,99.29
-"Brugger, Agnieszka",agnieszka_mdb,Bündnis 90/Die Grünen,438,378,86.3
-"Brunner, Dr. Karl-Heinz",BrunnerGanzOhr,SPD,174,149,85.63
-"Buchholz, Christine",ch_buchholz,Die Linke,254,238,93.7
-"Bülow, Marco",marcobuelow,Fraktionslos,1828,1651,90.32
-"Castellucci, Prof. Dr. Lars",larscastellucci,SPD,424,383,90.33
-"Dagdelen, Sevim",SevimDagdelen,Die Linke,416,369,88.7
-"De Ridder, Dr. Daniela",DeRidder_MdB,SPD,0,0,0
-"Dehm, Dr. Diether",Diether_Dehm,Die Linke,240,226,94.17
-"Deligöz, Ekin",ekindeligoez,Bündnis 90/Die Grünen,747,599,80.19
-"Diaby, Dr. Karamba",KarambaDiaby,SPD,121,115,95.04
-"Dittmar, Sabine",dittmarsabine,SPD,31,27,87.1
-"Dörner, Katja",katjadoerner,Bündnis 90/Die Grünen,993,804,80.97
-"Dröge, Katharina",katdro,Bündnis 90/Die Grünen,470,385,81.91
-"Durz, Hansjörg",Hansjoerg_Durz,CSU,9,8,88.89
-"Ebner, Harald",ebner_sha,Bündnis 90/Die Grünen,201,168,83.58
-"Ernst, Klaus",ernst_klaus,Die Linke,140,115,82.14
-"Esken, Saskia",EskenSaskia,SPD,3813,3639,95.44
-"Feiler, Uwe",UweFe,CDU,0,0,0
-"Felgentreu, Dr. Fritz",fritzfelgentreu,SPD,3004,2526,84.09
-"Fischer, Axel",Axel_Fischer,CDU,91,91,100.0
-"Franke, Dr. Edgar",FrankeEdgar,SPD,26,25,96.15
-"Freese, Ulrich",UliFreese,SPD,30,28,93.33
-"Frieser, Michael",MichaelFrieser,CSU,20,19,95.0
-"Fuchtel, Hans-Joachim",fuchtel,CDU,0,0,0
-"Gastel, Matthias",MatthiasGastel,Bündnis 90/Die Grünen,450,418,92.89
-"Gebhart, Dr. Thomas",thomasgebhart,CDU,81,76,93.83
-"Gehring, Kai",KaiGehring,Bündnis 90/Die Grünen,1632,1382,84.68
-"Gerdes, Michael",GerdesMdB,SPD,0,0,0
-"Gohlke, Nicole",NicoleGohlke,Die Linke,785,751,95.67
-"Göring-Eckardt, Katrin",GoeringEckardt,Bündnis 90/Die Grünen,939,792,84.35
-"Glöckner, Angelika",A_Gloeckner,SPD,203,133,65.52
-"Griese, Kerstin",KerstinGriese,SPD,664,542,81.63
-"Gröhe, Hermann",groehe,CDU,574,453,78.92
-"Groß, Michael ",michaelgrossmdb,SPD,0,0,0
-"Grosse-Brömer, Michael",MGrosseBroemer,CDU,907,784,86.44
-"Grötsch, Uli",UliGroetsch,SPD,327,326,99.69
-"Grübel, Markus",GruebelMdb,CDU,44,41,93.18
-"Güntzler, Fritz",FGuentzler,CDU,2,2,100.0
-"Gutting, Olav",olavgutting,CDU,226,220,97.35
-"Gysi, Dr. Gregor",GregorGysi,Die Linke,100,90,90.0
-"Hahn, Florian",hahnflo,CSU,920,636,69.13
-"Hajduk, Anja",HajdukBundestag,Bündnis 90/Die Grünen,38,23,60.53
-"Hakverdi, Metin",MetinHakverdi,SPD,507,417,82.25
-"Hänsel, Heike",HeikeHaensel,Die Linke,351,293,83.48
-"Hardt, Jürgen",juergenhardt,CDU,324,268,82.72
-"Hartmann, Sebastian",sebast_hartmann,SPD,345,266,77.1
-"Haßelmann, Britta",BriHasselmann,Bündnis 90/Die Grünen,1167,980,83.98
-"Hauer, Matthias",MatthiasHauer,CDU,5633,5081,90.2
-"Hauptmann, Mark",MarkHauptmann,CDU,265,156,58.87
-"Heider, Dr. Matthias",MatthiasHeider,CDU,0,0,0
-"Heil, Hubertus",hubertus_heil,SPD,267,265,99.25
-"Heil, Mechthild",MechthildHeil,CDU,29,25,86.21
-"Heinrich, Frank",FrankHeinrich,CDU,9,9,100.0
-"Heinrich, Gabriela",GaHeinrich,SPD,1,1,100.0
-"Held, Marcus",MarcusHeld_SPD,SPD,0,0,0
-"Hellmich, Wolfgang",HellmichMdB,SPD,129,82,63.57
-"Herzog, Gustav",GustavHerzogMdB,SPD,0,0,0
-"Hirte, Christian",ChristianHirte,CDU,474,300,63.29
-"Hirte, Prof. Dr. Heribert",HHirte,CDU,1572,1274,81.04
-"Hitschler, Thomas",ThomasHitschler,SPD,1115,1014,90.94
-"Hofreiter, Dr. Anton",ToniHofreiter,Bündnis 90/Die Grünen,0,0,0
-"Hunko, Andrej",AndrejHunko,Die Linke,976,883,90.47
-"Janecek, Dieter",DJanecek,Bündnis 90/Die Grünen,2597,2262,87.1
-"Jarzombek, Thomas",tj_tweets,CDU,449,421,93.76
-"Jelpke, Ulla",UllaJelpke,Die Linke,269,246,91.45
-"Jurk, Thomas",thomas_jurk,SPD,0,0,0
-"Kaczmarek, Oliver",KaczmarekOliver,SPD,197,149,75.63
-"Karliczek, Anja",AnjaKarliczek,CDU,5,3,60.0
-"Kaufmann, Dr. Stefan",StefanKaufmann,CDU,686,633,92.27
-"Kekeritz, Uwe",UweKekeritz,Bündnis 90/Die Grünen,282,229,81.21
-"Kemmer, Ronja",RonjaKemmer,CDU,29,21,72.41
-"Kiesewetter, Roderich",RKiesewetter,CDU,645,615,95.35
-"Kindler, Sven-Christian",sven_kindler,Bündnis 90/Die Grünen,1860,1652,88.82
-"Kipping, Katja",katjakipping,Die Linke,1071,915,85.43
-"Kiziltepe, Cansel",CanselK,SPD,836,633,75.72
-"Klare, Arno",arnoklare,SPD,49,48,97.96
-"Klein, Volkmar",VolkmarKlein,CDU,4,3,75.0
-"Klein-Schmeink, Maria",MariaKlSchmeink,Bündnis 90/Die Grünen,1914,1484,77.53
-"Klingbeil, Lars",larsklingbeil,SPD,826,660,79.9
-"Koeppen, Jens",JensKoeppen,CDU,58,54,93.1
-"Kofler, Dr. Bärbel",BaerbelKofler,SPD,284,272,95.77
-"Kolbe, Daniela",danielakolbe,SPD,766,734,95.82
-"Koob, Markus",KoobMar,CDU,0,0,0
-"Korte, Jan",jankortemdb,Die Linke,479,411,85.8
-"Kotting-Uhl, Sylvia",KottingUhl,Bündnis 90/Die Grünen,27,25,92.59
-"Kramme, Anette",AnetteKramme,SPD,1,1,100.0
-"Krellmann, Jutta",JuttaKrellmann,Die Linke,77,55,71.43
-"Krings, Dr. Günter",guenterkrings,CDU,0,0,0
-"Krischer, Oliver",Oliver_Krischer,Bündnis 90/Die Grünen,351,297,84.62
-"Kruse, Rüdiger",RuedigerKruse,CDU,59,58,98.31
-"Kühn, Christian",ChrisKuehn_mdb,Bündnis 90/Die Grünen,424,328,77.36
-"Kühn, Stephan",stephankuehn,Bündnis 90/Die Grünen,402,342,85.07
-"Kühne, Dr. Roy",Dr_Roy_Kuehne,CDU,68,65,95.59
-"Künast, Renate",RenateKuenast,Bündnis 90/Die Grünen,5976,4796,80.25
-"Kurth, Markus",markuskurthmdb,Bündnis 90/Die Grünen,92,82,89.13
-"Lange, Christian",LangeMdB,SPD,286,261,91.26
-"Lange, Ulrich",UlrichLange,CSU,0,0,0
-"Launert, Dr. Silke",DrLaunert,CSU,0,0,0
-"Lauterbach, Dr. Karl",Karl_Lauterbach,SPD,3359,2696,80.26
-"Lay, Caren",CarenLay,Die Linke,811,701,86.44
-"Lazar, Monika",monikalazar,Bündnis 90/Die Grünen,375,332,88.53
-"Leidig, Sabine",SabineLeidig,Die Linke,337,301,89.32
-"Leikert, Dr. Katja",KLeikert,CDU,749,619,82.64
-"Lemke, Steffi",SteffiLemke,Bündnis 90/Die Grünen,291,249,85.57
-"Lenz, Dr. Andreas",DerLenzMdB,CSU,782,664,84.91
-"Leutert, Michael",MichaelLeutert,Die Linke,11,10,90.91
-"Liebich, Stefan",berlinliebich,Die Linke,2347,2153,91.73
-"Lindholz, Andrea",AndreaLindholz,CSU,0,0,0
-"Lindner, Dr. Tobias",tobiaslindner,Bündnis 90/Die Grünen,298,253,84.9
-"Lötzsch, Dr. Gesine",LoetzschMdB,Die Linke,394,318,80.71
-"Luczak, Dr. Jan-Marco",JM_Luczak,CDU,1030,882,85.63
-"Lutze, Thomas",thlutze,Die Linke,0,0,0
-"Magwas, Yvonne",YvonneMagwas,CDU,8,6,75.0
-"Manderla, Gisela",ManderlaGisela,CDU,144,132,91.67
-"Mattfeldt, Andreas",AMattfeldt,CDU,0,0,0
-"Mattheis, Hilde",HildeMattheis,SPD,416,386,92.79
-"Meister, Dr. Michael",meister_schafft,CDU,368,241,65.49
-"Metzler, Jan",JanMetzler,CDU,0,0,0
-"Michelbach, Dr. Hans",hans_michelbach,CSU,9,9,100.0
-"Mihalic, Irene",IreneMihalic,Bündnis 90/Die Grünen,410,372,90.73
-"Mindrup, Klaus",KlausMindrup,SPD,298,270,90.6
-"Möhring, Cornelia",Conni_Moehring,Die Linke,654,527,80.58
-"Möring, Karsten",KarstenMoering,CDU,11,9,81.82
-"Movassat, Niema",NiemaMovassat,Die Linke,5085,4678,92.0
-"Müller, Bettina",BetMueller,SPD,180,179,99.44
-"Müller, Carsten",CarstenMuellers,CDU,0,0,0
-"Müller, Stefan",smuellermdb,CSU,307,258,84.04
-"Müller-Gemmeke, Beate",GrueneBeate,Bündnis 90/Die Grünen,204,164,80.39
-"Müller, Norbert",Norbert_MdB,Die Linke,198,173,87.37
-"Neu, Dr. Alexander",AlexanderSNeu,Die Linke,367,318,86.65
-"Nick, Dr. Andreas",DrAndreasNick,CDU,521,440,84.45
-"Nissen, Ulli",UlliNissen,SPD,1321,1081,81.83
-"Nord, Thomas",NordMdb,Die Linke,370,349,94.32
-"Notz, Dr. Konstantin von",KonstantinNotz,Bündnis 90/Die Grünen,1026,822,80.12
-"Nouripour, Omid",nouripour,Bündnis 90/Die Grünen,733,552,75.31
-"Oellers, Wilfried",WilfriedOellers,CDU,0,0,0
-"Oppermann, Thomas",ThomasOppermann,SPD,140,124,88.57
-"Oßner, Florian",Florian_Ossner,CSU,7,7,100.0
-"Özdemir, Cem",cem_oezdemir,Bündnis 90/Die Grünen,1093,945,86.46
-"Özdemir, Mahmut",oezdemir_spd,SPD,94,80,85.11
-"Özoguz, Aydan",oezoguz,SPD,1189,1042,87.64
-"Pantel, Sylvia",SylviaPantel,CDU,38,38,100.0
-"Paschke, Markus",MarkusPaschke,SPD,41,41,100.0
-"Pau, Petra",PetraPauMaHe,Die Linke,670,528,78.81
-"Paus, Lisa",lisapaus,Bündnis 90/Die Grünen,850,788,92.71
-"Petry, Christian",CPetryMdB,SPD,61,60,98.36
-"Post, Achim",Achim_P,SPD,513,506,98.64
-"Post, Florian",FlorianPost,SPD,244,232,95.08
-"Pronold, Florian",FlorianPronold,SPD,68,54,79.41
-"Rabanus, Martin",MartinRabanus,SPD,0,0,0
-"Radwan, Alexander",AlexanderRadwan,CSU,0,0,0
-"Rawert, Mechthild",MechthildRawert,SPD,78,78,100.0
-"Renner, Martina",MartinaRenner,Die Linke,1618,1306,80.72
-"Rimkus, Andreas",Andreas_Rimkus,SPD,707,611,86.42
-"Rix, Sönke",SoenkeRix,SPD,544,478,87.87
-"Rohde, Dennis",DennisRohde,SPD,283,260,91.87
-"Rosemann, Dr. Martin",MartinRosemann,SPD,419,338,80.67
-"Rossmann, Dr. Ernst Dieter",edrossmann,SPD,103,97,94.17
-"Rößner, Tabea",TabeaRoessner,Bündnis 90/Die Grünen,624,535,85.74
-"Roth, Michael",MiRo_SPD,SPD,2028,1756,86.59
-"Rüddel, Erwin",Erwin_Rueddel,CDU,726,715,98.48
-"Rüffer, Corinna",crueffer,Bündnis 90/Die Grünen,65,56,86.15
-"Rüthrich, Susann",SusannRuethrich,SPD,0,0,0
-"Saathoff, Johann",Johann_Saathoff,SPD,122,112,91.8
-"Sarrazin, Manuel",ManuelSarrazin,Bündnis 90/Die Grünen,200,165,82.5
-"Schauws, Ulle",ulle_schauws,Bündnis 90/Die Grünen,550,449,81.64
-"Scheuer, Andreas",AndiScheuer,CSU,105,78,74.29
-"Schiefner, Udo",UdoSchiefner,SPD,3,3,100.0
-"Schimke, Jana",JanaSchimke,CDU,143,116,81.12
-"Schipanski, Tankred",TSchipanski,CDU,443,323,72.91
-"Schmidt, Dagmar",dieschmidt,SPD,40,30,75.0
-"Schneider , Carsten",schneidercar,SPD,409,321,78.48
-"Schnieder, Patrick",PSchnieder,CDU,128,86,67.19
-"Schön, Nadine",NadineSchoen,CDU,210,153,72.86
-"Schulz-Asche, Kordula",K_SA,Bündnis 90/Die Grünen,1770,1366,77.18
-"Schummer, Uwe",UweSchummer,CDU,1352,1330,98.37
-"Schuster, Armin",armin_schuster,CDU,110,100,90.91
-"Schwabe, Frank",FrankSchwabe,SPD,685,680,99.27
-"Schwartze, Stefan",s_schwartze,SPD,74,55,74.32
-"Schwarz, Andreas",Schwarz_MdB,SPD,963,800,83.07
-"Schwarzelühr-Sutter, Rita",rischwasu,SPD,419,278,66.35
-"Sensburg, Prof. Dr. Patrick",PatrickSensburg,CDU,49,49,100.0
-"Siebert, Bernd",BerndSiebert,CDU,10,9,90.0
-"Sitte, Dr. Petra",Petra_Sitte_MdB,Die Linke,321,293,91.28
-"Sorge, Tino",TinoSorge,CDU,305,254,83.28
-"Spahn, Jens",jensspahn,CDU,336,314,93.45
-"Spiering, Rainer",rainerspiering,SPD,0,0,0
-"Stadler, Svenja",stadler_svenja,SPD,377,296,78.51
-"Stamm-Fibich, Martina",stamm_fibich,SPD,31,28,90.32
-"Steffel, Dr. Frank",franksteffel,CDU,33,33,100.0
-"Steffen, Sonja",SteffenSonja,SPD,61,49,80.33
-"Stefinger, Dr. Wolfgang",StefingerMdB,CSU,51,42,82.35
-"Steineke, Sebastian",SteinekeCDU,CDU,2465,2163,87.75
-"Steiniger, Johannes",JoSteiniger,CDU,731,649,88.78
-"Stetten, Christian Freiherr von",Stettenchris,CDU,0,0,0
-"Storjohann, Gero",gero_storjohann,CDU,135,128,94.81
-"Strengmann-Kuhn, Dr. Wolfgang",W_SK,Bündnis 90/Die Grünen,377,282,74.8
-"Tackmann, Dr. Kirsten",KirstenTackmann,Die Linke,806,570,70.72
-"Tauber, Dr. Peter",petertauber,CDU,713,603,84.57
-"Thews, Michael",michael_thews,SPD,408,406,99.51
-"Träger, Carsten",CarstenTraeger,SPD,88,71,80.68
-"Tressel, Markus",MarkusTressel,Bündnis 90/Die Grünen,225,201,89.33
-"Trittin, Jürgen",JTrittin,Bündnis 90/Die Grünen,1015,867,85.42
-"Ullrich, Dr. Volker",VolkerUllrich,CSU,386,341,88.34
-"Verlinden, Dr. Julia",julia_verlinden,Bündnis 90/Die Grünen,514,454,88.33
-"Vogler, Kathrin",voglerk,Die Linke,788,701,88.96
-"Vogt, Ute",UteVogt,SPD,126,80,63.49
-"Vries, Kees de",KEESdeVriesCDU,CDU,0,0,0
-"Wagenknecht, Dr. Sahra",SWagenknecht,Die Linke,238,236,99.16
-"Walter-Rosenheimer, Beate",BeateWaRo,Bündnis 90/Die Grünen,44,42,95.45
-"Wadephul, Dr. Johann",JoWadephul,CDU,314,262,83.44
-"Wanderwitz, Marco",wanderwitz,CDU,1545,1493,96.63
-"Warken, Nina",ninawarken,CDU,116,79,68.1
-"Weber, Gabi",GabiWeberSPD,SPD,13,10,76.92
-"Wegner, Kai",kaiwegner,CDU,467,433,92.72
-"Weinberg, Harald",HaraldWeinberg,Die Linke,0,0,0
-"Weinberg, Marcus",MarcusWeinberg,CDU,208,194,93.27
-"Weisgerber, Dr. Anja",anjaweisgerber,CSU,168,148,88.1
-"Weiß, Peter",PeterWeissMdB,CDU,0,0,0
-"Wellenreuther, Ingo",Wellenreuther,CDU,0,0,0
-"Wendt, Marian",MdbWendt,CDU,488,426,87.3
-"Werner, Katrin",Katrin_Werner,Die Linke,167,164,98.2
-"Whittaker, Kai",Kai_Whittaker,CDU,544,435,79.96
-"Widmann-Mauz, Annette",AWidmannMauz,CDU,581,397,68.33
-"Wiese, Dirk",DirkWieseSPD,SPD,869,744,85.62
-"Zdebel, Hubertus",ZdebelHubertus,Die Linke,103,91,88.35
-"Zech, Tobias",TobiasZech,CSU,16,11,68.75
-"Zierke, Stefan",zierke,SPD,0,0,0
-"Zimmer, Prof. Dr. Matthias",matthiaszimmer,CDU,191,176,92.15
-"Zimmermann, Dr. Jens",JensZSPD,SPD,1044,812,77.78
-"Müller, Detlef",MuellerChemnitz,SPD,960,853,88.85
-"Abercron, Dr. Michael von",mvabercron,CDU,119,106,89.08
-"Achelwilm, Doris",DorisAchelwilm,Die Linke,526,400,76.05
-"Akbulut, Gökay",AkbulutGokay,Die Linke,654,508,77.68
-"Aschenberg-Dugnus, Christine",cad59,FDP,252,210,83.33
-"Aumer, Peter",PeterAumer,CSU,4,4,100.0
-"Badum, Lisa",badulrichmartha,Bündnis 90/Die Grünen,175,133,76.0
-"Barrientos Krauss, Simone",SBarrientosK,Die Linke,318,264,83.02
-"Bause, Margarete",MargareteBause,Bündnis 90/Die Grünen,164,127,77.44
-"Bayaz, Dr. Danyal",DerDanyal,Bündnis 90/Die Grünen,1724,1420,82.37
-"Bayram, Canan",LieblingXhain,Bündnis 90/Die Grünen,1425,1313,92.14
-"Beeck, Jens",jensbeeck,FDP,48,43,89.58
-"Bernhard, Marc",MarcBernhardAfD,AfD,375,364,97.07
-"Bernstiel, Christoph",c_bernstiel,CDU,16,12,75.0
-"Beutin, Lorenz Gösta",lgbeutin,Die Linke,3550,3248,91.49
-"Beyer, Peter",Peter_Beyer,CDU,302,236,78.15
-"Bleck, Andreas",AndreasBleckMdB,AfD,100,100,100.0
-"Boehringer, Peter",PeterBoehringer,AfD,111,110,99.1
-"Brandenburg, Dr. Jens",JBrandenburgFDP,FDP,595,536,90.08
-"Brandenburg, Mario",BraFDP,FDP,449,381,84.86
-"Brandner, Stephan",StBrandner,AfD,5999,4372,72.88
-"Brandt, Michel",michel_brandt_,Die Linke,703,554,78.81
-"Brehm, Sebastian",Brehm_inNBGNord,CSU,1,1,100.0
-"Breymaier, Leni",LeniBreymaier,SPD,439,406,92.48
-"Brandl, Dr. Reinhard",reinhardbrandl,CSU,1,1,100.0
-"Bühl, Marcus",Marcus_Buehl,AfD,184,184,100.0
-"Bull-Bischoff, Birke",Birke_Bull,Die Linke,104,79,75.96
-"Buschmann, Dr. Marco",MarcoBuschmann,FDP,5018,4787,95.4
-"Büttner, Matthias",Buettner_MdB,AfD,85,85,100.0
-"Bystron, Petr",PetrBystronAfD,AfD,916,775,84.61
-"Cezanne, Jörg",joerg_cezanne,Die Linke,26,25,96.15
-"Christmann, Dr. Anna",annachristmann,Bündnis 90/Die Grünen,382,329,86.13
-"Cotar, Joana",JoanaCotar,AfD,2051,1857,90.54
-"Curio, Dr. Gottfried",GottfriedCurio,AfD,133,132,99.25
-"De Masi, Fabio",FabioDeMasi,Die Linke,6060,5733,94.6
-"Domscheit-Berg, Anke",anked,Die Linke,3664,3113,84.96
-"Chrupalla, Tino",Tino_Chrupalla,AfD,323,307,95.05
-"Droese, Siegbert",Siegbert_Droese,AfD,0,0,0
-"Dürr, Christian",christianduerr,FDP,492,376,76.42
-"Ebbing, Hartmut",HartmutEbbing,FDP,198,161,81.31
-"Ehrhorn, Thomas",Thomas_Ehrhorn,AfD,27,24,88.89
-"Elsner von Gronow, Berengar",ElsnervonGronow,AfD,156,138,88.46
-"Erndl, Thomas",TErndl,CSU,218,174,79.82
-"Espendiller, Dr. Michael",DrMEspendiller,AfD,798,654,81.95
-"Faber, Dr. Marcus",MarcusFaber,FDP,334,322,96.41
-"Felser, Peter",PeterFelser,AfD,189,184,97.35
-"Schmidt, Stefan",Schmidt_MdB,Bündnis 90/Die Grünen,106,87,82.08
-"Föst, Daniel",DFoest,FDP,1767,1560,88.29
-"Fricke, Otto",Otto_Fricke,FDP,2098,2011,95.85
-"Friesen, Dr. Anton",DrFriesenMdB,AfD,431,407,94.43
-"Frohnmaier, Markus",Frohnmaier_AfD,AfD,170,154,90.59
-"Frömming, Dr. Götz",GtzFrmming,AfD,2274,1878,82.59
-"Gabelmann, Sylvia",SylviaGabelmann,Die Linke,140,134,95.71
-"Gehrke, Dr. Axel",axelgehrke,AfD,5,5,100.0
-"Gelbhaar, Stefan",StefanGelbhaar,Bündnis 90/Die Grünen,858,780,90.91
-"Gottberg, Wilhelm von",vonGottberg_AfD,AfD,0,0,0
-"Gottschalk, Kay",KayGottschalk1,AfD,222,198,89.19
-"Gremmels, Timon",Timon_Gremmels,SPD,877,798,90.99
-"Jensen, Gyde",GydeJ,FDP,707,537,75.95
-"Hacker, Thomas",hacker_fdp,FDP,266,210,78.95
-"Hagl-Kehl, Rita",RitaHaglKehl,SPD,4,4,100.0
-"Harder-Kühnel, Mariana",M_HarderKuehnel,AfD,81,76,93.83
-"Hartwig, Dr. Roland",R_Hartwig_AfD,AfD,146,145,99.32
-"Haug, Jochen",Jochen_Haug,AfD,5,4,80.0
-"Helling-Plahr, Katrin",KatrinHelling,FDP,324,263,81.17
-"Hemmelgarn, Udo",UdoHemmelgarn,AfD,1235,1177,95.3
-"Henrichmann, Marc",MarcHenrichmann,CDU,264,235,89.02
-"Herbst, Torsten",torstenherbst,FDP,456,430,94.3
-"Herdt, Waldemar",WaldemarHerdt,AfD,0,0,0
-"Herrmann, Lars",hermiworld,AfD,17,14,82.35
-"Hess, Martin",Martin_Hess_AfD,AfD,245,233,95.1
-"Hessel, Katja",fdp_hessel,FDP,84,75,89.29
-"Höchst, Nicole",Nicole_Hoechst,AfD,167,157,94.01
-"Höferlin, Manuel",ManuelHoeferlin,FDP,238,192,80.67
-"Höhn, Matthias",MatthiasHoehn,Die Linke,521,393,75.43
-"Holm, Leif-Erik",Leif_Erik_Holm,AfD,68,66,97.06
-"Holtz, Ottmar von",OWvonHoltz,Bündnis 90/Die Grünen,117,103,88.03
-"Houben, Reinhard",HoubenReinhard,FDP,146,115,78.77
-"Jongen, Dr. Marc",Marc_Jongen,AfD,70,58,82.86
-"Jung, Dr. Christian",c_jung77,FDP,1853,1575,85.0
-"Jung, Ingmar",Ingmar_Jung,CDU,11,8,72.73
-"Juratovic, Josip",josip_juratovic,SPD,66,61,92.42
-"Kaiser, Elisabeth",Kaiser_SPD,SPD,273,234,85.71
-"Kartes, Torbjörn",KartesMdB,CDU,26,22,84.62
-"Katzmarek, Gabriele",GabyKatzmarek,SPD,22,18,81.82
-"Kessler, Dr. Achim",AchimKesslerMdB,Die Linke,875,721,82.4
-"Kestner, Jens",KestnerJens,AfD,316,253,80.06
-"Keuter, Stefan",StefanKeuterAfD,AfD,0,0,0
-"Kleinwächter, Norbert",NKleinwaechter,AfD,149,144,96.64
-"Kluckert, Daniela",DanielaKluckert,FDP,518,430,83.01
-"Kober, Pascal",PascalKober,FDP,91,59,64.84
-"Köhler, Dr. Lukas",koehler_fdp,FDP,525,459,87.43
-"Komning, Enrico",EnricoKomning,AfD,25,22,88.0
-"Konrad, Carina",carina_konrad,FDP,510,414,81.18
-"Korkmaz-Emre, Elvan",KorkmazGT,SPD,232,197,84.91
-"Kotré, Steffen",SteffenKotre,AfD,180,155,86.11
-"Krauß, Alexander",kraussalex,CDU,0,0,0
-"Kuffer, Michael",MichaelKuffer,CSU,12,10,83.33
-"Kuhle, Konstantin Elias",KonstantinKuhle,FDP,1858,1585,85.31
-"Lambsdorff, Alexander Graf",Lambsdorff,FDP,1268,1042,82.18
-"Lehmann, Sven",svenlehmann,Bündnis 90/Die Grünen,972,913,93.93
-"Lindh, Helge",helgelindh,SPD,271,248,91.51
-"Lindner, Christian",c_lindner,FDP,1294,1211,93.59
-"Link, Michael",michael_g_link,FDP,160,133,83.12
-"Löbel, Nikolas",NikolasLoebel,CDU,220,191,86.82
-"Lucassen, Rüdiger",MdB_Lucassen,AfD,26,26,100.0
-"Luksic, Oliver",OlliLuksic,FDP,2911,2624,90.14
-"Maas, Heiko",HeikoMaas,SPD,709,672,94.78
-"Maier, Jens",JensMaierAfD,AfD,419,403,96.18
-"Maier, Prof. Dr. Lothar",ProfMaier,AfD,118,117,99.15
-"Matschie, Christoph",matschie,SPD,92,74,80.43
-"Meiser, Pascal",pascalmeiser,Die Linke,243,187,76.95
-"Meyer, Christoph",ChristophFDP,FDP,1216,1136,93.42
-"Miazga, Corinna",CorinnaMiazga,AfD,79,77,97.47
-"Mohrs, Falko",FalkoMohrs,SPD,69,55,79.71
-"Mrosek, Andreas",mrosek1958,AfD,290,275,94.83
-"Müller, Claudia",GruenClaudia,Bündnis 90/Die Grünen,887,690,77.79
-"Müller, Sepp",mueller_sepp,CDU,580,400,68.97
-"Müller-Böhm, Roman",muellerboehm,FDP,4,4,100.0
-"Münzenmaier, Sebastian",S_Muenzenmaier,AfD,461,440,95.44
-"Nastic, Zaklin",ZaklinNastic,Die Linke,507,435,85.8
-"Freihold, Brigitte",MdB_Freihold,Die Linke,297,230,77.44
-"Nestle, Dr. Ingrid",Ingrid_Nestle,Bündnis 90/Die Grünen,502,412,82.07
-"Neumann, Christoph",Neumann_AfD,AfD,0,0,0
-"Nolte, Jan",Jan_Nolte_AfD,AfD,126,115,91.27
-"Oehme, Ulrich",Ulrich_Oehme,AfD,0,0,0
-"Ortleb, Josephine",joloulou,SPD,45,40,88.89
-"Oster, Josef",josefoster,CDU,0,0,0
-"Pasemann, Frank",Frank_Pasemann,AfD,514,398,77.43
-"Pellmann, Sören",LINKEPELLI,Die Linke,857,789,92.07
-"Perli, Victor",victorperli,Die Linke,764,687,89.92
-"Peterka, Tobias",TobiasMPeterka,AfD,483,482,99.79
-"Petry, Dr. Frauke",FraukePetry,Fraktionslos,640,587,91.72
-"Pflüger, Tobias",tpflueger,Die Linke,127,110,86.61
-"Pilsinger, Stephan",StephPilsinger,CSU,13,13,100.0
-"Podolay, Paul Viktor",Paul_Podolay,AfD,3,3,100.0
-"Pohl, Jürgen",Pohl_MdB,AfD,79,63,79.75
-"Polat, Filiz",filizgreen,Bündnis 90/Die Grünen,655,557,85.04
-"Protschka, Stephan",AfDProtschka,AfD,1093,956,87.47
-"Reichardt, Martin",M_Reichardt_AfD,AfD,828,724,87.44
-"Remmers, Ingrid",Ingrid_Remmers,Die Linke,53,44,83.02
-"Renner, Martin Erwin",Renner_AfD,AfD,214,199,92.99
-"Riexinger, Bernd",b_riexinger,Die Linke,588,546,92.86
-"Reuther, Bernd",reuther_bernd,FDP,168,129,76.79
-"Ullrich, Gerald",G_UllrichFDP,FDP,475,379,79.79
-"Rouenhoff, Stefan",StefanRouenhoff,CDU,28,22,78.57
-"Sattelberger, Thomas",th_sattelberger,FDP,2514,2117,84.21
-"Schäfer, Anita",SchaeferCDU,CDU,0,0,0
-"Schäffler, Frank",f_schaeffler,FDP,1018,844,82.91
-"Scheer, Nina",NinaScheer_SPD,SPD,44,34,77.27
-"Schielke-Ziesing, Ulrike",ulschzi,AfD,335,312,93.13
-"Schinnenburg, Dr. Wieland",WSchinnenburg,FDP,235,207,88.09
-"Schmid, Dr. Nils",NilsSchmid,SPD,500,477,95.4
-"Schneider, Jörg",Schneider_AfD,AfD,376,348,92.55
-"Schraps, Johannes",jschraps,SPD,45,37,82.22
-"Schreiner, Felix",felixschreiner,CDU,97,77,79.38
-"Schrodi, Michael",mischrodi,SPD,229,211,92.14
-"Schulz, Martin",MartinSchulz,SPD,50,46,92.0
-"Schulz, Uwe",Uwe_Schulz_AfD,AfD,28,25,89.29
-"Schweiger, Torsten",cdu_schweiger,CDU,16,14,87.5
-"Seitz, Thomas",Th_Seitz_AfD,AfD,15,13,86.67
-"Sichert, Martin",Martin_Sichert,AfD,272,248,91.18
-"Simon, Björn",BjoernSimon,CDU,66,56,84.85
-"Sitta, Frank",franksitta,FDP,25,22,88.0
-"Solms, Dr. Hermann Otto",solms,FDP,109,100,91.74
-"Sommer, Evrim",HESommer,Die Linke,964,830,86.1
-"Spaniel, Dr. Dirk",DirkSpaniel,AfD,81,74,91.36
-"Mieruch, Mario",MieruchMario,Fraktionslos,5862,5089,86.81
-"Staffler, Katrin",katrin_staffler,CSU,53,38,71.7
-"Stark-Watzinger, Bettina",starkwatzinger,FDP,813,698,85.85
-"Steier, Andreas",AndreasSteier,CDU,270,252,93.33
-"Stein, Jens Mathias",stonie_kiel,SPD,531,429,80.79
-"Stein, Peter",Peter_Stein_CDU,CDU,342,300,87.72
-"Storch, Beatrix von",Beatrix_vStorch,AfD,477,411,86.16
-"Strack-Zimmermann, Dr. Marie-Agnes",MAStrackZi,FDP,2737,2591,94.67
-"Strasser, Benjamin",bstrasser,FDP,441,376,85.26
-"Suding, Katja",KatjaSuding,FDP,510,473,92.75
-"Teuteberg, Linda",LindaTeuteberg,FDP,252,207,82.14
-"Theurer, Michael",EUTheurer,FDP,434,379,87.33
-"Thomae, Stephan",StephanThomae,FDP,626,532,84.98
-"Tiemann, Dr. Dietlind",dr_tiemann,CDU,0,0,0
-"Todtenhausen, Manfred",MTodtenhausen,FDP,76,49,64.47
-"Toncar, Dr. Florian",florian_toncar,FDP,381,353,92.65
-"Töns, Markus",Toens_NRW04,SPD,273,225,82.42
-"Uhl, Markus",uhl_markus,CDU,1,1,100.0
-"Ullmann, Prof. Dr. Andrew",UllmannMdB,FDP,912,814,89.25
-"Vogel, Johannes",johannesvogel,FDP,2399,2230,92.96
-"Wagner, Andreas",Andi_Wagner,Die Linke,336,296,88.1
-"Wagner, Daniela",DanyWagner_DA,Bündnis 90/Die Grünen,215,165,76.74
-"Weeser, Sandra",sandra_weeser,FDP,2263,2127,93.99
-"Weidel, Dr. Alice",Alice_Weidel,AfD,335,323,96.42
-"Weyel, Prof. Dr. Harald",h_weyel,AfD,1067,831,77.88
-"Wildberg, Dr. Heiko",Heiko_Wildberg,AfD,0,0,0
-"Wirth, Dr. Christian Friedrich",ChrWirthMdB,AfD,63,63,100.0
-"Witt, Uwe",Witt_Uwe,AfD,261,227,86.97
-"Ziemiak, Paul",PaulZiemiak,CDU,681,570,83.7
-"Braun, Jürgen",JuergenBraunAfD,AfD,1853,1432,77.28
-"Jacobi, Fabian",Jacobi_AfD,AfD,381,349,91.6
-"König, Jörn",JoernKoenigAfD,AfD,0,0,0
-"Magnitz, Frank",Frank_Magnitz,AfD,2,2,100.0
-"Springer, René",Rene_Springer,AfD,84,76,90.48
-"Kraft, Dr. Rainer",Dr_Rainer_Kraft,AfD,653,409,62.63
-"Hoffmann, Dr. Bettina",bhoffmann_mdb,Bündnis 90/Die Grünen,253,200,79.05
-"Kappert-Gonther, Dr. Kirsten",KirstenKappert,Bündnis 90/Die Grünen,297,250,84.18
-"Keul, Katja",KatjaKeul,Bündnis 90/Die Grünen,161,135,83.85
-"Stumpp, Margit",margit_stumpp,Bündnis 90/Die Grünen,644,481,74.69
-"Biadacz, Marc",MBiadaczMdB,CDU,246,190,77.24
-"Knoerig, Axel",axel_knoerig,CDU,16,16,100.0
-"Mast, Katja",KatjaMast,SPD,963,822,85.36
-"Müntefering, Michelle",Mi_Muentefering,SPD,748,607,81.15
-"Silberhorn, Thomas",SilberhornMdB,CSU,153,110,71.9
-"Schreiber, Eva-Maria",MdB_Schreiber,Die Linke,432,375,86.81
-"Straetmanns, Friedrich",FrStraetmanns,Die Linke,615,523,85.04
-"Busen, Karlheinz",busen_mdb,FDP,23,16,69.57
-"Djir-Sarai, Bijan",DjirSarai,FDP,301,240,79.73
-"in der Beek, Olaf",olafinderbeek,FDP,346,260,75.14
-"Willkomm, Katharina",k_willkomm,FDP,566,450,79.51
-"Mansmann, Till",TillMansmann,FDP,48,43,89.58
-"Müller, Alexander",alexmuellerfdp,FDP,449,360,80.18
-"Reinhold, Hagen",reinholdmdb,FDP,933,838,89.82
-"Skudelny, Judith",JudithSkudelny,FDP,261,236,90.42
-"Dilcher, Esther",EstherDilcher,SPD,0,0,0
-"Aggelidis, Grigorios",aggelidis_fdp,FDP,212,194,91.51
-"Hollnagel, Dr. Bruno",DrHollnagel,AfD,44,44,100.0
-"Wiehle, Wolfgang",WolfgangWiehle,AfD,376,376,100.0
-"Heilmann, Prof. Thomas",ThomasHeilmann,CDU,197,169,85.79
-"Hocker, Dr. Gero",GeroHocker,FDP,292,242,82.88
-"Müller, Hansjörg Gerhard Georg",MdB_Mueller_AfD,AfD,112,111,99.11
-"Müller-Rosentritt, Frank",theliberalfrank,FDP,276,263,95.29
-"Neumann, Prof. Dr. Martin",_MartinNeumann,FDP,1368,1019,74.49
-"Rottmann, Dr. Manuela",ManuelaRottman,Bündnis 90/Die Grünen,1282,1212,94.54
-"Alt, Renata",RenataAlt_MdB,FDP,546,467,85.53
-"Dassler, Britta",BrittaDassler,FDP,40,39,97.5
-"Klein, Karsten",MdBKlein,FDP,288,260,90.28
-"Westig, Nicole",NicoleWestig,FDP,131,100,76.34
-"Völlers, Marja-Liisa",MarjaVoellers,SPD,383,304,79.37
-"Herbrand, Markus",HerbrandMarkus,FDP,287,213,74.22
-"Ihnen, Ulla",ullaihnen,FDP,118,91,77.12
-"Kießling, Michael",Kiessling_MdB,CSU,10,10,100.0
-"Lechte, Ulrich",ulrichlechte,FDP,290,265,91.38
-"Ludwig, Daniela",DaniLudwigMdB,CSU,1165,834,71.59
-"Mohamed Ali, Amira",Amira_M_Ali,Die Linke,188,178,94.68
-"Ploß, Dr. Christoph ",christophploss,CDU,498,467,93.78
-"Schlund, Dr. Robby",DrRobbySchlund,AfD,0,0,0
-"Röttgen, Dr. Norbert",n_roettgen,CDU,1768,1580,89.37
-"Sauter, Christian",Chr_Sauter,FDP,8,8,100.0
-"Seestern-Pauly, Matthias",mseesternpauly,FDP,41,36,87.8
-"Throm, Alexander",alexander_throm,CDU,130,96,73.85
-"Malsack-Winkemann, Dr. Birgit",MalsackWinkeman,AfD,198,198,100.0
-"Bauer, Nicole",nicole_ae_bauer,FDP,166,133,80.12
-"Esdar, Wiebke",wiebkeesdar1,SPD,0,0,0
-"Moll, Claudia",ClaudiaMollMdB,SPD,13,11,84.62
-"Rachel, Thomas",_ThomasRachel,CDU,33,30,90.91
-"Tatti, Jessica",jessica_tatti,Die Linke,6,6,100.0
-"Ferschl, Susanne",SusanneFerschl,Die Linke,625,527,84.32
-"Heidenblut, Dirk",DHeidenblut,SPD,5,5,100.0
-"Hoffmann, Dr. Christoph",HoffmannForest,FDP,2448,1553,63.44
-"Tillmann, Antje",AntjeTillmann,CDU,196,137,69.9
-"Westphal, Bernd",BerndWestphal4,SPD,60,42,70.0
-"Maag, Karin",MaagKarin,CDU,69,64,92.75
-"Ryglewski, Sarah",RyglewskiS,SPD,100,81,81.0
-"Hennrich, Michael",MichaelHennric2,CDU,15,15,100.0
-"Motschmann, Elisabeth",ElisabethMotsc1,CDU,92,80,86.96
-"Stegemann, Albert",StegemannAlbert,CDU,25,17,68.0
-"Mackensen, Isabel",IsabelMackensen,SPD,61,49,80.33
-"Heidt, Peter",PeterHeidtFDP,FDP,226,179,79.2
-"Connemann, Gitta",gitta_connemann,CDU,195,149,76.41
-"Fahimi, Yasmin",FahimiYasmin,SPD,151,134,88.74
-"Gnodtke, Eckhard",EckhardGnodtke,CDU,71,71,100.0
-"Patzelt, Martin",MPatzeltCDU,CDU,65,56,86.15
-"Kulitz, Alexander",AKulitz,FDP,49,44,89.8
-"Rützel, Bernd",ruetzelbernd,SPD,0,0,0
-"Baumann, Dr. Bernd",BerndBaumannAfD,AfD,53,51,96.23
-"Frei, Thorsten",thorsten_frei,CDU,18,17,94.44
-"Grundl, Erhard",Erhard_Grundl,Bündnis 90/Die Grünen,282,228,80.85
-"Hohmann, Martin",HohmannMdb,AfD,106,106,100.0
-"Bubendorfer-Licht, Sandra",Bubendorferfdp,FDP,279,221,79.21
-"Martens, Dr. Jürgen",juergen_martens,FDP,49,47,95.92
-"Bach, Bela",bela_bach,SPD,129,108,83.72
-"Freitag, Dagmar",DagmarFreitag13,SPD,1335,881,65.99
-"Weingarten, Joe",DrJoeWeingarten,SPD,197,152,77.16
-"Schneidewind-Hartnagel, Charlotte",charlotte_mdb,Bündnis 90/Die Grünen,20,18,90.0
-"Zickenheiner, Gerhard",GZickenheiner,Bündnis 90/Die Grünen,111,105,94.59
-"Monstadt, Dietrich",MdBMonstadt,CDU,0,0,0
-"Vries, Christoph de",VriesChristoph,CDU,104,81,77.88
-"Nölke, Matthias",Matthiasnoelke,FDP,64,50,78.12
-"Martin, Dorothee",Doro_Martin,SPD,605,498,82.31
-"Baradari, Nezahat",BaradariNezahat,SPD,0,0,0
-"Lehmann, Sylvia",LehmannSpd,SPD,0,0,0
-"Hilse, Karsten",HilseMdb,AfD,1,1,100.0
-"Huber, Johannes",HuberMdB,AfD,167,139,83.23
-"Krichbaum, Gunther",GuntherKrichba3,CDU,19,19,100.0
-"Ludwig, Saskia",SaskiaLudwig17,CDU,408,273,66.91
-"Möller, Siemtje",SiemtjeMdB,SPD,326,241,73.93
-"Otten, Gerold",Gerold_Otten,AfD,73,71,97.26
-"Kramp-Karrenbauer, Annegret",akk,CDU,210,171,81.43
-"Klöckner, Julia",JuliaKloeckner,CDU,629,515,81.88
-"Schulze, Svenja",SvenjaSchulze68,SPD,418,312,74.64
-"Söder, Markus",Markus_Soeder,CSU,549,495,90.16
-"Walter-Borjans, Norbert",NowaboFM,SPD,782,692,88.49
-"Meuthen, Prof. Dr. Norbert",Joerg_Meuthen,AFD,351,345,98.29
-"Beck, Volker",Volker_Beck,Bündnis 90/Die Grünen,5141,4389,85.37
-"Polenz, Ruprecht",polenz_r,CDU,13199,11637,88.17
-"Kühnert, Kevin",KuehniKev,SPD,3243,3039,93.71
-"Stegner, Ralf",Ralf_Stegner,SPD,4253,3581,84.2
+name,screen_name,party,total_tweets_found,tweets_by_politician,ratio_own_tweets,total_german_tweets,german_tweets_by_politician,replies_by_politician
+"Altmaier, Peter",peteraltmaier,CDU,299,254,84.95,270,227,161
+"Annen, Niels",NielsAnnen,SPD,1011,761,75.27,629,456,128
+"Baerbock, Annalena",ABaerbock,Bündnis 90/Die Grünen,355,296,83.38,311,267,130
+"Bahr, Ulrike",MdB_Ulrike_Bahr,SPD,0,0,0,0,0,0
+"Bär, Dorothee",DoroBaer,CSU,1187,1027,86.52,900,763,789
+"Bareiß, Thomas",Thomas_Bareiss,CDU,936,775,82.8,887,743,302
+"Bartke, Dr. Matthias",matthiasbartke,SPD,54,51,94.44,53,50,14
+"Bartol, Sören",soerenbartol,SPD,281,228,81.14,244,192,135
+"Bartsch, Dr. Dietmar",DietmarBartsch,Die Linke,1038,826,79.58,996,794,217
+"Bas, Bärbel",baerbelbas,SPD,739,590,79.84,662,517,203
+"Beermann, Maik",MaikBeermann,CDU,147,101,68.71,135,92,17
+"Behrens, Manfred",Manfredbehrens,CDU,0,0,0,0,0,0
+"Benning, Sybille",SybilleBenning,CDU,0,0,0,0,0,0
+"Bilger, Steffen",SteffenBilger,CDU,211,161,76.3,199,153,43
+"Binding, Lothar",Lothar_Binding,SPD,96,92,95.83,89,85,50
+"Birkwald, Matthias W.",MWBirkwald,Die Linke,106,96,90.57,101,92,37
+"Brantner, Dr. Franziska",fbrantner,Bündnis 90/Die Grünen,985,840,85.28,722,633,323
+"Braun, Dr. Helge",HBraun,CDU,86,78,90.7,82,74,30
+"Brehmer, Heike",HeikeBrehmerMdB,CDU,46,43,93.48,46,43,1
+"Brinkhaus, Ralph",rbrinkhaus,CDU,141,140,99.29,140,139,58
+"Brugger, Agnieszka",agnieszka_mdb,Bündnis 90/Die Grünen,438,378,86.3,409,357,174
+"Brunner, Dr. Karl-Heinz",BrunnerGanzOhr,SPD,174,149,85.63,167,144,11
+"Buchholz, Christine",ch_buchholz,Die Linke,254,238,93.7,250,235,1
+"Bülow, Marco",marcobuelow,Fraktionslos,1828,1651,90.32,1751,1580,896
+"Castellucci, Prof. Dr. Lars",larscastellucci,SPD,424,383,90.33,381,346,168
+"Dagdelen, Sevim",SevimDagdelen,Die Linke,416,369,88.7,366,332,95
+"De Ridder, Dr. Daniela",DeRidder_MdB,SPD,0,0,0,0,0,0
+"Dehm, Dr. Diether",Diether_Dehm,Die Linke,240,226,94.17,232,220,11
+"Deligöz, Ekin",ekindeligoez,Bündnis 90/Die Grünen,747,599,80.19,706,564,113
+"Diaby, Dr. Karamba",KarambaDiaby,SPD,121,115,95.04,117,112,25
+"Dittmar, Sabine",dittmarsabine,SPD,31,27,87.1,29,25,5
+"Dörner, Katja",katjadoerner,Bündnis 90/Die Grünen,993,804,80.97,924,745,118
+"Dröge, Katharina",katdro,Bündnis 90/Die Grünen,470,385,81.91,435,358,133
+"Durz, Hansjörg",Hansjoerg_Durz,CSU,9,8,88.89,9,8,5
+"Ebner, Harald",ebner_sha,Bündnis 90/Die Grünen,201,168,83.58,192,161,81
+"Ernst, Klaus",ernst_klaus,Die Linke,140,115,82.14,139,115,14
+"Esken, Saskia",EskenSaskia,SPD,3813,3639,95.44,3548,3384,3119
+"Feiler, Uwe",UweFe,CDU,0,0,0,0,0,0
+"Felgentreu, Dr. Fritz",fritzfelgentreu,SPD,3004,2526,84.09,2253,1950,1753
+"Fischer, Axel",Axel_Fischer,CDU,91,91,100.0,81,81,0
+"Franke, Dr. Edgar",FrankeEdgar,SPD,26,25,96.15,25,24,3
+"Freese, Ulrich",UliFreese,SPD,30,28,93.33,30,28,1
+"Frieser, Michael",MichaelFrieser,CSU,20,19,95.0,20,19,4
+"Fuchtel, Hans-Joachim",fuchtel,CDU,0,0,0,0,0,0
+"Gastel, Matthias",MatthiasGastel,Bündnis 90/Die Grünen,450,418,92.89,445,413,169
+"Gebhart, Dr. Thomas",thomasgebhart,CDU,81,76,93.83,77,72,10
+"Gehring, Kai",KaiGehring,Bündnis 90/Die Grünen,1632,1382,84.68,1542,1319,353
+"Gerdes, Michael",GerdesMdB,SPD,0,0,0,0,0,0
+"Gohlke, Nicole",NicoleGohlke,Die Linke,785,751,95.67,772,740,48
+"Göring-Eckardt, Katrin",GoeringEckardt,Bündnis 90/Die Grünen,939,792,84.35,859,722,360
+"Glöckner, Angelika",A_Gloeckner,SPD,203,133,65.52,179,110,15
+"Griese, Kerstin",KerstinGriese,SPD,664,542,81.63,516,409,316
+"Gröhe, Hermann",groehe,CDU,574,453,78.92,413,341,70
+"Groß, Michael ",michaelgrossmdb,SPD,0,0,0,0,0,0
+"Grosse-Brömer, Michael",MGrosseBroemer,CDU,907,784,86.44,860,746,558
+"Grötsch, Uli",UliGroetsch,SPD,327,326,99.69,310,309,125
+"Grübel, Markus",GruebelMdb,CDU,44,41,93.18,38,35,9
+"Güntzler, Fritz",FGuentzler,CDU,2,2,100.0,2,2,0
+"Gutting, Olav",olavgutting,CDU,226,220,97.35,214,210,60
+"Gysi, Dr. Gregor",GregorGysi,Die Linke,100,90,90.0,100,90,10
+"Hahn, Florian",hahnflo,CSU,920,636,69.13,872,597,113
+"Hajduk, Anja",HajdukBundestag,Bündnis 90/Die Grünen,38,23,60.53,38,23,3
+"Hakverdi, Metin",MetinHakverdi,SPD,507,417,82.25,362,310,135
+"Hänsel, Heike",HeikeHaensel,Die Linke,351,293,83.48,305,278,59
+"Hardt, Jürgen",juergenhardt,CDU,324,268,82.72,253,216,18
+"Hartmann, Sebastian",sebast_hartmann,SPD,345,266,77.1,308,237,83
+"Haßelmann, Britta",BriHasselmann,Bündnis 90/Die Grünen,1167,980,83.98,1148,970,122
+"Hauer, Matthias",MatthiasHauer,CDU,5633,5081,90.2,4920,4404,3588
+"Hauptmann, Mark",MarkHauptmann,CDU,265,156,58.87,225,137,5
+"Heider, Dr. Matthias",MatthiasHeider,CDU,0,0,0,0,0,0
+"Heil, Hubertus",hubertus_heil,SPD,267,265,99.25,241,239,77
+"Heil, Mechthild",MechthildHeil,CDU,29,25,86.21,29,25,6
+"Heinrich, Frank",FrankHeinrich,CDU,9,9,100.0,9,9,0
+"Heinrich, Gabriela",GaHeinrich,SPD,1,1,100.0,1,1,0
+"Held, Marcus",MarcusHeld_SPD,SPD,0,0,0,0,0,0
+"Hellmich, Wolfgang",HellmichMdB,SPD,129,82,63.57,122,78,19
+"Herzog, Gustav",GustavHerzogMdB,SPD,0,0,0,0,0,0
+"Hirte, Christian",ChristianHirte,CDU,474,300,63.29,430,261,16
+"Hirte, Prof. Dr. Heribert",HHirte,CDU,1572,1274,81.04,1494,1220,850
+"Hitschler, Thomas",ThomasHitschler,SPD,1115,1014,90.94,1009,915,666
+"Hofreiter, Dr. Anton",ToniHofreiter,Bündnis 90/Die Grünen,0,0,0,0,0,0
+"Hunko, Andrej",AndrejHunko,Die Linke,976,883,90.47,906,848,257
+"Janecek, Dieter",DJanecek,Bündnis 90/Die Grünen,2597,2262,87.1,2318,2006,1308
+"Jarzombek, Thomas",tj_tweets,CDU,449,421,93.76,409,387,202
+"Jelpke, Ulla",UllaJelpke,Die Linke,269,246,91.45,265,243,32
+"Jurk, Thomas",thomas_jurk,SPD,0,0,0,0,0,0
+"Kaczmarek, Oliver",KaczmarekOliver,SPD,197,149,75.63,193,147,64
+"Karliczek, Anja",AnjaKarliczek,CDU,5,3,60.0,5,3,0
+"Kaufmann, Dr. Stefan",StefanKaufmann,CDU,686,633,92.27,655,611,182
+"Kekeritz, Uwe",UweKekeritz,Bündnis 90/Die Grünen,282,229,81.21,266,220,26
+"Kemmer, Ronja",RonjaKemmer,CDU,29,21,72.41,26,19,6
+"Kiesewetter, Roderich",RKiesewetter,CDU,645,615,95.35,575,550,410
+"Kindler, Sven-Christian",sven_kindler,Bündnis 90/Die Grünen,1860,1652,88.82,1678,1505,854
+"Kipping, Katja",katjakipping,Die Linke,1071,915,85.43,1035,888,256
+"Kiziltepe, Cansel",CanselK,SPD,836,633,75.72,777,586,234
+"Klare, Arno",arnoklare,SPD,49,48,97.96,48,47,2
+"Klein, Volkmar",VolkmarKlein,CDU,4,3,75.0,3,3,0
+"Klein-Schmeink, Maria",MariaKlSchmeink,Bündnis 90/Die Grünen,1914,1484,77.53,1873,1447,678
+"Klingbeil, Lars",larsklingbeil,SPD,826,660,79.9,710,567,290
+"Koeppen, Jens",JensKoeppen,CDU,58,54,93.1,56,52,6
+"Kofler, Dr. Bärbel",BaerbelKofler,SPD,284,272,95.77,184,177,39
+"Kolbe, Daniela",danielakolbe,SPD,766,734,95.82,745,713,545
+"Koob, Markus",KoobMar,CDU,0,0,0,0,0,0
+"Korte, Jan",jankortemdb,Die Linke,479,411,85.8,467,401,63
+"Kotting-Uhl, Sylvia",KottingUhl,Bündnis 90/Die Grünen,27,25,92.59,26,25,1
+"Kramme, Anette",AnetteKramme,SPD,1,1,100.0,1,1,1
+"Krellmann, Jutta",JuttaKrellmann,Die Linke,77,55,71.43,76,55,13
+"Krings, Dr. Günter",guenterkrings,CDU,0,0,0,0,0,0
+"Krischer, Oliver",Oliver_Krischer,Bündnis 90/Die Grünen,351,297,84.62,347,295,34
+"Kruse, Rüdiger",RuedigerKruse,CDU,59,58,98.31,58,57,6
+"Kühn, Christian",ChrisKuehn_mdb,Bündnis 90/Die Grünen,424,328,77.36,409,317,48
+"Kühn, Stephan",stephankuehn,Bündnis 90/Die Grünen,402,342,85.07,382,326,163
+"Kühne, Dr. Roy",Dr_Roy_Kuehne,CDU,68,65,95.59,66,63,6
+"Künast, Renate",RenateKuenast,Bündnis 90/Die Grünen,5976,4796,80.25,5039,4028,2536
+"Kurth, Markus",markuskurthmdb,Bündnis 90/Die Grünen,92,82,89.13,92,82,13
+"Lange, Christian",LangeMdB,SPD,286,261,91.26,259,236,24
+"Lange, Ulrich",UlrichLange,CSU,0,0,0,0,0,0
+"Launert, Dr. Silke",DrLaunert,CSU,0,0,0,0,0,0
+"Lauterbach, Dr. Karl",Karl_Lauterbach,SPD,3359,2696,80.26,3131,2660,704
+"Lay, Caren",CarenLay,Die Linke,811,701,86.44,783,680,211
+"Lazar, Monika",monikalazar,Bündnis 90/Die Grünen,375,332,88.53,370,329,233
+"Leidig, Sabine",SabineLeidig,Die Linke,337,301,89.32,323,288,55
+"Leikert, Dr. Katja",KLeikert,CDU,749,619,82.64,673,563,156
+"Lemke, Steffi",SteffiLemke,Bündnis 90/Die Grünen,291,249,85.57,269,228,124
+"Lenz, Dr. Andreas",DerLenzMdB,CSU,782,664,84.91,726,629,205
+"Leutert, Michael",MichaelLeutert,Die Linke,11,10,90.91,11,10,2
+"Liebich, Stefan",berlinliebich,Die Linke,2347,2153,91.73,1858,1708,1126
+"Lindholz, Andrea",AndreaLindholz,CSU,0,0,0,0,0,0
+"Lindner, Dr. Tobias",tobiaslindner,Bündnis 90/Die Grünen,298,253,84.9,272,235,126
+"Lötzsch, Dr. Gesine",LoetzschMdB,Die Linke,394,318,80.71,385,310,19
+"Luczak, Dr. Jan-Marco",JM_Luczak,CDU,1030,882,85.63,994,853,252
+"Lutze, Thomas",thlutze,Die Linke,0,0,0,0,0,0
+"Magwas, Yvonne",YvonneMagwas,CDU,8,6,75.0,8,6,4
+"Manderla, Gisela",ManderlaGisela,CDU,144,132,91.67,128,117,4
+"Mattfeldt, Andreas",AMattfeldt,CDU,0,0,0,0,0,0
+"Mattheis, Hilde",HildeMattheis,SPD,416,386,92.79,409,380,69
+"Meister, Dr. Michael",meister_schafft,CDU,368,241,65.49,365,239,49
+"Metzler, Jan",JanMetzler,CDU,0,0,0,0,0,0
+"Michelbach, Dr. Hans",hans_michelbach,CSU,9,9,100.0,8,8,2
+"Mihalic, Irene",IreneMihalic,Bündnis 90/Die Grünen,410,372,90.73,402,364,227
+"Mindrup, Klaus",KlausMindrup,SPD,298,270,90.6,287,260,72
+"Möhring, Cornelia",Conni_Moehring,Die Linke,654,527,80.58,612,493,187
+"Möring, Karsten",KarstenMoering,CDU,11,9,81.82,11,9,4
+"Movassat, Niema",NiemaMovassat,Die Linke,5085,4678,92.0,4784,4402,2897
+"Müller, Bettina",BetMueller,SPD,180,179,99.44,172,171,6
+"Müller, Carsten",CarstenMuellers,CDU,0,0,0,0,0,0
+"Müller, Stefan",smuellermdb,CSU,307,258,84.04,286,239,64
+"Müller-Gemmeke, Beate",GrueneBeate,Bündnis 90/Die Grünen,204,164,80.39,202,162,26
+"Müller, Norbert",Norbert_MdB,Die Linke,198,173,87.37,195,170,51
+"Neu, Dr. Alexander",AlexanderSNeu,Die Linke,367,318,86.65,344,302,104
+"Nick, Dr. Andreas",DrAndreasNick,CDU,521,440,84.45,398,347,218
+"Nissen, Ulli",UlliNissen,SPD,1321,1081,81.83,1252,1018,28
+"Nord, Thomas",NordMdb,Die Linke,370,349,94.32,350,331,239
+"Notz, Dr. Konstantin von",KonstantinNotz,Bündnis 90/Die Grünen,1026,822,80.12,913,739,216
+"Nouripour, Omid",nouripour,Bündnis 90/Die Grünen,733,552,75.31,391,289,111
+"Oellers, Wilfried",WilfriedOellers,CDU,0,0,0,0,0,0
+"Oppermann, Thomas",ThomasOppermann,SPD,140,124,88.57,134,120,11
+"Oßner, Florian",Florian_Ossner,CSU,7,7,100.0,7,7,0
+"Özdemir, Cem",cem_oezdemir,Bündnis 90/Die Grünen,1093,945,86.46,1010,885,297
+"Özdemir, Mahmut",oezdemir_spd,SPD,94,80,85.11,92,78,38
+"Özoguz, Aydan",oezoguz,SPD,1189,1042,87.64,1075,942,628
+"Pantel, Sylvia",SylviaPantel,CDU,38,38,100.0,32,32,0
+"Paschke, Markus",MarkusPaschke,SPD,41,41,100.0,41,41,13
+"Pau, Petra",PetraPauMaHe,Die Linke,670,528,78.81,608,468,163
+"Paus, Lisa",lisapaus,Bündnis 90/Die Grünen,850,788,92.71,780,721,378
+"Petry, Christian",CPetryMdB,SPD,61,60,98.36,52,51,5
+"Post, Achim",Achim_P,SPD,513,506,98.64,512,506,321
+"Post, Florian",FlorianPost,SPD,244,232,95.08,239,227,61
+"Pronold, Florian",FlorianPronold,SPD,68,54,79.41,66,53,3
+"Rabanus, Martin",MartinRabanus,SPD,0,0,0,0,0,0
+"Radwan, Alexander",AlexanderRadwan,CSU,0,0,0,0,0,0
+"Rawert, Mechthild",MechthildRawert,SPD,78,78,100.0,74,74,1
+"Renner, Martina",MartinaRenner,Die Linke,1618,1306,80.72,1528,1228,537
+"Rimkus, Andreas",Andreas_Rimkus,SPD,707,611,86.42,621,527,311
+"Rix, Sönke",SoenkeRix,SPD,544,478,87.87,512,448,208
+"Rohde, Dennis",DennisRohde,SPD,283,260,91.87,247,224,205
+"Rosemann, Dr. Martin",MartinRosemann,SPD,419,338,80.67,400,321,135
+"Rossmann, Dr. Ernst Dieter",edrossmann,SPD,103,97,94.17,101,95,41
+"Rößner, Tabea",TabeaRoessner,Bündnis 90/Die Grünen,624,535,85.74,592,505,185
+"Roth, Michael",MiRo_SPD,SPD,2028,1756,86.59,1408,1270,584
+"Rüddel, Erwin",Erwin_Rueddel,CDU,726,715,98.48,692,681,62
+"Rüffer, Corinna",crueffer,Bündnis 90/Die Grünen,65,56,86.15,61,52,11
+"Rüthrich, Susann",SusannRuethrich,SPD,0,0,0,0,0,0
+"Saathoff, Johann",Johann_Saathoff,SPD,122,112,91.8,84,78,40
+"Sarrazin, Manuel",ManuelSarrazin,Bündnis 90/Die Grünen,200,165,82.5,152,134,46
+"Schauws, Ulle",ulle_schauws,Bündnis 90/Die Grünen,550,449,81.64,491,397,216
+"Scheuer, Andreas",AndiScheuer,CSU,105,78,74.29,94,70,23
+"Schiefner, Udo",UdoSchiefner,SPD,3,3,100.0,3,3,0
+"Schimke, Jana",JanaSchimke,CDU,143,116,81.12,140,113,30
+"Schipanski, Tankred",TSchipanski,CDU,443,323,72.91,437,319,13
+"Schmidt, Dagmar",dieschmidt,SPD,40,30,75.0,33,24,3
+"Schneider , Carsten",schneidercar,SPD,409,321,78.48,388,305,119
+"Schnieder, Patrick",PSchnieder,CDU,128,86,67.19,112,71,25
+"Schön, Nadine",NadineSchoen,CDU,210,153,72.86,185,130,45
+"Schulz-Asche, Kordula",K_SA,Bündnis 90/Die Grünen,1770,1366,77.18,1605,1235,649
+"Schummer, Uwe",UweSchummer,CDU,1352,1330,98.37,1280,1258,666
+"Schuster, Armin",armin_schuster,CDU,110,100,90.91,104,94,40
+"Schwabe, Frank",FrankSchwabe,SPD,685,680,99.27,592,591,195
+"Schwartze, Stefan",s_schwartze,SPD,74,55,74.32,71,52,4
+"Schwarz, Andreas",Schwarz_MdB,SPD,963,800,83.07,835,673,339
+"Schwarzelühr-Sutter, Rita",rischwasu,SPD,419,278,66.35,386,259,56
+"Sensburg, Prof. Dr. Patrick",PatrickSensburg,CDU,49,49,100.0,41,41,21
+"Siebert, Bernd",BerndSiebert,CDU,10,9,90.0,10,9,0
+"Sitte, Dr. Petra",Petra_Sitte_MdB,Die Linke,321,293,91.28,302,274,106
+"Sorge, Tino",TinoSorge,CDU,305,254,83.28,294,244,49
+"Spahn, Jens",jensspahn,CDU,336,314,93.45,321,300,88
+"Spiering, Rainer",rainerspiering,SPD,0,0,0,0,0,0
+"Stadler, Svenja",stadler_svenja,SPD,377,296,78.51,331,254,89
+"Stamm-Fibich, Martina",stamm_fibich,SPD,31,28,90.32,28,25,6
+"Steffel, Dr. Frank",franksteffel,CDU,33,33,100.0,32,32,1
+"Steffen, Sonja",SteffenSonja,SPD,61,49,80.33,58,47,1
+"Stefinger, Dr. Wolfgang",StefingerMdB,CSU,51,42,82.35,49,41,5
+"Steineke, Sebastian",SteinekeCDU,CDU,2465,2163,87.75,2378,2094,569
+"Steiniger, Johannes",JoSteiniger,CDU,731,649,88.78,655,576,488
+"Stetten, Christian Freiherr von",Stettenchris,CDU,0,0,0,0,0,0
+"Storjohann, Gero",gero_storjohann,CDU,135,128,94.81,135,128,11
+"Strengmann-Kuhn, Dr. Wolfgang",W_SK,Bündnis 90/Die Grünen,377,282,74.8,339,256,84
+"Tackmann, Dr. Kirsten",KirstenTackmann,Die Linke,806,570,70.72,739,516,219
+"Tauber, Dr. Peter",petertauber,CDU,713,603,84.57,672,565,301
+"Thews, Michael",michael_thews,SPD,408,406,99.51,364,362,276
+"Träger, Carsten",CarstenTraeger,SPD,88,71,80.68,79,62,13
+"Tressel, Markus",MarkusTressel,Bündnis 90/Die Grünen,225,201,89.33,223,199,14
+"Trittin, Jürgen",JTrittin,Bündnis 90/Die Grünen,1015,867,85.42,972,840,127
+"Ullrich, Dr. Volker",VolkerUllrich,CSU,386,341,88.34,380,339,43
+"Verlinden, Dr. Julia",julia_verlinden,Bündnis 90/Die Grünen,514,454,88.33,480,421,227
+"Vogler, Kathrin",voglerk,Die Linke,788,701,88.96,719,645,435
+"Vogt, Ute",UteVogt,SPD,126,80,63.49,121,78,16
+"Vries, Kees de",KEESdeVriesCDU,CDU,0,0,0,0,0,0
+"Wagenknecht, Dr. Sahra",SWagenknecht,Die Linke,238,236,99.16,238,236,11
+"Walter-Rosenheimer, Beate",BeateWaRo,Bündnis 90/Die Grünen,44,42,95.45,40,38,11
+"Wadephul, Dr. Johann",JoWadephul,CDU,314,262,83.44,217,185,120
+"Wanderwitz, Marco",wanderwitz,CDU,1545,1493,96.63,1433,1385,995
+"Warken, Nina",ninawarken,CDU,116,79,68.1,104,68,28
+"Weber, Gabi",GabiWeberSPD,SPD,13,10,76.92,13,10,1
+"Wegner, Kai",kaiwegner,CDU,467,433,92.72,466,432,71
+"Weinberg, Harald",HaraldWeinberg,Die Linke,0,0,0,0,0,0
+"Weinberg, Marcus",MarcusWeinberg,CDU,208,194,93.27,206,193,14
+"Weisgerber, Dr. Anja",anjaweisgerber,CSU,168,148,88.1,164,144,4
+"Weiß, Peter",PeterWeissMdB,CDU,0,0,0,0,0,0
+"Wellenreuther, Ingo",Wellenreuther,CDU,0,0,0,0,0,0
+"Wendt, Marian",MdbWendt,CDU,488,426,87.3,432,382,243
+"Werner, Katrin",Katrin_Werner,Die Linke,167,164,98.2,167,164,9
+"Whittaker, Kai",Kai_Whittaker,CDU,544,435,79.96,524,421,87
+"Widmann-Mauz, Annette",AWidmannMauz,CDU,581,397,68.33,550,378,62
+"Wiese, Dirk",DirkWieseSPD,SPD,869,744,85.62,759,650,102
+"Zdebel, Hubertus",ZdebelHubertus,Die Linke,103,91,88.35,103,91,2
+"Zech, Tobias",TobiasZech,CSU,16,11,68.75,14,10,1
+"Zierke, Stefan",zierke,SPD,0,0,0,0,0,0
+"Zimmer, Prof. Dr. Matthias",matthiaszimmer,CDU,191,176,92.15,175,161,119
+"Zimmermann, Dr. Jens",JensZSPD,SPD,1044,812,77.78,906,731,375
+"Müller, Detlef",MuellerChemnitz,SPD,960,853,88.85,793,689,365
+"Abercron, Dr. Michael von",mvabercron,CDU,119,106,89.08,115,102,50
+"Achelwilm, Doris",DorisAchelwilm,Die Linke,526,400,76.05,495,385,51
+"Akbulut, Gökay",AkbulutGokay,Die Linke,654,508,77.68,611,473,67
+"Aschenberg-Dugnus, Christine",cad59,FDP,252,210,83.33,237,195,26
+"Aumer, Peter",PeterAumer,CSU,4,4,100.0,4,4,1
+"Badum, Lisa",badulrichmartha,Bündnis 90/Die Grünen,175,133,76.0,163,124,58
+"Barrientos Krauss, Simone",SBarrientosK,Die Linke,318,264,83.02,289,236,63
+"Bause, Margarete",MargareteBause,Bündnis 90/Die Grünen,164,127,77.44,151,120,19
+"Bayaz, Dr. Danyal",DerDanyal,Bündnis 90/Die Grünen,1724,1420,82.37,1468,1248,586
+"Bayram, Canan",LieblingXhain,Bündnis 90/Die Grünen,1425,1313,92.14,1288,1184,616
+"Beeck, Jens",jensbeeck,FDP,48,43,89.58,48,43,5
+"Bernhard, Marc",MarcBernhardAfD,AfD,375,364,97.07,374,364,10
+"Bernstiel, Christoph",c_bernstiel,CDU,16,12,75.0,14,11,6
+"Beutin, Lorenz Gösta",lgbeutin,Die Linke,3550,3248,91.49,3335,3059,2028
+"Beyer, Peter",Peter_Beyer,CDU,302,236,78.15,209,184,0
+"Bleck, Andreas",AndreasBleckMdB,AfD,100,100,100.0,94,94,75
+"Boehringer, Peter",PeterBoehringer,AfD,111,110,99.1,109,108,3
+"Brandenburg, Dr. Jens",JBrandenburgFDP,FDP,595,536,90.08,582,528,389
+"Brandenburg, Mario",BraFDP,FDP,449,381,84.86,394,332,95
+"Brandner, Stephan",StBrandner,AfD,5999,4372,72.88,5295,3689,311
+"Brandt, Michel",michel_brandt_,Die Linke,703,554,78.81,648,539,66
+"Brehm, Sebastian",Brehm_inNBGNord,CSU,1,1,100.0,1,1,0
+"Breymaier, Leni",LeniBreymaier,SPD,439,406,92.48,414,382,104
+"Brandl, Dr. Reinhard",reinhardbrandl,CSU,1,1,100.0,1,1,1
+"Bühl, Marcus",Marcus_Buehl,AfD,184,184,100.0,184,184,4
+"Bull-Bischoff, Birke",Birke_Bull,Die Linke,104,79,75.96,102,77,13
+"Buschmann, Dr. Marco",MarcoBuschmann,FDP,5018,4787,95.4,4586,4387,3854
+"Büttner, Matthias",Buettner_MdB,AfD,85,85,100.0,85,85,0
+"Bystron, Petr",PetrBystronAfD,AfD,916,775,84.61,756,649,404
+"Cezanne, Jörg",joerg_cezanne,Die Linke,26,25,96.15,26,25,0
+"Christmann, Dr. Anna",annachristmann,Bündnis 90/Die Grünen,382,329,86.13,368,322,116
+"Cotar, Joana",JoanaCotar,AfD,2051,1857,90.54,1904,1724,917
+"Curio, Dr. Gottfried",GottfriedCurio,AfD,133,132,99.25,129,128,9
+"De Masi, Fabio",FabioDeMasi,Die Linke,6060,5733,94.6,5357,5128,3590
+"Domscheit-Berg, Anke",anked,Die Linke,3664,3113,84.96,3136,2704,2214
+"Chrupalla, Tino",Tino_Chrupalla,AfD,323,307,95.05,321,305,8
+"Droese, Siegbert",Siegbert_Droese,AfD,0,0,0,0,0,0
+"Dürr, Christian",christianduerr,FDP,492,376,76.42,461,354,112
+"Ebbing, Hartmut",HartmutEbbing,FDP,198,161,81.31,194,158,56
+"Ehrhorn, Thomas",Thomas_Ehrhorn,AfD,27,24,88.89,19,16,4
+"Elsner von Gronow, Berengar",ElsnervonGronow,AfD,156,138,88.46,136,118,6
+"Erndl, Thomas",TErndl,CSU,218,174,79.82,201,163,45
+"Espendiller, Dr. Michael",DrMEspendiller,AfD,798,654,81.95,721,584,418
+"Faber, Dr. Marcus",MarcusFaber,FDP,334,322,96.41,288,277,152
+"Felser, Peter",PeterFelser,AfD,189,184,97.35,183,178,1
+"Schmidt, Stefan",Schmidt_MdB,Bündnis 90/Die Grünen,106,87,82.08,102,83,13
+"Föst, Daniel",DFoest,FDP,1767,1560,88.29,1583,1382,955
+"Fricke, Otto",Otto_Fricke,FDP,2098,2011,95.85,1884,1818,1657
+"Friesen, Dr. Anton",DrFriesenMdB,AfD,431,407,94.43,419,398,13
+"Frohnmaier, Markus",Frohnmaier_AfD,AfD,170,154,90.59,156,142,71
+"Frömming, Dr. Götz",GtzFrmming,AfD,2274,1878,82.59,2183,1824,503
+"Gabelmann, Sylvia",SylviaGabelmann,Die Linke,140,134,95.71,140,134,5
+"Gehrke, Dr. Axel",axelgehrke,AfD,5,5,100.0,5,5,2
+"Gelbhaar, Stefan",StefanGelbhaar,Bündnis 90/Die Grünen,858,780,90.91,807,736,546
+"Gottberg, Wilhelm von",vonGottberg_AfD,AfD,0,0,0,0,0,0
+"Gottschalk, Kay",KayGottschalk1,AfD,222,198,89.19,189,166,18
+"Gremmels, Timon",Timon_Gremmels,SPD,877,798,90.99,852,775,371
+"Jensen, Gyde",GydeJ,FDP,707,537,75.95,618,494,57
+"Hacker, Thomas",hacker_fdp,FDP,266,210,78.95,255,204,19
+"Hagl-Kehl, Rita",RitaHaglKehl,SPD,4,4,100.0,4,4,0
+"Harder-Kühnel, Mariana",M_HarderKuehnel,AfD,81,76,93.83,80,75,1
+"Hartwig, Dr. Roland",R_Hartwig_AfD,AfD,146,145,99.32,138,137,8
+"Haug, Jochen",Jochen_Haug,AfD,5,4,80.0,5,4,0
+"Helling-Plahr, Katrin",KatrinHelling,FDP,324,263,81.17,311,252,71
+"Hemmelgarn, Udo",UdoHemmelgarn,AfD,1235,1177,95.3,1208,1152,792
+"Henrichmann, Marc",MarcHenrichmann,CDU,264,235,89.02,262,233,108
+"Herbst, Torsten",torstenherbst,FDP,456,430,94.3,453,429,57
+"Herdt, Waldemar",WaldemarHerdt,AfD,0,0,0,0,0,0
+"Herrmann, Lars",hermiworld,AfD,17,14,82.35,15,12,0
+"Hess, Martin",Martin_Hess_AfD,AfD,245,233,95.1,245,233,23
+"Hessel, Katja",fdp_hessel,FDP,84,75,89.29,82,73,15
+"Höchst, Nicole",Nicole_Hoechst,AfD,167,157,94.01,144,134,1
+"Höferlin, Manuel",ManuelHoeferlin,FDP,238,192,80.67,228,187,58
+"Höhn, Matthias",MatthiasHoehn,Die Linke,521,393,75.43,479,365,56
+"Holm, Leif-Erik",Leif_Erik_Holm,AfD,68,66,97.06,68,66,0
+"Holtz, Ottmar von",OWvonHoltz,Bündnis 90/Die Grünen,117,103,88.03,96,86,33
+"Houben, Reinhard",HoubenReinhard,FDP,146,115,78.77,142,112,20
+"Jongen, Dr. Marc",Marc_Jongen,AfD,70,58,82.86,69,58,1
+"Jung, Dr. Christian",c_jung77,FDP,1853,1575,85.0,1804,1533,304
+"Jung, Ingmar",Ingmar_Jung,CDU,11,8,72.73,11,8,3
+"Juratovic, Josip",josip_juratovic,SPD,66,61,92.42,62,58,10
+"Kaiser, Elisabeth",Kaiser_SPD,SPD,273,234,85.71,270,231,33
+"Kartes, Torbjörn",KartesMdB,CDU,26,22,84.62,24,20,2
+"Katzmarek, Gabriele",GabyKatzmarek,SPD,22,18,81.82,19,15,6
+"Kessler, Dr. Achim",AchimKesslerMdB,Die Linke,875,721,82.4,831,680,122
+"Kestner, Jens",KestnerJens,AfD,316,253,80.06,294,240,82
+"Keuter, Stefan",StefanKeuterAfD,AfD,0,0,0,0,0,0
+"Kleinwächter, Norbert",NKleinwaechter,AfD,149,144,96.64,147,142,0
+"Kluckert, Daniela",DanielaKluckert,FDP,518,430,83.01,491,406,138
+"Kober, Pascal",PascalKober,FDP,91,59,64.84,87,56,12
+"Köhler, Dr. Lukas",koehler_fdp,FDP,525,459,87.43,481,417,221
+"Komning, Enrico",EnricoKomning,AfD,25,22,88.0,24,21,8
+"Konrad, Carina",carina_konrad,FDP,510,414,81.18,497,404,108
+"Korkmaz-Emre, Elvan",KorkmazGT,SPD,232,197,84.91,222,187,87
+"Kotré, Steffen",SteffenKotre,AfD,180,155,86.11,176,153,12
+"Krauß, Alexander",kraussalex,CDU,0,0,0,0,0,0
+"Kuffer, Michael",MichaelKuffer,CSU,12,10,83.33,10,8,3
+"Kuhle, Konstantin Elias",KonstantinKuhle,FDP,1858,1585,85.31,1530,1294,879
+"Lambsdorff, Alexander Graf",Lambsdorff,FDP,1268,1042,82.18,1064,886,629
+"Lehmann, Sven",svenlehmann,Bündnis 90/Die Grünen,972,913,93.93,879,826,440
+"Lindh, Helge",helgelindh,SPD,271,248,91.51,270,248,58
+"Lindner, Christian",c_lindner,FDP,1294,1211,93.59,1233,1154,753
+"Link, Michael",michael_g_link,FDP,160,133,83.12,139,118,11
+"Löbel, Nikolas",NikolasLoebel,CDU,220,191,86.82,176,154,69
+"Lucassen, Rüdiger",MdB_Lucassen,AfD,26,26,100.0,25,25,10
+"Luksic, Oliver",OlliLuksic,FDP,2911,2624,90.14,2746,2477,587
+"Maas, Heiko",HeikoMaas,SPD,709,672,94.78,685,656,98
+"Maier, Jens",JensMaierAfD,AfD,419,403,96.18,416,401,103
+"Maier, Prof. Dr. Lothar",ProfMaier,AfD,118,117,99.15,116,115,0
+"Matschie, Christoph",matschie,SPD,92,74,80.43,84,69,23
+"Meiser, Pascal",pascalmeiser,Die Linke,243,187,76.95,230,175,36
+"Meyer, Christoph",ChristophFDP,FDP,1216,1136,93.42,1086,1017,683
+"Miazga, Corinna",CorinnaMiazga,AfD,79,77,97.47,79,77,0
+"Mohrs, Falko",FalkoMohrs,SPD,69,55,79.71,67,53,15
+"Mrosek, Andreas",mrosek1958,AfD,290,275,94.83,248,233,36
+"Müller, Claudia",GruenClaudia,Bündnis 90/Die Grünen,887,690,77.79,766,604,379
+"Müller, Sepp",mueller_sepp,CDU,580,400,68.97,506,332,149
+"Müller-Böhm, Roman",muellerboehm,FDP,4,4,100.0,3,3,1
+"Münzenmaier, Sebastian",S_Muenzenmaier,AfD,461,440,95.44,457,436,9
+"Nastic, Zaklin",ZaklinNastic,Die Linke,507,435,85.8,481,429,14
+"Freihold, Brigitte",MdB_Freihold,Die Linke,297,230,77.44,291,228,20
+"Nestle, Dr. Ingrid",Ingrid_Nestle,Bündnis 90/Die Grünen,502,412,82.07,492,405,91
+"Neumann, Christoph",Neumann_AfD,AfD,0,0,0,0,0,0
+"Nolte, Jan",Jan_Nolte_AfD,AfD,126,115,91.27,124,113,39
+"Oehme, Ulrich",Ulrich_Oehme,AfD,0,0,0,0,0,0
+"Ortleb, Josephine",joloulou,SPD,45,40,88.89,41,36,14
+"Oster, Josef",josefoster,CDU,0,0,0,0,0,0
+"Pasemann, Frank",Frank_Pasemann,AfD,514,398,77.43,497,392,8
+"Pellmann, Sören",LINKEPELLI,Die Linke,857,789,92.07,837,770,167
+"Perli, Victor",victorperli,Die Linke,764,687,89.92,732,664,214
+"Peterka, Tobias",TobiasMPeterka,AfD,483,482,99.79,481,480,32
+"Petry, Dr. Frauke",FraukePetry,Fraktionslos,640,587,91.72,611,563,386
+"Pflüger, Tobias",tpflueger,Die Linke,127,110,86.61,124,109,9
+"Pilsinger, Stephan",StephPilsinger,CSU,13,13,100.0,13,13,4
+"Podolay, Paul Viktor",Paul_Podolay,AfD,3,3,100.0,2,2,1
+"Pohl, Jürgen",Pohl_MdB,AfD,79,63,79.75,76,61,15
+"Polat, Filiz",filizgreen,Bündnis 90/Die Grünen,655,557,85.04,630,538,58
+"Protschka, Stephan",AfDProtschka,AfD,1093,956,87.47,1061,932,249
+"Reichardt, Martin",M_Reichardt_AfD,AfD,828,724,87.44,814,713,304
+"Remmers, Ingrid",Ingrid_Remmers,Die Linke,53,44,83.02,51,42,4
+"Renner, Martin Erwin",Renner_AfD,AfD,214,199,92.99,187,174,15
+"Riexinger, Bernd",b_riexinger,Die Linke,588,546,92.86,587,546,45
+"Reuther, Bernd",reuther_bernd,FDP,168,129,76.79,165,127,19
+"Ullrich, Gerald",G_UllrichFDP,FDP,475,379,79.79,462,375,20
+"Rouenhoff, Stefan",StefanRouenhoff,CDU,28,22,78.57,19,16,1
+"Sattelberger, Thomas",th_sattelberger,FDP,2514,2117,84.21,2352,1977,1158
+"Schäfer, Anita",SchaeferCDU,CDU,0,0,0,0,0,0
+"Schäffler, Frank",f_schaeffler,FDP,1018,844,82.91,980,813,123
+"Scheer, Nina",NinaScheer_SPD,SPD,44,34,77.27,43,33,3
+"Schielke-Ziesing, Ulrike",ulschzi,AfD,335,312,93.13,334,311,14
+"Schinnenburg, Dr. Wieland",WSchinnenburg,FDP,235,207,88.09,222,197,52
+"Schmid, Dr. Nils",NilsSchmid,SPD,500,477,95.4,459,444,113
+"Schneider, Jörg",Schneider_AfD,AfD,376,348,92.55,362,334,13
+"Schraps, Johannes",jschraps,SPD,45,37,82.22,43,35,11
+"Schreiner, Felix",felixschreiner,CDU,97,77,79.38,89,73,6
+"Schrodi, Michael",mischrodi,SPD,229,211,92.14,220,204,115
+"Schulz, Martin",MartinSchulz,SPD,50,46,92.0,44,42,1
+"Schulz, Uwe",Uwe_Schulz_AfD,AfD,28,25,89.29,24,21,2
+"Schweiger, Torsten",cdu_schweiger,CDU,16,14,87.5,13,11,0
+"Seitz, Thomas",Th_Seitz_AfD,AfD,15,13,86.67,15,13,2
+"Sichert, Martin",Martin_Sichert,AfD,272,248,91.18,264,243,96
+"Simon, Björn",BjoernSimon,CDU,66,56,84.85,66,56,2
+"Sitta, Frank",franksitta,FDP,25,22,88.0,24,21,14
+"Solms, Dr. Hermann Otto",solms,FDP,109,100,91.74,106,97,51
+"Sommer, Evrim",HESommer,Die Linke,964,830,86.1,900,797,180
+"Spaniel, Dr. Dirk",DirkSpaniel,AfD,81,74,91.36,79,73,18
+"Mieruch, Mario",MieruchMario,Fraktionslos,5862,5089,86.81,5476,4745,3455
+"Staffler, Katrin",katrin_staffler,CSU,53,38,71.7,42,34,5
+"Stark-Watzinger, Bettina",starkwatzinger,FDP,813,698,85.85,789,677,278
+"Steier, Andreas",AndreasSteier,CDU,270,252,93.33,252,236,150
+"Stein, Jens Mathias",stonie_kiel,SPD,531,429,80.79,508,408,228
+"Stein, Peter",Peter_Stein_CDU,CDU,342,300,87.72,281,243,101
+"Storch, Beatrix von",Beatrix_vStorch,AfD,477,411,86.16,462,401,8
+"Strack-Zimmermann, Dr. Marie-Agnes",MAStrackZi,FDP,2737,2591,94.67,2377,2244,2119
+"Strasser, Benjamin",bstrasser,FDP,441,376,85.26,419,356,134
+"Suding, Katja",KatjaSuding,FDP,510,473,92.75,504,468,222
+"Teuteberg, Linda",LindaTeuteberg,FDP,252,207,82.14,245,202,48
+"Theurer, Michael",EUTheurer,FDP,434,379,87.33,411,358,177
+"Thomae, Stephan",StephanThomae,FDP,626,532,84.98,617,525,38
+"Tiemann, Dr. Dietlind",dr_tiemann,CDU,0,0,0,0,0,0
+"Todtenhausen, Manfred",MTodtenhausen,FDP,76,49,64.47,73,46,15
+"Toncar, Dr. Florian",florian_toncar,FDP,381,353,92.65,366,338,58
+"Töns, Markus",Toens_NRW04,SPD,273,225,82.42,236,192,170
+"Uhl, Markus",uhl_markus,CDU,1,1,100.0,1,1,0
+"Ullmann, Prof. Dr. Andrew",UllmannMdB,FDP,912,814,89.25,826,745,398
+"Vogel, Johannes",johannesvogel,FDP,2399,2230,92.96,1918,1777,1721
+"Wagner, Andreas",Andi_Wagner,Die Linke,336,296,88.1,327,290,94
+"Wagner, Daniela",DanyWagner_DA,Bündnis 90/Die Grünen,215,165,76.74,191,143,65
+"Weeser, Sandra",sandra_weeser,FDP,2263,2127,93.99,1923,1796,1359
+"Weidel, Dr. Alice",Alice_Weidel,AfD,335,323,96.42,333,321,5
+"Weyel, Prof. Dr. Harald",h_weyel,AfD,1067,831,77.88,879,672,446
+"Wildberg, Dr. Heiko",Heiko_Wildberg,AfD,0,0,0,0,0,0
+"Wirth, Dr. Christian Friedrich",ChrWirthMdB,AfD,63,63,100.0,53,53,25
+"Witt, Uwe",Witt_Uwe,AfD,261,227,86.97,256,224,16
+"Ziemiak, Paul",PaulZiemiak,CDU,681,570,83.7,653,545,85
+"Braun, Jürgen",JuergenBraunAfD,AfD,1853,1432,77.28,1752,1370,429
+"Jacobi, Fabian",Jacobi_AfD,AfD,381,349,91.6,322,294,239
+"König, Jörn",JoernKoenigAfD,AfD,0,0,0,0,0,0
+"Magnitz, Frank",Frank_Magnitz,AfD,2,2,100.0,1,1,1
+"Springer, René",Rene_Springer,AfD,84,76,90.48,81,74,8
+"Kraft, Dr. Rainer",Dr_Rainer_Kraft,AfD,653,409,62.63,635,398,77
+"Hoffmann, Dr. Bettina",bhoffmann_mdb,Bündnis 90/Die Grünen,253,200,79.05,248,196,78
+"Kappert-Gonther, Dr. Kirsten",KirstenKappert,Bündnis 90/Die Grünen,297,250,84.18,262,225,63
+"Keul, Katja",KatjaKeul,Bündnis 90/Die Grünen,161,135,83.85,148,125,47
+"Stumpp, Margit",margit_stumpp,Bündnis 90/Die Grünen,644,481,74.69,621,469,36
+"Biadacz, Marc",MBiadaczMdB,CDU,246,190,77.24,232,177,11
+"Knoerig, Axel",axel_knoerig,CDU,16,16,100.0,16,16,8
+"Mast, Katja",KatjaMast,SPD,963,822,85.36,910,775,266
+"Müntefering, Michelle",Mi_Muentefering,SPD,748,607,81.15,516,422,153
+"Silberhorn, Thomas",SilberhornMdB,CSU,153,110,71.9,138,97,19
+"Schreiber, Eva-Maria",MdB_Schreiber,Die Linke,432,375,86.81,427,372,52
+"Straetmanns, Friedrich",FrStraetmanns,Die Linke,615,523,85.04,611,519,92
+"Busen, Karlheinz",busen_mdb,FDP,23,16,69.57,23,16,0
+"Djir-Sarai, Bijan",DjirSarai,FDP,301,240,79.73,286,237,13
+"in der Beek, Olaf",olafinderbeek,FDP,346,260,75.14,332,248,26
+"Willkomm, Katharina",k_willkomm,FDP,566,450,79.51,552,436,241
+"Mansmann, Till",TillMansmann,FDP,48,43,89.58,47,43,4
+"Müller, Alexander",alexmuellerfdp,FDP,449,360,80.18,436,352,54
+"Reinhold, Hagen",reinholdmdb,FDP,933,838,89.82,883,791,220
+"Skudelny, Judith",JudithSkudelny,FDP,261,236,90.42,254,229,109
+"Dilcher, Esther",EstherDilcher,SPD,0,0,0,0,0,0
+"Aggelidis, Grigorios",aggelidis_fdp,FDP,212,194,91.51,210,192,43
+"Hollnagel, Dr. Bruno",DrHollnagel,AfD,44,44,100.0,44,44,0
+"Wiehle, Wolfgang",WolfgangWiehle,AfD,376,376,100.0,374,374,2
+"Heilmann, Prof. Thomas",ThomasHeilmann,CDU,197,169,85.79,194,167,70
+"Hocker, Dr. Gero",GeroHocker,FDP,292,242,82.88,285,236,149
+"Müller, Hansjörg Gerhard Georg",MdB_Mueller_AfD,AfD,112,111,99.11,110,109,2
+"Müller-Rosentritt, Frank",theliberalfrank,FDP,276,263,95.29,271,259,5
+"Neumann, Prof. Dr. Martin",_MartinNeumann,FDP,1368,1019,74.49,1354,1009,256
+"Rottmann, Dr. Manuela",ManuelaRottman,Bündnis 90/Die Grünen,1282,1212,94.54,1188,1130,882
+"Alt, Renata",RenataAlt_MdB,FDP,546,467,85.53,520,466,6
+"Dassler, Britta",BrittaDassler,FDP,40,39,97.5,40,39,5
+"Klein, Karsten",MdBKlein,FDP,288,260,90.28,278,251,98
+"Westig, Nicole",NicoleWestig,FDP,131,100,76.34,128,98,42
+"Völlers, Marja-Liisa",MarjaVoellers,SPD,383,304,79.37,343,267,111
+"Herbrand, Markus",HerbrandMarkus,FDP,287,213,74.22,279,206,39
+"Ihnen, Ulla",ullaihnen,FDP,118,91,77.12,114,89,18
+"Kießling, Michael",Kiessling_MdB,CSU,10,10,100.0,10,10,0
+"Lechte, Ulrich",ulrichlechte,FDP,290,265,91.38,269,253,112
+"Ludwig, Daniela",DaniLudwigMdB,CSU,1165,834,71.59,967,648,283
+"Mohamed Ali, Amira",Amira_M_Ali,Die Linke,188,178,94.68,188,178,2
+"Ploß, Dr. Christoph ",christophploss,CDU,498,467,93.78,481,452,195
+"Schlund, Dr. Robby",DrRobbySchlund,AfD,0,0,0,0,0,0
+"Röttgen, Dr. Norbert",n_roettgen,CDU,1768,1580,89.37,1532,1397,369
+"Sauter, Christian",Chr_Sauter,FDP,8,8,100.0,8,8,1
+"Seestern-Pauly, Matthias",mseesternpauly,FDP,41,36,87.8,40,35,1
+"Throm, Alexander",alexander_throm,CDU,130,96,73.85,129,95,20
+"Malsack-Winkemann, Dr. Birgit",MalsackWinkeman,AfD,198,198,100.0,193,193,6
+"Bauer, Nicole",nicole_ae_bauer,FDP,166,133,80.12,161,132,23
+"Esdar, Wiebke",wiebkeesdar1,SPD,0,0,0,0,0,0
+"Moll, Claudia",ClaudiaMollMdB,SPD,13,11,84.62,13,11,5
+"Rachel, Thomas",_ThomasRachel,CDU,33,30,90.91,31,29,5
+"Tatti, Jessica",jessica_tatti,Die Linke,6,6,100.0,6,6,6
+"Ferschl, Susanne",SusanneFerschl,Die Linke,625,527,84.32,610,512,132
+"Heidenblut, Dirk",DHeidenblut,SPD,5,5,100.0,5,5,4
+"Hoffmann, Dr. Christoph",HoffmannForest,FDP,2448,1553,63.44,2286,1441,154
+"Tillmann, Antje",AntjeTillmann,CDU,196,137,69.9,192,135,55
+"Westphal, Bernd",BerndWestphal4,SPD,60,42,70.0,55,37,5
+"Maag, Karin",MaagKarin,CDU,69,64,92.75,68,63,43
+"Ryglewski, Sarah",RyglewskiS,SPD,100,81,81.0,89,72,35
+"Hennrich, Michael",MichaelHennric2,CDU,15,15,100.0,15,15,10
+"Motschmann, Elisabeth",ElisabethMotsc1,CDU,92,80,86.96,84,75,7
+"Stegemann, Albert",StegemannAlbert,CDU,25,17,68.0,24,17,2
+"Mackensen, Isabel",IsabelMackensen,SPD,61,49,80.33,58,46,24
+"Heidt, Peter",PeterHeidtFDP,FDP,226,179,79.2,216,170,11
+"Connemann, Gitta",gitta_connemann,CDU,195,149,76.41,190,147,11
+"Fahimi, Yasmin",FahimiYasmin,SPD,151,134,88.74,148,131,89
+"Gnodtke, Eckhard",EckhardGnodtke,CDU,71,71,100.0,71,71,37
+"Patzelt, Martin",MPatzeltCDU,CDU,65,56,86.15,65,56,1
+"Kulitz, Alexander",AKulitz,FDP,49,44,89.8,48,44,0
+"Rützel, Bernd",ruetzelbernd,SPD,0,0,0,0,0,0
+"Baumann, Dr. Bernd",BerndBaumannAfD,AfD,53,51,96.23,52,50,8
+"Frei, Thorsten",thorsten_frei,CDU,18,17,94.44,17,16,0
+"Grundl, Erhard",Erhard_Grundl,Bündnis 90/Die Grünen,282,228,80.85,248,195,25
+"Hohmann, Martin",HohmannMdb,AfD,106,106,100.0,102,102,1
+"Bubendorfer-Licht, Sandra",Bubendorferfdp,FDP,279,221,79.21,265,209,20
+"Martens, Dr. Jürgen",juergen_martens,FDP,49,47,95.92,49,47,16
+"Bach, Bela",bela_bach,SPD,129,108,83.72,122,103,33
+"Freitag, Dagmar",DagmarFreitag13,SPD,1335,881,65.99,1002,657,114
+"Weingarten, Joe",DrJoeWeingarten,SPD,197,152,77.16,191,147,40
+"Schneidewind-Hartnagel, Charlotte",charlotte_mdb,Bündnis 90/Die Grünen,20,18,90.0,20,18,0
+"Zickenheiner, Gerhard",GZickenheiner,Bündnis 90/Die Grünen,111,105,94.59,105,101,16
+"Monstadt, Dietrich",MdBMonstadt,CDU,0,0,0,0,0,0
+"Vries, Christoph de",VriesChristoph,CDU,104,81,77.88,99,78,22
+"Nölke, Matthias",Matthiasnoelke,FDP,64,50,78.12,61,47,22
+"Martin, Dorothee",Doro_Martin,SPD,605,498,82.31,504,416,285
+"Baradari, Nezahat",BaradariNezahat,SPD,0,0,0,0,0,0
+"Lehmann, Sylvia",LehmannSpd,SPD,0,0,0,0,0,0
+"Hilse, Karsten",HilseMdb,AfD,1,1,100.0,0,0,1
+"Huber, Johannes",HuberMdB,AfD,167,139,83.23,159,135,34
+"Krichbaum, Gunther",GuntherKrichba3,CDU,19,19,100.0,19,19,9
+"Ludwig, Saskia",SaskiaLudwig17,CDU,408,273,66.91,365,242,49
+"Möller, Siemtje",SiemtjeMdB,SPD,326,241,73.93,269,198,128
+"Otten, Gerold",Gerold_Otten,AfD,73,71,97.26,69,69,11
+"Kramp-Karrenbauer, Annegret",akk,CDU,210,171,81.43,184,152,21
+"Klöckner, Julia",JuliaKloeckner,CDU,629,515,81.88,573,461,121
+"Schulze, Svenja",SvenjaSchulze68,SPD,418,312,74.64,368,279,13
+"Söder, Markus",Markus_Soeder,CSU,549,495,90.16,537,483,23
+"Walter-Borjans, Norbert",NowaboFM,SPD,782,692,88.49,735,650,343
+"Meuthen, Prof. Dr. Norbert",Joerg_Meuthen,AFD,351,345,98.29,344,339,0
+"Beck, Volker",Volker_Beck,Bündnis 90/Die Grünen,5141,4389,85.37,4757,4110,3077
+"Polenz, Ruprecht",polenz_r,CDU,13199,11637,88.17,11990,10559,7192
+"Kühnert, Kevin",KuehniKev,SPD,3243,3039,93.71,2785,2592,2632
+"Stegner, Ralf",Ralf_Stegner,SPD,4253,3581,84.2,4028,3417,2
