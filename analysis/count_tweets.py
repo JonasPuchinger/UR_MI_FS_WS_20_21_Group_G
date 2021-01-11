@@ -26,6 +26,18 @@ def count_lang_tweets_for_user(screen_name, user_id, lang):
         return len(all_tweets), len(tweets_by_user)
     return 0, 0
 
+def count_tweets_by_lang_for_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            tweets_by_user = [t for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
+            tweets_by_lang = {}
+            for t in tweets_by_user:
+                if 'lang' in t['raw_data']:
+                    tweets_by_lang[t['raw_data']['lang']] = tweets_by_lang.get(t['raw_data']['lang'], 0) + 1 
+        return tweets_by_lang
+    return {}
+
 def count_replies_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
@@ -43,7 +55,9 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_total_tweets_found, p_tweets_by_politician = count_tweets_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_ratio_own_tweets = round((float(p_tweets_by_politician) / float(p_total_tweets_found)) * 100, 2) if p_total_tweets_found != 0 else 0
         p_total_german_tweets, p_german_tweets_by_polititcian = count_lang_tweets_for_user(screen_name=p_screen_name, user_id=p_user_id, lang='de')
+        p_tweets_by_annotated_language = count_tweets_by_lang_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_replies_by_politician = count_replies_for_user(screen_name=p_screen_name, user_id=p_user_id)
+        p_ratio_replies = round((float(p_replies_by_politician) / float(p_total_tweets_found)) * 100, 2) if p_total_tweets_found != 0 else 0
         p_tweets_stats = {
             'name': p_name,
             'screen_name': p_screen_name,
@@ -51,8 +65,9 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'total_tweets_found': p_total_tweets_found,
             'tweets_by_politician': p_tweets_by_politician,
             'ratio_own_tweets': p_ratio_own_tweets,
-            'total_german_tweets': p_total_german_tweets, 
+            'total_german_tweets': p_total_german_tweets,
             'german_tweets_by_politician': p_german_tweets_by_polititcian,
+            'tweets_by_annotated_language': p_tweets_by_annotated_language,
             'replies_by_politician': p_replies_by_politician
         }
         results.append(p_tweets_stats)
