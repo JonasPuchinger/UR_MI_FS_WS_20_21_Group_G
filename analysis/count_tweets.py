@@ -57,7 +57,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_total_german_tweets, p_german_tweets_by_polititcian = count_lang_tweets_for_user(screen_name=p_screen_name, user_id=p_user_id, lang='de')
         p_tweets_by_annotated_language = count_tweets_by_lang_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_replies_by_politician = count_replies_for_user(screen_name=p_screen_name, user_id=p_user_id)
-        p_ratio_replies = round((float(p_replies_by_politician) / float(p_total_tweets_found)) * 100, 2) if p_total_tweets_found != 0 else 0
+        p_ratio_replies = round((float(p_replies_by_politician) / float(p_tweets_by_politician)) * 100, 2) if p_tweets_by_politician != 0 else 0
         p_tweets_stats = {
             'name': p_name,
             'screen_name': p_screen_name,
@@ -68,7 +68,8 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'total_german_tweets': p_total_german_tweets,
             'german_tweets_by_politician': p_german_tweets_by_polititcian,
             'tweets_by_annotated_language': p_tweets_by_annotated_language,
-            'replies_by_politician': p_replies_by_politician
+            'replies_by_politician': p_replies_by_politician,
+            'ratio_replies': p_ratio_replies
         }
         results.append(p_tweets_stats)
 
