@@ -1,9 +1,11 @@
 import os
 import json
 import csv
+from statistics import mean, median
 
 POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
+USERS_SOURCE_FOLDER = './formated_data/user/'
 RESULTS_FILE = 'politicians_tweets_stats.csv'
 
 results = []
@@ -46,11 +48,37 @@ def count_replies_for_user(screen_name, user_id):
         return len(replies)
     return 0
 
+def count_likes_for_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            likes = [t['raw_data']['favorite_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
+        return sum(likes), mean(likes), median(likes)
+    return 0, 0, 0
+
+def count_retweets_for_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            retweets = [t['raw_data']['retweet_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
+        return sum(retweets), mean(retweets), median(retweets)
+    return 0, 0, 0
+
+def get_followers(screen_name, user_id):
+    f_path = os.path.join(USERS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            # followers = [u['raw_data']['followers_count'] for u in json.load(infile) if u['id_'] == str(user_id)][0]
+            followers = next((u['raw_data']['followers_count'] for u in json.load(infile) if u['id_'] == str(user_id)), 0)
+        return followers
+    return 0
+
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     for p in json.load(infile):
         p_name = p['Name']
         p_screen_name = p['screen_name']
         p_user_id = p['id']
+        p_followers = get_followers(screen_name=p_screen_name, user_id=p_user_id)
         p_party = p['Partei']
         p_total_tweets_found, p_tweets_by_politician = count_tweets_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_ratio_own_tweets = round((float(p_tweets_by_politician) / float(p_total_tweets_found)) * 100, 2) if p_total_tweets_found != 0 else 0
@@ -58,9 +86,12 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_tweets_by_annotated_language = count_tweets_by_lang_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_replies_by_politician = count_replies_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_ratio_replies = round((float(p_replies_by_politician) / float(p_tweets_by_politician)) * 100, 2) if p_tweets_by_politician != 0 else 0
+        p_total_likes, p_mean_likes, p_median_likes = count_likes_for_user(screen_name=p_screen_name, user_id=p_user_id)
+        p_total_retweets, p_mean_retweets, p_median_retweets = count_retweets_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_tweets_stats = {
             'name': p_name,
             'screen_name': p_screen_name,
+            'followers': p_followers,
             'party': p_party,
             'total_tweets_found': p_total_tweets_found,
             'tweets_by_politician': p_tweets_by_politician,
@@ -69,7 +100,13 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'german_tweets_by_politician': p_german_tweets_by_polititcian,
             'tweets_by_annotated_language': p_tweets_by_annotated_language,
             'replies_by_politician': p_replies_by_politician,
-            'ratio_replies': p_ratio_replies
+            'ratio_replies': p_ratio_replies,
+            'total_likes': p_total_likes,
+            'mean_likes': p_mean_likes,
+            'median_likes': p_median_likes,
+            'total_retweets': p_total_retweets,
+            'mean_retweets': p_mean_retweets,
+            'median_retweets': p_median_retweets,
         }
         results.append(p_tweets_stats)
 
