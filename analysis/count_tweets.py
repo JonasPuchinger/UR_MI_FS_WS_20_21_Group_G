@@ -64,6 +64,14 @@ def count_retweets_for_user(screen_name, user_id):
         return sum(retweets), mean(retweets), median(retweets)
     return 0, 0, 0
 
+def count_replies_to_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            replies = [t['raw_data']['reply_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
+        return sum(replies), mean(replies), median(replies)
+    return 0, 0, 0
+
 def get_followers(screen_name, user_id):
     f_path = os.path.join(USERS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
@@ -88,6 +96,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_ratio_replies = round((float(p_replies_by_politician) / float(p_tweets_by_politician)) * 100, 2) if p_tweets_by_politician != 0 else 0
         p_total_likes, p_mean_likes, p_median_likes = count_likes_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_total_retweets, p_mean_retweets, p_median_retweets = count_retweets_for_user(screen_name=p_screen_name, user_id=p_user_id)
+        p_total_replies_to, p_mean_replies_to, p_median_replies_to = count_replies_to_user(screen_name=p_screen_name, user_id=p_user_id)
         p_tweets_stats = {
             'name': p_name,
             'screen_name': p_screen_name,
@@ -100,13 +109,16 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'german_tweets_by_politician': p_german_tweets_by_polititcian,
             'tweets_by_annotated_language': p_tweets_by_annotated_language,
             'replies_by_politician': p_replies_by_politician,
-            'ratio_replies': p_ratio_replies,
+            'ratio_replies_to_own_tweets': p_ratio_replies,
             'total_likes': p_total_likes,
             'mean_likes': p_mean_likes,
             'median_likes': p_median_likes,
             'total_retweets': p_total_retweets,
             'mean_retweets': p_mean_retweets,
             'median_retweets': p_median_retweets,
+            'total_replies_to': p_total_replies_to,
+            'mean_replies_to': p_mean_replies_to,
+            'median_replies_to': p_median_replies_to
         }
         results.append(p_tweets_stats)
 
