@@ -1,21 +1,13 @@
-import json
-import os
 import statistics
+import pandas as pd
 
-
-TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
-
-all_counts = []
 
 def getAllCounts():
-    for filename in os.listdir(TWEETS_SOURCE_FOLDER):
-        f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
-        if os.path.isfile(f_path):
-            with open(f_path, 'r', encoding='utf-8') as infile:
-                all_tweets = [t for t in json.load(infile)]
-                all_counts.append(len(all_tweets))
-    print("{}{}".format("All: ", len(all_counts)))       
+    rawData = pd.read_csv(r"number_of_tweets.csv")
+    newData = rawData[rawData.covid_tweets != 0]
+    return newData.ratio.tolist()
 
+all_counts = getAllCounts()
 
 def getMedian():
     median = statistics.median(all_counts)
@@ -24,6 +16,7 @@ def getMedian():
 
 
 def getMean():
+    print(all_counts)
     mean = statistics.mean(all_counts)
     print("{}{}".format("Mean: ", mean))
     getRemaining(mean)
