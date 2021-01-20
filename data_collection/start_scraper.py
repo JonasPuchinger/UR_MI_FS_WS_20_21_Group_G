@@ -1,5 +1,6 @@
 import sys
 sys.path.append('../TweetScraper')
+sys.path.append('../analysis')
 import configparser
 import datetime
 import json
@@ -9,6 +10,7 @@ from scrapy.utils.project import get_project_settings
 from twisted.internet import defer, reactor
 from generate_requests import twitter_requests
 from TweetScraper_API import start_tweet_scraper
+from combine_files import combine_files
 
 # Read in config file
 config = configparser.ConfigParser()
@@ -28,3 +30,9 @@ POLITICIANS_SCREEN_NAMES = [p['screen_name'] for p in politcians_list]
 politicians_requests = twitter_requests(screen_names=POLITICIANS_SCREEN_NAMES, start=START_DATE, end=END_DATE, step=DAYS_STEP)
 
 start_tweet_scraper(requests=politicians_requests)
+
+# Combine tweets
+combine_files(source_folder='../Data/tweet/', results_folder='../analysis/formated_data_2/tweet/')
+
+# Combine users
+combine_files(source_folder='../Data/user/', results_folder='../analysis/formated_data_2/user/')

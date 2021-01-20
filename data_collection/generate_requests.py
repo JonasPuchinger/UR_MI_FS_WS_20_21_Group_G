@@ -40,3 +40,23 @@ def twitter_requests(screen_names, start, end, step=13, date_format="%Y-%m-%d"):
                 prev, current = current, next(dates)
             except StopIteration:
                 break
+
+def twitter_relation_requests(cross_list, add_list=None):
+    """
+    Creates a list of requests for Twitter relations.
+    The list combines every element in a given list with each other one exactly once.
+    Additionally, a second list can be provided.
+    Every element of this second list will be combined with every element of the first list.
+    
+    :param cross_list: list of Twitter user ids to cross combine
+    :param add_list: additional list of Twitter user ids to combine (optional)
+    """
+    result = []
+    for i, el_1 in enumerate(cross_list):
+        if add_list != None:
+            for el_2 in add_list:
+                result.append((el_1, el_2))
+        for el_3 in cross_list[i+1:]:
+            result.append((el_1, el_3))
+    return result
+    
