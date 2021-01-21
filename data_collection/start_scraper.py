@@ -30,8 +30,8 @@ start_tweet_scraper(requests=politicians_requests)
 
 RAW_DATA_TWEETS = '../Data/tweet/'
 RAW_DATA_USERS = '../Data/user/'
-TWEET_SAVE_DIR = '../analysis/formated_data_2/tweet/'
-USER_SAVE_DIR = '../analysis/formated_data_2/user/'
+TWEET_SAVE_DIR = '../analysis/formated_data/tweet/'
+USER_SAVE_DIR = '../analysis/formated_data/user/'
 
 # Combine tweets
 combine_files(source_folder=RAW_DATA_TWEETS, results_folder=TWEET_SAVE_DIR)
