@@ -14,79 +14,97 @@ def count_tweets_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            all_tweets = [t for t in json.load(infile)]
-            tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id)]
-        return len(all_tweets), len(tweets_by_user)
+            f_content = json.load(infile)
+            if f_content != []:
+                all_tweets = [t for t in f_content]
+                tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id)]
+                return len(all_tweets), len(tweets_by_user)
     return 0, 0
 
 def count_lang_tweets_for_user(screen_name, user_id, lang):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            all_tweets = [t for t in json.load(infile) if t['raw_data']['lang'] == lang]
-            tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id) and t['raw_data']['lang'] == lang]
-        return len(all_tweets), len(tweets_by_user)
+            f_content = json.load(infile)
+            if f_content != []:
+                all_tweets = [t for t in f_content if t['raw_data']['lang'] == lang]
+                tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id) and t['raw_data']['lang'] == lang]
+                return len(all_tweets), len(tweets_by_user)
     return 0, 0
 
 def count_tweets_by_lang_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            tweets_by_user = [t for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
-            tweets_by_lang = {}
-            for t in tweets_by_user:
-                if 'lang' in t['raw_data']:
-                    tweets_by_lang[t['raw_data']['lang']] = tweets_by_lang.get(t['raw_data']['lang'], 0) + 1 
-        return tweets_by_lang
+            f_content = json.load(infile)
+            if f_content != []:
+                tweets_by_user = [t for t in f_content if t['raw_data']['user_id_str'] == str(user_id)]
+                tweets_by_lang = {}
+                for t in tweets_by_user:
+                    if 'lang' in t['raw_data']:
+                        tweets_by_lang[t['raw_data']['lang']] = tweets_by_lang.get(t['raw_data']['lang'], 0) + 1 
+                return tweets_by_lang
     return {}
 
 def count_replies_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            replies = [t for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id) and t['raw_data']['in_reply_to_status_id'] != None]
-        return len(replies)
+            f_content = json.load(infile)
+            if f_content != []:
+                replies = [t for t in f_content if t['raw_data']['user_id_str'] == str(user_id) and t['raw_data']['in_reply_to_status_id'] != None]
+                return len(replies)
     return 0
 
 def count_likes_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            likes = [t['raw_data']['favorite_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
-        return sum(likes), mean(likes), median(likes)
+            f_content = json.load(infile)
+            if f_content != []:
+                likes = [t['raw_data']['favorite_count'] for t in f_content if t['raw_data']['user_id_str'] == str(user_id)]
+                return sum(likes), mean(likes), median(likes)
     return 0, 0, 0
 
 def count_retweets_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            retweets = [t['raw_data']['retweet_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
-        return sum(retweets), mean(retweets), median(retweets)
+            f_content = json.load(infile)
+            if f_content != []:
+                retweets = [t['raw_data']['retweet_count'] for t in f_content if t['raw_data']['user_id_str'] == str(user_id)]
+                return sum(retweets), mean(retweets), median(retweets)
     return 0, 0, 0
 
 def count_replies_to_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            replies = [t['raw_data']['reply_count'] for t in json.load(infile) if t['raw_data']['user_id_str'] == str(user_id)]
-        return sum(replies), mean(replies), median(replies)
+            f_content = json.load(infile)
+            if f_content != []:
+                replies = [t['raw_data']['reply_count'] for t in f_content if t['raw_data']['user_id_str'] == str(user_id)]
+                return sum(replies), mean(replies), median(replies)
     return 0, 0, 0
 
 def get_followers(screen_name, user_id):
     f_path = os.path.join(USERS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            # followers = [u['raw_data']['followers_count'] for u in json.load(infile) if u['id_'] == str(user_id)][0]
-            followers = next((u['raw_data']['followers_count'] for u in json.load(infile) if u['id_'] == str(user_id)), 0)
-        return followers
+            f_content = json.load(infile)
+            if f_content != []:
+                # followers = [u['raw_data']['followers_count'] for u in json.load(infile) if u['id_'] == str(user_id)][0]
+                followers = next((u['raw_data']['followers_count'] for u in f_content if u['id_'] == str(user_id)), 0)
+                return followers
     return 0
 
 def get_verification_status(screen_name, user_id):
     f_path = os.path.join(USERS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            verified = str(next((u['raw_data']['verified'] for u in json.load(infile) if u['id_'] == str(user_id)), 'False'))
-        return verified
+            f_content = json.load(infile)
+            if f_content != []:
+                verified = str(next((u['raw_data']['verified'] for u in f_content if u['id_'] == str(user_id)), 'False'))
+                return verified
     return 'False'
 
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
