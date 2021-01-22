@@ -2,7 +2,8 @@ import os
 import json
 
 def combine_files(source_folder, results_folder):
-    os.makedirs(results_folder)
+    if not os.path.exists(results_folder):
+        os.makedirs(results_folder)
 
     for name in os.listdir(source_folder):
         curr_folder = os.path.join(source_folder, name)
