@@ -4,23 +4,25 @@ import json
 import codecs
 from textblob.inflect import singularize as _singularize, pluralize as _pluralize
 
-WORDLIST = '../assets/wordlistWithoutHashtags.json'
-# Vorher:
-# Männliche & weibliche Formen eintragen
-# Hashtags manuell entfernen & danach wieder hinzufügen
+WORDLIST_SOURCE = '../assets/wordlist_old.json'
+WORDLIST_NEW_SOURCE = '../assets/wordlist.json'
 
 
 new_final_list = []
+hashtags = []
 
 def get_words():
-    return json.load(codecs.open(WORDLIST, 'r', 'utf-8-sig'))
-
-def get_singular(word):  
-    return word.singularize()
+    words = json.load(codecs.open(WORDLIST_SOURCE, 'r', 'utf-8-sig'))
+    list_without_hashtags = []
+    for word in words:
+        if word.startswith('#'):
+            hashtags.append(word)
+        else:
+            list_without_hashtags.append(word)
+    return list_without_hashtags
 
 def get_plural(word):
     return word.pluralize()
-
 
 def get_nouns(blob):
     new_list=[]
@@ -32,19 +34,31 @@ def get_nouns(blob):
             new_final_list.append(tag[0])
     return new_list
 
-
 def get_blob_words():
     strList = '; '.join(get_words())
     blob = TextBlobDE(strList)
     just_nouns = get_nouns(blob)
     return just_nouns
 
+def remove_duplicates(list):
+    setOfElems = set()
+    for elem in list:
+        if not elem in setOfElems:
+            setOfElems.add(elem)         
+    return setOfElems
+
 for word in get_blob_words():
-    #new_final_list.append(get_singular(word))
     new_final_list.append(word)
     new_final_list.append(get_plural(word))
     new_final_list = list(dict.fromkeys(new_final_list))
 
+list_without_duplicates = list(remove_duplicates(new_final_list))
 
-with open('new_list.json', 'w') as outfile:
-    json.dump(new_final_list, outfile)
+sorted_hashtags = sorted(hashtags, key=str.lower)
+sorted_list = sorted(list_without_duplicates, key=str.lower)
+
+for hashtag in sorted_hashtags:
+    sorted_list.append(hashtag)
+
+with open(WORDLIST_NEW_SOURCE, 'w', encoding='utf-8') as outfile:
+    json.dump(sorted_list, outfile, ensure_ascii=False)
