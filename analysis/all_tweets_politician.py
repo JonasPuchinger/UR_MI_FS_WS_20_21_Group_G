@@ -5,7 +5,7 @@ import json
 # get all tweets of politician
 
 POLITICIANS_LIST = '../assets/test_politicians.json'
-#POLITICIANS_LIST = '../assets/all_politicians.json'
+# POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 RESULTS_FILE = 'all_tweets_politician.csv'
 

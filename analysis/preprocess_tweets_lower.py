@@ -3,39 +3,34 @@ import csv
 import json
 import re
 import preprocessor as pre
-from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 import codecs
+from nltk.tokenize import RegexpTokenizer
 
-# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Removal of Digits, Stop words and Punctuations
+# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Stop words and Punctuations
 
 POLITICIANS_LIST = '../assets/test_politicians.json'
-#POLITICIANS_LIST = '../assets/all_politicians.json'
+# POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 RESULTS_FILE_RATIO = 'preprocess_tweets_lower_ratio.csv'
 RESULTS_FILE_DETAIL = 'preprocess_tweets_lower_detail.csv'
-WORDLIST = '../assets/wordlist.json'
+# WORDLIST = '../assets/wordlist.json'
+WORDLIST_FUZ = 'wordlist_fuz.json'
 
 results_ratio = []
 results_detail = []
 
+wordlist = json.load(codecs.open(WORDLIST_FUZ, 'r', 'utf-8-sig'))
+
 
 # Source: https://towardsdatascience.com/basic-tweet-preprocessing-in-python-efd8360d529e
 def preprocessing_tweet(original_tweet):
+    tokenizer = RegexpTokenizer("\s+", gaps=True)
     # Text-Cleaning (URLs, Mentions, Reserved words, Smileys, Numbers)
     pre.set_options(pre.OPT.URL, pre.OPT.MENTION, pre.OPT.RESERVED, pre.OPT.SMILEY, pre.OPT.NUMBER)
     original_tweet = pre.clean(original_tweet)
     # Remove Digits and lowercase
-    tweet = re.sub('\d+', '', original_tweet)
-    lower_text = tweet.lower()
-    w_tokenizer = TweetTokenizer()
-
-    # Tokenization
-    def token_text(text):
-        token = []
-        for word in w_tokenizer.tokenize(text):
-            token.append(word)
-        return token
+    lower_text = original_tweet.lower()
 
     def remove_punctuation(words):
         new_words = []
@@ -45,7 +40,8 @@ def preprocessing_tweet(original_tweet):
                 new_words.append(new_word)
         return new_words
 
-    words = token_text(lower_text)
+    # Tokenization
+    words = tokenizer.tokenize(lower_text)
     # Remove Punctuations
     words = remove_punctuation(words)
     # Remove stop words
@@ -72,15 +68,9 @@ def get_all_tweets_by_politician(screen_name, user_id):
 
 def check_match(tweets_list):
     result_tweets = []
-    wordlist = json.load(codecs.open(WORDLIST, 'r', 'utf-8-sig'))
 
     def match_wordlist_and_tweet(tweet):
         for word in wordlist:
-            # Remove Digits, lowercase, Text-Cleaning
-            word = word.lower()
-            word = re.sub('\d+', '', word)
-            pre.set_options(pre.OPT.HASHTAG, pre.OPT.NUMBER)
-            word = pre.clean(word)
             if word in tweet[1]:
                 return [word, tweet[0], tweet[1], tweet[2]]
 

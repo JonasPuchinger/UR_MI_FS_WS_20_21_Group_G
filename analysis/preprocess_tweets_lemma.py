@@ -5,38 +5,39 @@ import json
 import re
 import codecs
 from nltk.corpus import stopwords
-from nltk.tokenize import TweetTokenizer
 from HanTa import HanoverTagger as ht
+from nltk.tokenize import RegexpTokenizer
 
-# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Removal of Digits, Stop words and Punctuations, Lemmatization
+# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Stop words and Punctuations, Lemmatization
 
 POLITICIANS_LIST = '../assets/test_politicians.json'
-#POLITICIANS_LIST = '../assets/all_politicians.json'
+# POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 RESULTS_FILE_RATIO = 'preprocess_tweets_lemma_ratio.csv'
 RESULTS_FILE_DETAIL = 'preprocess_tweets_lemma_detail.csv'
-#WORDLIST = '../assets/wordlist.json'
-WORDLIST = 'wordlist_lem.json'
+# WORDLIST = '../assets/wordlist.json'
+WORDLIST_LEM = 'wordlist_lem.json'
 
 results_ratio = []
 results_detail = []
 
+wordlist = json.load(codecs.open(WORDLIST_LEM, 'r', 'utf-8-sig'))
+
 
 # Source: https://towardsdatascience.com/basic-tweet-preprocessing-in-python-efd8360d529e
 def preprocessing_tweet(original_tweet):
+    tokenizer = RegexpTokenizer("\s+", gaps=True)
     # Text-Cleaning (URLs, Mentions, Reserved words, Smileys, Numbers)
     pre.set_options(pre.OPT.URL, pre.OPT.MENTION, pre.OPT.RESERVED, pre.OPT.SMILEY, pre.OPT.NUMBER)
     original_tweet = pre.clean(original_tweet)
-    # Remove Digits and lowercase
-    tweet = re.sub('\d+', '', original_tweet)
-    lower_text = tweet.lower()
-    w_tokenizer = TweetTokenizer()
+    # lowercase
+    lower_text = original_tweet.lower()
 
-    # Lemmatization + Tokenization
+    # Lemmatization
     def lemmatize_text(text):
         lemmatize = []
-        for word in w_tokenizer.tokenize(text):
-            tagger = ht.HanoverTagger('morphmodel_ger.pgz')
+        tagger = ht.HanoverTagger('morphmodel_ger.pgz')
+        for word in text:
             word = tagger.analyze(word, taglevel=1)
             lemmatize.append(word[0].lower())
         return lemmatize
@@ -49,13 +50,15 @@ def preprocessing_tweet(original_tweet):
                 new_words.append(new_word)
         return new_words
 
-    words = lemmatize_text(lower_text)
+    # Tokenization
+    words = tokenizer.tokenize(lower_text)
     # Remove Punctuations
     words = remove_punctuation(words)
     # Remove stop words
     stop_words = set(stopwords.words('german'))
     words = [word for word in words if not word in stop_words]
-    print(words)
+    # Lemmatization
+    words = lemmatize_text(words)
     return words
 
 
@@ -77,7 +80,6 @@ def get_all_tweets_by_politician(screen_name, user_id):
 
 def check_match(tweets_list):
     result_tweets = []
-    wordlist = json.load(codecs.open(WORDLIST, 'r', 'utf-8-sig'))
 
     def match_wordlist_and_tweet(tweet):
         for word in wordlist:

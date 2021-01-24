@@ -4,39 +4,40 @@ import json
 import re
 import nltk
 import preprocessor as pre
-from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 import codecs
+from nltk.tokenize import RegexpTokenizer
 
 # Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Removal of Digits, Stop words and Punctuations, Stemming
 
 POLITICIANS_LIST = '../assets/test_politicians.json'
-#POLITICIANS_LIST = '../assets/all_politicians.json'
+# POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 RESULTS_FILE_RATIO = 'preprocess_tweets_stemming_ratio.csv'
 RESULTS_FILE_DETAIL = 'preprocess_tweets_stemming_detail.csv'
-# WORDLIST = '../assets/wordlist.json'
-WORDLIST = 'wordlist_stem.json'
+WORDLIST = '../assets/wordlist.json'
+WORDLIST_STEM = 'wordlist_stem.json'
 
 results_ratio = []
 results_detail = []
 
+wordlist = json.load(codecs.open(WORDLIST_STEM, 'r', 'utf-8-sig'))
+
 
 # Source: https://towardsdatascience.com/basic-tweet-preprocessing-in-python-efd8360d529e
 def preprocessing_tweet(original_tweet):
+    tokenizer = RegexpTokenizer("\s+", gaps=True)
     # Text-Cleaning (URLs, Mentions, Reserved words, Smileys, Numbers)
-    pre.set_options(pre.OPT.URL, pre.OPT.MENTION, pre.OPT.RESERVED, pre.OPT.SMILEY, pre.OPT.NUMBER, )
+    pre.set_options(pre.OPT.URL, pre.OPT.MENTION, pre.OPT.RESERVED, pre.OPT.SMILEY, pre.OPT.NUMBER)
     original_tweet = pre.clean(original_tweet)
-    # Remove Digits and lowercase
-    tweet = re.sub('\d+', '', original_tweet)
-    lower_text = tweet.lower()
-    w_tokenizer = TweetTokenizer()
+    # lowercase
+    lower_text = original_tweet.lower()
 
-    # Stemming + Tokenization
+    # Stemming
     def stem_text(text):
         stem = []
         ps = nltk.PorterStemmer()
-        for word in w_tokenizer.tokenize(text):
+        for word in text:
             word = ps.stem(word)
             stem.append(word)
         return stem
@@ -49,12 +50,15 @@ def preprocessing_tweet(original_tweet):
                 new_words.append(new_word)
         return new_words
 
-    words = stem_text(lower_text)
+    # Tokenization
+    words = tokenizer.tokenize(lower_text)
     # Remove Punctuations
     words = remove_punctuation(words)
     # Remove stop words
     stop_words = set(stopwords.words('german'))
     words = [word for word in words if not word in stop_words]
+    # Stemming
+    words = stem_text(words)
     return words
 
 
@@ -76,7 +80,6 @@ def get_all_tweets_by_politician(screen_name, user_id):
 
 def check_match(tweets_list):
     result_tweets = []
-    wordlist = json.load(codecs.open(WORDLIST, 'r', 'utf-8-sig'))
 
     def match_wordlist_and_tweet(tweet):
         for word in wordlist:
