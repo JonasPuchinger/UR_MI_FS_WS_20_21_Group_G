@@ -10,8 +10,8 @@ from nltk.tokenize import RegexpTokenizer
 
 # Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization, Stop words and Punctuations
 
-POLITICIANS_LIST = '../assets/test_politicians.json'
-# POLITICIANS_LIST = '../assets/all_politicians.json'
+# POLITICIANS_LIST = '../assets/test_politicians.json'
+POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 RESULTS_FILE_RATIO = 'combine_methods_ratio.csv'
 RESULTS_FILE_DETAIL = 'combine_methods_detail.csv'
@@ -63,7 +63,7 @@ def get_all_tweets_by_politician(screen_name, user_id):
             tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id)]
             result = []
             for t in tweets_by_user:
-                result.append(preprocessing_tweet(t['raw_data']['full_text']))
+                result.append([t['raw_data']['created_at'], preprocessing_tweet(t['raw_data']['full_text'])])
             return result
 
     return ""
@@ -75,8 +75,8 @@ def check_match(tweets):
 
     def match_wordlist_and_tweet(tweet):
         for word in wordlist:
-            if word in tweet:
-                return [word, 'match', tweet]
+            if word in tweet[1]:
+                return [word, 'match', tweet[0], tweet[1]]
 
     for t in tweets:
         result = match_wordlist_and_tweet(t)
@@ -94,9 +94,9 @@ def check_match_fuzzy(tweets):
 
     def match_fuzzy(tweet):
         for word in wordlist:
-            for token in tweet:
+            for token in tweet[1]:
                 if fuzz.ratio(word, token) > 87:
-                    return [word, token, tweet]
+                    return [word, token, tweet[0], tweet[1]]
 
     for t in tweets:
         result = match_fuzzy(t)
@@ -134,9 +134,11 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         for i in list:
             p_tweets_stats = {
                 'name': p_name,
+                'party': p_party,
+                'created at': i[2],
                 'word from wordlist': i[0],
                 'original tweet': i[1],
-                'tweet': i[2],
+                'tweet': i[3],
             }
             results_detail.append(p_tweets_stats)
 
