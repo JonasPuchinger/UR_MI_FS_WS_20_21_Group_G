@@ -31,7 +31,8 @@ def preprocess_wordlist_lemma(wordlist):
         # Lemmatization
         word = tagger.analyze(word, taglevel=1)
         wordlist_lemma.append(word[0].lower())
-    return wordlist_lemma
+    wordlist_lemma = set(wordlist_lemma)
+    return list(wordlist_lemma)
 
 
 # Stemming
@@ -47,20 +48,22 @@ def preprocess_wordlist_stem(wordlist):
         # Stemming
         word = ps.stem(word)
         wordlist_stem.append(word)
-    return wordlist_stem
+    wordlist_stem = set(wordlist_stem)
+    return list(wordlist_stem)
 
 
 # Fuzzy
 def preprocess_wordlist_fuzzy(wordlist):
-    wordlist_stem = []
+    wordlist_fuz = []
     for word in wordlist:
         lower_word = word.lower()
         # Cleaning (Numbers)
         word = pre.clean(lower_word)
         # Remove Punctuations
         word = re.sub(r'[^\w\s]', '', (word))
-        wordlist_stem.append(word)
-    return wordlist_stem
+        wordlist_fuz.append(word)
+    wordlist_fuz = set(wordlist_fuz)
+    return list(wordlist_fuz)
 
 
 wordlist_lemma = preprocess_wordlist_lemma(wordlist)
