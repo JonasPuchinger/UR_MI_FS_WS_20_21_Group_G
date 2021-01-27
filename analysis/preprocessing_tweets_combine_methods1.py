@@ -6,15 +6,15 @@ import preprocessor as pre
 from nltk.corpus import stopwords
 import codecs
 from fuzzywuzzy import fuzz
-from nltk.tokenize import RegexpTokenizer
+from nltk.tokenize import TweetTokenizer
 
-# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization (RegexpTokenizer), Stop words and Punctuations
+# Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization (TweetTokenizer), Removal of digits, Stop words and Punctuations
 
 POLITICIANS_LIST = '../assets/test_politicians.json'
 # POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
-RESULTS_FILE_RATIO = 'combine_methods_ratio_test_27_all.csv'
-RESULTS_FILE_DETAIL = 'combine_methods_detail_test_27_all.csv'
+RESULTS_FILE_RATIO = 'combine_methods_ratio_test_27_1_all.csv'
+RESULTS_FILE_DETAIL = 'combine_methods_detail_test_27_1_all.csv'
 WORDLIST_FUZ = 'wordlist_fuz.json'
 
 results_ratio = []
@@ -28,12 +28,14 @@ wordlist = json.load(codecs.open(WORDLIST_FUZ, 'r', 'utf-8-sig'))
 
 # Source: https://towardsdatascience.com/basic-tweet-preprocessing-in-python-efd8360d529e
 def preprocessing_tweet(original_tweet):
-    tokenizer = RegexpTokenizer("\s+", gaps=True)
+    tokenizer = TweetTokenizer()
     # Text-Cleaning (URLs, Mentions, Reserved words, Smileys, Numbers)
     pre.set_options(pre.OPT.URL, pre.OPT.MENTION, pre.OPT.RESERVED, pre.OPT.SMILEY, pre.OPT.NUMBER)
     original_tweet = pre.clean(original_tweet)
+    # Removal of digits
+    tweet = re.sub('\d+', '', original_tweet)
     # lowercase
-    lower_text = original_tweet.lower()
+    lower_text = tweet.lower()
 
     def remove_punctuation(words):
         new_words = []
@@ -75,6 +77,7 @@ def check_match(tweets):
 
     def match_wordlist_and_tweet(tweet):
         for word in wordlist:
+            word = re.sub('\d+', '', word)
             if word in tweet[1]:
                 return [word, 'match', tweet[0], tweet[1], tweet[2]]
 
@@ -94,6 +97,7 @@ def check_match_fuzzy(tweets):
 
     def match_fuzzy(tweet):
         for word in wordlist:
+            word = re.sub('\d+', '', word)
             for token in tweet[1]:
                 if fuzz.ratio(word, token) > 87:
                     return [word, token, tweet[0], tweet[1], tweet[2]]
@@ -115,6 +119,7 @@ def check_match_regex(tweets):
 
     def match_regex(tweet):
         for word in wordlist:
+            word = re.sub('\d+', '', word)
             pattern = "\\b" + word
             for token in tweet[1]:
                 result = re.match(pattern, token)
