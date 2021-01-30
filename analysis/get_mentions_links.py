@@ -6,7 +6,6 @@ import regex
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 POLITICIANS_LIST = '../assets/all_politicians.json'
 
-
 mentions_list = []
 mentions_dict = {}
 links_list = []
@@ -26,7 +25,6 @@ def get_party_of_politician(name):
         if p['screen_name'] == name:
             return p['Partei']
 
-
 def get_start_url(url):
     try:
         return url[:regex.search(r'(?<!http:|https:|\/)\/', url).span()[0]]
@@ -45,7 +43,6 @@ def get_all_mentions(all_tweets):
                 else:
                     mentions_dict[party] = [mention.get('screen_name')] 
 
-
 def get_all_links(all_tweets):
     for tweet in all_tweets:
         links_of_tweet = tweet.get('raw_data').get('entities').get('urls')
@@ -57,8 +54,7 @@ def get_all_links(all_tweets):
                 if party in links_dict:
                     links_dict[party].append(url)
                 else:
-                    links_dict[party] = [url]                          
-
+                    links_dict[party] = [url]
 
 for filename in os.listdir(TWEETS_SOURCE_FOLDER):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
@@ -67,7 +63,6 @@ for filename in os.listdir(TWEETS_SOURCE_FOLDER):
             all_tweets = [t for t in json.load(infile)]
             get_all_mentions(all_tweets)
             get_all_links(all_tweets)
-
 
 def combine_afd(dict):
     for key, value in dict.items():
@@ -79,12 +74,10 @@ def combine_afd(dict):
         pass
     return dict
 
-
 def create_mentions_count_file():
     count_list = collections.Counter(mentions_list).most_common()
     with open('mentions_count.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
-
 
 def create_mentions_party_file():
     mentions_dict_opt = combine_afd(mentions_dict)
@@ -99,12 +92,10 @@ def create_mentions_party_file():
 create_mentions_count_file()
 create_mentions_party_file()
 
-
 def create_links_count_file():
     count_list = collections.Counter(links_list).most_common()
     with open('links_count.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
-
 
 def create_links_party_file():
     links_dict_opt = combine_afd(links_dict)
@@ -115,7 +106,6 @@ def create_links_party_file():
 
     with open('links_party.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(links_dict_opt), outfile, ensure_ascii=False)
-
 
 create_links_count_file()
 create_links_party_file()

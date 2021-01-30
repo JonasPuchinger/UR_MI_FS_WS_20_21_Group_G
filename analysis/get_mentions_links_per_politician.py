@@ -6,7 +6,6 @@ import regex
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 POLITICIANS_LIST = '../assets/all_politicians.json'
 
-
 def get_politicians_list():
     new = []
     with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
@@ -46,7 +45,6 @@ def get_detailed_info(all_tweets):
 def sort_list(list_of_dicts):
     return sorted(list_of_dicts, key=itemgetter('count'), reverse=True)  
 
-
 def get_mentions(all_tweets):
     mentions_list_of_dicts = []
     for tweet in all_tweets:
@@ -62,10 +60,8 @@ def get_mentions(all_tweets):
                     mention_dict['screen_name'] = screen_name
                     mention_dict['count'] = 1
                     mentions_list_of_dicts.append(mention_dict)
-
     sorted_list = sort_list(mentions_list_of_dicts)
     return sorted_list
-
 
 def get_links(all_tweets):
     links_list_of_dicts = []
@@ -82,12 +78,10 @@ def get_links(all_tweets):
                    link_dict['domain'] = domain
                    link_dict['count'] = 1
                    links_list_of_dicts.append(link_dict)
-
     sorted_list = sort_list(links_list_of_dicts)
     return sorted_list                       
 
 full_list = []
-
 
 for filename in os.listdir(TWEETS_SOURCE_FOLDER):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
@@ -99,6 +93,5 @@ for filename in os.listdir(TWEETS_SOURCE_FOLDER):
 def create_file():
     with open('mentions_links_per_politician.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(full_list), outfile, ensure_ascii=False)
-
 
 create_file()
