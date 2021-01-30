@@ -1,9 +1,7 @@
 import json
 import os
-from collections import Counter
 import collections
 import regex
-from re import finditer
 
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 POLITICIANS_LIST = '../assets/all_politicians.json'
