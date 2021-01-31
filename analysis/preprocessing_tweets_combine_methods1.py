@@ -10,11 +10,10 @@ from nltk.tokenize import TweetTokenizer
 
 # Preprocessing tweets: Text-Cleaning (tweet-preprocessor), Tokenization (TweetTokenizer), Removal of digits, Stop words and Punctuations
 
-POLITICIANS_LIST = '../assets/test_politicians.json'
-# POLITICIANS_LIST = '../assets/all_politicians.json'
+POLITICIANS_LIST = '../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
-RESULTS_FILE_RATIO = 'combine_methods_ratio_test_27_1_all.csv'
-RESULTS_FILE_DETAIL = 'combine_methods_detail_test_27_1_all.csv'
+RESULTS_FILE_RATIO = 'combine_methods_ratio.csv'
+RESULTS_FILE_DETAIL = 'combine_methods_detail.csv'
 WORDLIST_FUZ = 'wordlist_fuz.json'
 
 results_ratio = []
