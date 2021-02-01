@@ -2,6 +2,7 @@ import json
 import os
 from operator import itemgetter
 import regex
+import urlexpander
 
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 POLITICIANS_LIST = '../assets/all_politicians.json'
@@ -25,9 +26,16 @@ def get_politician_info(name):
             info['party'] = p['Partei']
     return info
 
-def get_start_url(url):
+def get_domain(url):
     try:
-        return url[:regex.search(r'(?<!http:|https:|\/)\/', url).span()[0]]
+        return url[:regex.search(r'(?<!http:|https:|\/)\/|\\', url).span()[0]]
+    except:
+        return url
+
+# Expands shortened URLs to get the actual link
+def expand_url(url):
+    try: 
+        return urlexpander.expand(url)
     except:
         return url
 
@@ -69,7 +77,10 @@ def get_links(all_tweets):
         links_of_tweet = tweet.get('raw_data').get('entities').get('urls')
         if len(links_of_tweet) > 0:
             for link in links_of_tweet:
-                domain = get_start_url(link.get('expanded_url'))
+                url = link.get('expanded_url')
+                if "bit.ly" in url or "tinyurl.com" in url:
+                    url = expand_url(url)   
+                domain = get_domain(url)
                 found_entry = next((item for item in links_list_of_dicts if item['domain'] == domain), None)
                 if found_entry != None:
                     found_entry['count'] = found_entry['count'] + 1
