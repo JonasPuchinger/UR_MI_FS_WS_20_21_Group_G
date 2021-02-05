@@ -25,7 +25,7 @@ class TwitterFollowChecker:
         login_btn = self.driver.find_element_by_class_name('twitbutton')
         login_btn.click()
 
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 20)
         wait.until(lambda driver: driver.current_url != self.start_url)
 
         redirect_url = self.driver.current_url
@@ -61,7 +61,7 @@ class TwitterFollowChecker:
         check_btn = self.driver.find_element_by_id('submit')
         check_btn.click()
 
-        wait = WebDriverWait(self.driver, 10)
+        wait = WebDriverWait(self.driver, 20)
         wait.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR , '#Result fieldset:nth-of-type(1) .part'), f'Part 1: Does @{user2} follow @{user1} ?'))
 
         user1_follows_user2 = False
