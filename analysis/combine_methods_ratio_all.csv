@@ -1,0 +1,554 @@
+name,screen_name,party,total_tweets,covid_tweets
+"Altmaier, Peter",peteraltmaier,CDU,254,23
+"Annen, Niels",NielsAnnen,SPD,767,135
+"Baerbock, Annalena",ABaerbock,Bündnis 90/Die Grünen,296,47
+"Bahr, Ulrike",MdB_Ulrike_Bahr,SPD,0,0
+"Bär, Dorothee",DoroBaer,CSU,1026,13
+"Bareiß, Thomas",Thomas_Bareiss,CDU,784,107
+"Bartke, Dr. Matthias",matthiasbartke,SPD,52,4
+"Bartol, Sören",soerenbartol,SPD,228,9
+"Bartsch, Dr. Dietmar",DietmarBartsch,Die Linke,828,123
+"Bas, Bärbel",baerbelbas,SPD,593,112
+"Beermann, Maik",MaikBeermann,CDU,100,18
+"Behrens, Manfred",Manfredbehrens,CDU,0,0
+"Benning, Sybille",SybilleBenning,CDU,0,0
+"Bilger, Steffen",SteffenBilger,CDU,166,17
+"Binding, Lothar",Lothar_Binding,SPD,92,4
+"Birkwald, Matthias W.",MWBirkwald,Die Linke,96,2
+"Brantner, Dr. Franziska",fbrantner,Bündnis 90/Die Grünen,841,111
+"Braun, Dr. Helge",HBraun,CDU,78,25
+"Brehmer, Heike",HeikeBrehmerMdB,CDU,43,10
+"Brinkhaus, Ralph",rbrinkhaus,CDU,140,31
+"Brugger, Agnieszka",agnieszka_mdb,Bündnis 90/Die Grünen,378,53
+"Brunner, Dr. Karl-Heinz",BrunnerGanzOhr,SPD,150,15
+"Buchholz, Christine",ch_buchholz,Die Linke,238,25
+"Bülow, Marco",marcobuelow,Fraktionslos,1655,160
+"Castellucci, Prof. Dr. Lars",larscastellucci,SPD,383,34
+"Dagdelen, Sevim",SevimDagdelen,Die Linke,370,39
+"De Ridder, Dr. Daniela",DeRidder_MdB,SPD,0,0
+"Dehm, Dr. Diether",Diether_Dehm,Die Linke,226,55
+"Deligöz, Ekin",ekindeligoez,Bündnis 90/Die Grünen,600,77
+"Diaby, Dr. Karamba",KarambaDiaby,SPD,116,21
+"Dittmar, Sabine",dittmarsabine,SPD,28,11
+"Dörner, Katja",katjadoerner,Bündnis 90/Die Grünen,807,102
+"Dröge, Katharina",katdro,Bündnis 90/Die Grünen,387,69
+"Durz, Hansjörg",Hansjoerg_Durz,CSU,8,4
+"Ebner, Harald",ebner_sha,Bündnis 90/Die Grünen,170,7
+"Ernst, Klaus",ernst_klaus,Die Linke,115,35
+"Esken, Saskia",EskenSaskia,SPD,3651,400
+"Feiler, Uwe",UweFe,CDU,0,0
+"Felgentreu, Dr. Fritz",fritzfelgentreu,SPD,2519,75
+"Fischer, Axel",Axel_Fischer,CDU,91,13
+"Franke, Dr. Edgar",FrankeEdgar,SPD,25,4
+"Freese, Ulrich",UliFreese,SPD,28,4
+"Frieser, Michael",MichaelFrieser,CSU,19,6
+"Fuchtel, Hans-Joachim",fuchtel,CDU,0,0
+"Gastel, Matthias",MatthiasGastel,Bündnis 90/Die Grünen,445,45
+"Gebhart, Dr. Thomas",thomasgebhart,CDU,76,25
+"Gehring, Kai",KaiGehring,Bündnis 90/Die Grünen,1392,373
+"Gerdes, Michael",GerdesMdB,SPD,0,0
+"Gohlke, Nicole",NicoleGohlke,Die Linke,752,258
+"Göring-Eckardt, Katrin",GoeringEckardt,Bündnis 90/Die Grünen,794,116
+"Glöckner, Angelika",A_Gloeckner,SPD,133,24
+"Griese, Kerstin",KerstinGriese,SPD,554,53
+"Gröhe, Hermann",groehe,CDU,456,63
+"Groß, Michael ",michaelgrossmdb,SPD,0,0
+"Grosse-Brömer, Michael",MGrosseBroemer,CDU,787,27
+"Grötsch, Uli",UliGroetsch,SPD,327,44
+"Grübel, Markus",GruebelMdb,CDU,41,3
+"Güntzler, Fritz",FGuentzler,CDU,2,0
+"Gutting, Olav",olavgutting,CDU,220,31
+"Gysi, Dr. Gregor",GregorGysi,Die Linke,91,16
+"Hahn, Florian",hahnflo,CSU,642,94
+"Hajduk, Anja",HajdukBundestag,Bündnis 90/Die Grünen,23,5
+"Hakverdi, Metin",MetinHakverdi,SPD,416,20
+"Hänsel, Heike",HeikeHaensel,Die Linke,294,50
+"Hardt, Jürgen",juergenhardt,CDU,269,31
+"Hartmann, Sebastian",sebast_hartmann,SPD,265,49
+"Haßelmann, Britta",BriHasselmann,Bündnis 90/Die Grünen,984,147
+"Hauer, Matthias",MatthiasHauer,CDU,5176,260
+"Hauptmann, Mark",MarkHauptmann,CDU,155,19
+"Heider, Dr. Matthias",MatthiasHeider,CDU,0,0
+"Heil, Hubertus",hubertus_heil,SPD,269,47
+"Heil, Mechthild",MechthildHeil,CDU,25,7
+"Heinrich, Frank",FrankHeinrich,CDU,9,0
+"Heinrich, Gabriela",GaHeinrich,SPD,1,0
+"Held, Marcus",MarcusHeld_SPD,SPD,0,0
+"Hellmich, Wolfgang",HellmichMdB,SPD,83,3
+"Herzog, Gustav",GustavHerzogMdB,SPD,0,0
+"Hirte, Christian",ChristianHirte,CDU,300,40
+"Hirte, Prof. Dr. Heribert",HHirte,CDU,1295,103
+"Hitschler, Thomas",ThomasHitschler,SPD,1015,26
+"Hofreiter, Dr. Anton",ToniHofreiter,Bündnis 90/Die Grünen,0,0
+"Hunko, Andrej",AndrejHunko,Die Linke,883,109
+"Janecek, Dieter",DJanecek,Bündnis 90/Die Grünen,2271,541
+"Jarzombek, Thomas",tj_tweets,CDU,421,30
+"Jelpke, Ulla",UllaJelpke,Die Linke,246,68
+"Jurk, Thomas",thomas_jurk,SPD,0,0
+"Kaczmarek, Oliver",KaczmarekOliver,SPD,150,27
+"Karliczek, Anja",AnjaKarliczek,CDU,3,0
+"Kaufmann, Dr. Stefan",StefanKaufmann,CDU,634,102
+"Kekeritz, Uwe",UweKekeritz,Bündnis 90/Die Grünen,229,29
+"Kemmer, Ronja",RonjaKemmer,CDU,21,1
+"Kiesewetter, Roderich",RKiesewetter,CDU,627,49
+"Kindler, Sven-Christian",sven_kindler,Bündnis 90/Die Grünen,1651,178
+"Kipping, Katja",katjakipping,Die Linke,917,212
+"Kiziltepe, Cansel",CanselK,SPD,635,60
+"Klare, Arno",arnoklare,SPD,48,22
+"Klein, Volkmar",VolkmarKlein,CDU,3,1
+"Klein-Schmeink, Maria",MariaKlSchmeink,Bündnis 90/Die Grünen,1498,448
+"Klingbeil, Lars",larsklingbeil,SPD,658,42
+"Koeppen, Jens",JensKoeppen,CDU,54,8
+"Kofler, Dr. Bärbel",BaerbelKofler,SPD,275,24
+"Kolbe, Daniela",danielakolbe,SPD,734,63
+"Koob, Markus",KoobMar,CDU,0,0
+"Korte, Jan",jankortemdb,Die Linke,411,70
+"Kotting-Uhl, Sylvia",KottingUhl,Bündnis 90/Die Grünen,25,2
+"Kramme, Anette",AnetteKramme,SPD,1,0
+"Krellmann, Jutta",JuttaKrellmann,Die Linke,55,9
+"Krings, Dr. Günter",guenterkrings,CDU,0,0
+"Krischer, Oliver",Oliver_Krischer,Bündnis 90/Die Grünen,299,19
+"Kruse, Rüdiger",RuedigerKruse,CDU,58,9
+"Kühn, Christian",ChrisKuehn_mdb,Bündnis 90/Die Grünen,330,57
+"Kühn, Stephan",stephankuehn,Bündnis 90/Die Grünen,341,26
+"Kühne, Dr. Roy",Dr_Roy_Kuehne,CDU,65,19
+"Künast, Renate",RenateKuenast,Bündnis 90/Die Grünen,4811,444
+"Kurth, Markus",markuskurthmdb,Bündnis 90/Die Grünen,82,19
+"Lange, Christian",LangeMdB,SPD,261,42
+"Lange, Ulrich",UlrichLange,CSU,0,0
+"Launert, Dr. Silke",DrLaunert,CSU,0,0
+"Lauterbach, Dr. Karl",Karl_Lauterbach,SPD,2714,1800
+"Lay, Caren",CarenLay,Die Linke,702,166
+"Lazar, Monika",monikalazar,Bündnis 90/Die Grünen,332,27
+"Leidig, Sabine",SabineLeidig,Die Linke,302,50
+"Leikert, Dr. Katja",KLeikert,CDU,623,146
+"Lemke, Steffi",SteffiLemke,Bündnis 90/Die Grünen,249,16
+"Lenz, Dr. Andreas",DerLenzMdB,CSU,663,128
+"Leutert, Michael",MichaelLeutert,Die Linke,10,3
+"Liebich, Stefan",berlinliebich,Die Linke,2150,161
+"Lindholz, Andrea",AndreaLindholz,CSU,0,0
+"Lindner, Dr. Tobias",tobiaslindner,Bündnis 90/Die Grünen,250,14
+"Lötzsch, Dr. Gesine",LoetzschMdB,Die Linke,322,44
+"Luczak, Dr. Jan-Marco",JM_Luczak,CDU,890,95
+"Lutze, Thomas",thlutze,Die Linke,0,0
+"Magwas, Yvonne",YvonneMagwas,CDU,6,0
+"Manderla, Gisela",ManderlaGisela,CDU,132,26
+"Mattfeldt, Andreas",AMattfeldt,CDU,0,0
+"Mattheis, Hilde",HildeMattheis,SPD,387,87
+"Meister, Dr. Michael",meister_schafft,CDU,243,23
+"Metzler, Jan",JanMetzler,CDU,0,0
+"Michelbach, Dr. Hans",hans_michelbach,CSU,9,2
+"Mihalic, Irene",IreneMihalic,Bündnis 90/Die Grünen,372,20
+"Mindrup, Klaus",KlausMindrup,SPD,296,33
+"Möhring, Cornelia",Conni_Moehring,Die Linke,531,80
+"Möring, Karsten",KarstenMoering,CDU,9,0
+"Movassat, Niema",NiemaMovassat,Die Linke,4739,691
+"Müller, Bettina",BetMueller,SPD,180,46
+"Müller, Carsten",CarstenMuellers,CDU,0,0
+"Müller, Stefan",smuellermdb,CSU,257,25
+"Müller-Gemmeke, Beate",GrueneBeate,Bündnis 90/Die Grünen,166,46
+"Müller, Norbert",Norbert_MdB,Die Linke,178,18
+"Neu, Dr. Alexander",AlexanderSNeu,Die Linke,317,21
+"Nick, Dr. Andreas",DrAndreasNick,CDU,441,30
+"Nissen, Ulli",UlliNissen,SPD,1086,118
+"Nord, Thomas",NordMdb,Die Linke,358,47
+"Notz, Dr. Konstantin von",KonstantinNotz,Bündnis 90/Die Grünen,817,105
+"Nouripour, Omid",nouripour,Bündnis 90/Die Grünen,555,37
+"Oellers, Wilfried",WilfriedOellers,CDU,0,0
+"Oppermann, Thomas",ThomasOppermann,SPD,124,25
+"Oßner, Florian",Florian_Ossner,CSU,7,1
+"Özdemir, Cem",cem_oezdemir,Bündnis 90/Die Grünen,949,139
+"Özdemir, Mahmut",oezdemir_spd,SPD,80,6
+"Özoguz, Aydan",oezoguz,SPD,1051,71
+"Pantel, Sylvia",SylviaPantel,CDU,38,10
+"Paschke, Markus",MarkusPaschke,SPD,41,11
+"Pau, Petra",PetraPauMaHe,Die Linke,533,48
+"Paus, Lisa",lisapaus,Bündnis 90/Die Grünen,790,87
+"Petry, Christian",CPetryMdB,SPD,60,6
+"Post, Achim",Achim_P,SPD,509,93
+"Post, Florian",FlorianPost,SPD,234,30
+"Pronold, Florian",FlorianPronold,SPD,54,7
+"Rabanus, Martin",MartinRabanus,SPD,0,0
+"Radwan, Alexander",AlexanderRadwan,CSU,0,0
+"Rawert, Mechthild",MechthildRawert,SPD,78,11
+"Renner, Martina",MartinaRenner,Die Linke,1316,99
+"Rimkus, Andreas",Andreas_Rimkus,SPD,615,41
+"Rix, Sönke",SoenkeRix,SPD,480,81
+"Rohde, Dennis",DennisRohde,SPD,261,7
+"Rosemann, Dr. Martin",MartinRosemann,SPD,338,63
+"Rossmann, Dr. Ernst Dieter",edrossmann,SPD,97,14
+"Rößner, Tabea",TabeaRoessner,Bündnis 90/Die Grünen,547,75
+"Roth, Michael",MiRo_SPD,SPD,1767,305
+"Rüddel, Erwin",Erwin_Rueddel,CDU,717,251
+"Rüffer, Corinna",crueffer,Bündnis 90/Die Grünen,56,14
+"Rüthrich, Susann",SusannRuethrich,SPD,0,0
+"Saathoff, Johann",Johann_Saathoff,SPD,112,3
+"Sarrazin, Manuel",ManuelSarrazin,Bündnis 90/Die Grünen,165,10
+"Schauws, Ulle",ulle_schauws,Bündnis 90/Die Grünen,451,32
+"Scheuer, Andreas",AndiScheuer,CSU,78,14
+"Schiefner, Udo",UdoSchiefner,SPD,3,0
+"Schimke, Jana",JanaSchimke,CDU,117,33
+"Schipanski, Tankred",TSchipanski,CDU,324,48
+"Schmidt, Dagmar",dieschmidt,SPD,30,3
+"Schneider , Carsten",schneidercar,SPD,326,41
+"Schnieder, Patrick",PSchnieder,CDU,86,5
+"Schön, Nadine",NadineSchoen,CDU,153,4
+"Schulz-Asche, Kordula",K_SA,Bündnis 90/Die Grünen,1369,372
+"Schummer, Uwe",UweSchummer,CDU,1365,186
+"Schuster, Armin",armin_schuster,CDU,101,20
+"Schwabe, Frank",FrankSchwabe,SPD,690,57
+"Schwartze, Stefan",s_schwartze,SPD,55,11
+"Schwarz, Andreas",Schwarz_MdB,SPD,801,50
+"Schwarzelühr-Sutter, Rita",rischwasu,SPD,279,30
+"Sensburg, Prof. Dr. Patrick",PatrickSensburg,CDU,49,7
+"Siebert, Bernd",BerndSiebert,CDU,9,1
+"Sitte, Dr. Petra",Petra_Sitte_MdB,Die Linke,295,33
+"Sorge, Tino",TinoSorge,CDU,254,109
+"Spahn, Jens",jensspahn,CDU,314,163
+"Spiering, Rainer",rainerspiering,SPD,0,0
+"Stadler, Svenja",stadler_svenja,SPD,299,11
+"Stamm-Fibich, Martina",stamm_fibich,SPD,28,5
+"Steffel, Dr. Frank",franksteffel,CDU,34,2
+"Steffen, Sonja",SteffenSonja,SPD,49,8
+"Stefinger, Dr. Wolfgang",StefingerMdB,CSU,42,11
+"Steineke, Sebastian",SteinekeCDU,CDU,2188,256
+"Steiniger, Johannes",JoSteiniger,CDU,651,46
+"Storjohann, Gero",gero_storjohann,CDU,128,20
+"Strengmann-Kuhn, Dr. Wolfgang",W_SK,Bündnis 90/Die Grünen,283,35
+"Tackmann, Dr. Kirsten",KirstenTackmann,Die Linke,570,18
+"Tauber, Dr. Peter",petertauber,CDU,605,21
+"Thews, Michael",michael_thews,SPD,406,97
+"Träger, Carsten",CarstenTraeger,SPD,72,8
+"Tressel, Markus",MarkusTressel,Bündnis 90/Die Grünen,201,41
+"Trittin, Jürgen",JTrittin,Bündnis 90/Die Grünen,869,130
+"Ullrich, Dr. Volker",VolkerUllrich,CSU,344,41
+"Verlinden, Dr. Julia",julia_verlinden,Bündnis 90/Die Grünen,456,16
+"Vogler, Kathrin",voglerk,Die Linke,701,64
+"Vogt, Ute",UteVogt,SPD,80,6
+"Vries, Kees de",KEESdeVriesCDU,CDU,0,0
+"Wagenknecht, Dr. Sahra",SWagenknecht,Die Linke,236,93
+"Walter-Rosenheimer, Beate",BeateWaRo,Bündnis 90/Die Grünen,42,4
+"Wadephul, Dr. Johann",JoWadephul,CDU,268,13
+"Wanderwitz, Marco",wanderwitz,CDU,1504,141
+"Warken, Nina",ninawarken,CDU,79,1
+"Weber, Gabi",GabiWeberSPD,SPD,10,1
+"Wegner, Kai",kaiwegner,CDU,435,88
+"Weinberg, Harald",HaraldWeinberg,Die Linke,0,0
+"Weinberg, Marcus",MarcusWeinberg,CDU,194,37
+"Weisgerber, Dr. Anja",anjaweisgerber,CSU,148,30
+"Weiß, Peter",PeterWeissMdB,CDU,0,0
+"Wellenreuther, Ingo",Wellenreuther,CDU,0,0
+"Wendt, Marian",MdbWendt,CDU,430,55
+"Werner, Katrin",Katrin_Werner,Die Linke,164,40
+"Whittaker, Kai",Kai_Whittaker,CDU,435,104
+"Widmann-Mauz, Annette",AWidmannMauz,CDU,397,60
+"Wiese, Dirk",DirkWieseSPD,SPD,746,89
+"Zdebel, Hubertus",ZdebelHubertus,Die Linke,91,32
+"Zech, Tobias",TobiasZech,CSU,11,2
+"Zierke, Stefan",zierke,SPD,0,0
+"Zimmer, Prof. Dr. Matthias",matthiaszimmer,CDU,176,8
+"Zimmermann, Dr. Jens",JensZSPD,SPD,815,106
+"Müller, Detlef",MuellerChemnitz,SPD,854,89
+"Abercron, Dr. Michael von",mvabercron,CDU,106,20
+"Achelwilm, Doris",DorisAchelwilm,Die Linke,400,56
+"Akbulut, Gökay",AkbulutGokay,Die Linke,509,86
+"Aschenberg-Dugnus, Christine",cad59,FDP,211,84
+"Aumer, Peter",PeterAumer,CSU,4,0
+"Badum, Lisa",badulrichmartha,Bündnis 90/Die Grünen,133,8
+"Barrientos Krauss, Simone",SBarrientosK,Die Linke,266,44
+"Bause, Margarete",MargareteBause,Bündnis 90/Die Grünen,131,10
+"Bayaz, Dr. Danyal",DerDanyal,Bündnis 90/Die Grünen,1437,195
+"Bayram, Canan",LieblingXhain,Bündnis 90/Die Grünen,1317,182
+"Beeck, Jens",jensbeeck,FDP,43,16
+"Bernhard, Marc",MarcBernhardAfD,AfD,365,98
+"Bernstiel, Christoph",c_bernstiel,CDU,12,3
+"Beutin, Lorenz Gösta",lgbeutin,Die Linke,3283,464
+"Beyer, Peter",Peter_Beyer,CDU,236,64
+"Bleck, Andreas",AndreasBleckMdB,AfD,102,10
+"Boehringer, Peter",PeterBoehringer,AfD,110,55
+"Brandenburg, Dr. Jens",JBrandenburgFDP,FDP,536,49
+"Brandenburg, Mario",BraFDP,FDP,385,53
+"Brandner, Stephan",StBrandner,AfD,4382,232
+"Brandt, Michel",michel_brandt_,Die Linke,554,63
+"Brehm, Sebastian",Brehm_inNBGNord,CSU,1,1
+"Breymaier, Leni",LeniBreymaier,SPD,410,49
+"Brandl, Dr. Reinhard",reinhardbrandl,CSU,1,0
+"Bühl, Marcus",Marcus_Buehl,AfD,185,27
+"Bull-Bischoff, Birke",Birke_Bull,Die Linke,79,9
+"Buschmann, Dr. Marco",MarcoBuschmann,FDP,4797,468
+"Büttner, Matthias",Buettner_MdB,AfD,85,25
+"Bystron, Petr",PetrBystronAfD,AfD,768,43
+"Cezanne, Jörg",joerg_cezanne,Die Linke,25,1
+"Christmann, Dr. Anna",annachristmann,Bündnis 90/Die Grünen,334,84
+"Cotar, Joana",JoanaCotar,AfD,1869,263
+"Curio, Dr. Gottfried",GottfriedCurio,AfD,132,19
+"De Masi, Fabio",FabioDeMasi,Die Linke,5823,742
+"Domscheit-Berg, Anke",anked,Die Linke,3146,634
+"Chrupalla, Tino",Tino_Chrupalla,AfD,308,87
+"Droese, Siegbert",Siegbert_Droese,AfD,0,0
+"Dürr, Christian",christianduerr,FDP,377,55
+"Ebbing, Hartmut",HartmutEbbing,FDP,161,37
+"Ehrhorn, Thomas",Thomas_Ehrhorn,AfD,24,0
+"Elsner von Gronow, Berengar",ElsnervonGronow,AfD,138,19
+"Erndl, Thomas",TErndl,CSU,174,26
+"Espendiller, Dr. Michael",DrMEspendiller,AfD,653,90
+"Faber, Dr. Marcus",MarcusFaber,FDP,323,34
+"Felser, Peter",PeterFelser,AfD,184,48
+"Schmidt, Stefan",Schmidt_MdB,Bündnis 90/Die Grünen,88,5
+"Föst, Daniel",DFoest,FDP,1566,185
+"Fricke, Otto",Otto_Fricke,FDP,2075,66
+"Friesen, Dr. Anton",DrFriesenMdB,AfD,407,113
+"Frohnmaier, Markus",Frohnmaier_AfD,AfD,154,25
+"Frömming, Dr. Götz",GtzFrmming,AfD,1884,269
+"Gabelmann, Sylvia",SylviaGabelmann,Die Linke,134,42
+"Gehrke, Dr. Axel",axelgehrke,AfD,5,2
+"Gelbhaar, Stefan",StefanGelbhaar,Bündnis 90/Die Grünen,780,50
+"Gottberg, Wilhelm von",vonGottberg_AfD,AfD,0,0
+"Gottschalk, Kay",KayGottschalk1,AfD,199,16
+"Gremmels, Timon",Timon_Gremmels,SPD,809,90
+"Jensen, Gyde",GydeJ,FDP,542,74
+"Hacker, Thomas",hacker_fdp,FDP,210,45
+"Hagl-Kehl, Rita",RitaHaglKehl,SPD,4,2
+"Harder-Kühnel, Mariana",M_HarderKuehnel,AfD,76,8
+"Hartwig, Dr. Roland",R_Hartwig_AfD,AfD,147,10
+"Haug, Jochen",Jochen_Haug,AfD,4,1
+"Helling-Plahr, Katrin",KatrinHelling,FDP,265,30
+"Hemmelgarn, Udo",UdoHemmelgarn,AfD,1173,319
+"Henrichmann, Marc",MarcHenrichmann,CDU,236,54
+"Herbst, Torsten",torstenherbst,FDP,436,115
+"Herdt, Waldemar",WaldemarHerdt,AfD,0,0
+"Herrmann, Lars",hermiworld,AfD,14,1
+"Hess, Martin",Martin_Hess_AfD,AfD,234,29
+"Hessel, Katja",fdp_hessel,FDP,75,19
+"Höchst, Nicole",Nicole_Hoechst,AfD,160,32
+"Höferlin, Manuel",ManuelHoeferlin,FDP,192,30
+"Höhn, Matthias",MatthiasHoehn,Die Linke,394,30
+"Holm, Leif-Erik",Leif_Erik_Holm,AfD,66,14
+"Holtz, Ottmar von",OWvonHoltz,Bündnis 90/Die Grünen,103,10
+"Houben, Reinhard",HoubenReinhard,FDP,116,15
+"Jongen, Dr. Marc",Marc_Jongen,AfD,58,16
+"Jung, Dr. Christian",c_jung77,FDP,1578,266
+"Jung, Ingmar",Ingmar_Jung,CDU,8,1
+"Juratovic, Josip",josip_juratovic,SPD,61,8
+"Kaiser, Elisabeth",Kaiser_SPD,SPD,235,38
+"Kartes, Torbjörn",KartesMdB,CDU,22,7
+"Katzmarek, Gabriele",GabyKatzmarek,SPD,19,0
+"Kessler, Dr. Achim",AchimKesslerMdB,Die Linke,691,184
+"Kestner, Jens",KestnerJens,AfD,251,11
+"Keuter, Stefan",StefanKeuterAfD,AfD,0,0
+"Kleinwächter, Norbert",NKleinwaechter,AfD,145,45
+"Kluckert, Daniela",DanielaKluckert,FDP,432,101
+"Kober, Pascal",PascalKober,FDP,62,11
+"Köhler, Dr. Lukas",koehler_fdp,FDP,459,26
+"Komning, Enrico",EnricoKomning,AfD,30,3
+"Konrad, Carina",carina_konrad,FDP,415,81
+"Korkmaz-Emre, Elvan",KorkmazGT,SPD,197,11
+"Kotré, Steffen",SteffenKotre,AfD,155,18
+"Krauß, Alexander",kraussalex,CDU,0,0
+"Kuffer, Michael",MichaelKuffer,CSU,10,0
+"Kuhle, Konstantin Elias",KonstantinKuhle,FDP,1611,182
+"Lambsdorff, Alexander Graf",Lambsdorff,FDP,1045,102
+"Lehmann, Sven",svenlehmann,Bündnis 90/Die Grünen,917,110
+"Lindh, Helge",helgelindh,SPD,248,53
+"Lindner, Christian",c_lindner,FDP,1212,241
+"Link, Michael",michael_g_link,FDP,133,18
+"Löbel, Nikolas",NikolasLoebel,CDU,191,28
+"Lucassen, Rüdiger",MdB_Lucassen,AfD,26,6
+"Luksic, Oliver",OlliLuksic,FDP,2639,505
+"Maas, Heiko",HeikoMaas,SPD,674,190
+"Maier, Jens",JensMaierAfD,AfD,405,65
+"Maier, Prof. Dr. Lothar",ProfMaier,AfD,117,29
+"Matschie, Christoph",matschie,SPD,74,9
+"Meiser, Pascal",pascalmeiser,Die Linke,187,46
+"Meyer, Christoph",ChristophFDP,FDP,1148,137
+"Miazga, Corinna",CorinnaMiazga,AfD,78,29
+"Mohrs, Falko",FalkoMohrs,SPD,55,6
+"Mrosek, Andreas",mrosek1958,AfD,278,20
+"Müller, Claudia",GruenClaudia,Bündnis 90/Die Grünen,692,61
+"Müller, Sepp",mueller_sepp,CDU,406,60
+"Müller-Böhm, Roman",muellerboehm,FDP,4,3
+"Münzenmaier, Sebastian",S_Muenzenmaier,AfD,440,137
+"Nastic, Zaklin",ZaklinNastic,Die Linke,434,60
+"Freihold, Brigitte",MdB_Freihold,Die Linke,230,48
+"Nestle, Dr. Ingrid",Ingrid_Nestle,Bündnis 90/Die Grünen,412,45
+"Neumann, Christoph",Neumann_AfD,AfD,0,0
+"Nolte, Jan",Jan_Nolte_AfD,AfD,115,5
+"Oehme, Ulrich",Ulrich_Oehme,AfD,0,0
+"Ortleb, Josephine",joloulou,SPD,42,5
+"Oster, Josef",josefoster,CDU,2,0
+"Pasemann, Frank",Frank_Pasemann,AfD,397,35
+"Pellmann, Sören",LINKEPELLI,Die Linke,797,133
+"Perli, Victor",victorperli,Die Linke,690,102
+"Peterka, Tobias",TobiasMPeterka,AfD,482,117
+"Petry, Dr. Frauke",FraukePetry,Fraktionslos,588,59
+"Pflüger, Tobias",tpflueger,Die Linke,110,11
+"Pilsinger, Stephan",StephPilsinger,CSU,13,7
+"Podolay, Paul Viktor",Paul_Podolay,AfD,3,1
+"Pohl, Jürgen",Pohl_MdB,AfD,63,11
+"Polat, Filiz",filizgreen,Bündnis 90/Die Grünen,558,75
+"Protschka, Stephan",AfDProtschka,AfD,966,188
+"Reichardt, Martin",M_Reichardt_AfD,AfD,816,126
+"Remmers, Ingrid",Ingrid_Remmers,Die Linke,44,2
+"Renner, Martin Erwin",Renner_AfD,AfD,199,25
+"Riexinger, Bernd",b_riexinger,Die Linke,558,129
+"Reuther, Bernd",reuther_bernd,FDP,129,22
+"Ullrich, Gerald",G_UllrichFDP,FDP,379,106
+"Rouenhoff, Stefan",StefanRouenhoff,CDU,21,2
+"Sattelberger, Thomas",th_sattelberger,FDP,2119,275
+"Schäfer, Anita",SchaeferCDU,CDU,0,0
+"Schäffler, Frank",f_schaeffler,FDP,847,95
+"Scheer, Nina",NinaScheer_SPD,SPD,34,5
+"Schielke-Ziesing, Ulrike",ulschzi,AfD,316,63
+"Schinnenburg, Dr. Wieland",WSchinnenburg,FDP,211,42
+"Schmid, Dr. Nils",NilsSchmid,SPD,480,90
+"Schneider, Jörg",Schneider_AfD,AfD,348,45
+"Schraps, Johannes",jschraps,SPD,37,5
+"Schreiner, Felix",felixschreiner,CDU,78,21
+"Schrodi, Michael",mischrodi,SPD,211,21
+"Schulz, Martin",MartinSchulz,SPD,47,13
+"Schulz, Uwe",Uwe_Schulz_AfD,AfD,25,8
+"Schweiger, Torsten",cdu_schweiger,CDU,14,3
+"Seitz, Thomas",Th_Seitz_AfD,AfD,14,0
+"Sichert, Martin",Martin_Sichert,AfD,247,57
+"Simon, Björn",BjoernSimon,CDU,56,25
+"Sitta, Frank",franksitta,FDP,22,2
+"Solms, Dr. Hermann Otto",solms,FDP,100,12
+"Sommer, Evrim",HESommer,Die Linke,830,158
+"Spaniel, Dr. Dirk",DirkSpaniel,AfD,74,18
+"Mieruch, Mario",MieruchMario,Fraktionslos,5183,272
+"Staffler, Katrin",katrin_staffler,CSU,38,7
+"Stark-Watzinger, Bettina",starkwatzinger,FDP,707,131
+"Steier, Andreas",AndreasSteier,CDU,255,46
+"Stein, Jens Mathias",stonie_kiel,SPD,437,16
+"Stein, Peter",Peter_Stein_CDU,CDU,316,51
+"Storch, Beatrix von",Beatrix_vStorch,AfD,414,107
+"Strack-Zimmermann, Dr. Marie-Agnes",MAStrackZi,FDP,2595,106
+"Strasser, Benjamin",bstrasser,FDP,376,44
+"Suding, Katja",KatjaSuding,FDP,473,120
+"Teuteberg, Linda",LindaTeuteberg,FDP,208,30
+"Theurer, Michael",EUTheurer,FDP,379,64
+"Thomae, Stephan",StephanThomae,FDP,537,104
+"Tiemann, Dr. Dietlind",dr_tiemann,CDU,0,0
+"Todtenhausen, Manfred",MTodtenhausen,FDP,49,8
+"Toncar, Dr. Florian",florian_toncar,FDP,358,33
+"Töns, Markus",Toens_NRW04,SPD,223,6
+"Uhl, Markus",uhl_markus,CDU,1,1
+"Ullmann, Prof. Dr. Andrew",UllmannMdB,FDP,822,348
+"Vogel, Johannes",johannesvogel,FDP,2226,126
+"Wagner, Andreas",Andi_Wagner,Die Linke,301,66
+"Wagner, Daniela",DanyWagner_DA,Bündnis 90/Die Grünen,169,14
+"Weeser, Sandra",sandra_weeser,FDP,2142,232
+"Weidel, Dr. Alice",Alice_Weidel,AfD,325,122
+"Weyel, Prof. Dr. Harald",h_weyel,AfD,821,49
+"Wildberg, Dr. Heiko",Heiko_Wildberg,AfD,0,0
+"Wirth, Dr. Christian Friedrich",ChrWirthMdB,AfD,63,3
+"Witt, Uwe",Witt_Uwe,AfD,229,64
+"Ziemiak, Paul",PaulZiemiak,CDU,573,111
+"Braun, Jürgen",JuergenBraunAfD,AfD,1451,301
+"Jacobi, Fabian",Jacobi_AfD,AfD,352,4
+"König, Jörn",JoernKoenigAfD,AfD,0,0
+"Magnitz, Frank",Frank_Magnitz,AfD,2,0
+"Springer, René",Rene_Springer,AfD,75,11
+"Kraft, Dr. Rainer",Dr_Rainer_Kraft,AfD,404,25
+"Hoffmann, Dr. Bettina",bhoffmann_mdb,Bündnis 90/Die Grünen,200,6
+"Kappert-Gonther, Dr. Kirsten",KirstenKappert,Bündnis 90/Die Grünen,250,34
+"Keul, Katja",KatjaKeul,Bündnis 90/Die Grünen,135,3
+"Stumpp, Margit",margit_stumpp,Bündnis 90/Die Grünen,483,65
+"Biadacz, Marc",MBiadaczMdB,CDU,191,44
+"Knoerig, Axel",axel_knoerig,CDU,16,3
+"Mast, Katja",KatjaMast,SPD,831,174
+"Müntefering, Michelle",Mi_Muentefering,SPD,610,67
+"Silberhorn, Thomas",SilberhornMdB,CSU,110,22
+"Schreiber, Eva-Maria",MdB_Schreiber,Die Linke,377,91
+"Straetmanns, Friedrich",FrStraetmanns,Die Linke,523,111
+"Busen, Karlheinz",busen_mdb,FDP,16,5
+"Djir-Sarai, Bijan",DjirSarai,FDP,242,30
+"in der Beek, Olaf",olafinderbeek,FDP,262,58
+"Willkomm, Katharina",k_willkomm,FDP,451,33
+"Mansmann, Till",TillMansmann,FDP,43,7
+"Müller, Alexander",alexmuellerfdp,FDP,361,34
+"Reinhold, Hagen",reinholdmdb,FDP,847,125
+"Skudelny, Judith",JudithSkudelny,FDP,236,44
+"Dilcher, Esther",EstherDilcher,SPD,0,0
+"Aggelidis, Grigorios",aggelidis_fdp,FDP,195,58
+"Hollnagel, Dr. Bruno",DrHollnagel,AfD,44,22
+"Wiehle, Wolfgang",WolfgangWiehle,AfD,376,151
+"Heilmann, Prof. Thomas",ThomasHeilmann,CDU,169,11
+"Hocker, Dr. Gero",GeroHocker,FDP,242,35
+"Müller, Hansjörg Gerhard Georg",MdB_Mueller_AfD,AfD,112,41
+"Müller-Rosentritt, Frank",theliberalfrank,FDP,265,46
+"Neumann, Prof. Dr. Martin",_MartinNeumann,FDP,1014,221
+"Rottmann, Dr. Manuela",ManuelaRottman,Bündnis 90/Die Grünen,1220,81
+"Alt, Renata",RenataAlt_MdB,FDP,468,102
+"Dassler, Britta",BrittaDassler,FDP,39,12
+"Klein, Karsten",MdBKlein,FDP,260,76
+"Westig, Nicole",NicoleWestig,FDP,100,32
+"Völlers, Marja-Liisa",MarjaVoellers,SPD,304,35
+"Herbrand, Markus",HerbrandMarkus,FDP,213,38
+"Ihnen, Ulla",ullaihnen,FDP,91,11
+"Kießling, Michael",Kiessling_MdB,CSU,10,2
+"Lechte, Ulrich",ulrichlechte,FDP,265,64
+"Ludwig, Daniela",DaniLudwigMdB,CSU,839,73
+"Mohamed Ali, Amira",Amira_M_Ali,Die Linke,179,37
+"Ploß, Dr. Christoph ",christophploss,CDU,469,101
+"Schlund, Dr. Robby",DrRobbySchlund,AfD,0,0
+"Röttgen, Dr. Norbert",n_roettgen,CDU,1589,200
+"Sauter, Christian",Chr_Sauter,FDP,8,0
+"Seestern-Pauly, Matthias",mseesternpauly,FDP,36,10
+"Throm, Alexander",alexander_throm,CDU,96,12
+"Malsack-Winkemann, Dr. Birgit",MalsackWinkeman,AfD,198,98
+"Bauer, Nicole",nicole_ae_bauer,FDP,133,24
+"Esdar, Wiebke",wiebkeesdar1,SPD,0,0
+"Moll, Claudia",ClaudiaMollMdB,SPD,11,0
+"Rachel, Thomas",_ThomasRachel,CDU,30,5
+"Tatti, Jessica",jessica_tatti,Die Linke,6,0
+"Ferschl, Susanne",SusanneFerschl,Die Linke,535,122
+"Heidenblut, Dirk",DHeidenblut,SPD,5,0
+"Hoffmann, Dr. Christoph",HoffmannForest,FDP,1554,437
+"Tillmann, Antje",AntjeTillmann,CDU,137,12
+"Westphal, Bernd",BerndWestphal4,SPD,42,1
+"Maag, Karin",MaagKarin,CDU,65,7
+"Ryglewski, Sarah",RyglewskiS,SPD,81,15
+"Hennrich, Michael",MichaelHennric2,CDU,15,0
+"Motschmann, Elisabeth",ElisabethMotsc1,CDU,80,14
+"Stegemann, Albert",StegemannAlbert,CDU,17,2
+"Mackensen, Isabel",IsabelMackensen,SPD,51,0
+"Heidt, Peter",PeterHeidtFDP,FDP,179,36
+"Connemann, Gitta",gitta_connemann,CDU,149,37
+"Fahimi, Yasmin",FahimiYasmin,SPD,134,2
+"Gnodtke, Eckhard",EckhardGnodtke,CDU,71,5
+"Patzelt, Martin",MPatzeltCDU,CDU,56,10
+"Kulitz, Alexander",AKulitz,FDP,47,11
+"Rützel, Bernd",ruetzelbernd,SPD,0,0
+"Baumann, Dr. Bernd",BerndBaumannAfD,AfD,51,6
+"Frei, Thorsten",thorsten_frei,CDU,17,0
+"Grundl, Erhard",Erhard_Grundl,Bündnis 90/Die Grünen,229,64
+"Hohmann, Martin",HohmannMdb,AfD,107,20
+"Bubendorfer-Licht, Sandra",Bubendorferfdp,FDP,221,37
+"Martens, Dr. Jürgen",juergen_martens,FDP,47,7
+"Bach, Bela",bela_bach,SPD,108,23
+"Freitag, Dagmar",DagmarFreitag13,SPD,890,54
+"Weingarten, Joe",DrJoeWeingarten,SPD,151,13
+"Schneidewind-Hartnagel, Charlotte",charlotte_mdb,Bündnis 90/Die Grünen,18,6
+"Zickenheiner, Gerhard",GZickenheiner,Bündnis 90/Die Grünen,105,11
+"Monstadt, Dietrich",MdBMonstadt,CDU,0,0
+"Vries, Christoph de",VriesChristoph,CDU,80,6
+"Nölke, Matthias",Matthiasnoelke,FDP,50,2
+"Martin, Dorothee",Doro_Martin,SPD,509,37
+"Lehmann, Sylvia",LehmannSpd,SPD,0,0
+"Hilse, Karsten",HilseMdb,AfD,1,0
+"Huber, Johannes",HuberMdB,AfD,138,21
+"Krichbaum, Gunther",GuntherKrichba3,CDU,19,1
+"Ludwig, Saskia",SaskiaLudwig17,CDU,274,26
+"Möller, Siemtje",SiemtjeMdB,SPD,244,13
+"Otten, Gerold",Gerold_Otten,AfD,72,12
+"Kramp-Karrenbauer, Annegret",akk,CDU,171,32
+"Klöckner, Julia",JuliaKloeckner,CDU,518,56
+"Schulze, Svenja",SvenjaSchulze68,SPD,311,41
+"Söder, Markus",Markus_Soeder,CSU,496,235
+"Walter-Borjans, Norbert",NowaboFM,SPD,696,62
+"Meuthen, Prof. Dr. Norbert",Joerg_Meuthen,AFD,344,66
+"Beck, Volker",Volker_Beck,Bündnis 90/Die Grünen,4392,259
+"Polenz, Ruprecht",polenz_r,CDU,11728,1732
+"Kühnert, Kevin",KuehniKev,SPD,3053,99
+"Stegner, Ralf",Ralf_Stegner,SPD,3580,778
