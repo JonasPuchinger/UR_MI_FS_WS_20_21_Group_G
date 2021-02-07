@@ -134,3 +134,6 @@ dmypy.json
 
 # IntelliJ Idea
 .idea/
+
+# geckodriver for selenium
+data_collection/geckodriver.exe
