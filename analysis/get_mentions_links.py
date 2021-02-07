@@ -2,7 +2,7 @@ import json
 import os
 import collections
 import regex
-import urlexpander
+import requests
 
 TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
 POLITICIANS_LIST = '../assets/all_politicians.json'
@@ -35,9 +35,12 @@ def get_domain(url):
 
 # Expands shortened URLs to get the actual link
 def expand_url(url):
+    session = requests.Session()
     try: 
-        return urlexpander.expand(url)
-    except:
+        resp = session.head(url, allow_redirects=True)
+        return resp.url
+    # If the bit.ly or tinyurl link doesn't exist anymore
+    except: 
         return url
 
 def get_all_mentions(all_tweets):
@@ -61,9 +64,7 @@ def get_all_links(all_tweets):
                 url = link.get('expanded_url')
                 if "bit.ly" in url or "tinyurl.com" in url:
                      url = expand_url(url)
-                # If the bit.ly or tinyurl link doesn't work anymore
-                if not "_ERROR_" in url:
-                    link_list.append(url)
+                link_list.append(url) 
                 domain = get_domain(url)
                 domains_list.append(domain)
                 if party in domains_dict:
