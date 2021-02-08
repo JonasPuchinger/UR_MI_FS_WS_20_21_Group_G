@@ -1,0 +1,67 @@
+[
+	{
+		"Name": "ARD Tageschau",
+		"screen_name": "tagesschau",
+		"id": "5734902"
+	},
+	{
+		"Name": "ZDF heute",
+		"screen_name": "ZDFheute",
+		"id": "1101354170"
+	},
+	{
+		"Name": "Süddeutsche Zeitung",
+		"screen_name": "SZ",
+		"id": "114508061"
+	},
+	{
+		"Name": "Die ZEIT",
+		"screen_name": "DIEZEIT",
+		"id": "1081459807"
+	},
+	{
+		"Name": "WELT",
+		"screen_name": "welt",
+		"id": "8720562"
+	},
+	{
+		"Name": "n-tv",
+		"screen_name": "ntvde",
+		"id": "19232587"
+	},
+	{
+		"Name": "FAZ",
+		"screen_name": "faznet",
+		"id": "18047862"
+	},
+	{
+		"Name": "Der Spiegel",
+		"screen_name": "derspiegel",
+		"id": "2834511"
+	},
+	{
+		"Name": "Focus",
+		"screen_name": "focusonline",
+		"id": "5494392"
+	},
+	{
+		"Name": "Stern",
+		"screen_name": "sternde",
+		"id": "18774524"
+	},
+	{
+		"Name": "RTL aktuell",
+		"screen_name": "rtl_aktuell",
+		"id": "19770656"
+	},
+	{
+		"Name": "t-online",
+		"screen_name": "tonline",
+		"id": "266517562"
+	},
+	{
+		"Name": "Bild",
+		"screen_name": "BILD",
+		"id": "9204502"
+	}
+]
