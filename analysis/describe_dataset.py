@@ -56,6 +56,30 @@ def count_replies_for_user(screen_name, user_id):
                 return len(replies)
     return 0
 
+def count_replies_to_self_for_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            f_content = json.load(infile)
+            if f_content != []:
+                replies = [t for t in f_content if t['raw_data']['user_id_str'] == str(user_id)
+                                                and t['raw_data']['in_reply_to_status_id'] != None
+                                                and t['raw_data']['in_reply_to_user_id_str'] == str(user_id)]
+                return len(replies)
+    return 0
+
+def count_replies_to_others_for_user(screen_name, user_id):
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            f_content = json.load(infile)
+            if f_content != []:
+                replies = [t for t in f_content if t['raw_data']['user_id_str'] == str(user_id)
+                                                and t['raw_data']['in_reply_to_status_id'] != None
+                                                and t['raw_data']['in_reply_to_user_id_str'] != str(user_id)]
+                return len(replies)
+    return 0
+
 def count_likes_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
     if os.path.isfile(f_path):
@@ -120,6 +144,8 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_total_german_tweets, p_german_tweets_by_polititcian = count_lang_tweets_for_user(screen_name=p_screen_name, user_id=p_user_id, lang='de')
         p_tweets_by_annotated_language = count_tweets_by_lang_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_replies_by_politician = count_replies_for_user(screen_name=p_screen_name, user_id=p_user_id)
+        p_replies_to_self = count_replies_to_self_for_user(screen_name=p_screen_name, user_id=p_user_id)
+        p_replies_to_others = count_replies_to_others_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_ratio_replies = round((float(p_replies_by_politician) / float(p_tweets_by_politician)) * 100, 2) if p_tweets_by_politician != 0 else 0
         p_total_likes, p_mean_likes, p_median_likes = count_likes_for_user(screen_name=p_screen_name, user_id=p_user_id)
         p_total_retweets, p_mean_retweets, p_median_retweets = count_retweets_for_user(screen_name=p_screen_name, user_id=p_user_id)
@@ -137,6 +163,8 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'german_tweets_by_politician': p_german_tweets_by_polititcian,
             'tweets_by_annotated_language': p_tweets_by_annotated_language,
             'replies_by_politician': p_replies_by_politician,
+            'replies_by_politician_to_self': p_replies_to_self,
+            'replies_by_politician_to_others': p_replies_to_others,
             'ratio_replies_to_own_tweets': p_ratio_replies,
             'total_likes': p_total_likes,
             'mean_likes': p_mean_likes,

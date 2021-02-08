@@ -1,556 +1,552 @@
-name,screen_name,party,total_tweets_found,tweets_by_politician,ratio
-"Altmaier, Peter",peteraltmaier,CDU,299,254,84.95
-"Annen, Niels",NielsAnnen,SPD,1011,761,75.27
-"Baerbock, Annalena",ABaerbock,Bündnis 90/Die Grünen,355,296,83.38
-"Bahr, Ulrike",MdB_Ulrike_Bahr,SPD,0,0,0
-"Bär, Dorothee",DoroBaer,CSU,1187,1027,86.52
-"Bareiß, Thomas",Thomas_Bareiss,CDU,936,775,82.8
-"Bartke, Dr. Matthias",matthiasbartke,SPD,54,51,94.44
-"Bartol, Sören",soerenbartol,SPD,281,228,81.14
-"Bartsch, Dr. Dietmar",DietmarBartsch,Die Linke,1038,826,79.58
-"Bas, Bärbel",baerbelbas,SPD,739,590,79.84
-"Beermann, Maik",MaikBeermann,CDU,147,101,68.71
-"Behrens, Manfred",Manfredbehrens,CDU,0,0,0
-"Benning, Sybille",SybilleBenning,CDU,0,0,0
-"Bilger, Steffen",SteffenBilger,CDU,211,161,76.3
-"Binding, Lothar",Lothar_Binding,SPD,96,92,95.83
-"Birkwald, Matthias W.",MWBirkwald,Die Linke,106,96,90.57
-"Brantner, Dr. Franziska",fbrantner,Bündnis 90/Die Grünen,985,840,85.28
-"Braun, Dr. Helge",HBraun,CDU,86,78,90.7
-"Brehmer, Heike",HeikeBrehmerMdB,CDU,46,43,93.48
-"Brinkhaus, Ralph",rbrinkhaus,CDU,141,140,99.29
-"Brugger, Agnieszka",agnieszka_mdb,Bündnis 90/Die Grünen,438,378,86.3
-"Brunner, Dr. Karl-Heinz",BrunnerGanzOhr,SPD,174,149,85.63
-"Buchholz, Christine",ch_buchholz,Die Linke,254,238,93.7
-"Bülow, Marco",marcobuelow,Fraktionslos,1828,1651,90.32
-"Castellucci, Prof. Dr. Lars",larscastellucci,SPD,424,383,90.33
-"Dagdelen, Sevim",SevimDagdelen,Die Linke,416,369,88.7
-"De Ridder, Dr. Daniela",DeRidder_MdB,SPD,0,0,0
-"Dehm, Dr. Diether",Diether_Dehm,Die Linke,240,226,94.17
-"Deligöz, Ekin",ekindeligoez,Bündnis 90/Die Grünen,747,599,80.19
-"Diaby, Dr. Karamba",KarambaDiaby,SPD,121,115,95.04
-"Dittmar, Sabine",dittmarsabine,SPD,31,27,87.1
-"Dörner, Katja",katjadoerner,Bündnis 90/Die Grünen,993,804,80.97
-"Dröge, Katharina",katdro,Bündnis 90/Die Grünen,470,385,81.91
-"Durz, Hansjörg",Hansjoerg_Durz,CSU,9,8,88.89
-"Ebner, Harald",ebner_sha,Bündnis 90/Die Grünen,201,168,83.58
-"Ernst, Klaus",ernst_klaus,Die Linke,140,115,82.14
-"Esken, Saskia",EskenSaskia,SPD,3813,3639,95.44
-"Feiler, Uwe",UweFe,CDU,0,0,0
-"Felgentreu, Dr. Fritz",fritzfelgentreu,SPD,3004,2526,84.09
-"Fischer, Axel",Axel_Fischer,CDU,91,91,100.0
-"Franke, Dr. Edgar",FrankeEdgar,SPD,26,25,96.15
-"Freese, Ulrich",UliFreese,SPD,30,28,93.33
-"Frieser, Michael",MichaelFrieser,CSU,20,19,95.0
-"Fuchtel, Hans-Joachim",fuchtel,CDU,0,0,0
-"Gastel, Matthias",MatthiasGastel,Bündnis 90/Die Grünen,450,418,92.89
-"Gebhart, Dr. Thomas",thomasgebhart,CDU,81,76,93.83
-"Gehring, Kai",KaiGehring,Bündnis 90/Die Grünen,1632,1382,84.68
-"Gerdes, Michael",GerdesMdB,SPD,0,0,0
-"Gohlke, Nicole",NicoleGohlke,Die Linke,785,751,95.67
-"Göring-Eckardt, Katrin",GoeringEckardt,Bündnis 90/Die Grünen,939,792,84.35
-"Glöckner, Angelika",A_Gloeckner,SPD,203,133,65.52
-"Griese, Kerstin",KerstinGriese,SPD,664,542,81.63
-"Gröhe, Hermann",groehe,CDU,574,453,78.92
-"Groß, Michael ",michaelgrossmdb,SPD,0,0,0
-"Grosse-Brömer, Michael",MGrosseBroemer,CDU,907,784,86.44
-"Grötsch, Uli",UliGroetsch,SPD,327,326,99.69
-"Grübel, Markus",GruebelMdb,CDU,44,41,93.18
-"Güntzler, Fritz",FGuentzler,CDU,2,2,100.0
-"Gutting, Olav",olavgutting,CDU,226,220,97.35
-"Gysi, Dr. Gregor",GregorGysi,Die Linke,100,90,90.0
-"Hahn, Florian",hahnflo,CSU,920,636,69.13
-"Hajduk, Anja",HajdukBundestag,Bündnis 90/Die Grünen,38,23,60.53
-"Hakverdi, Metin",MetinHakverdi,SPD,507,417,82.25
-"Hänsel, Heike",HeikeHaensel,Die Linke,351,293,83.48
-"Hardt, Jürgen",juergenhardt,CDU,324,268,82.72
-"Hartmann, Sebastian",sebast_hartmann,SPD,345,266,77.1
-"Haßelmann, Britta",BriHasselmann,Bündnis 90/Die Grünen,1167,980,83.98
-"Hauer, Matthias",MatthiasHauer,CDU,5633,5081,90.2
-"Hauptmann, Mark",MarkHauptmann,CDU,265,156,58.87
-"Heider, Dr. Matthias",MatthiasHeider,CDU,0,0,0
-"Heil, Hubertus",hubertus_heil,SPD,267,265,99.25
-"Heil, Mechthild",MechthildHeil,CDU,29,25,86.21
-"Heinrich, Frank",FrankHeinrich,CDU,9,9,100.0
-"Heinrich, Gabriela",GaHeinrich,SPD,1,1,100.0
-"Held, Marcus",MarcusHeld_SPD,SPD,0,0,0
-"Hellmich, Wolfgang",HellmichMdB,SPD,129,82,63.57
-"Herzog, Gustav",GustavHerzogMdB,SPD,0,0,0
-"Hirte, Christian",ChristianHirte,CDU,474,300,63.29
-"Hirte, Prof. Dr. Heribert",HHirte,CDU,1572,1274,81.04
-"Hitschler, Thomas",ThomasHitschler,SPD,1115,1014,90.94
-"Hofreiter, Dr. Anton",ToniHofreiter,Bündnis 90/Die Grünen,0,0,0
-"Hunko, Andrej",AndrejHunko,Die Linke,976,883,90.47
-"Janecek, Dieter",DJanecek,Bündnis 90/Die Grünen,2597,2262,87.1
-"Jarzombek, Thomas",tj_tweets,CDU,449,421,93.76
-"Jelpke, Ulla",UllaJelpke,Die Linke,269,246,91.45
-"Jurk, Thomas",thomas_jurk,SPD,0,0,0
-"Kaczmarek, Oliver",KaczmarekOliver,SPD,197,149,75.63
-"Karliczek, Anja",AnjaKarliczek,CDU,5,3,60.0
-"Kaufmann, Dr. Stefan",StefanKaufmann,CDU,686,633,92.27
-"Kekeritz, Uwe",UweKekeritz,Bündnis 90/Die Grünen,282,229,81.21
-"Kemmer, Ronja",RonjaKemmer,CDU,29,21,72.41
-"Kiesewetter, Roderich",RKiesewetter,CDU,645,615,95.35
-"Kindler, Sven-Christian",sven_kindler,Bündnis 90/Die Grünen,1860,1652,88.82
-"Kipping, Katja",katjakipping,Die Linke,1071,915,85.43
-"Kiziltepe, Cansel",CanselK,SPD,836,633,75.72
-"Klare, Arno",arnoklare,SPD,49,48,97.96
-"Klein, Volkmar",VolkmarKlein,CDU,4,3,75.0
-"Klein-Schmeink, Maria",MariaKlSchmeink,Bündnis 90/Die Grünen,1914,1484,77.53
-"Klingbeil, Lars",larsklingbeil,SPD,826,660,79.9
-"Koeppen, Jens",JensKoeppen,CDU,58,54,93.1
-"Kofler, Dr. Bärbel",BaerbelKofler,SPD,284,272,95.77
-"Kolbe, Daniela",danielakolbe,SPD,766,734,95.82
-"Koob, Markus",KoobMar,CDU,0,0,0
-"Korte, Jan",jankortemdb,Die Linke,479,411,85.8
-"Kotting-Uhl, Sylvia",KottingUhl,Bündnis 90/Die Grünen,27,25,92.59
-"Kramme, Anette",AnetteKramme,SPD,1,1,100.0
-"Krellmann, Jutta",JuttaKrellmann,Die Linke,77,55,71.43
-"Krings, Dr. Günter",guenterkrings,CDU,0,0,0
-"Krischer, Oliver",Oliver_Krischer,Bündnis 90/Die Grünen,351,297,84.62
-"Kruse, Rüdiger",RuedigerKruse,CDU,59,58,98.31
-"Kühn, Christian",ChrisKuehn_mdb,Bündnis 90/Die Grünen,424,328,77.36
-"Kühn, Stephan",stephankuehn,Bündnis 90/Die Grünen,402,342,85.07
-"Kühne, Dr. Roy",Dr_Roy_Kuehne,CDU,68,65,95.59
-"Künast, Renate",RenateKuenast,Bündnis 90/Die Grünen,5976,4796,80.25
-"Kurth, Markus",markuskurthmdb,Bündnis 90/Die Grünen,92,82,89.13
-"Lange, Christian",LangeMdB,SPD,286,261,91.26
-"Lange, Ulrich",UlrichLange,CSU,0,0,0
-"Launert, Dr. Silke",DrLaunert,CSU,0,0,0
-"Lauterbach, Dr. Karl",Karl_Lauterbach,SPD,3359,2696,80.26
-"Lay, Caren",CarenLay,Die Linke,811,701,86.44
-"Lazar, Monika",monikalazar,Bündnis 90/Die Grünen,375,332,88.53
-"Leidig, Sabine",SabineLeidig,Die Linke,337,301,89.32
-"Leikert, Dr. Katja",KLeikert,CDU,749,619,82.64
-"Lemke, Steffi",SteffiLemke,Bündnis 90/Die Grünen,291,249,85.57
-"Lenz, Dr. Andreas",DerLenzMdB,CSU,782,664,84.91
-"Leutert, Michael",MichaelLeutert,Die Linke,11,10,90.91
-"Liebich, Stefan",berlinliebich,Die Linke,2347,2153,91.73
-"Lindholz, Andrea",AndreaLindholz,CSU,0,0,0
-"Lindner, Dr. Tobias",tobiaslindner,Bündnis 90/Die Grünen,298,253,84.9
-"Lötzsch, Dr. Gesine",LoetzschMdB,Die Linke,394,318,80.71
-"Luczak, Dr. Jan-Marco",JM_Luczak,CDU,1030,882,85.63
-"Lutze, Thomas",thlutze,Die Linke,0,0,0
-"Magwas, Yvonne",YvonneMagwas,CDU,8,6,75.0
-"Manderla, Gisela",ManderlaGisela,CDU,144,132,91.67
-"Mattfeldt, Andreas",AMattfeldt,CDU,0,0,0
-"Mattheis, Hilde",HildeMattheis,SPD,416,386,92.79
-"Meister, Dr. Michael",meister_schafft,CDU,368,241,65.49
-"Metzler, Jan",JanMetzler,CDU,0,0,0
-"Michelbach, Dr. Hans",hans_michelbach,CSU,9,9,100.0
-"Mihalic, Irene",IreneMihalic,Bündnis 90/Die Grünen,410,372,90.73
-"Mindrup, Klaus",KlausMindrup,SPD,298,270,90.6
-"Möhring, Cornelia",Conni_Moehring,Die Linke,654,527,80.58
-"Möring, Karsten",KarstenMoering,CDU,11,9,81.82
-"Movassat, Niema",NiemaMovassat,Die Linke,5085,4678,92.0
-"Müller, Bettina",BetMueller,SPD,180,179,99.44
-"Müller, Carsten",CarstenMuellers,CDU,0,0,0
-"Müller, Stefan",smuellermdb,CSU,307,258,84.04
-"Müller-Gemmeke, Beate",GrueneBeate,Bündnis 90/Die Grünen,204,164,80.39
-"Müller, Norbert",Norbert_MdB,Die Linke,198,173,87.37
-"Neu, Dr. Alexander",AlexanderSNeu,Die Linke,367,318,86.65
-"Nick, Dr. Andreas",DrAndreasNick,CDU,521,440,84.45
-"Nissen, Ulli",UlliNissen,SPD,1321,1081,81.83
-"Nord, Thomas",NordMdb,Die Linke,370,349,94.32
-"Notz, Dr. Konstantin von",KonstantinNotz,Bündnis 90/Die Grünen,1026,822,80.12
-"Nouripour, Omid",nouripour,Bündnis 90/Die Grünen,733,552,75.31
-"Oellers, Wilfried",WilfriedOellers,CDU,0,0,0
-"Oppermann, Thomas",ThomasOppermann,SPD,140,124,88.57
-"Oßner, Florian",Florian_Ossner,CSU,7,7,100.0
-"Özdemir, Cem",cem_oezdemir,Bündnis 90/Die Grünen,1093,945,86.46
-"Özdemir, Mahmut",oezdemir_spd,SPD,94,80,85.11
-"Özoguz, Aydan",oezoguz,SPD,1189,1042,87.64
-"Pantel, Sylvia",SylviaPantel,CDU,38,38,100.0
-"Paschke, Markus",MarkusPaschke,SPD,41,41,100.0
-"Pau, Petra",PetraPauMaHe,Die Linke,670,528,78.81
-"Paus, Lisa",lisapaus,Bündnis 90/Die Grünen,850,788,92.71
-"Petry, Christian",CPetryMdB,SPD,61,60,98.36
-"Post, Achim",Achim_P,SPD,513,506,98.64
-"Post, Florian",FlorianPost,SPD,244,232,95.08
-"Pronold, Florian",FlorianPronold,SPD,68,54,79.41
-"Rabanus, Martin",MartinRabanus,SPD,0,0,0
-"Radwan, Alexander",AlexanderRadwan,CSU,0,0,0
-"Rawert, Mechthild",MechthildRawert,SPD,78,78,100.0
-"Renner, Martina",MartinaRenner,Die Linke,1618,1306,80.72
-"Rimkus, Andreas",Andreas_Rimkus,SPD,707,611,86.42
-"Rix, Sönke",SoenkeRix,SPD,544,478,87.87
-"Rohde, Dennis",DennisRohde,SPD,283,260,91.87
-"Rosemann, Dr. Martin",MartinRosemann,SPD,419,338,80.67
-"Rossmann, Dr. Ernst Dieter",edrossmann,SPD,103,97,94.17
-"Rößner, Tabea",TabeaRoessner,Bündnis 90/Die Grünen,624,535,85.74
-"Roth, Michael",MiRo_SPD,SPD,2028,1756,86.59
-"Rüddel, Erwin",Erwin_Rueddel,CDU,726,715,98.48
-"Rüffer, Corinna",crueffer,Bündnis 90/Die Grünen,65,56,86.15
-"Rüthrich, Susann",SusannRuethrich,SPD,0,0,0
-"Saathoff, Johann",Johann_Saathoff,SPD,122,112,91.8
-"Sarrazin, Manuel",ManuelSarrazin,Bündnis 90/Die Grünen,200,165,82.5
-"Schauws, Ulle",ulle_schauws,Bündnis 90/Die Grünen,550,449,81.64
-"Scheuer, Andreas",AndiScheuer,CSU,105,78,74.29
-"Schiefner, Udo",UdoSchiefner,SPD,3,3,100.0
-"Schimke, Jana",JanaSchimke,CDU,143,116,81.12
-"Schipanski, Tankred",TSchipanski,CDU,443,323,72.91
-"Schmidt, Dagmar",dieschmidt,SPD,40,30,75.0
-"Schneider , Carsten",schneidercar,SPD,409,321,78.48
-"Schnieder, Patrick",PSchnieder,CDU,128,86,67.19
-"Schön, Nadine",NadineSchoen,CDU,210,153,72.86
-"Schulz-Asche, Kordula",K_SA,Bündnis 90/Die Grünen,1770,1366,77.18
-"Schummer, Uwe",UweSchummer,CDU,1352,1330,98.37
-"Schuster, Armin",armin_schuster,CDU,110,100,90.91
-"Schwabe, Frank",FrankSchwabe,SPD,685,680,99.27
-"Schwartze, Stefan",s_schwartze,SPD,74,55,74.32
-"Schwarz, Andreas",Schwarz_MdB,SPD,963,800,83.07
-"Schwarzelühr-Sutter, Rita",rischwasu,SPD,419,278,66.35
-"Sensburg, Prof. Dr. Patrick",PatrickSensburg,CDU,49,49,100.0
-"Siebert, Bernd",BerndSiebert,CDU,10,9,90.0
-"Sitte, Dr. Petra",Petra_Sitte_MdB,Die Linke,321,293,91.28
-"Sorge, Tino",TinoSorge,CDU,305,254,83.28
-"Spahn, Jens",jensspahn,CDU,336,314,93.45
-"Spiering, Rainer",rainerspiering,SPD,0,0,0
-"Stadler, Svenja",stadler_svenja,SPD,377,296,78.51
-"Stamm-Fibich, Martina",stamm_fibich,SPD,31,28,90.32
-"Steffel, Dr. Frank",franksteffel,CDU,33,33,100.0
-"Steffen, Sonja",SteffenSonja,SPD,61,49,80.33
-"Stefinger, Dr. Wolfgang",StefingerMdB,CSU,51,42,82.35
-"Steineke, Sebastian",SteinekeCDU,CDU,2465,2163,87.75
-"Steiniger, Johannes",JoSteiniger,CDU,731,649,88.78
-"Stetten, Christian Freiherr von",Stettenchris,CDU,0,0,0
-"Storjohann, Gero",gero_storjohann,CDU,135,128,94.81
-"Strengmann-Kuhn, Dr. Wolfgang",W_SK,Bündnis 90/Die Grünen,377,282,74.8
-"Tackmann, Dr. Kirsten",KirstenTackmann,Die Linke,806,570,70.72
-"Tauber, Dr. Peter",petertauber,CDU,713,603,84.57
-"Thews, Michael",michael_thews,SPD,408,406,99.51
-"Träger, Carsten",CarstenTraeger,SPD,88,71,80.68
-"Tressel, Markus",MarkusTressel,Bündnis 90/Die Grünen,225,201,89.33
-"Trittin, Jürgen",JTrittin,Bündnis 90/Die Grünen,1015,867,85.42
-"Ullrich, Dr. Volker",VolkerUllrich,CSU,386,341,88.34
-"Verlinden, Dr. Julia",julia_verlinden,Bündnis 90/Die Grünen,514,454,88.33
-"Vogler, Kathrin",voglerk,Die Linke,788,701,88.96
-"Vogt, Ute",UteVogt,SPD,126,80,63.49
-"Vries, Kees de",KEESdeVriesCDU,CDU,0,0,0
-"Wagenknecht, Dr. Sahra",SWagenknecht,Die Linke,238,236,99.16
-"Walter-Rosenheimer, Beate",BeateWaRo,Bündnis 90/Die Grünen,44,42,95.45
-"Wadephul, Dr. Johann",JoWadephul,CDU,314,262,83.44
-"Wanderwitz, Marco",wanderwitz,CDU,1545,1493,96.63
-"Warken, Nina",ninawarken,CDU,116,79,68.1
-"Weber, Gabi",GabiWeberSPD,SPD,13,10,76.92
-"Wegner, Kai",kaiwegner,CDU,467,433,92.72
-"Weinberg, Harald",HaraldWeinberg,Die Linke,0,0,0
-"Weinberg, Marcus",MarcusWeinberg,CDU,208,194,93.27
-"Weisgerber, Dr. Anja",anjaweisgerber,CSU,168,148,88.1
-"Weiß, Peter",PeterWeissMdB,CDU,0,0,0
-"Wellenreuther, Ingo",Wellenreuther,CDU,0,0,0
-"Wendt, Marian",MdbWendt,CDU,488,426,87.3
-"Werner, Katrin",Katrin_Werner,Die Linke,167,164,98.2
-"Whittaker, Kai",Kai_Whittaker,CDU,544,435,79.96
-"Widmann-Mauz, Annette",AWidmannMauz,CDU,581,397,68.33
-"Wiese, Dirk",DirkWieseSPD,SPD,869,744,85.62
-"Zdebel, Hubertus",ZdebelHubertus,Die Linke,103,91,88.35
-"Zech, Tobias",TobiasZech,CSU,16,11,68.75
-"Zierke, Stefan",zierke,SPD,0,0,0
-"Zimmer, Prof. Dr. Matthias",matthiaszimmer,CDU,191,176,92.15
-"Zimmermann, Dr. Jens",JensZSPD,SPD,1044,812,77.78
-"Müller, Detlef",MuellerChemnitz,SPD,960,853,88.85
-"Abercron, Dr. Michael von",mvabercron,CDU,119,106,89.08
-"Achelwilm, Doris",DorisAchelwilm,Die Linke,526,400,76.05
-"Akbulut, Gökay",AkbulutGokay,Die Linke,654,508,77.68
-"Aschenberg-Dugnus, Christine",cad59,FDP,252,210,83.33
-"Aumer, Peter",PeterAumer,CSU,4,4,100.0
-"Badum, Lisa",badulrichmartha,Bündnis 90/Die Grünen,175,133,76.0
-"Barrientos Krauss, Simone",SBarrientosK,Die Linke,318,264,83.02
-"Bause, Margarete",MargareteBause,Bündnis 90/Die Grünen,164,127,77.44
-"Bayaz, Dr. Danyal",DerDanyal,Bündnis 90/Die Grünen,1724,1420,82.37
-"Bayram, Canan",LieblingXhain,Bündnis 90/Die Grünen,1425,1313,92.14
-"Beeck, Jens",jensbeeck,FDP,48,43,89.58
-"Bernhard, Marc",MarcBernhardAfD,AfD,375,364,97.07
-"Bernstiel, Christoph",c_bernstiel,CDU,16,12,75.0
-"Beutin, Lorenz Gösta",lgbeutin,Die Linke,3550,3248,91.49
-"Beyer, Peter",Peter_Beyer,CDU,302,236,78.15
-"Bleck, Andreas",andreasbleckmdb,AfD,100,100,100.0
-"Boehringer, Peter",PeterBoehringer,AfD,111,110,99.1
-"Brandenburg, Dr. Jens",JBrandenburgFDP,FDP,595,536,90.08
-"Brandenburg, Mario",BraFDP,FDP,449,381,84.86
-"Brandner, Stephan",StBrandner,AfD,5999,4372,72.88
-"Brandt, Michel",michel_brandt_,Die Linke,703,554,78.81
-"Brehm, Sebastian",Brehm_inNBGNord,CSU,1,1,100.0
-"Breymaier, Leni",LeniBreymaier,SPD,439,406,92.48
-"Brandl, Dr. Reinhard",reinhardbrandl,CSU,1,1,100.0
-"Bühl, Marcus",Marcus_Buehl,AfD,184,184,100.0
-"Bull-Bischoff, Birke",Birke_Bull,Die Linke,104,79,75.96
-"Buschmann, Dr. Marco",MarcoBuschmann,FDP,5018,4787,95.4
-"Büttner, Matthias",Buettner_MdB,AfD,85,85,100.0
-"Bystron, Petr",PetrBystronAfD,AfD,916,775,84.61
-"Cezanne, Jörg",joerg_cezanne,Die Linke,26,25,96.15
-"Christmann, Dr. Anna",annachristmann,Bündnis 90/Die Grünen,382,329,86.13
-"Cotar, Joana",JoanaCotar,AfD,2051,1857,90.54
-"Curio, Dr. Gottfried",GottfriedCurio,AfD,133,132,99.25
-"De Masi, Fabio",FabioDeMasi,Die Linke,6060,5733,94.6
-"Domscheit-Berg, Anke",anked,Die Linke,3664,3113,84.96
-"Chrupalla, Tino",Tino_Chrupalla,AfD,323,307,95.05
-"Droese, Siegbert",Siegbert_Droese,AfD,0,0,0
-"Dürr, Christian",christianduerr,FDP,492,376,76.42
-"Ebbing, Hartmut",HartmutEbbing,FDP,198,161,81.31
-"Ehrhorn, Thomas",Thomas_Ehrhorn,AfD,27,24,88.89
-"Elsner von Gronow, Berengar",ElsnervonGronow,AfD,156,138,88.46
-"Erndl, Thomas",TErndl,CSU,218,174,79.82
-"Espendiller, Dr. Michael",DrMEspendiller,AfD,798,654,81.95
-"Faber, Dr. Marcus",MarcusFaber,FDP,334,322,96.41
-"Felser, Peter",PeterFelser,AfD,189,184,97.35
-"Schmidt, Stefan",Schmidt_MdB,Bündnis 90/Die Grünen,106,87,82.08
-"Föst, Daniel",DFoest,FDP,1767,1560,88.29
-"Fricke, Otto",Otto_Fricke,FDP,2098,2011,95.85
-"Friesen, Dr. Anton",DrFriesenMdB,AfD,431,407,94.43
-"Frohnmaier, Markus",Frohnmaier_AfD,AfD,170,154,90.59
-"Frömming, Dr. Götz",GtzFrmming,AfD,2274,1878,82.59
-"Gabelmann, Sylvia",SylviaGabelmann,Die Linke,140,134,95.71
-"Gehrke, Dr. Axel",axelgehrke,AfD,5,5,100.0
-"Gelbhaar, Stefan",StefanGelbhaar,Bündnis 90/Die Grünen,858,780,90.91
-"Gottberg, Wilhelm von",vonGottberg_AfD,AfD,0,0,0
-"Gottschalk, Kay",KayGottschalk1,AfD,222,198,89.19
-"Gremmels, Timon",Timon_Gremmels,SPD,877,798,90.99
-"Jensen, Gyde",GydeJ,FDP,707,537,75.95
-"Hacker, Thomas",hacker_fdp,FDP,266,210,78.95
-"Hagl-Kehl, Rita",RitaHaglKehl,SPD,4,4,100.0
-"Harder-Kühnel, Mariana",M_HarderKuehnel,AfD,81,76,93.83
-"Hartwig, Dr. Roland",R_Hartwig_AfD,AfD,146,145,99.32
-"Haug, Jochen",Jochen_Haug,AfD,5,4,80.0
-"Helling-Plahr, Katrin",KatrinHelling,FDP,324,263,81.17
-"Hemmelgarn, Udo",UdoHemmelgarn,AfD,1235,1177,95.3
-"Henrichmann, Marc",MarcHenrichmann,CDU,264,235,89.02
-"Herbst, Torsten",torstenherbst,FDP,456,430,94.3
-"Herdt, Waldemar",WaldemarHerdt,AfD,0,0,0
-"Herrmann, Lars",hermiworld,AfD,17,14,82.35
-"Hess, Martin",Martin_Hess_AfD,AfD,245,233,95.1
-"Hessel, Katja",fdp_hessel,FDP,84,75,89.29
-"Höchst, Nicole",Nicole_Hoechst,AfD,167,157,94.01
-"Höferlin, Manuel",ManuelHoeferlin,FDP,238,192,80.67
-"Höhn, Matthias",MatthiasHoehn,Die Linke,521,393,75.43
-"Holm, Leif-Erik",Leif_Erik_Holm,AfD,68,66,97.06
-"Holtz, Ottmar von",OWvonHoltz,Bündnis 90/Die Grünen,117,103,88.03
-"Houben, Reinhard",HoubenReinhard,FDP,146,115,78.77
-"Jongen, Dr. Marc",Marc_Jongen,AfD,70,58,82.86
-"Jung, Dr. Christian",c_jung77,FDP,1853,1575,85.0
-"Jung, Ingmar",Ingmar_Jung,CDU,11,8,72.73
-"Juratovic, Josip",josip_juratovic,SPD,66,61,92.42
-"Kaiser, Elisabeth",Kaiser_SPD,SPD,273,234,85.71
-"Kartes, Torbjörn",KartesMdB,CDU,26,22,84.62
-"Katzmarek, Gabriele",GabyKatzmarek,SPD,22,18,81.82
-"Kessler, Dr. Achim",AchimKesslerMdB,Die Linke,875,721,82.4
-"Kestner, Jens",KestnerJens,AfD,316,253,80.06
-"Keuter, Stefan",StefanKeuterAfD,AfD,0,0,0
-"Kleinwächter, Norbert",NKleinwaechter,AfD,149,144,96.64
-"Kluckert, Daniela",DanielaKluckert,FDP,518,430,83.01
-"Kober, Pascal",PascalKober,FDP,91,59,64.84
-"Köhler, Dr. Lukas",koehler_fdp,FDP,525,459,87.43
-"Komning, Enrico",EnricoKomning,AfD,25,22,88.0
-"Konrad, Carina",carina_konrad,FDP,510,414,81.18
-"Korkmaz-Emre, Elvan",KorkmazGT,SPD,232,197,84.91
-"Kotré, Steffen",SteffenKotre,AfD,180,155,86.11
-"Krauß, Alexander",kraussalex,CDU,0,0,0
-"Kuffer, Michael",MichaelKuffer,CSU,12,10,83.33
-"Kuhle, Konstantin Elias",KonstantinKuhle,FDP,1858,1585,85.31
-"Lambsdorff, Alexander Graf",Lambsdorff,FDP,1268,1042,82.18
-"Lehmann, Sven",svenlehmann,Bündnis 90/Die Grünen,972,913,93.93
-"Lindh, Helge",helgelindh,SPD,271,248,91.51
-"Lindner, Christian",c_lindner,FDP,1294,1211,93.59
-"Link, Michael",michael_g_link,FDP,160,133,83.12
-"Löbel, Nikolas",NikolasLoebel,CDU,220,191,86.82
-"Lucassen, Rüdiger",MdB_Lucassen,AfD,26,26,100.0
-"Luksic, Oliver",OlliLuksic,FDP,2911,2624,90.14
-"Maas, Heiko",HeikoMaas,SPD,709,672,94.78
-"Maier, Jens",JensMaierAfD,AfD,419,403,96.18
-"Maier, Prof. Dr. Lothar",ProfMaier,AfD,118,117,99.15
-"Matschie, Christoph",matschie,SPD,92,74,80.43
-"Meiser, Pascal",pascalmeiser,Die Linke,243,187,76.95
-"Meyer, Christoph",ChristophFDP,FDP,1216,1136,93.42
-"Miazga, Corinna",CorinnaMiazga,AfD,79,77,97.47
-"Mohrs, Falko",FalkoMohrs,SPD,69,55,79.71
-"Mrosek, Andreas",mrosek1958,AfD,290,275,94.83
-"Müller, Claudia",GruenClaudia,Bündnis 90/Die Grünen,887,690,77.79
-"Müller, Sepp",mueller_sepp,CDU,580,400,68.97
-"Müller-Böhm, Roman",muellerboehm,FDP,4,4,100.0
-"Münzenmaier, Sebastian",S_Muenzenmaier,AfD,461,440,95.44
-"Nastic, Zaklin",ZaklinNastic,Die Linke,507,435,85.8
-"Freihold, Brigitte",MdB_Freihold,Die Linke,297,230,77.44
-"Nestle, Dr. Ingrid",Ingrid_Nestle,Bündnis 90/Die Grünen,502,412,82.07
-"Neumann, Christoph",Neumann_AfD,AfD,0,0,0
-"Nolte, Jan",Jan_Nolte_AfD,AfD,126,115,91.27
-"Oehme, Ulrich",Ulrich_Oehme,AfD,0,0,0
-"Ortleb, Josephine",joloulou,SPD,45,40,88.89
-"Oster, Josef",josefoster,CDU,0,0,0
-"Pasemann, Frank",Frank_Pasemann,AfD,514,398,77.43
-"Pellmann, Sören",LINKEPELLI,Die Linke,857,789,92.07
-"Perli, Victor",victorperli,Die Linke,764,687,89.92
-"Peterka, Tobias",TobiasMPeterka,AfD,483,482,99.79
-"Petry, Dr. Frauke",FraukePetry,Fraktionslos,640,587,91.72
-"Pflüger, Tobias",tpflueger,Die Linke,127,110,86.61
-"Pilsinger, Stephan",StephPilsinger,CSU,13,13,100.0
-"Podolay, Paul Viktor",Paul_Podolay,AfD,3,3,100.0
-"Pohl, Jürgen",Pohl_MdB,AfD,79,63,79.75
-"Polat, Filiz",filizgreen,Bündnis 90/Die Grünen,655,557,85.04
-"Protschka, Stephan",AfDProtschka,AfD,1093,956,87.47
-"Reichardt, Martin",M_Reichardt_AfD,AfD,828,724,87.44
-"Remmers, Ingrid",Ingrid_Remmers,Die Linke,53,44,83.02
-"Renner, Martin Erwin",Renner_AfD,AfD,214,199,92.99
-"Riexinger, Bernd",b_riexinger,Die Linke,588,546,92.86
-"Reuther, Bernd",reuther_bernd,FDP,168,129,76.79
-"Ullrich, Gerald",G_UllrichFDP,FDP,475,379,79.79
-"Rouenhoff, Stefan",StefanRouenhoff,CDU,28,22,78.57
-"Sattelberger, Thomas",th_sattelberger,FDP,2514,2117,84.21
-"Schäfer, Anita",SchaeferCDU,CDU,0,0,0
-"Schäffler, Frank",f_schaeffler,FDP,1018,844,82.91
-"Scheer, Nina",NinaScheer_SPD,SPD,44,34,77.27
-"Schielke-Ziesing, Ulrike",ulschzi,AfD,335,312,93.13
-"Schinnenburg, Dr. Wieland",WSchinnenburg,FDP,235,207,88.09
-"Schmid, Dr. Nils",NilsSchmid,SPD,500,477,95.4
-"Schneider, Jörg",Schneider_AfD,AfD,376,348,92.55
-"Schraps, Johannes",jschraps,SPD,45,37,82.22
-"Schreiner, Felix",felixschreiner,CDU,97,77,79.38
-"Schrodi, Michael",mischrodi,SPD,229,211,92.14
-"Schulz, Martin",MartinSchulz,SPD,50,46,92.0
-"Schulz, Uwe",Uwe_Schulz_AfD,AfD,28,25,89.29
-"Schweiger, Torsten",cdu_schweiger,CDU,16,14,87.5
-"Seitz, Thomas",Th_Seitz_AfD,AfD,15,13,86.67
-"Sichert, Martin",Martin_Sichert,AfD,272,248,91.18
-"Simon, Björn",BjoernSimon,CDU,66,56,84.85
-"Sitta, Frank",franksitta,FDP,25,22,88.0
-"Solms, Dr. Hermann Otto",solms,FDP,109,100,91.74
-"Sommer, Evrim",HESommer,Die Linke,964,830,86.1
-"Spaniel, Dr. Dirk",DirkSpaniel,AfD,81,74,91.36
-"Mieruch, Mario",MieruchMario,Fraktionslos,5862,5089,86.81
-"Staffler, Katrin",katrin_staffler,CSU,53,38,71.7
-"Stark-Watzinger, Bettina",starkwatzinger,FDP,813,698,85.85
-"Steier, Andreas",AndreasSteier,CDU,270,252,93.33
-"Stein, Jens Mathias",stonie_kiel,SPD,531,429,80.79
-"Stein, Peter",Peter_Stein_CDU,CDU,342,300,87.72
-"Storch, Beatrix von",Beatrix_vStorch,AfD,477,411,86.16
-"Strack-Zimmermann, Dr. Marie-Agnes",MAStrackZi,FDP,2737,2591,94.67
-"Strasser, Benjamin",bstrasser,FDP,441,376,85.26
-"Suding, Katja",KatjaSuding,FDP,510,473,92.75
-"Teuteberg, Linda",LindaTeuteberg,FDP,252,207,82.14
-"Theurer, Michael",EUTheurer,FDP,434,379,87.33
-"Thomae, Stephan",StephanThomae,FDP,626,532,84.98
-"Tiemann, Dr. Dietlind",dr_tiemann,CDU,0,0,0
-"Todtenhausen, Manfred",MTodtenhausen,FDP,76,49,64.47
-"Toncar, Dr. Florian",florian_toncar,FDP,381,353,92.65
-"Töns, Markus",Toens_NRW04,SPD,273,225,82.42
-"Uhl, Markus",uhl_markus,CDU,1,1,100.0
-"Ullmann, Prof. Dr. Andrew",UllmannMdB,FDP,912,814,89.25
-"Vogel, Johannes",johannesvogel,FDP,2399,2230,92.96
-"Wagner, Andreas",Andi_Wagner,Die Linke,336,296,88.1
-"Wagner, Daniela",DanyWagner_DA,Bündnis 90/Die Grünen,215,165,76.74
-"Weeser, Sandra",sandra_weeser,FDP,2263,2127,93.99
-"Weidel, Dr. Alice",Alice_Weidel,AfD,335,323,96.42
-"Weyel, Prof. Dr. Harald",h_weyel,AfD,1067,831,77.88
-"Wildberg, Dr. Heiko",Heiko_Wildberg,AfD,0,0,0
-"Wirth, Dr. Christian Friedrich",ChrWirthMdB,AfD,63,63,100.0
-"Witt, Uwe",Witt_Uwe,AfD,261,227,86.97
-"Ziemiak, Paul",PaulZiemiak,CDU,681,570,83.7
-"Braun, Jürgen",JuergenBraunAfD,AfD,1853,1432,77.28
-"Jacobi, Fabian",Jacobi_AfD,AfD,381,349,91.6
-"König, Jörn",JoernKoenigAfD,AfD,0,0,0
-"Magnitz, Frank",Frank_Magnitz,AfD,2,2,100.0
-"Springer, René",Rene_Springer,AfD,84,76,90.48
-"Kraft, Dr. Rainer",Dr_Rainer_Kraft,AfD,653,409,62.63
-"Hoffmann, Dr. Bettina",bhoffmann_mdb,Bündnis 90/Die Grünen,253,200,79.05
-"Kappert-Gonther, Dr. Kirsten",KirstenKappert,Bündnis 90/Die Grünen,297,250,84.18
-"Keul, Katja",KatjaKeul,Bündnis 90/Die Grünen,161,135,83.85
-"Stumpp, Margit",margit_stumpp,Bündnis 90/Die Grünen,644,481,74.69
-"Biadacz, Marc",MBiadaczMdB,CDU,246,190,77.24
-"Knoerig, Axel",axel_knoerig,CDU,16,16,100.0
-"Mast, Katja",KatjaMast,SPD,963,822,85.36
-"Müntefering, Michelle",Mi_Muentefering,SPD,748,607,81.15
-"Silberhorn, Thomas",SilberhornMdB,CSU,153,110,71.9
-"Schreiber, Eva-Maria",MdB_Schreiber,Die Linke,432,375,86.81
-"Straetmanns, Friedrich",FrStraetmanns,Die Linke,615,523,85.04
-"Busen, Karlheinz",busen_mdb,FDP,23,16,69.57
-"Djir-Sarai, Bijan",DjirSarai,FDP,301,240,79.73
-"in der Beek, Olaf",olafinderbeek,FDP,346,260,75.14
-"Willkomm, Katharina",k_willkomm,FDP,566,450,79.51
-"Mansmann, Till",TillMansmann,FDP,48,43,89.58
-"Müller, Alexander",alexmuellerfdp,FDP,449,360,80.18
-"Reinhold, Hagen",reinholdmdb,FDP,933,838,89.82
-"Skudelny, Judith",JudithSkudelny,FDP,261,236,90.42
-"Dilcher, Esther",EstherDilcher,SPD,0,0,0
-"Aggelidis, Grigorios",aggelidis_fdp,FDP,212,194,91.51
-"Hollnagel, Dr. Bruno",DrHollnagel,AfD,44,44,100.0
-"Wiehle, Wolfgang",WolfgangWiehle,AfD,376,376,100.0
-"Heilmann, Prof. Thomas",ThomasHeilmann,CDU,197,169,85.79
-"Hocker, Dr. Gero",GeroHocker,FDP,292,242,82.88
-"Müller, Hansjörg Gerhard Georg",MdB_Mueller_AfD,AfD,112,111,99.11
-"Müller-Rosentritt, Frank",theliberalfrank,FDP,276,263,95.29
-"Neumann, Prof. Dr. Martin",_MartinNeumann,FDP,1368,1019,74.49
-"Rottmann, Dr. Manuela",ManuelaRottman,Bündnis 90/Die Grünen,1282,1212,94.54
-"Alt, Renata",RenataAlt_MdB,FDP,546,467,85.53
-"Dassler, Britta",BrittaDassler,FDP,40,39,97.5
-"Klein, Karsten",MdBKlein,FDP,288,260,90.28
-"Westig, Nicole",NicoleWestig,FDP,131,100,76.34
-"Völlers, Marja-Liisa",MarjaVoellers,SPD,383,304,79.37
-"Herbrand, Markus",HerbrandMarkus,FDP,287,213,74.22
-"Ihnen, Ulla",ullaihnen,FDP,118,91,77.12
-"Kießling, Michael",Kiessling_MdB,CSU,10,10,100.0
-"Lechte, Ulrich",ulrichlechte,FDP,290,265,91.38
-"Ludwig, Daniela",DaniLudwigMdB,CSU,1165,834,71.59
-"Mohamed Ali, Amira",Amira_M_Ali,Die Linke,188,178,94.68
-"Ploß, Dr. Christoph ",christophploss,CDU,498,467,93.78
-"Schlund, Dr. Robby",DrRobbySchlund,AfD,0,0,0
-"Röttgen, Dr. Norbert",n_roettgen,CDU,1768,1580,89.37
-"Sauter, Christian",Chr_Sauter,FDP,8,8,100.0
-"Seestern-Pauly, Matthias",mseesternpauly,FDP,41,36,87.8
-"Throm, Alexander",alexander_throm,CDU,130,96,73.85
-"Malsack-Winkemann, Dr. Birgit",MalsackWinkeman,AfD,198,198,100.0
-"Bauer, Nicole",nicole_ae_bauer,FDP,166,133,80.12
-"Esdar, Wiebke",wiebkeesdar1,SPD,0,0,0
-"Moll, Claudia",ClaudiaMollMdB,SPD,13,11,84.62
-"Rachel, Thomas",_ThomasRachel,CDU,33,30,90.91
-"Tatti, Jessica",jessica_tatti,Die Linke,6,6,100.0
-"Ferschl, Susanne",SusanneFerschl,Die Linke,625,527,84.32
-"Heidenblut, Dirk",DHeidenblut,SPD,5,5,100.0
-"Hoffmann, Dr. Christoph",HoffmannForest,FDP,2448,1553,63.44
-"Tillmann, Antje",AntjeTillmann,CDU,196,137,69.9
-"Westphal, Bernd",BerndWestphal4,SPD,60,42,70.0
-"Maag, Karin",MaagKarin,CDU,69,64,92.75
-"Ryglewski, Sarah",RyglewskiS,SPD,100,81,81.0
-"Hennrich, Michael",MichaelHennric2,CDU,15,15,100.0
-"Motschmann, Elisabeth",ElisabethMotsc1,CDU,92,80,86.96
-"Stegemann, Albert",StegemannAlbert,CDU,25,17,68.0
-"Mackensen, Isabel",IsabelMackensen,SPD,61,49,80.33
-"Heidt, Peter",PeterHeidtFDP,FDP,226,179,79.2
-"Connemann, Gitta",gitta_connemann,CDU,195,149,76.41
-"Fahimi, Yasmin",FahimiYasmin,SPD,151,134,88.74
-"Gnodtke, Eckhard",EckhardGnodtke,CDU,71,71,100.0
-"Patzelt, Martin",MPatzeltCDU,CDU,65,56,86.15
-"Kulitz, Alexander",AKulitz,FDP,49,44,89.8
-"Rützel, Bernd",ruetzelbernd,SPD,0,0,0
-"Baumann, Dr. Bernd",BerndBaumannAfD,AfD,53,51,96.23
-"Frei, Thorsten",thorsten_frei,CDU,18,17,94.44
-"Grundl, Erhard",Erhard_Grundl,Bündnis 90/Die Grünen,282,228,80.85
-"Hohmann, Martin",HohmannMdb,AfD,106,106,100.0
-"Bubendorfer-Licht, Sandra",Bubendorferfdp,FDP,279,221,79.21
-"Martens, Dr. Jürgen",juergen_martens,FDP,49,47,95.92
-"Bach, Bela",bela_bach,SPD,129,108,83.72
-"Freitag, Dagmar",DagmarFreitag13,SPD,1335,881,65.99
-"Weingarten, Joe",DrJoeWeingarten,SPD,197,152,77.16
-"Schneidewind-Hartnagel, Charlotte",charlotte_mdb,Bündnis 90/Die Grünen,20,18,90.0
-"Zickenheiner, Gerhard",GZickenheiner,Bündnis 90/Die Grünen,111,105,94.59
-"Monstadt, Dietrich",MdBMonstadt,CDU,0,0,0
-"Vries, Christoph de",VriesChristoph,CDU,104,81,77.88
-"Nölke, Matthias",Matthiasnoelke,FDP,64,50,78.12
-"Martin, Dorothee",Doro_Martin,SPD,605,498,82.31
-"Baradari, Nezahat",BaradariNezahat,SPD,0,0,0
-"Lehmann, Sylvia",LehmannSpd,SPD,0,0,0
-"Hilse, Karsten",HilseMdb,AfD,1,1,100.0
-"Huber, Johannes",HuberMdB,AfD,167,139,83.23
-"Krichbaum, Gunther",GuntherKrichba3,CDU,19,19,100.0
-"Ludwig, Saskia",SaskiaLudwig17,CDU,408,273,66.91
-"Möller, Siemtje",SiemtjeMdB,SPD,326,241,73.93
-"Otten, Gerold",Gerold_Otten,AfD,73,71,97.26
-"Kramp-Karrenbauer, Annegret",akk,CDU,210,171,81.43
-"Klöckner, Julia",JuliaKloeckner,CDU,629,515,81.88
-"Schulze, Svenja",SvenjaSchulze68,SPD,418,312,74.64
-"Söder, Markus",Markus_Soeder,CSU,549,495,90.16
-"Walter-Borjans, Norbert",NowaboFM,SPD,782,692,88.49
-"Meuthen, Prof. Dr. Norbert",Joerg_Meuthen,AFD,351,345,98.29
-"Beck, Volker",Volker_Beck,Bündnis 90/Die Grünen,5141,4389,85.37
-"Polenz, Ruprecht",polenz_r,CDU,13199,11637,88.17
-"Kühnert, Kevin",KuehniKev,SPD,3243,3039,93.71
-"Stegner, Ralf",Ralf_Stegner,SPD,4253,3581,84.2
+name,screen_name,followers,verified,party,total_tweets_found,tweets_by_politician,ratio_own_tweets,total_german_tweets,german_tweets_by_politician,tweets_by_annotated_language,replies_by_politician,replies_by_politician_to_self,replies_by_politician_to_others,ratio_replies_to_own_tweets,total_likes,mean_likes,median_likes,total_retweets,mean_retweets,median_retweets,total_replies_to,mean_replies_to,median_replies_to
+"Altmaier, Peter",peteraltmaier,291701,True,CDU,299,254,84.95,270,227,"{'de': 227, 'en': 16, 'it': 1, 'fr': 3, 'und': 5, 'nl': 2}",161,0,161,63.39,40796,160.61417322834646,24.5,3625,14.271653543307087,2.0,20702,81.50393700787401,16.0
+"Annen, Niels",NielsAnnen,13730,True,SPD,1020,767,75.2,633,459,"{'de': 459, 'es': 22, 'und': 96, 'en': 183, 'fr': 4, 'ru': 1, 'sv': 1, 'in': 1}",131,28,103,17.08,23469,30.598435462842243,13,4930,6.427640156453716,2,2454,3.1994784876140807,1
+"Baerbock, Annalena",ABaerbock,113502,True,Bündnis 90/Die Grünen,355,296,83.38,311,267,"{'de': 267, 'en': 14, 'und': 10, 'es': 1, 'fr': 2, 'fi': 1, 'sv': 1}",130,42,88,43.92,146709,495.6385135135135,187.5,18530,62.601351351351354,15.0,25226,85.22297297297297,20.5
+"Bahr, Ulrike",MdB_Ulrike_Bahr,952,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Bär, Dorothee",DoroBaer,99831,True,CSU,1183,1026,86.73,901,764,"{'de': 764, 'et': 2, 'en': 61, 'und': 176, 'nl': 2, 'es': 2, 'fr': 4, 'sv': 2, 'tr': 2, 'cy': 1, 'tl': 2, 'ht': 1, 'in': 2, 'pt': 1, 'hu': 1, 'da': 2, 'is': 1}",791,2,789,77.1,46479,45.301169590643276,7.0,3299,3.215399610136452,0.0,5742,5.5964912280701755,1.0
+"Bareiß, Thomas",Thomas_Bareiss,13199,True,CDU,946,784,82.88,897,752,"{'de': 752, 'und': 13, 'en': 16, 'lt': 1, 'sv': 2}",308,23,285,39.29,18398,23.466836734693878,7.0,2942,3.752551020408163,0.0,7378,9.410714285714286,2.0
+"Bartke, Dr. Matthias",matthiasbartke,3574,True,SPD,56,52,92.86,55,51,"{'de': 51, 'und': 1}",14,13,1,26.92,555,10.673076923076923,3.0,75,1.4423076923076923,0.5,93,1.7884615384615385,1.0
+"Bartol, Sören",soerenbartol,4864,True,SPD,281,228,81.14,244,192,"{'und': 29, 'de': 192, 'en': 7}",135,15,120,59.21,6829,29.95175438596491,5.5,744,3.263157894736842,0.0,685,3.004385964912281,1.0
+"Bartsch, Dr. Dietmar",DietmarBartsch,65645,True,Die Linke,1038,828,79.77,997,796,"{'de': 796, 'und': 20, 'en': 6, 'sv': 3, 'da': 1, 'no': 1, 'lt': 1}",218,6,212,26.33,167278,202.02657004830917,115.5,27424,33.1207729468599,17.0,18096,21.855072463768117,11.0
+"Bas, Bärbel",baerbelbas,5454,True,SPD,744,593,79.7,667,520,"{'de': 520, 'und': 58, 'en': 12, 'sv': 1, 'lt': 1, 'et': 1}",200,8,192,33.73,12760,21.5177065767285,11,1683,2.8381112984822936,0,1702,2.8701517706576727,1
+"Beermann, Maik",MaikBeermann,2850,True,CDU,145,100,68.97,134,91,"{'de': 91, 'fr': 1, 'en': 4, 'nl': 1, 'tr': 2, 'und': 1}",17,0,17,17.0,975,9.75,3.0,100,1,0.0,163,1.63,1.0
+"Behrens, Manfred",Manfredbehrens,1015,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Benning, Sybille",SybilleBenning,541,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Bilger, Steffen",SteffenBilger,5144,True,CDU,218,166,76.15,206,158,"{'de': 158, 'en': 4, 'und': 4}",45,1,44,27.11,3841,23.13855421686747,11.0,416,2.5060240963855422,0.0,405,2.4397590361445785,1.0
+"Binding, Lothar",Lothar_Binding,6998,True,SPD,96,92,95.83,89,85,"{'de': 85, 'en': 3, 'und': 4}",50,1,49,54.35,1660,18.043478260869566,3.0,241,2.619565217391304,0.0,203,2.2065217391304346,1.0
+"Birkwald, Matthias W.",MWBirkwald,4749,True,Die Linke,106,96,90.57,101,92,"{'de': 92, 'und': 4}",37,4,33,38.54,1164,12.125,4.0,306,3.1875,0.5,111,1.15625,1.0
+"Brantner, Dr. Franziska",fbrantner,9820,True,Bündnis 90/Die Grünen,987,841,85.21,722,633,"{'de': 633, 'und': 48, 'en': 125, 'fr': 15, 'es': 4, 'it': 7, 'in': 1, 'sv': 1, 'pt': 2, 'uk': 1, 'pl': 1, 'eu': 1, 'et': 1, 'ru': 1}",323,99,224,38.41,18724,22.26397146254459,8,4691,5.577883472057075,1,1950,2.318668252080856,1
+"Braun, Dr. Helge",HBraun,28240,True,CDU,86,78,90.7,82,74,"{'de': 74, 'und': 3, 'it': 1}",30,9,21,38.46,11040,141.53846153846155,33.0,2095,26.858974358974358,4.5,1692,21.692307692307693,3.5
+"Brehmer, Heike",HeikeBrehmerMdB,1579,True,CDU,46,43,93.48,46,43,{'de': 43},1,0,1,2.33,282,6.558139534883721,6,57,1.3255813953488371,1,17,0.3953488372093023,0
+"Brinkhaus, Ralph",rbrinkhaus,22040,True,CDU,141,140,99.29,140,139,"{'de': 139, 'fr': 1}",58,57,1,41.43,8211,58.65,28.5,1291,9.221428571428572,6.0,2551,18.22142857142857,6.5
+"Brugger, Agnieszka",agnieszka_mdb,11182,True,Bündnis 90/Die Grünen,437,378,86.5,409,358,"{'und': 8, 'de': 358, 'nl': 1, 'en': 10, 'pl': 1}",174,85,89,46.03,8604,22.761904761904763,6.0,911,2.4100529100529102,1.0,820,2.1693121693121693,1.0
+"Brunner, Dr. Karl-Heinz",BrunnerGanzOhr,1430,False,SPD,176,150,85.23,168,144,"{'de': 144, 'und': 1, 'da': 1, 'en': 3, 'lt': 1}",11,6,5,7.33,1033,6.886666666666667,4.0,194,1.2933333333333332,1.0,446,2.973333333333333,0.0
+"Buchholz, Christine",ch_buchholz,8924,True,Die Linke,254,238,93.7,250,235,"{'de': 235, 'en': 1, 'und': 1, 'fr': 1}",1,1,0,0.42,6578,27.638655462184875,15.0,1838,7.722689075630252,4.0,797,3.3487394957983194,1.0
+"Bülow, Marco",marcobuelow,26085,True,Fraktionslos,1833,1655,90.29,1757,1584,"{'en': 12, 'de': 1584, 'pl': 1, 'und': 47, 'tl': 2, 'nl': 3, 'it': 1, 'fr': 2, 'in': 1, 'cs': 1, 'cy': 1}",898,195,703,54.26,149590,90.38670694864048,24,28183,17.029003021148036,3,7470,4.513595166163142,1
+"Castellucci, Prof. Dr. Lars",larscastellucci,5561,True,SPD,424,383,90.33,381,346,"{'de': 346, 'en': 9, 'und': 19, 'es': 2, 'it': 3, 'tl': 1, 'et': 1, 'no': 1, 'eu': 1}",168,22,146,43.86,10885,28.42036553524804,7,1756,4.584856396866841,1,1049,2.7389033942558747,1
+"Dagdelen, Sevim",SevimDagdelen,34236,True,Die Linke,419,370,88.31,366,332,"{'de': 332, 'und': 13, 'el': 2, 'en': 16, 'fr': 4, 'es': 1, 'no': 1, 'th': 1}",95,24,71,25.68,31317,84.64054054054054,62.5,11043,29.845945945945946,21.0,2717,7.3432432432432435,4.0
+"De Ridder, Dr. Daniela",DeRidder_MdB,1785,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Dehm, Dr. Diether",Diether_Dehm,6731,False,Die Linke,240,226,94.17,232,220,"{'de': 220, 'en': 3, 'und': 2, 'no': 1}",11,7,4,4.87,13645,60.376106194690266,38.0,7435,32.89823008849557,27.0,1156,5.115044247787611,2.0
+"Deligöz, Ekin",ekindeligoez,8247,True,Bündnis 90/Die Grünen,748,600,80.21,707,565,"{'de': 565, 'und': 17, 'es': 1, 'et': 1, 'no': 1, 'en': 14, 'tr': 1}",113,27,86,18.83,7766,12.943333333333333,5.0,1221,2.035,0.0,616,1.0266666666666666,0.0
+"Diaby, Dr. Karamba",KarambaDiaby,50977,True,SPD,122,116,95.08,118,113,"{'de': 113, 'en': 2, 'tr': 1}",25,3,22,21.55,245657,2117.7327586206898,404.0,27176,234.27586206896552,25.0,8911,76.81896551724138,12.5
+"Dittmar, Sabine",dittmarsabine,1195,False,SPD,32,28,87.5,30,26,"{'de': 26, 'und': 2}",5,0,5,17.86,280,10,5.0,50,1.7857142857142858,1.0,62,2.2142857142857144,0.0
+"Dörner, Katja",katjadoerner,14591,True,Bündnis 90/Die Grünen,998,807,80.86,929,748,"{'de': 748, 'und': 42, 'en': 14, 'no': 1, 'ht': 1, 'pt': 1}",119,3,116,14.75,39441,48.87360594795539,16,4066,5.038413878562578,1,2434,3.0161090458488227,1
+"Dröge, Katharina",katdro,6245,True,Bündnis 90/Die Grünen,472,387,81.99,437,360,"{'de': 360, 'und': 15, 'en': 10, 'fr': 2}",135,68,67,34.88,9746,25.183462532299743,8,1306,3.3746770025839794,0,774,2,1
+"Durz, Hansjörg",Hansjoerg_Durz,738,True,CSU,9,8,88.89,9,8,{'de': 8},5,4,1,62.5,30,3.75,2.5,6,0.75,0.0,21,2.625,1.0
+"Ebner, Harald",ebner_sha,4931,True,Bündnis 90/Die Grünen,204,170,83.33,195,163,"{'de': 163, 'und': 6, 'en': 1}",82,1,81,48.24,1069,6.288235294117647,2.0,245,1.4411764705882353,0.0,459,2.7,1.0
+"Ernst, Klaus",ernst_klaus,5929,True,Die Linke,140,115,82.14,139,115,{'de': 115},14,3,11,12.17,3850,33.47826086956522,11,995,8.652173913043478,3,818,7.113043478260869,1
+"Esken, Saskia",EskenSaskia,82716,True,SPD,3828,3651,95.38,3562,3396,"{'de': 3396, 'und': 169, 'pt': 1, 'en': 58, 'es': 3, 'nl': 3, 'da': 1, 'in': 1, 'pl': 2, 'cy': 1, 'fr': 5, 'lt': 1, 'tl': 2, 'it': 1, 'sv': 2, 'no': 2, 'tr': 1, 'sl': 1, 'et': 1}",3119,270,2849,85.43,646242,177.00410846343468,14,52138,14.280471103807177,0,96270,26.36811832374692,3
+"Feiler, Uwe",UweFe,183,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Felgentreu, Dr. Fritz",fritzfelgentreu,7527,True,SPD,2983,2519,84.45,2252,1949,"{'de': 1949, 'und': 209, 'en': 246, 'in': 8, 'nl': 7, 'ru': 11, 'ro': 4, 'fr': 16, 'pt': 8, 'et': 4, 'pl': 1, 'ht': 2, 'it': 11, 'tl': 5, 'ca': 9, 'no': 6, 'cs': 3, 'sv': 2, 'da': 5, 'es': 6, 'lt': 1, 'tr': 2, 'el': 2, 'hu': 1, 'eu': 1}",1759,65,1694,69.83,55251,21.933703850734418,5,5276,2.094481937276697,0,6160,2.445414847161572,1
+"Fischer, Axel",Axel_Fischer,803,False,CDU,91,91,100.0,81,81,"{'de': 81, 'eu': 1, 'no': 3, 'und': 6}",0,0,0,0.0,25,0.27472527472527475,0,3,0.03296703296703297,0,9,0.0989010989010989,0
+"Franke, Dr. Edgar",FrankeEdgar,2406,True,SPD,26,25,96.15,25,24,"{'de': 24, 'und': 1}",3,0,3,12.0,104,4.16,3,18,0.72,0,13,0.52,0
+"Freese, Ulrich",UliFreese,743,True,SPD,30,28,93.33,30,28,{'de': 28},1,1,0,3.57,125,4.464285714285714,3.0,18,0.6428571428571429,0.0,8,0.2857142857142857,0.0
+"Frieser, Michael",MichaelFrieser,934,True,CSU,20,19,95.0,20,19,{'de': 19},4,4,0,21.05,215,11.31578947368421,5,31,1.631578947368421,1,54,2.8421052631578947,3
+"Fuchtel, Hans-Joachim",fuchtel,2269,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Gastel, Matthias",MatthiasGastel,6503,False,Bündnis 90/Die Grünen,477,445,93.29,472,440,"{'de': 440, 'und': 4, 'sv': 1}",191,19,172,42.92,10383,23.33258426966292,9,2089,4.69438202247191,1,930,2.0898876404494384,1
+"Gebhart, Dr. Thomas",thomasgebhart,2812,True,CDU,81,76,93.83,77,72,"{'und': 4, 'de': 72}",10,6,4,13.16,611,8.039473684210526,2.5,112,1.4736842105263157,0.0,167,2.1973684210526314,0.0
+"Gehring, Kai",KaiGehring,9777,True,Bündnis 90/Die Grünen,1645,1392,84.62,1555,1329,"{'de': 1329, 'nl': 1, 'und': 49, 'pt': 1, 'es': 1, 'en': 7, 'pl': 1, 'tr': 1, 'fi': 1, 'fr': 1}",353,208,145,25.36,29517,21.204741379310345,10.0,4485,3.2219827586206895,1.0,1896,1.3620689655172413,1.0
+"Gerdes, Michael",GerdesMdB,185,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Gohlke, Nicole",NicoleGohlke,7723,True,Die Linke,786,752,95.67,773,741,"{'de': 741, 'sv': 2, 'und': 5, 'en': 3, 'no': 1}",48,1,47,6.38,14513,19.299202127659573,9.0,4001,5.320478723404255,3.0,1067,1.4188829787234043,0.5
+"Göring-Eckardt, Katrin",GoeringEckardt,175693,True,Bündnis 90/Die Grünen,941,794,84.38,861,724,"{'und': 46, 'de': 724, 'en': 14, 'pt': 2, 'fr': 1, 'fi': 1, 'uk': 1, 'lt': 1, 'sv': 2, 'ro': 1, 'da': 1}",361,107,254,45.47,146367,184.3413098236776,47.0,23532,29.63727959697733,5.0,39502,49.750629722921914,8.0
+"Glöckner, Angelika",A_Gloeckner,1085,True,SPD,203,133,65.52,179,110,"{'de': 110, 'und': 21, 'en': 2}",15,1,14,11.28,700,5.2631578947368425,2,68,0.5112781954887218,0,132,0.9924812030075187,0
+"Griese, Kerstin",KerstinGriese,6705,True,SPD,678,554,81.71,529,420,"{'de': 420, 'und': 101, 'en': 21, 'sv': 5, 'it': 1, 'nl': 2, 'ro': 1, 'lv': 1, 'no': 2}",325,18,307,58.66,5339,9.637184115523466,3.0,609,1.0992779783393503,0.0,619,1.1173285198555956,0.0
+"Gröhe, Hermann",groehe,49843,True,CDU,580,456,78.62,417,343,"{'de': 343, 'en': 103, 'und': 8, 'nl': 1, 'sv': 1}",70,5,65,15.35,11374,24.94298245614035,8.0,1738,3.81140350877193,1.0,2135,4.682017543859649,1.0
+"Groß, Michael ",michaelgrossmdb,1122,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grosse-Brömer, Michael",MGrosseBroemer,16029,True,CDU,911,787,86.39,864,749,"{'de': 749, 'en': 15, 'da': 3, 'und': 13, 'eu': 2, 'sv': 1, 'fi': 1, 'es': 2, 'nl': 1}",558,3,555,70.9,20915,26.575603557814485,5,2181,2.7712833545108007,0,2990,3.799237611181703,1
+"Grötsch, Uli",UliGroetsch,3370,True,SPD,328,327,99.7,311,310,"{'de': 310, 'en': 7, 'und': 7, 'pt': 1, 'nl': 1, 'fi': 1}",125,3,122,38.23,12318,37.669724770642205,14,1774,5.425076452599388,1,1766,5.400611620795107,1
+"Grübel, Markus",GruebelMdb,782,True,CDU,44,41,93.18,38,35,"{'de': 35, 'en': 5, 'und': 1}",9,1,8,21.95,423,10.317073170731707,8,86,2.097560975609756,1,44,1.0731707317073171,1
+"Güntzler, Fritz",FGuentzler,397,False,CDU,2,2,100.0,2,2,{'de': 2},0,0,0,0.0,28,14,14.0,0,0,0.0,3,1.5,1.5
+"Gutting, Olav",olavgutting,3022,True,CDU,226,220,97.35,214,210,"{'de': 210, 'en': 6, 'und': 4}",59,0,59,26.82,2901,13.186363636363636,4.0,361,1.6409090909090909,0.0,355,1.6136363636363635,1.0
+"Gysi, Dr. Gregor",GregorGysi,397924,True,Die Linke,101,91,90.1,101,91,{'de': 91},10,10,0,10.99,105521,1159.5714285714287,607,14874,163.45054945054946,72,7495,82.36263736263736,50
+"Hahn, Florian",hahnflo,6390,True,CSU,927,642,69.26,879,603,"{'de': 603, 'et': 1, 'en': 13, 'cs': 1, 'fr': 1, 'und': 16, 'da': 1, 'nl': 1, 'in': 1, 'sv': 1, 'eu': 2, 'no': 1}",115,15,100,17.91,92353,143.85202492211837,56.0,14869,23.160436137071652,8.0,8676,13.514018691588785,4.0
+"Hajduk, Anja",HajdukBundestag,1880,True,Bündnis 90/Die Grünen,38,23,60.53,38,23,{'de': 23},3,0,3,13.04,165,7.173913043478261,3,43,1.8695652173913044,1,35,1.5217391304347827,0
+"Hakverdi, Metin",MetinHakverdi,4058,False,SPD,504,416,82.54,361,309,"{'de': 309, 'en': 81, 'und': 15, 'fr': 4, 'nl': 2, 'sv': 1, 'es': 1, 'et': 1, 'tl': 1, 'lv': 1}",135,20,115,32.45,2993,7.194711538461538,3.0,233,0.5600961538461539,0.0,368,0.8846153846153846,0.0
+"Hänsel, Heike",HeikeHaensel,7903,True,Die Linke,353,294,83.29,306,279,"{'de': 279, 'en': 3, 'und': 5, 'cy': 1, 'es': 4, 'in': 2}",58,32,26,19.73,10984,37.36054421768708,22.5,5407,18.391156462585034,9.0,731,2.4863945578231292,1.0
+"Hardt, Jürgen",juergenhardt,5676,True,CDU,325,269,82.77,254,217,"{'de': 217, 'und': 2, 'en': 48, 'fr': 1, 'iw': 1}",18,13,5,6.69,5026,18.684014869888475,8,1651,6.137546468401487,1,633,2.353159851301115,1
+"Hartmann, Sebastian",sebast_hartmann,6970,True,SPD,342,265,77.49,306,236,"{'de': 236, 'und': 15, 'en': 4, 'ht': 1, 'nl': 1, 'ru': 2, 'tr': 1, 'da': 2, 'sv': 1, 'fr': 1, 'eu': 1}",83,0,83,31.32,4951,18.683018867924527,7,528,1.9924528301886792,0,354,1.3358490566037735,1
+"Haßelmann, Britta",BriHasselmann,20461,True,Bündnis 90/Die Grünen,1172,984,83.96,1152,973,"{'de': 973, 'und': 10, 'en': 1}",122,47,75,12.4,90778,92.2540650406504,41.0,13399,13.616869918699187,4.0,6389,6.492886178861789,2.0
+"Hauer, Matthias",MatthiasHauer,9465,True,CDU,5725,5176,90.41,5012,4493,"{'de': 4493, 'und': 507, 'sv': 24, 'pt': 20, 'nl': 28, 'lt': 3, 'en': 59, 'eu': 3, 'fr': 10, 'tr': 4, 'in': 3, 'no': 5, 'pl': 1, 'es': 4, 'tl': 3, 'da': 3, 'et': 2, 'hu': 2, 'lv': 2}",3668,213,3455,70.87,191593,37.01564914992272,4.0,19506,3.76854714064915,0.0,23813,4.600656877897991,1.0
+"Hauptmann, Mark",MarkHauptmann,3500,True,CDU,263,155,58.94,223,136,"{'de': 136, 'en': 19}",5,0,5,3.23,8567,55.270967741935486,10,1649,10.638709677419355,2,1255,8.096774193548388,1
+"Heider, Dr. Matthias",MatthiasHeider,1660,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Heil, Hubertus",hubertus_heil,84927,True,SPD,271,269,99.26,245,243,"{'de': 243, 'und': 19, 'en': 3, 'sv': 2, 'da': 1, 'lv': 1}",78,5,73,29.0,58110,216.02230483271376,78,6482,24.096654275092938,10,6635,24.66542750929368,12
+"Heil, Mechthild",MechthildHeil,3302,True,CDU,29,25,86.21,29,25,{'de': 25},6,0,6,24.0,181,7.24,4,22,0.88,0,31,1.24,1
+"Heinrich, Frank",FrankHeinrich,1921,True,CDU,9,9,100.0,9,9,{'de': 9},0,0,0,0.0,12,1.3333333333333333,1,4,0.4444444444444444,0,7,0.7777777777777778,1
+"Heinrich, Gabriela",GaHeinrich,973,False,SPD,1,1,100.0,1,1,{'de': 1},0,0,0,0.0,5,5,5,0,0,0,2,2,2
+"Held, Marcus",MarcusHeld_SPD,865,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hellmich, Wolfgang",HellmichMdB,2231,True,SPD,131,83,63.36,124,79,"{'fr': 1, 'de': 79, 'und': 3}",19,1,18,22.89,956,11.518072289156626,5,83,1,0,84,1.0120481927710843,0
+"Herzog, Gustav",GustavHerzogMdB,690,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hirte, Christian",ChristianHirte,6609,True,CDU,474,300,63.29,430,261,"{'en': 9, 'de': 261, 'und': 27, 'nl': 1, 'it': 1, 'no': 1}",16,8,8,5.33,13880,46.266666666666666,9.0,2224,7.413333333333333,1.0,5809,19.363333333333333,1.0
+"Hirte, Prof. Dr. Heribert",HHirte,6402,True,CDU,1591,1295,81.4,1517,1242,"{'de': 1242, 'und': 21, 'en': 21, 'es': 1, 'it': 2, 'et': 1, 'fr': 4, 'ca': 1, 'nl': 1, 'da': 1}",870,150,720,67.18,9815,7.579150579150579,2,1498,1.1567567567567567,0,1903,1.4694980694980695,1
+"Hitschler, Thomas",ThomasHitschler,4597,True,SPD,1114,1015,91.11,1010,916,"{'de': 916, 'da': 3, 'en': 19, 'und': 58, 'fr': 2, 'sv': 5, 'in': 2, 'ru': 1, 'nl': 2, 'hu': 1, 'lt': 3, 'lv': 1, 'pl': 1, 'es': 1}",667,17,650,65.71,11182,11.016748768472906,3,759,0.7477832512315271,0,1232,1.2137931034482758,1
+"Hofreiter, Dr. Anton",ToniHofreiter,11654,True,Bündnis 90/Die Grünen,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hunko, Andrej",AndrejHunko,9235,True,Die Linke,976,883,90.47,906,848,"{'de': 848, 'und': 15, 'en': 19, 'ru': 1}",257,110,147,29.11,15334,17.365798414496037,7,8310,9.411098527746319,3,1354,1.533408833522084,1
+"Janecek, Dieter",DJanecek,11552,True,Bündnis 90/Die Grünen,2607,2271,87.11,2329,2015,"{'de': 2015, 'en': 87, 'und': 126, 'cy': 2, 'pt': 5, 'lt': 9, 'sv': 9, 'sl': 1, 'fr': 3, 'no': 1, 'nl': 3, 'da': 2, 'in': 1, 'et': 2, 'eu': 1, 'is': 1, 'es': 1, 'tr': 2}",1310,47,1263,57.68,36505,16.074416556583003,4,5889,2.593130779392338,0,5927,2.6098634962571556,1
+"Jarzombek, Thomas",tj_tweets,15951,True,CDU,449,421,93.76,409,387,"{'de': 387, 'und': 8, 'en': 24, 'sv': 1, 'fr': 1}",202,4,198,47.98,15648,37.1686460807601,4,2072,4.921615201900238,0,1368,3.2494061757719717,1
+"Jelpke, Ulla",UllaJelpke,13473,False,Die Linke,269,246,91.45,265,243,"{'de': 243, 'fr': 1, 'und': 2}",32,32,0,13.01,5155,20.95528455284553,13.0,1815,7.378048780487805,4.0,3081,12.524390243902438,3.0
+"Jurk, Thomas",thomas_jurk,240,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Kaczmarek, Oliver",KaczmarekOliver,3452,True,SPD,198,150,75.76,194,148,"{'de': 148, 'en': 2}",64,0,64,42.67,2069,13.793333333333333,6.0,285,1.9,0.0,201,1.34,1.0
+"Karliczek, Anja",AnjaKarliczek,11749,True,CDU,5,3,60.0,5,3,{'de': 3},0,0,0,0.0,73,24.333333333333332,14,10,3.3333333333333335,4,16,5.333333333333333,2
+"Kaufmann, Dr. Stefan",StefanKaufmann,6280,True,CDU,688,634,92.15,657,612,"{'de': 612, 'nl': 6, 'und': 5, 'en': 8, 'no': 1, 'es': 1, 'fr': 1}",182,7,175,28.71,8345,13.162460567823343,8.0,856,1.3501577287066246,0.0,1265,1.9952681388012619,0.0
+"Kekeritz, Uwe",UweKekeritz,3055,False,Bündnis 90/Die Grünen,282,229,81.21,266,220,"{'de': 220, 'und': 5, 'es': 2, 'en': 2}",26,13,13,11.35,1183,5.165938864628821,3,306,1.3362445414847162,0,86,0.37554585152838427,0
+"Kemmer, Ronja",RonjaKemmer,2914,True,CDU,29,21,72.41,26,19,"{'de': 19, 'en': 1, 'und': 1}",6,1,5,28.57,265,12.619047619047619,7,24,1.1428571428571428,0,32,1.5238095238095237,1
+"Kiesewetter, Roderich",RKiesewetter,11041,True,CDU,657,627,95.43,585,560,"{'de': 560, 'und': 20, 'en': 41, 'fr': 1, 'lt': 1, 'ht': 1, 'et': 1, 'lv': 1, 'sv': 1}",417,42,375,66.51,9483,15.124401913875598,4,1585,2.5279106858054226,0,1624,2.5901116427432216,1
+"Kindler, Sven-Christian",sven_kindler,16149,True,Bündnis 90/Die Grünen,1858,1651,88.86,1676,1504,"{'de': 1504, 'und': 68, 'en': 48, 'pt': 9, 'pl': 1, 'nl': 4, 'lt': 2, 'es': 3, 'fr': 6, 'eu': 2, 'no': 1, 'da': 1, 'ca': 1, 'et': 1}",854,213,641,51.73,122051,73.92549969715324,15,21420,12.973955178679589,1,6154,3.7274379164142943,1
+"Kipping, Katja",katjakipping,120945,True,Die Linke,1074,917,85.38,1038,890,"{'de': 890, 'en': 2, 'und': 21, 'tr': 2, 'in': 1, 'da': 1}",255,66,189,27.81,152900,166.73936750272628,59,24409,26.61832061068702,9,21212,23.1319520174482,6
+"Kiziltepe, Cansel",CanselK,7205,True,SPD,839,635,75.69,779,588,"{'de': 588, 'und': 34, 'en': 6, 'in': 1, 'tr': 2, 'sl': 1, 'no': 1, 'it': 1, 'da': 1}",234,41,193,36.85,14122,22.23937007874016,10,2278,3.58740157480315,1,2446,3.851968503937008,1
+"Klare, Arno",arnoklare,1196,True,SPD,49,48,97.96,48,47,"{'de': 47, 'und': 1}",2,0,2,4.17,208,4.333333333333333,2.0,39,0.8125,0.0,71,1.4791666666666667,0.0
+"Klein, Volkmar",VolkmarKlein,1690,True,CDU,4,3,75.0,3,3,{'de': 3},0,0,0,0.0,10,3.3333333333333335,5,1,0.3333333333333333,0,2,0.6666666666666666,0
+"Klein-Schmeink, Maria",MariaKlSchmeink,6031,True,Bündnis 90/Die Grünen,1932,1498,77.54,1890,1460,"{'de': 1460, 'ht': 1, 'und': 23, 'fr': 2, 'it': 1, 'no': 5, 'en': 3, 'lt': 2, 'et': 1}",681,39,642,45.46,18936,12.640854472630174,5.0,3477,2.32109479305741,0.0,1786,1.1922563417890522,1.0
+"Klingbeil, Lars",larsklingbeil,76469,True,SPD,821,658,80.15,709,566,"{'de': 566, 'und': 58, 'en': 19, 'in': 2, 'eu': 1, 'fr': 1, 'es': 2, 'nl': 2, 'lt': 2, 'no': 1, 'sv': 1, 'tl': 2, 'tr': 1}",291,50,241,44.22,336141,510.85258358662617,115.5,23663,35.962006079027354,4.0,31447,47.79179331306991,9.0
+"Koeppen, Jens",JensKoeppen,3484,True,CDU,58,54,93.1,56,52,"{'de': 52, 'und': 2}",6,0,6,11.11,430,7.962962962962963,1.0,104,1.9259259259259258,0.0,86,1.5925925925925926,0.0
+"Kofler, Dr. Bärbel",BaerbelKofler,7068,True,SPD,287,275,95.82,186,179,"{'de': 179, 'en': 87, 'es': 2, 'fr': 1, 'und': 6}",39,39,0,14.18,6503,23.64727272727273,10,2699,9.814545454545454,4,959,3.4872727272727273,1
+"Kolbe, Daniela",danielakolbe,8170,True,SPD,766,734,95.82,745,713,"{'de': 713, 'und': 15, 'en': 3, 'sv': 1, 'nl': 1, 'lt': 1}",545,35,510,74.25,29628,40.36512261580381,2.0,3364,4.583106267029973,0.0,3595,4.897820163487738,1.0
+"Koob, Markus",KoobMar,205,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Korte, Jan",jankortemdb,25927,True,Die Linke,479,411,85.8,467,401,"{'de': 401, 'und': 7, 'en': 3}",63,17,46,15.33,76247,185.51581508515815,85,12687,30.868613138686133,14,6057,14.737226277372264,6
+"Kotting-Uhl, Sylvia",KottingUhl,5426,False,Bündnis 90/Die Grünen,27,25,92.59,26,25,{'de': 25},1,0,1,4.0,375,15,8,128,5.12,1,28,1.12,0
+"Kramme, Anette",AnetteKramme,1076,False,SPD,1,1,100.0,1,1,{'de': 1},1,0,1,100.0,1,1,1,0,0,0,0,0,0
+"Krellmann, Jutta",JuttaKrellmann,3006,True,Die Linke,77,55,71.43,76,55,{'de': 55},13,0,13,23.64,342,6.218181818181818,3,136,2.4727272727272727,1,32,0.5818181818181818,0
+"Krings, Dr. Günter",guenterkrings,1748,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Krischer, Oliver",Oliver_Krischer,13647,True,Bündnis 90/Die Grünen,354,299,84.46,350,297,"{'de': 297, 'und': 1, 'en': 1}",34,8,26,11.37,68650,229.59866220735785,133,18552,62.046822742474916,33,4633,15.494983277591974,10
+"Kruse, Rüdiger",RuedigerKruse,2562,True,CDU,59,58,98.31,58,57,"{'de': 57, 'en': 1}",6,0,6,10.34,367,6.327586206896552,4.0,30,0.5172413793103449,0.0,28,0.4827586206896552,0.0
+"Kühn, Christian",ChrisKuehn_mdb,3277,False,Bündnis 90/Die Grünen,429,330,76.92,414,319,"{'de': 319, 'und': 3, 'fi': 1, 'en': 5, 'es': 1, 'nl': 1}",48,5,43,14.55,3263,9.887878787878789,6.0,762,2.309090909090909,1.5,523,1.584848484848485,0.0
+"Kühn, Stephan",stephankuehn,7291,True,Bündnis 90/Die Grünen,400,341,85.25,380,325,"{'de': 325, 'und': 15, 'no': 1}",163,13,150,47.8,24895,73.00586510263929,9,4723,13.850439882697946,1,1218,3.5718475073313782,1
+"Kühne, Dr. Roy",Dr_Roy_Kuehne,2025,True,CDU,68,65,95.59,66,63,"{'de': 63, 'und': 1, 'da': 1}",6,2,4,9.23,300,4.615384615384615,3,57,0.8769230769230769,0,39,0.6,0
+"Künast, Renate",RenateKuenast,66408,True,Bündnis 90/Die Grünen,5997,4811,80.22,5058,4042,"{'de': 4042, 'en': 206, 'und': 480, 'fr': 13, 'sv': 5, 'da': 5, 'nl': 11, 'tl': 4, 'cy': 1, 'fi': 2, 'in': 10, 'tr': 1, 'pt': 8, 'et': 4, 'is': 1, 'eu': 3, 'hu': 3, 'ca': 3, 'ro': 1, 'es': 3, 'no': 2, 'ht': 2, 'lt': 1}",2536,216,2320,52.71,298487,62.04261068384951,15,32353,6.724797339430472,1,27517,5.719600914570775,2
+"Kurth, Markus",markuskurthmdb,3579,True,Bündnis 90/Die Grünen,92,82,89.13,92,82,{'de': 82},13,9,4,15.85,375,4.573170731707317,2.0,100,1.2195121951219512,0.0,97,1.1829268292682926,0.0
+"Lange, Christian",LangeMdB,5040,True,SPD,286,261,91.26,259,236,"{'de': 236, 'und': 15, 'en': 8, 'fr': 1, 'in': 1}",24,4,20,9.2,2277,8.724137931034482,6,192,0.735632183908046,0,165,0.632183908045977,0
+"Lange, Ulrich",UlrichLange,260,False,CSU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Launert, Dr. Silke",DrLaunert,896,False,CSU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lauterbach, Dr. Karl",Karl_Lauterbach,350361,True,SPD,3375,2714,80.41,3149,2677,"{'de': 2677, 'und': 12, 'en': 23, 'da': 1, 'fr': 1}",712,689,23,26.23,4176723,1538.954679439941,890.0,527591,194.3960943257185,100.0,411922,151.77671333824614,86.0
+"Lay, Caren",CarenLay,9801,True,Die Linke,812,702,86.45,784,681,"{'de': 681, 'lt': 1, 'und': 10, 'en': 4, 'pt': 1, 'fr': 1, 'fi': 2, 'da': 1, 'cy': 1}",211,36,175,30.06,25938,36.94871794871795,16.0,6503,9.263532763532764,4.0,2394,3.41025641025641,1.0
+"Lazar, Monika",monikalazar,6151,True,Bündnis 90/Die Grünen,375,332,88.53,370,329,"{'de': 329, 'et': 1, 'und': 2}",234,2,232,70.48,4602,13.86144578313253,4.0,431,1.2981927710843373,0.0,547,1.6475903614457832,0.0
+"Leidig, Sabine",SabineLeidig,8459,True,Die Linke,338,302,89.35,324,289,"{'de': 289, 'und': 10, 'en': 3}",55,14,41,18.21,47102,155.96688741721854,11.0,13398,44.36423841059602,3.0,1695,5.612582781456954,1.0
+"Leikert, Dr. Katja",KLeikert,5050,True,CDU,753,623,82.74,677,567,"{'de': 567, 'und': 26, 'en': 24, 'fr': 2, 'ht': 1, 'lt': 1, 'fi': 1, 'tr': 1}",155,58,97,24.88,13950,22.391653290529696,10,2102,3.373996789727127,1,3548,5.695024077046549,1
+"Lemke, Steffi",SteffiLemke,14697,True,Bündnis 90/Die Grünen,291,249,85.57,269,228,"{'de': 228, 'und': 18, 'en': 1, 'lt': 1, 'is': 1}",124,12,112,49.8,4328,17.38152610441767,6,748,3.004016064257028,0,291,1.1686746987951808,1
+"Lenz, Dr. Andreas",DerLenzMdB,10087,True,CSU,779,663,85.11,725,628,"{'de': 628, 'pt': 1, 'en': 13, 'fi': 1, 'sv': 1, 'lv': 1, 'und': 13, 'nl': 2, 'tl': 1, 'fr': 1, 'et': 1}",205,4,201,30.92,9626,14.518853695324283,5,927,1.3981900452488687,0,1961,2.957767722473605,1
+"Leutert, Michael",MichaelLeutert,3930,True,Die Linke,11,10,90.91,11,10,{'de': 10},2,2,0,20.0,66,6.6,6.5,24,2.4,1.5,7,0.7,1.0
+"Liebich, Stefan",berlinliebich,25057,True,Die Linke,2336,2150,92.04,1857,1707,"{'de': 1707, 'en': 123, 'und': 261, 'es': 4, 'nl': 5, 'tr': 5, 'eu': 2, 'tl': 4, 'lt': 6, 'it': 2, 'cy': 3, 'da': 4, 'sv': 4, 'et': 1, 'hi': 1, 'no': 4, 'fr': 6, 'ht': 2, 'pl': 1, 'ru': 2, 'is': 1, 'lv': 1, 'in': 1}",1128,209,919,52.47,145425,67.63953488372093,12.0,20571,9.567906976744187,1.0,8752,4.0706976744186045,1.0
+"Lindholz, Andrea",AndreaLindholz,1880,True,CSU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lindner, Dr. Tobias",tobiaslindner,6295,True,Bündnis 90/Die Grünen,291,250,85.91,272,235,"{'de': 235, 'en': 6, 'fr': 4, 'und': 4, 'cy': 1}",125,12,113,50.0,4245,16.98,6.0,367,1.468,0.0,501,2.004,1.0
+"Lötzsch, Dr. Gesine",LoetzschMdB,6262,False,Die Linke,401,322,80.3,392,314,"{'de': 314, 'und': 5, 'es': 1, 'en': 1, 'nl': 1}",19,1,18,5.9,8205,25.481366459627328,9.0,2120,6.583850931677019,3.0,854,2.652173913043478,1.0
+"Luczak, Dr. Jan-Marco",JM_Luczak,5247,True,CDU,1040,890,85.58,1003,860,"{'de': 860, 'en': 9, 'und': 17, 'et': 1, 'fr': 1, 'sv': 1, 'es': 1}",254,10,244,28.54,47449,53.31348314606742,20.0,7555,8.48876404494382,2.0,6750,7.584269662921348,3.0
+"Lutze, Thomas",thlutze,327,False,Die Linke,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Magwas, Yvonne",YvonneMagwas,4069,True,CDU,8,6,75.0,8,6,{'de': 6},4,0,4,66.67,30,5,4.5,2,0.3333333333333333,0.0,2,0.3333333333333333,0.0
+"Manderla, Gisela",ManderlaGisela,1660,True,CDU,144,132,91.67,128,117,"{'de': 117, 'und': 14, 'en': 1}",4,3,1,3.03,157,1.1893939393939394,0.0,31,0.23484848484848486,0.0,53,0.4015151515151515,0.0
+"Mattfeldt, Andreas",AMattfeldt,381,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Mattheis, Hilde",HildeMattheis,13284,True,SPD,417,387,92.81,410,381,"{'de': 381, 'en': 1, 'und': 5}",69,58,11,17.83,37887,97.89922480620154,42,7040,18.191214470284237,7,3465,8.953488372093023,2
+"Meister, Dr. Michael",meister_schafft,3514,True,CDU,372,243,65.32,369,241,"{'de': 241, 'en': 1, 'und': 1}",49,0,49,20.16,571,2.3497942386831276,1,54,0.2222222222222222,0,65,0.2674897119341564,0
+"Metzler, Jan",JanMetzler,2320,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Michelbach, Dr. Hans",hans_michelbach,815,True,CSU,9,9,100.0,8,8,"{'de': 8, 'und': 1}",2,2,0,22.22,44,4.888888888888889,3,12,1.3333333333333333,1,17,1.8888888888888888,1
+"Mihalic, Irene",IreneMihalic,7243,True,Bündnis 90/Die Grünen,410,372,90.73,402,364,"{'de': 364, 'fr': 2, 'und': 4, 'en': 1, 'es': 1}",224,12,212,60.22,17241,46.346774193548384,5.5,3792,10.193548387096774,0.0,1331,3.577956989247312,1.0
+"Mindrup, Klaus",KlausMindrup,1842,True,SPD,324,296,91.36,313,286,"{'de': 286, 'fr': 1, 'und': 8, 'en': 1}",96,59,37,32.43,2702,9.128378378378379,5.0,578,1.9527027027027026,1.0,306,1.0337837837837838,1.0
+"Möhring, Cornelia",Conni_Moehring,4609,True,Die Linke,661,531,80.33,617,496,"{'de': 496, 'en': 8, 'da': 1, 'und': 22, 'tr': 1, 'nl': 1, 'fi': 1, 'pl': 1}",187,13,174,35.22,10611,19.983050847457626,6,2600,4.8964218455743875,1,635,1.1958568738229756,0
+"Möring, Karsten",KarstenMoering,1904,True,CDU,11,9,81.82,11,9,{'de': 9},4,0,4,44.44,9,1,1,1,0.1111111111111111,0,4,0.4444444444444444,0
+"Movassat, Niema",NiemaMovassat,21141,True,Die Linke,5144,4739,92.13,4838,4455,"{'de': 4455, 'nl': 15, 'en': 74, 'und': 135, 'tr': 1, 'no': 8, 'fr': 14, 'sv': 3, 'in': 10, 'it': 1, 'tl': 7, 'da': 3, 'fi': 2, 'ht': 1, 'es': 2, 'lv': 1, 'lt': 2, 'hu': 1, 'fa': 1, 'et': 3}",2941,276,2665,62.06,417459,88.09010339734121,12,66745,14.084194977843428,0,25754,5.434479848069213,1
+"Müller, Bettina",BetMueller,2922,True,SPD,181,180,99.45,173,172,"{'de': 172, 'und': 8}",6,5,1,3.33,1080,6,2.0,229,1.2722222222222221,0.0,173,0.9611111111111111,0.0
+"Müller, Carsten",CarstenMuellers,155,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Müller, Stefan",smuellermdb,8358,True,CSU,305,257,84.26,285,238,"{'de': 238, 'und': 11, 'en': 7, 'et': 1}",64,6,58,24.9,89752,349.2295719844358,51,15375,59.824902723735406,6,15979,62.175097276264594,8
+"Müller-Gemmeke, Beate",GrueneBeate,5393,True,Bündnis 90/Die Grünen,207,166,80.19,205,164,"{'de': 164, 'und': 1, 'en': 1}",26,1,25,15.66,1434,8.63855421686747,5.5,276,1.6626506024096386,0.0,161,0.9698795180722891,0.0
+"Müller, Norbert",Norbert_MdB,2441,True,Die Linke,203,178,87.68,200,175,"{'de': 175, 'und': 3}",54,8,46,30.34,7485,42.050561797752806,6.0,1746,9.808988764044944,1.0,426,2.393258426966292,1.0
+"Neu, Dr. Alexander",AlexanderSNeu,5432,False,Die Linke,365,317,86.85,342,301,"{'de': 301, 'und': 8, 'en': 6, 'tl': 1, 'sv': 1}",104,0,104,32.81,7582,23.917981072555204,13,3005,9.479495268138802,5,1330,4.195583596214511,2
+"Nick, Dr. Andreas",DrAndreasNick,6415,True,CDU,522,441,84.48,399,348,"{'und': 16, 'it': 1, 'de': 348, 'en': 64, 'da': 1, 'fr': 9, 'ca': 2}",218,84,134,49.43,21590,48.956916099773245,8,3128,7.09297052154195,0,4357,9.879818594104309,1
+"Nissen, Ulli",UlliNissen,5086,True,SPD,1327,1086,81.84,1255,1020,"{'und': 43, 'de': 1020, 'en': 17, 'da': 2, 'eu': 2, 'nl': 2}",28,4,24,2.58,8208,7.558011049723757,2.0,720,0.6629834254143646,0.0,2555,2.352670349907919,0.0
+"Nord, Thomas",NordMdb,3882,False,Die Linke,379,358,94.46,359,340,"{'de': 340, 'und': 14, 'en': 3, 'pt': 1}",242,13,229,67.6,2027,5.662011173184357,1.0,456,1.2737430167597765,0.0,220,0.6145251396648045,0.0
+"Notz, Dr. Konstantin von",KonstantinNotz,69703,True,Bündnis 90/Die Grünen,1015,817,80.49,909,735,"{'de': 735, 'und': 43, 'en': 34, 'et': 1, 'in': 1, 'ht': 1, 'pt': 1, 'fi': 1}",215,59,156,26.32,198434,242.8812729498164,57,27040,33.096695226438186,10,10363,12.68421052631579,4
+"Nouripour, Omid",nouripour,19714,True,Bündnis 90/Die Grünen,739,555,75.1,392,290,"{'und': 157, 'de': 290, 'es': 1, 'en': 71, 'fa': 16, 'uk': 1, 'ar': 4, 'sl': 1, 'no': 1, 'cs': 1, 'nl': 2, 'pt': 9, 'it': 1}",111,1,110,20.0,14381,25.91171171171171,11,2351,4.236036036036036,1,1568,2.8252252252252252,1
+"Oellers, Wilfried",WilfriedOellers,851,True,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Oppermann, Thomas",ThomasOppermann,137788,True,SPD,140,124,88.57,134,120,"{'de': 120, 'und': 2, 'en': 1, 'da': 1}",11,0,11,8.87,12315,99.31451612903226,41.0,1309,10.556451612903226,4.0,3581,28.879032258064516,7.5
+"Oßner, Florian",Florian_Ossner,959,True,CSU,7,7,100.0,7,7,{'de': 7},0,0,0,0.0,13,1.8571428571428572,2,1,0.14285714285714285,0,2,0.2857142857142857,0
+"Özdemir, Cem",cem_oezdemir,217241,True,Bündnis 90/Die Grünen,1100,949,86.27,1017,889,"{'de': 889, 'und': 10, 'tr': 23, 'en': 19, 'fi': 1, 'ca': 1, 'it': 1, 'cy': 1, 'fr': 2, 'ru': 1, 'no': 1}",297,93,204,31.3,648822,683.6902002107481,204,66365,69.93150684931507,17,60429,63.676501580611166,21
+"Özdemir, Mahmut",oezdemir_spd,1548,True,SPD,94,80,85.11,92,78,"{'de': 78, 'und': 2}",38,12,26,47.5,898,11.225,2.0,56,0.7,0.0,75,0.9375,1.0
+"Özoguz, Aydan",oezoguz,19362,True,SPD,1198,1051,87.73,1083,950,"{'de': 950, 'und': 69, 'tr': 7, 'en': 14, 'fr': 2, 'eu': 1, 'es': 1, 'no': 1, 'nl': 3, 'ht': 1, 'pt': 1, 'lt': 1}",633,11,622,60.23,15412,14.664129400570884,2,1565,1.489058039961941,0,2546,2.422454804947669,1
+"Pantel, Sylvia",SylviaPantel,1651,True,CDU,38,38,100.0,32,32,"{'de': 32, 'und': 6}",0,0,0,0.0,190,5,2.5,29,0.7631578947368421,0.0,34,0.8947368421052632,0.0
+"Paschke, Markus",MarkusPaschke,1145,True,SPD,41,41,100.0,41,41,{'de': 41},13,13,0,31.71,169,4.121951219512195,1,18,0.43902439024390244,0,26,0.6341463414634146,0
+"Pau, Petra",PetraPauMaHe,14918,True,Die Linke,675,533,78.96,613,473,"{'de': 473, 'und': 55, 'en': 3, 'ro': 1, 'et': 1}",165,40,125,30.96,9884,18.544090056285178,8,2077,3.896810506566604,2,737,1.3827392120075046,1
+"Paus, Lisa",lisapaus,9067,True,Bündnis 90/Die Grünen,852,790,92.72,782,723,"{'de': 723, 'fr': 2, 'is': 1, 'und': 50, 'en': 14}",375,188,187,47.47,11000,13.924050632911392,5.0,2814,3.562025316455696,1.0,1189,1.5050632911392405,1.0
+"Petry, Christian",CPetryMdB,1520,True,SPD,61,60,98.36,52,51,"{'de': 51, 'fr': 3, 'und': 2, 'en': 3, 'nl': 1}",5,0,5,8.33,346,5.766666666666667,4.5,43,0.7166666666666667,0.0,41,0.6833333333333333,0.0
+"Post, Achim",Achim_P,3246,True,SPD,516,509,98.64,515,509,{'de': 509},319,278,41,62.67,3059,6.009823182711198,3,762,1.4970530451866404,1,552,1.0844793713163066,1
+"Post, Florian",FlorianPost,2549,True,SPD,246,234,95.12,241,229,"{'de': 229, 'und': 3, 'cs': 1, 'en': 1}",61,0,61,26.07,1512,6.461538461538462,2.0,240,1.0256410256410255,0.0,1229,5.252136752136752,0.0
+"Pronold, Florian",FlorianPronold,14731,True,SPD,68,54,79.41,66,53,"{'de': 53, 'und': 1}",3,1,2,5.56,474,8.777777777777779,6.0,104,1.9259259259259258,1.0,69,1.2777777777777777,0.0
+"Rabanus, Martin",MartinRabanus,1220,True,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Radwan, Alexander",AlexanderRadwan,1497,True,CSU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Rawert, Mechthild",MechthildRawert,2966,True,SPD,78,78,100.0,74,74,"{'de': 74, 'en': 1, 'und': 2, 'sv': 1}",1,0,1,1.28,316,4.051282051282051,3.0,153,1.9615384615384615,1.0,31,0.3974358974358974,0.0
+"Renner, Martina",MartinaRenner,20674,True,Die Linke,1628,1316,80.84,1535,1235,"{'de': 1235, 'und': 55, 'en': 13, 'tr': 2, 'sv': 1, 'fr': 3, 'da': 1, 'eu': 1, 'it': 2, 'fi': 1, 'nl': 1, 'pt': 1}",544,144,400,41.34,213103,161.9323708206687,45.0,50274,38.202127659574465,8.0,8648,6.571428571428571,2.0
+"Rimkus, Andreas",Andreas_Rimkus,1912,True,SPD,712,615,86.38,625,530,"{'de': 530, 'en': 12, 'und': 60, 'nl': 2, 'eu': 1, 'tl': 1, 'pt': 3, 'is': 2, 'sv': 1, 'no': 2, 'lt': 1}",311,12,299,50.57,1831,2.9772357723577234,1,171,0.2780487804878049,0,166,0.26991869918699185,0
+"Rix, Sönke",SoenkeRix,6467,True,SPD,547,480,87.75,515,450,"{'de': 450, 'und': 26, 'nl': 1, 'no': 1, 'en': 1, 'in': 1}",208,21,187,43.33,7609,15.852083333333333,6.0,1094,2.279166666666667,0.0,1142,2.379166666666667,1.0
+"Rohde, Dennis",DennisRohde,2326,True,SPD,284,261,91.9,248,225,"{'de': 225, 'und': 25, 'nl': 1, 'en': 7, 'it': 1, 'es': 1, 'da': 1}",206,29,177,78.93,4138,15.854406130268199,2,469,1.7969348659003832,0,450,1.7241379310344827,1
+"Rosemann, Dr. Martin",MartinRosemann,2171,False,SPD,419,338,80.67,400,321,"{'de': 321, 'en': 8, 'und': 6, 'no': 1, 'da': 1, 'nl': 1}",135,0,135,39.94,2050,6.06508875739645,2.0,179,0.5295857988165681,0.0,250,0.7396449704142012,0.0
+"Rossmann, Dr. Ernst Dieter",edrossmann,2905,True,SPD,103,97,94.17,101,95,"{'de': 95, 'en': 2}",41,40,1,42.27,834,8.597938144329897,4,170,1.7525773195876289,0,112,1.1546391752577319,1
+"Rößner, Tabea",TabeaRoessner,8763,True,Bündnis 90/Die Grünen,637,547,85.87,605,517,"{'de': 517, 'und': 18, 'en': 8, 'lt': 2, 'da': 1, 'sv': 1}",193,51,142,35.28,4472,8.175502742230348,4,775,1.416819012797075,0,880,1.6087751371115173,1
+"Roth, Michael",MiRo_SPD,35111,True,SPD,2041,1767,86.58,1418,1279,"{'en': 386, 'de': 1279, 'sv': 3, 'fr': 20, 'und': 42, 'nl': 3, 'es': 2, 'fi': 2, 'ro': 1, 'it': 8, 'tr': 2, 'el': 2, 'cy': 1, 'da': 3, 'no': 2, 'pl': 3, 'lt': 1, 'uk': 1, 'ru': 1, 'cs': 1, 'lv': 1, 'hu': 1, 'ht': 1, 'pt': 1}",585,111,474,33.11,82707,46.806451612903224,21,11460,6.485568760611206,2,6833,3.867006225240521,1
+"Rüddel, Erwin",Erwin_Rueddel,4512,True,CDU,728,717,98.49,694,683,"{'de': 683, 'und': 31, 'da': 1, 'lt': 1, 'ca': 1}",63,6,57,8.79,2138,2.9818688981868897,2,293,0.4086471408647141,0,471,0.6569037656903766,0
+"Rüffer, Corinna",crueffer,2930,False,Bündnis 90/Die Grünen,65,56,86.15,61,52,"{'de': 52, 'und': 2, 'da': 1, 'in': 1}",11,0,11,19.64,1136,20.285714285714285,11.0,428,7.642857142857143,3.0,72,1.2857142857142858,0.0
+"Rüthrich, Susann",SusannRuethrich,934,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Saathoff, Johann",Johann_Saathoff,2750,True,SPD,122,112,91.8,84,78,"{'de': 78, 'und': 11, 'lt': 1, 'ro': 3, 'hy': 2, 'tr': 4, 'uk': 2, 'ka': 2, 'ru': 6, 'cs': 1, 'en': 1, 'in': 1}",40,15,25,35.71,576,5.142857142857143,3.0,51,0.45535714285714285,0.0,99,0.8839285714285714,0.0
+"Sarrazin, Manuel",ManuelSarrazin,5823,True,Bündnis 90/Die Grünen,200,165,82.5,152,134,"{'en': 14, 'de': 134, 'und': 5, 'pl': 6, 'uk': 2, 'tr': 1, 'nl': 1, 'lt': 2}",46,6,40,27.88,2968,17.98787878787879,5,666,4.036363636363636,1,324,1.9636363636363636,1
+"Schauws, Ulle",ulle_schauws,6790,True,Bündnis 90/Die Grünen,553,451,81.56,494,399,"{'de': 399, 'und': 27, 'nl': 1, 'en': 15, 'no': 1, 'pl': 1, 'fr': 1, 'it': 1, 'ht': 1, 'pt': 1, 'da': 2, 'hi': 1}",216,19,197,47.89,14827,32.87583148558758,10,2493,5.527716186252771,1,973,2.1574279379157426,1
+"Scheuer, Andreas",AndiScheuer,59614,True,CSU,105,78,74.29,94,70,"{'de': 70, 'is': 1, 'und': 6, 'en': 1}",23,21,2,29.49,4930,63.205128205128204,34.5,588,7.538461538461538,4.0,5933,76.06410256410257,27.5
+"Schiefner, Udo",UdoSchiefner,1174,False,SPD,3,3,100.0,3,3,{'de': 3},0,0,0,0.0,5,1.6666666666666667,1,0,0,0,1,0.3333333333333333,0
+"Schimke, Jana",JanaSchimke,5133,True,CDU,145,117,80.69,142,114,"{'de': 114, 'und': 2, 'en': 1}",30,4,26,25.64,16906,144.4957264957265,36,2388,20.41025641025641,5,2954,25.247863247863247,4
+"Schipanski, Tankred",TSchipanski,4577,True,CDU,444,324,72.97,438,320,"{'de': 320, 'und': 3, 'en': 1}",13,1,12,4.01,2994,9.24074074074074,5.0,477,1.4722222222222223,1.0,487,1.5030864197530864,0.0
+"Schmidt, Dagmar",dieschmidt,1732,False,SPD,40,30,75.0,33,24,"{'de': 24, 'es': 1, 'und': 4, 'en': 1}",3,0,3,10.0,119,3.966666666666667,3.0,16,0.5333333333333333,0.0,13,0.43333333333333335,0.0
+"Schneider , Carsten",schneidercar,12873,True,SPD,417,326,78.18,395,309,"{'de': 309, 'und': 10, 'en': 6, 'et': 1}",120,39,81,36.81,24415,74.89263803680981,22.5,3422,10.496932515337424,3.0,5314,16.300613496932517,3.0
+"Schnieder, Patrick",PSchnieder,4217,True,CDU,128,86,67.19,112,71,"{'de': 71, 'und': 9, 'en': 4, 'da': 1, 'no': 1}",25,3,22,29.07,618,7.186046511627907,3.0,97,1.127906976744186,0.0,86,1,0.0
+"Schön, Nadine",NadineSchoen,9874,True,CDU,211,153,72.51,186,130,"{'de': 130, 'und': 14, 'en': 7, 'fr': 1, 'es': 1}",45,0,45,29.41,3717,24.294117647058822,11,345,2.2549019607843137,1,621,4.0588235294117645,1
+"Schulz-Asche, Kordula",K_SA,6601,True,Bündnis 90/Die Grünen,1772,1369,77.26,1607,1236,"{'de': 1236, 'und': 88, 'en': 24, 'lt': 6, 'tr': 1, 'pt': 5, 'da': 3, 'fr': 1, 'es': 1, 'pl': 1, 'nl': 2, 'cs': 1}",651,69,582,47.55,16418,11.992695398100803,5,2752,2.010226442658875,0,1926,1.4068663257852447,1
+"Schummer, Uwe",UweSchummer,8615,True,CDU,1386,1365,98.48,1313,1292,"{'de': 1292, 'und': 50, 'sv': 4, 'da': 5, 'nl': 2, 'en': 6, 'in': 2, 'pl': 1, 'es': 2, 'pt': 1}",696,0,696,50.99,11105,8.135531135531135,3,1529,1.1201465201465202,0,1154,0.8454212454212454,0
+"Schuster, Armin",armin_schuster,3835,True,CDU,112,101,90.18,106,95,"{'de': 95, 'und': 5, 'en': 1}",40,23,17,39.6,5164,51.12871287128713,10,985,9.752475247524753,1,515,5.099009900990099,1
+"Schwabe, Frank",FrankSchwabe,6851,True,SPD,695,690,99.28,601,600,"{'de': 600, 'en': 66, 'uk': 1, 'und': 17, 'tr': 1, 'fi': 1, 'ru': 1, 'es': 2, 'pl': 1}",198,8,190,28.7,15838,22.953623188405796,6.0,5397,7.821739130434783,1.0,1700,2.463768115942029,0.0
+"Schwartze, Stefan",s_schwartze,3958,True,SPD,74,55,74.32,71,52,"{'de': 52, 'nl': 1, 'und': 1, 'fr': 1}",4,1,3,7.27,324,5.890909090909091,3,40,0.7272727272727273,0,43,0.7818181818181819,0
+"Schwarz, Andreas",Schwarz_MdB,4064,True,SPD,964,801,83.09,835,673,"{'de': 673, 'it': 84, 'en': 35, 'lt': 1, 'und': 3, 'fr': 1, 'no': 1, 'ht': 1, 'da': 1, 'sv': 1}",339,0,339,42.32,3088,3.8551810237203497,2,130,0.16229712858926343,0,287,0.35830212234706615,0
+"Schwarzelühr-Sutter, Rita",rischwasu,3671,True,SPD,420,279,66.43,387,260,"{'de': 260, 'und': 6, 'en': 11, 'fr': 1, 'es': 1}",55,0,55,19.71,979,3.5089605734767026,2,128,0.45878136200716846,0,152,0.5448028673835126,0
+"Sensburg, Prof. Dr. Patrick",PatrickSensburg,2855,True,CDU,49,49,100.0,41,41,"{'und': 7, 'de': 41, 'en': 1}",21,1,20,42.86,1772,36.16326530612245,1,310,6.326530612244898,0,771,15.73469387755102,0
+"Siebert, Bernd",BerndSiebert,1962,False,CDU,10,9,90.0,10,9,{'de': 9},0,0,0,0.0,19,2.111111111111111,2,11,1.2222222222222223,1,5,0.5555555555555556,0
+"Sitte, Dr. Petra",Petra_Sitte_MdB,5239,True,Die Linke,324,295,91.05,305,276,"{'de': 276, 'und': 9, 'nl': 2, 'fi': 1, 'fr': 3, 'en': 2, 'pt': 2}",105,3,102,35.59,3463,11.738983050847457,4,750,2.542372881355932,0,291,0.9864406779661017,0
+"Sorge, Tino",TinoSorge,2618,True,CDU,305,254,83.28,294,244,"{'de': 244, 'und': 9, 'sv': 1}",49,36,13,19.29,1685,6.633858267716535,4.0,256,1.0078740157480315,0.0,268,1.0551181102362204,0.0
+"Spahn, Jens",jensspahn,224717,True,CDU,336,314,93.45,321,300,"{'de': 300, 'en': 10, 'fr': 4}",88,82,6,28.03,209393,666.8566878980891,168.5,20943,66.69745222929936,18.0,61958,197.3184713375796,79.5
+"Spiering, Rainer",rainerspiering,453,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Stadler, Svenja",stadler_svenja,3671,True,SPD,380,299,78.68,334,257,"{'de': 257, 'und': 24, 'en': 11, 'et': 2, 'sv': 1, 'no': 1, 'fr': 2, 'cy': 1}",90,5,85,30.1,2161,7.2274247491638794,3,175,0.5852842809364549,0,222,0.7424749163879598,0
+"Stamm-Fibich, Martina",stamm_fibich,858,True,SPD,31,28,90.32,28,25,"{'de': 25, 'fr': 1, 'und': 2}",6,0,6,21.43,141,5.035714285714286,1.0,28,1,0.0,54,1.9285714285714286,0.0
+"Steffel, Dr. Frank",franksteffel,2859,True,CDU,34,34,100.0,33,33,"{'de': 33, 'und': 1}",1,0,1,2.94,321,9.441176470588236,3.0,98,2.8823529411764706,0.5,45,1.3235294117647058,0.5
+"Steffen, Sonja",SteffenSonja,1612,False,SPD,61,49,80.33,58,47,"{'de': 47, 'en': 2}",1,0,1,2.04,1149,23.448979591836736,4,116,2.36734693877551,0,110,2.2448979591836733,0
+"Stefinger, Dr. Wolfgang",StefingerMdB,1441,True,CSU,51,42,82.35,49,41,"{'de': 41, 'und': 1}",5,2,3,11.9,655,15.595238095238095,8.5,91,2.1666666666666665,1.0,79,1.880952380952381,1.0
+"Steineke, Sebastian",SteinekeCDU,6342,True,CDU,2485,2188,88.05,2400,2117,"{'de': 2117, 'en': 20, 'und': 35, 'in': 3, 'da': 5, 'fr': 1, 'es': 2, 'nl': 2, 'pt': 2, 'sv': 1}",582,89,493,26.6,21317,9.742687385740401,3.0,2947,1.3468921389396709,0.0,3620,1.6544789762340038,0.0
+"Steiniger, Johannes",JoSteiniger,4013,True,CDU,732,651,88.93,660,580,"{'de': 580, 'und': 42, 'en': 17, 'is': 1, 'et': 1, 'nl': 5, 'it': 1, 'fr': 2, 'no': 1, 'in': 1}",491,9,482,75.42,18444,28.331797235023043,2,2813,4.321044546850999,0,1925,2.956989247311828,1
+"Storjohann, Gero",gero_storjohann,744,True,CDU,135,128,94.81,135,128,{'de': 128},11,3,8,8.59,657,5.1328125,1.0,116,0.90625,0.0,287,2.2421875,0.0
+"Strengmann-Kuhn, Dr. Wolfgang",W_SK,7128,True,Bündnis 90/Die Grünen,378,283,74.87,340,257,"{'de': 257, 'und': 15, 'en': 10, 'fr': 1}",84,10,74,29.68,2868,10.134275618374557,5,703,2.4840989399293285,1,274,0.9681978798586572,0
+"Tackmann, Dr. Kirsten",KirstenTackmann,3596,True,Die Linke,805,570,70.81,738,516,"{'de': 516, 'und': 37, 'et': 1, 'sv': 3, 'en': 7, 'lt': 1, 'no': 3, 'fr': 1, 'es': 1}",220,4,216,38.6,1868,3.2771929824561403,1.0,325,0.5701754385964912,0.0,186,0.3263157894736842,0.0
+"Tauber, Dr. Peter",petertauber,185828,True,CDU,715,605,84.62,674,567,"{'de': 567, 'en': 13, 'und': 12, 'es': 3, 'eu': 3, 'no': 1, 'pt': 2, 'nl': 1, 'da': 2, 'sv': 1}",302,33,269,49.92,81655,134.96694214876032,20,6611,10.927272727272728,1,11743,19.4099173553719,2
+"Thews, Michael",michael_thews,2291,True,SPD,408,406,99.51,364,362,"{'de': 362, 'und': 44}",276,269,7,67.98,631,1.5541871921182266,0.0,185,0.45566502463054187,0.0,382,0.9408866995073891,1.0
+"Träger, Carsten",CarstenTraeger,5132,True,SPD,89,72,80.9,80,63,"{'de': 63, 'und': 9}",13,0,13,18.06,588,8.166666666666666,4.0,78,1.0833333333333333,0.0,62,0.8611111111111112,0.0
+"Tressel, Markus",MarkusTressel,1869,True,Bündnis 90/Die Grünen,225,201,89.33,223,199,"{'de': 199, 'und': 2}",14,11,3,6.97,772,3.8407960199004973,3,250,1.243781094527363,1,141,0.7014925373134329,0
+"Trittin, Jürgen",JTrittin,107194,True,Bündnis 90/Die Grünen,1017,869,85.45,976,843,"{'de': 843, 'und': 7, 'en': 15, 'fr': 1, 'es': 1, 'ca': 1, 'sv': 1}",127,66,61,14.61,63437,73,23,21886,25.185270425776753,3,8986,10.340621403912543,4
+"Ullrich, Dr. Volker",VolkerUllrich,3823,True,CSU,389,344,88.43,383,342,"{'de': 342, 'fr': 1, 'en': 1}",45,31,14,13.08,21705,63.09593023255814,11.0,3095,8.997093023255815,2.0,2739,7.962209302325581,2.0
+"Verlinden, Dr. Julia",julia_verlinden,8637,True,Bündnis 90/Die Grünen,516,456,88.37,481,422,"{'de': 422, 'und': 26, 'en': 6, 'et': 1, 'es': 1}",228,86,142,50.0,13294,29.153508771929825,8.0,3430,7.521929824561403,1.0,946,2.074561403508772,1.0
+"Vogler, Kathrin",voglerk,4067,False,Die Linke,788,701,88.96,721,646,"{'en': 25, 'de': 646, 'und': 24, 'sv': 1, 'lt': 1, 'no': 2, 'ja': 1, 'fr': 1}",431,31,400,61.48,6841,9.758915834522112,3,2022,2.884450784593438,0,725,1.0342368045649073,0
+"Vogt, Ute",UteVogt,4614,True,SPD,126,80,63.49,121,78,"{'de': 78, 'und': 1, 'lt': 1}",15,0,15,18.75,1159,14.4875,5.5,157,1.9625,0.0,150,1.875,1.0
+"Vries, Kees de",KEESdeVriesCDU,169,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Wagenknecht, Dr. Sahra",SWagenknecht,453755,True,Die Linke,238,236,99.16,238,236,{'de': 236},11,11,0,4.66,165513,701.3262711864406,565.0,35123,148.82627118644066,108.5,16912,71.66101694915254,59.5
+"Walter-Rosenheimer, Beate",BeateWaRo,3001,True,Bündnis 90/Die Grünen,44,42,95.45,40,38,"{'de': 38, 'und': 3, 'en': 1}",11,1,10,26.19,92,2.1904761904761907,1.0,12,0.2857142857142857,0.0,8,0.19047619047619047,0.0
+"Wadephul, Dr. Johann",JoWadephul,3578,True,CDU,319,268,84.01,222,189,"{'de': 189, 'en': 69, 'und': 7, 'lt': 2, 'pt': 1}",126,35,91,47.01,3291,12.279850746268657,3.0,554,2.0671641791044775,0.0,625,2.332089552238806,1.0
+"Wanderwitz, Marco",wanderwitz,7637,True,CDU,1557,1504,96.6,1443,1394,"{'de': 1394, 'ca': 1, 'und': 87, 'lt': 1, 'in': 3, 'eu': 1, 'fr': 3, 'sv': 5, 'en': 5, 'no': 2, 'tr': 1, 'da': 1}",996,5,991,66.22,41386,27.517287234042552,2.5,4035,2.682845744680851,0.0,5193,3.452792553191489,1.0
+"Warken, Nina",ninawarken,1260,True,CDU,116,79,68.1,104,68,"{'en': 5, 'de': 68, 'und': 6}",28,3,25,35.44,234,2.962025316455696,1,29,0.3670886075949367,0,103,1.3037974683544304,0
+"Weber, Gabi",GabiWeberSPD,3311,True,SPD,13,10,76.92,13,10,{'de': 10},1,0,1,10.0,37,3.7,1.5,6,0.6,0.0,6,0.6,0.0
+"Wegner, Kai",kaiwegner,5404,True,CDU,469,435,92.75,468,434,"{'de': 434, 'und': 1}",71,52,19,16.32,12666,29.117241379310343,19,1829,4.204597701149425,2,1539,3.537931034482759,1
+"Weinberg, Harald",HaraldWeinberg,844,False,Die Linke,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Weinberg, Marcus",MarcusWeinberg,2600,True,CDU,208,194,93.27,206,193,"{'de': 193, 'en': 1}",14,1,13,7.22,2548,13.1340206185567,7.5,389,2.0051546391752577,1.0,356,1.8350515463917525,0.0
+"Weisgerber, Dr. Anja",anjaweisgerber,1821,True,CSU,168,148,88.1,164,144,"{'de': 144, 'und': 2, 'en': 1, 'da': 1}",4,1,3,2.7,1168,7.891891891891892,5.0,285,1.9256756756756757,1.0,425,2.8716216216216215,1.0
+"Weiß, Peter",PeterWeissMdB,721,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Wendt, Marian",MdbWendt,2547,True,CDU,489,430,87.93,434,386,"{'de': 386, 'en': 15, 'cy': 2, 'fr': 2, 'it': 6, 'und': 17, 'pt': 1, 'pl': 1}",248,12,236,57.67,7625,17.732558139534884,2.0,1320,3.0697674418604652,0.0,2228,5.181395348837209,1.0
+"Werner, Katrin",Katrin_Werner,2854,True,Die Linke,167,164,98.2,167,164,{'de': 164},7,2,5,4.27,1212,7.390243902439025,4.0,391,2.3841463414634148,1.0,109,0.6646341463414634,0.0
+"Whittaker, Kai",Kai_Whittaker,4700,True,CDU,544,435,79.96,524,421,"{'de': 421, 'is': 1, 'en': 5, 'und': 7, 'tl': 1}",87,4,83,20.0,28135,64.67816091954023,24,3183,7.317241379310345,2,3754,8.629885057471265,2
+"Widmann-Mauz, Annette",AWidmannMauz,5470,True,CDU,581,397,68.33,550,378,"{'de': 378, 'en': 13, 'it': 1, 'in': 1, 'und': 2, 'da': 1, 'fr': 1}",62,41,21,15.62,7630,19.2191435768262,9,1209,3.045340050377834,1,1644,4.141057934508816,1
+"Wiese, Dirk",DirkWieseSPD,3001,False,SPD,871,746,85.65,761,652,"{'de': 652, 'en': 10, 'ru': 14, 'und': 35, 'hy': 11, 'da': 1, 'ka': 4, 'uk': 5, 'tr': 8, 'bg': 1, 'ro': 3, 'es': 1, 'fr': 1}",102,19,83,13.67,7424,9.951742627345844,6.0,992,1.3297587131367292,0.0,555,0.7439678284182306,0.0
+"Zdebel, Hubertus",ZdebelHubertus,1639,False,Die Linke,103,91,88.35,103,91,{'de': 91},2,2,0,2.2,1386,15.23076923076923,6,565,6.208791208791209,2,93,1.021978021978022,1
+"Zech, Tobias",TobiasZech,1438,False,CSU,16,11,68.75,14,10,"{'de': 10, 'fr': 1}",1,0,1,9.09,21,1.9090909090909092,1,2,0.18181818181818182,0,1,0.09090909090909091,0
+"Zierke, Stefan",zierke,1301,True,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Zimmer, Prof. Dr. Matthias",matthiaszimmer,1448,True,CDU,191,176,92.15,175,161,"{'de': 161, 'und': 6, 'no': 1, 'in': 2, 'en': 5, 'pl': 1}",118,0,118,67.05,1539,8.744318181818182,0.5,104,0.5909090909090909,0.0,218,1.2386363636363635,0.0
+"Zimmermann, Dr. Jens",JensZSPD,4558,True,SPD,1047,815,77.84,910,734,"{'de': 734, 'und': 23, 'sv': 1, 'en': 48, 'es': 2, 'et': 1, 'tr': 1, 'fr': 1, 'ht': 2, 'pt': 1, 'in': 1}",376,51,325,46.13,13962,17.131288343558282,4,1793,2.2,0,1179,1.4466257668711657,1
+"Müller, Detlef",MuellerChemnitz,2070,True,SPD,960,854,88.96,793,690,"{'de': 690, 'en': 121, 'nl': 3, 'und': 32, 'it': 2, 'tl': 1, 'eu': 1, 'lv': 1, 'no': 1, 'sv': 1, 'pt': 1}",366,44,322,42.86,6910,8.091334894613583,3.0,317,0.3711943793911007,0.0,950,1.1124121779859484,0.0
+"Abercron, Dr. Michael von",mvabercron,895,True,CDU,119,106,89.08,115,102,"{'de': 102, 'da': 1, 'und': 3}",50,9,41,47.17,1421,13.40566037735849,2.0,258,2.4339622641509435,0.0,168,1.5849056603773586,1.0
+"Achelwilm, Doris",DorisAchelwilm,2619,False,Die Linke,526,400,76.05,495,385,"{'de': 385, 'und': 8, 'fr': 1, 'eu': 1, 'en': 4, 'sv': 1}",51,28,23,12.75,13677,34.1925,12.0,3183,7.9575,2.0,823,2.0575,0.0
+"Akbulut, Gökay",AkbulutGokay,3574,False,Die Linke,656,509,77.59,613,474,"{'de': 474, 'und': 20, 'en': 3, 'pl': 1, 'tr': 11}",67,62,5,13.16,14397,28.284872298624755,6,3573,7.019646365422397,1,786,1.544204322200393,0
+"Aschenberg-Dugnus, Christine",cad59,1850,True,FDP,253,211,83.4,238,196,"{'de': 196, 'und': 9, 'en': 4, 'fr': 1, 'nl': 1}",25,3,22,11.85,1053,4.990521327014218,2,144,0.6824644549763034,0,159,0.7535545023696683,0
+"Aumer, Peter",PeterAumer,613,True,CSU,4,4,100.0,4,4,{'de': 4},1,0,1,25.0,13,3.25,3.5,2,0.5,0.5,4,1,1.0
+"Badum, Lisa",badulrichmartha,4567,True,Bündnis 90/Die Grünen,175,133,76.0,163,124,"{'de': 124, 'und': 5, 'nl': 1, 'en': 2, 'sv': 1}",58,13,45,43.61,3145,23.646616541353385,11,556,4.180451127819549,1,267,2.007518796992481,1
+"Barrientos Krauss, Simone",SBarrientosK,1606,False,Die Linke,320,266,83.12,291,238,"{'en': 8, 'de': 238, 'und': 16, 'in': 1, 'ro': 1, 'fr': 1, 'tr': 1}",63,29,34,23.68,2024,7.609022556390977,2.0,579,2.1766917293233083,0.0,210,0.7894736842105263,0.0
+"Bause, Margarete",MargareteBause,6874,True,Bündnis 90/Die Grünen,169,131,77.51,156,124,"{'de': 124, 'uk': 1, 'en': 4, 'und': 2}",19,5,14,14.5,21454,163.7709923664122,18,15955,121.79389312977099,5,1193,9.106870229007633,2
+"Bayaz, Dr. Danyal",DerDanyal,7813,True,Bündnis 90/Die Grünen,1742,1437,82.49,1489,1266,"{'de': 1266, 'und': 50, 'en': 102, 'et': 1, 'tr': 6, 'ro': 1, 'fr': 4, 'da': 1, 'pl': 1, 'lv': 1, 'fi': 2, 'es': 1, 'no': 1}",598,107,491,41.61,51564,35.88308977035491,14,5198,3.617258176757133,1,3227,2.245650661099513,1
+"Bayram, Canan",LieblingXhain,10711,False,Bündnis 90/Die Grünen,1429,1317,92.16,1293,1189,"{'en': 19, 'de': 1189, 'und': 67, 'nl': 1, 'sv': 3, 'lt': 2, 'tr': 21, 'no': 5, 'tl': 1, 'fi': 2, 'in': 2, 'ro': 2, 'it': 2, 'is': 1}",615,7,608,46.7,48332,36.698557327258925,11,8941,6.788914198936978,1,5325,4.043280182232346,1
+"Beeck, Jens",jensbeeck,1169,True,FDP,48,43,89.58,48,43,{'de': 43},5,2,3,11.63,2272,52.83720930232558,6,334,7.767441860465116,0,180,4.186046511627907,1
+"Bernhard, Marc",MarcBernhardAfD,3886,True,AfD,376,365,97.07,375,365,{'de': 365},8,0,8,2.19,8070,22.10958904109589,13,2959,8.106849315068493,5,1333,3.652054794520548,2
+"Bernstiel, Christoph",c_bernstiel,1027,True,CDU,16,12,75.0,14,11,"{'de': 11, 'en': 1}",6,0,6,50.0,52,4.333333333333333,2.0,8,0.6666666666666666,0.0,24,2,1.0
+"Beutin, Lorenz Gösta",lgbeutin,6422,False,Die Linke,3583,3283,91.63,3366,3092,"{'de': 3092, 'en': 46, 'und': 105, 'in': 3, 'fr': 8, 'nl': 5, 'es': 4, 'pt': 1, 'da': 4, 'is': 1, 'sv': 6, 'lt': 1, 'it': 3, 'no': 2, 'et': 1, 'tl': 1}",2054,208,1846,62.56,130684,39.806274748705455,6,29606,9.017971367651539,0,10944,3.3335363996344807,1
+"Beyer, Peter",Peter_Beyer,1844,False,CDU,302,236,78.15,209,184,"{'de': 184, 'en': 52}",0,0,0,0.0,1853,7.851694915254237,4.0,370,1.5677966101694916,1.0,328,1.3898305084745763,0.0
+"Bleck, Andreas",andreasbleckmdb,3188,False,AfD,102,102,100.0,96,96,"{'de': 96, 'und': 4, 'en': 2}",75,1,74,73.53,4153,40.71568627450981,1.0,592,5.803921568627451,0.0,631,6.186274509803922,1.0
+"Boehringer, Peter",PeterBoehringer,2373,False,AfD,111,110,99.1,109,108,"{'de': 108, 'da': 1, 'no': 1}",3,0,3,2.73,3313,30.118181818181817,17.0,1193,10.845454545454546,6.0,371,3.3727272727272726,2.0
+"Brandenburg, Dr. Jens",JBrandenburgFDP,3341,True,FDP,595,536,90.08,582,528,"{'de': 528, 'und': 4, 'en': 4}",389,55,334,72.57,12037,22.457089552238806,2.0,1425,2.658582089552239,0.0,811,1.5130597014925373,1.0
+"Brandenburg, Mario",BraFDP,2251,False,FDP,454,385,84.8,398,335,"{'de': 335, 'und': 25, 'en': 22, 'pt': 1, 'da': 1, 'ro': 1}",95,5,90,24.68,3221,8.366233766233766,5,301,0.7818181818181819,0,275,0.7142857142857143,0
+"Brandner, Stephan",StBrandner,14997,True,AfD,5996,4382,73.08,5296,3699,"{'de': 3699, 'und': 561, 'lt': 3, 'da': 9, 'nl': 13, 'no': 6, 'en': 42, 'it': 3, 'sv': 13, 'fi': 2, 'et': 5, 'is': 3, 'es': 6, 'eu': 1, 'fr': 8, 'ht': 1, 'in': 1, 'tl': 1, 'lv': 1, 'ro': 2, 'ca': 1, 'pt': 1}",314,40,274,7.17,488849,111.55842081241443,54.0,110036,25.110908261068005,10.0,104085,23.752852578731172,14.0
+"Brandt, Michel",michel_brandt_,4063,False,Die Linke,703,554,78.81,648,539,"{'de': 539, 'und': 11, 'en': 3, 'fi': 1}",66,61,5,11.91,25465,45.96570397111913,24.0,8923,16.10649819494585,8.0,1290,2.3285198555956677,1.0
+"Brehm, Sebastian",Brehm_inNBGNord,776,True,CSU,1,1,100.0,1,1,{'de': 1},0,0,0,0.0,18,18,18,2,2,2,10,10,10
+"Breymaier, Leni",LeniBreymaier,3755,True,SPD,442,410,92.76,417,386,"{'de': 386, 'und': 11, 'sv': 2, 'en': 4, 'no': 1, 'es': 1, 'nl': 2, 'is': 1, 'eu': 1, 'da': 1}",104,3,101,25.37,13001,31.709756097560977,12.0,1302,3.175609756097561,0.0,2316,5.648780487804878,1.0
+"Brandl, Dr. Reinhard",reinhardbrandl,807,False,CSU,1,1,100.0,1,1,{'de': 1},1,0,1,100.0,7,7,7,0,0,0,2,2,2
+"Bühl, Marcus",Marcus_Buehl,1979,False,AfD,185,185,100.0,185,185,{'de': 185},4,0,4,2.16,3703,20.016216216216215,8,955,5.162162162162162,2,383,2.0702702702702704,0
+"Bull-Bischoff, Birke",Birke_Bull,3293,False,Die Linke,104,79,75.96,102,77,"{'de': 77, 'nl': 1, 'und': 1}",13,0,13,16.46,1393,17.632911392405063,10,294,3.721518987341772,2,86,1.0886075949367089,0
+"Buschmann, Dr. Marco",MarcoBuschmann,17093,True,FDP,5027,4797,95.42,4594,4396,"{'de': 4396, 'und': 256, 'pt': 34, 'in': 66, 'hu': 2, 'sv': 4, 'nl': 4, 'en': 26, 'es': 3, 'pl': 1, 'fr': 2, 'no': 1, 'is': 1, 'da': 1}",3819,77,3742,79.61,134273,27.991036064206796,1,17898,3.7310819262038772,0,19400,4.044194288096727,1
+"Büttner, Matthias",Buettner_MdB,2348,False,AfD,85,85,100.0,85,85,{'de': 85},0,0,0,0.0,303,3.5647058823529414,3,156,1.8352941176470587,1,101,1.188235294117647,1
+"Bystron, Petr",PetrBystronAfD,15685,False,AfD,904,768,84.96,751,645,"{'de': 645, 'und': 54, 'en': 51, 'lv': 1, 'it': 2, 'ru': 1, 'pl': 1, 'cs': 1, 'da': 2, 'fr': 2, 'ro': 1, 'ht': 1, 'tr': 1, 'in': 1, 'cy': 1, 'sv': 1, 'tl': 1, 'ca': 1}",404,3,401,52.6,73380,95.546875,5.0,22971,29.91015625,0.0,11001,14.32421875,2.0
+"Cezanne, Jörg",joerg_cezanne,604,False,Die Linke,26,25,96.15,26,25,{'de': 25},0,0,0,0.0,323,12.92,8,91,3.64,1,23,0.92,0
+"Christmann, Dr. Anna",annachristmann,3761,True,Bündnis 90/Die Grünen,387,334,86.3,373,327,"{'de': 327, 'und': 3, 'fr': 1, 'en': 3}",120,40,80,35.93,5608,16.790419161676645,10.0,913,2.7335329341317367,1.0,467,1.3982035928143712,1.0
+"Cotar, Joana",JoanaCotar,18138,True,AfD,2060,1869,90.73,1912,1735,"{'de': 1735, 'und': 97, 'en': 25, 'fr': 1, 'no': 3, 'nl': 2, 'cy': 1, 'ro': 1, 'hu': 1, 'pl': 1, 'sv': 1, 'eu': 1}",918,66,852,49.12,447685,239.5318352059925,97,115853,61.986623863028356,13,40345,21.586409844836812,5
+"Curio, Dr. Gottfried",GottfriedCurio,32532,True,AfD,133,132,99.25,129,128,"{'de': 128, 'und': 3, 'fr': 1}",9,3,6,6.82,127307,964.4469696969697,810.0,38694,293.1363636363636,255.5,8937,67.70454545454545,54.5
+"De Masi, Fabio",FabioDeMasi,19464,True,Die Linke,6151,5823,94.67,5444,5211,"{'de': 5211, 'und': 170, 'en': 373, 'da': 5, 'fr': 9, 'it': 17, 'et': 3, 'es': 10, 'sv': 4, 'nl': 8, 'in': 3, 'no': 2, 'pl': 1, 'hu': 1, 'lv': 1, 'lt': 1, 'is': 1, 'tr': 2, 'pt': 1}",3657,1750,1907,62.8,217733,37.39189421260519,10,40123,6.890434483942984,1,14742,2.5316846986089643,1
+"Domscheit-Berg, Anke",anked,38334,True,Die Linke,3705,3146,84.91,3168,2731,"{'de': 2731, 'en': 213, 'und': 177, 'fr': 7, 'no': 3, 'es': 3, 'nl': 4, 'da': 3, 'sv': 2, 'lt': 1, 'it': 1, 'et': 1}",2234,480,1754,71.01,103394,32.8652256834075,6.0,18389,5.845200254291163,0.0,7169,2.2787666878575967,1.0
+"Chrupalla, Tino",Tino_Chrupalla,12096,True,AfD,324,308,95.06,322,306,"{'de': 306, 'und': 1, 'eu': 1}",8,5,3,2.6,179712,583.4805194805194,459.5,40557,131.67857142857142,103.0,25756,83.62337662337663,64.5
+"Droese, Siegbert",Siegbert_Droese,342,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Dürr, Christian",christianduerr,4650,True,FDP,495,377,76.16,464,355,"{'de': 355, 'en': 5, 'da': 1, 'und': 14, 'no': 1, 'sv': 1}",112,53,59,29.71,20775,55.10610079575597,26,2300,6.10079575596817,2,1882,4.992042440318302,2
+"Ebbing, Hartmut",HartmutEbbing,591,True,FDP,198,161,81.31,194,158,"{'de': 158, 'en': 1, 'und': 1, 'nl': 1}",56,44,12,34.78,787,4.888198757763975,3,108,0.6708074534161491,0,77,0.4782608695652174,0
+"Ehrhorn, Thomas",Thomas_Ehrhorn,1108,False,AfD,27,24,88.89,19,16,"{'de': 16, 'und': 8}",4,1,3,16.67,67,2.7916666666666665,1.0,15,0.625,0.0,21,0.875,1.0
+"Elsner von Gronow, Berengar",ElsnervonGronow,3526,False,AfD,156,138,88.46,136,118,"{'und': 18, 'de': 118, 'en': 1, 'et': 1}",6,1,5,4.35,6308,45.710144927536234,38.0,3299,23.905797101449274,20.0,302,2.1884057971014492,1.0
+"Erndl, Thomas",TErndl,1268,True,CSU,218,174,79.82,201,163,"{'de': 163, 'da': 1, 'en': 5, 'und': 4, 'it': 1}",45,19,26,25.86,5841,33.56896551724138,14.0,1995,11.46551724137931,3.0,907,5.212643678160919,1.0
+"Espendiller, Dr. Michael",DrMEspendiller,5060,False,AfD,796,653,82.04,719,583,"{'de': 583, 'und': 47, 'sv': 6, 'es': 1, 'tl': 1, 'en': 12, 'eu': 1, 'ca': 1, 'lt': 1}",417,16,401,63.86,12336,18.891271056661562,3,3162,4.842266462480858,0,1581,2.421133231240429,1
+"Faber, Dr. Marcus",MarcusFaber,2576,True,FDP,335,323,96.42,289,278,"{'de': 278, 'en': 7, 'und': 35, 'nl': 1, 'sv': 2}",151,40,111,46.75,11772,36.44582043343653,6,1474,4.563467492260062,0,2010,6.222910216718266,1
+"Felser, Peter",PeterFelser,1380,False,AfD,189,184,97.35,183,178,"{'de': 178, 'und': 6}",1,0,1,0.54,6160,33.47826086956522,5.0,1586,8.619565217391305,2.0,960,5.217391304347826,2.0
+"Schmidt, Stefan",Schmidt_MdB,946,False,Bündnis 90/Die Grünen,107,88,82.24,103,84,"{'de': 84, 'und': 4}",13,8,5,14.77,260,2.9545454545454546,2.0,45,0.5113636363636364,0.0,36,0.4090909090909091,0.0
+"Föst, Daniel",DFoest,6581,True,FDP,1773,1566,88.32,1589,1387,"{'de': 1387, 'sv': 6, 'en': 65, 'und': 65, 'fr': 16, 'in': 2, 'da': 1, 'nl': 5, 'lt': 8, 'ht': 3, 'no': 1, 'et': 3, 'es': 2, 'cy': 1, 'lv': 1}",957,74,883,61.11,46082,29.426564495530013,4.0,5998,3.8301404853128993,0.0,3351,2.1398467432950192,1.0
+"Fricke, Otto",Otto_Fricke,12757,True,FDP,2163,2075,95.93,1947,1880,"{'tr': 4, 'de': 1880, 'und': 49, 'en': 84, 'no': 4, 'nl': 23, 'it': 3, 'lt': 6, 'da': 3, 'et': 3, 'is': 1, 'fr': 4, 'pt': 2, 'sv': 3, 'eu': 2, 'ro': 1, 'tl': 1, 'hi': 1, 'in': 1}",1717,17,1700,82.75,19244,9.27421686746988,1,1689,0.8139759036144578,0,3225,1.5542168674698795,1
+"Friesen, Dr. Anton",DrFriesenMdB,3425,False,AfD,431,407,94.43,419,398,"{'de': 398, 'und': 5, 'en': 2, 'nl': 1, 'et': 1}",13,2,11,3.19,9787,24.046683046683047,15,2603,6.395577395577396,3,1328,3.262899262899263,1
+"Frohnmaier, Markus",Frohnmaier_AfD,2577,False,AfD,170,154,90.59,156,142,"{'de': 142, 'und': 10, 'nl': 1, 'et': 1}",71,12,59,46.1,3578,23.233766233766232,5.0,904,5.87012987012987,0.0,925,6.0064935064935066,1.0
+"Frömming, Dr. Götz",GtzFrmming,14522,True,AfD,2275,1884,82.81,2190,1829,"{'de': 1829, 'und': 27, 'en': 15, 'fr': 3, 'nl': 3, 'sv': 2, 'da': 1, 'in': 1, 'no': 1, 'ro': 1, 'ca': 1}",511,60,451,27.12,180242,95.66985138004246,42.0,52446,27.837579617834393,10.0,17749,9.420912951167729,4.0
+"Gabelmann, Sylvia",SylviaGabelmann,1754,False,Die Linke,140,134,95.71,140,134,{'de': 134},5,2,3,3.73,729,5.440298507462686,4.0,290,2.1641791044776117,1.0,66,0.4925373134328358,0.0
+"Gehrke, Dr. Axel",axelgehrke,647,False,AfD,5,5,100.0,5,5,{'de': 5},2,0,2,40.0,6,1.2,1,1,0.2,0,3,0.6,0
+"Gelbhaar, Stefan",StefanGelbhaar,6556,True,Bündnis 90/Die Grünen,859,780,90.8,808,736,"{'de': 736, 'en': 20, 'und': 20, 'nl': 1, 'fr': 2, 'sv': 1}",546,107,439,70.0,13658,17.51025641025641,3.0,1866,2.3923076923076922,0.0,1133,1.4525641025641025,1.0
+"Gottberg, Wilhelm von",vonGottberg_AfD,373,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Gottschalk, Kay",KayGottschalk1,4237,True,AfD,223,199,89.24,189,166,"{'de': 166, 'und': 24, 'no': 1, 'en': 2, 'es': 2, 'sv': 1, 'in': 1, 'ht': 1, 'lt': 1}",18,3,15,9.05,3890,19.547738693467338,10,1095,5.50251256281407,3,582,2.9246231155778895,2
+"Gremmels, Timon",Timon_Gremmels,3786,True,SPD,889,809,91.0,866,787,"{'de': 787, 'en': 10, 'cy': 2, 'nl': 2, 'und': 5, 'fr': 1, 'es': 1, 'da': 1}",377,28,349,46.6,17058,21.085290482076637,6,1917,2.369592088998764,0,2201,2.7206427688504324,1
+"Jensen, Gyde",GydeJ,8841,True,FDP,715,542,75.8,628,500,"{'de': 500, 'en': 30, 'und': 9, 'in': 1, 'no': 1, 'et': 1}",58,13,45,10.7,83890,154.77859778597787,30.0,51769,95.51476014760148,4.0,3554,6.557195571955719,1.0
+"Hacker, Thomas",hacker_fdp,1722,True,FDP,266,210,78.95,255,204,"{'de': 204, 'und': 4, 'en': 2}",19,5,14,9.05,1483,7.061904761904762,3.0,179,0.8523809523809524,0.0,97,0.46190476190476193,0.0
+"Hagl-Kehl, Rita",RitaHaglKehl,1449,True,SPD,4,4,100.0,4,4,{'de': 4},0,0,0,0.0,25,6.25,6.0,8,2,2.0,14,3.5,2.5
+"Harder-Kühnel, Mariana",M_HarderKuehnel,9787,True,AfD,81,76,93.83,80,75,"{'de': 75, 'da': 1}",1,1,0,1.32,22276,293.10526315789474,219.0,5679,74.72368421052632,41.5,1694,22.289473684210527,15.5
+"Hartwig, Dr. Roland",R_Hartwig_AfD,6601,True,AfD,148,147,99.32,140,139,"{'de': 139, 'und': 8}",8,0,8,5.44,32146,218.68027210884352,102,8703,59.204081632653065,30,2662,18.108843537414966,7
+"Haug, Jochen",Jochen_Haug,3560,True,AfD,5,4,80.0,5,4,{'de': 4},0,0,0,0.0,301,75.25,63.5,84,21,16.0,31,7.75,8.5
+"Helling-Plahr, Katrin",KatrinHelling,2077,True,FDP,326,265,81.29,313,254,"{'de': 254, 'sv': 1, 'und': 6, 'no': 1, 'en': 2, 'fr': 1}",71,37,34,26.79,3298,12.445283018867924,5,731,2.758490566037736,0,307,1.1584905660377358,0
+"Hemmelgarn, Udo",UdoHemmelgarn,7193,True,AfD,1227,1173,95.6,1201,1149,"{'de': 1149, 'et': 2, 'und': 8, 'tr': 1, 'es': 1, 'en': 4, 'in': 1, 'nl': 2, 'da': 1, 'fr': 2, 'ht': 2}",789,5,784,67.26,26986,23.005967604433078,9,6684,5.698209718670077,2,4157,3.5439045183290707,1
+"Henrichmann, Marc",MarcHenrichmann,536,True,CDU,266,236,88.72,264,234,"{'de': 234, 'und': 2}",108,0,108,45.76,1215,5.148305084745763,1.0,153,0.6483050847457628,0.0,246,1.0423728813559323,0.0
+"Herbst, Torsten",torstenherbst,2262,True,FDP,462,436,94.37,459,435,"{'de': 435, 'und': 1}",58,10,48,13.3,10327,23.68577981651376,6.0,2606,5.977064220183486,1.0,1229,2.8188073394495414,1.0
+"Herdt, Waldemar",WaldemarHerdt,1225,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Herrmann, Lars",hermiworld,23,False,AfD,17,14,82.35,15,12,"{'de': 12, 'und': 2}",0,0,0,0.0,1,0.07142857142857142,0.0,0,0,0.0,1,0.07142857142857142,0.0
+"Hess, Martin",Martin_Hess_AfD,6448,True,AfD,246,234,95.12,246,234,{'de': 234},23,23,0,9.83,33487,143.10683760683762,76.0,11102,47.44444444444444,24.0,2927,12.508547008547009,6.0
+"Hessel, Katja",fdp_hessel,1287,True,FDP,84,75,89.29,82,73,"{'de': 73, 'en': 1, 'und': 1}",15,0,15,20.0,1000,13.333333333333334,5,76,1.0133333333333334,0,122,1.6266666666666667,0
+"Höchst, Nicole",Nicole_Hoechst,3893,False,AfD,169,160,94.67,144,135,"{'de': 135, 'und': 23, 'en': 1, 'nl': 1}",1,0,1,0.62,4937,30.85625,13.0,1691,10.56875,5.0,604,3.775,2.0
+"Höferlin, Manuel",ManuelHoeferlin,6402,True,FDP,238,192,80.67,228,187,"{'de': 187, 'und': 2, 'en': 2, 'no': 1}",58,28,30,30.21,5264,27.416666666666668,15.0,1091,5.682291666666667,2.0,475,2.4739583333333335,1.0
+"Höhn, Matthias",MatthiasHoehn,6098,True,Die Linke,522,394,75.48,480,366,"{'de': 366, 'und': 21, 'cy': 1, 'da': 1, 'en': 4, 'in': 1}",56,24,32,14.21,26222,66.55329949238579,14.0,3673,9.32233502538071,3.0,1273,3.230964467005076,1.0
+"Holm, Leif-Erik",Leif_Erik_Holm,8730,True,AfD,68,66,97.06,68,66,{'de': 66},0,0,0,0.0,10876,164.78787878787878,101.0,2884,43.696969696969695,29.0,1128,17.09090909090909,10.5
+"Holtz, Ottmar von",OWvonHoltz,1458,False,Bündnis 90/Die Grünen,117,103,88.03,96,86,"{'de': 86, 'en': 12, 'und': 3, 'pt': 1, 'uk': 1}",33,3,30,32.04,1451,14.087378640776699,3,159,1.5436893203883495,0,95,0.9223300970873787,0
+"Houben, Reinhard",HoubenReinhard,1317,True,FDP,147,116,78.91,143,113,"{'de': 113, 'und': 3}",20,5,15,17.24,619,5.336206896551724,3.0,71,0.6120689655172413,0.0,48,0.41379310344827586,0.0
+"Jongen, Dr. Marc",Marc_Jongen,2176,True,AfD,70,58,82.86,69,58,{'de': 58},1,0,1,1.72,2584,44.55172413793103,24.5,846,14.586206896551724,7.0,299,5.155172413793103,3.0
+"Jung, Dr. Christian",c_jung77,3277,True,FDP,1855,1578,85.07,1807,1536,"{'de': 1536, 'pt': 1, 'en': 14, 'und': 16, 'nl': 3, 'fr': 2, 'sv': 1, 'pl': 2, 'in': 1, 'lt': 1, 'ht': 1}",304,18,286,19.26,17536,11.112801013941699,4.0,2115,1.3403041825095057,0.0,1803,1.1425855513307985,0.0
+"Jung, Ingmar",Ingmar_Jung,1687,True,CDU,11,8,72.73,11,8,{'de': 8},3,0,3,37.5,33,4.125,3.0,5,0.625,0.0,12,1.5,0.0
+"Juratovic, Josip",josip_juratovic,1213,True,SPD,66,61,92.42,62,58,"{'de': 58, 'und': 3}",10,8,2,16.39,609,9.98360655737705,4,52,0.8524590163934426,0,55,0.9016393442622951,0
+"Kaiser, Elisabeth",Kaiser_SPD,1991,True,SPD,274,235,85.77,271,232,"{'de': 232, 'und': 3}",33,13,20,14.04,4057,17.26382978723404,4,809,3.442553191489362,0,392,1.6680851063829787,0
+"Kartes, Torbjörn",KartesMdB,732,True,CDU,26,22,84.62,24,20,"{'de': 20, 'und': 2}",2,1,1,9.09,11122,505.54545454545456,3.0,1788,81.27272727272727,0.0,238,10.818181818181818,0.0
+"Katzmarek, Gabriele",GabyKatzmarek,1162,True,SPD,23,19,82.61,20,16,"{'und': 3, 'de': 16}",7,2,5,36.84,125,6.578947368421052,1,11,0.5789473684210527,0,15,0.7894736842105263,0
+"Kessler, Dr. Achim",AchimKesslerMdB,2585,False,Die Linke,838,691,82.46,796,651,"{'de': 651, 'en': 4, 'tl': 3, 'und': 25, 'lt': 3, 'pl': 1, 'nl': 2, 'ht': 1, 'cy': 1}",117,12,105,16.93,12731,18.424023154848047,4,3313,4.794500723589001,1,820,1.1866859623733719,0
+"Kestner, Jens",KestnerJens,1114,False,AfD,311,251,80.71,291,239,"{'de': 239, 'und': 10, 'en': 1, 'eu': 1}",82,2,80,32.67,1594,6.350597609561753,1,541,2.1553784860557768,0,427,1.701195219123506,1
+"Keuter, Stefan",StefanKeuterAfD,2110,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Kleinwächter, Norbert",NKleinwaechter,3881,False,AfD,150,145,96.67,148,143,"{'de': 143, 'en': 2}",0,0,0,0.0,5679,39.16551724137931,17,1869,12.889655172413793,4,1050,7.241379310344827,3
+"Kluckert, Daniela",DanielaKluckert,3760,True,FDP,522,432,82.76,495,408,"{'de': 408, 'en': 8, 'und': 12, 'lt': 2, 'da': 1, 'in': 1}",138,4,134,31.94,9922,22.96759259259259,9.0,1375,3.1828703703703702,0.0,1431,3.3125,1.0
+"Kober, Pascal",PascalKober,401,False,FDP,95,62,65.26,91,59,"{'de': 59, 'en': 3}",14,0,14,22.58,282,4.548387096774194,2.0,23,0.3709677419354839,0.0,35,0.5645161290322581,0.0
+"Köhler, Dr. Lukas",koehler_fdp,6660,True,FDP,525,459,87.43,481,417,"{'und': 39, 'de': 417, 'en': 2, 'tl': 1}",220,39,181,47.93,26892,58.588235294117645,14,2555,5.5664488017429194,0,1950,4.248366013071895,2
+"Komning, Enrico",EnricoKomning,2534,False,AfD,33,30,90.91,30,27,"{'de': 27, 'und': 3}",12,1,11,40.0,518,17.266666666666666,3.0,156,5.2,0.5,118,3.933333333333333,1.0
+"Konrad, Carina",carina_konrad,1856,True,FDP,511,415,81.21,498,405,"{'de': 405, 'no': 1, 'und': 8, 'ht': 1}",108,8,100,26.02,6017,14.498795180722892,7,791,1.9060240963855422,1,413,0.9951807228915662,0
+"Korkmaz-Emre, Elvan",KorkmazGT,2134,True,SPD,232,197,84.91,222,187,"{'de': 187, 'en': 2, 'und': 7, 'lt': 1}",87,67,20,44.16,1679,8.52284263959391,3,193,0.9796954314720813,0,225,1.1421319796954315,1
+"Kotré, Steffen",SteffenKotre,3812,False,AfD,179,155,86.59,175,153,"{'de': 153, 'und': 2}",12,6,6,7.74,8804,56.8,9,4729,30.509677419354837,3,1880,12.129032258064516,2
+"Krauß, Alexander",kraussalex,183,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Kuffer, Michael",MichaelKuffer,757,False,CSU,12,10,83.33,10,8,"{'de': 8, 'und': 2}",3,1,2,30.0,85,8.5,2.5,12,1.2,0.5,22,2.2,0.5
+"Kuhle, Konstantin Elias",KonstantinKuhle,27933,True,FDP,1886,1611,85.42,1553,1316,"{'de': 1316, 'en': 31, 'und': 218, 'it': 3, 'et': 2, 'da': 2, 'es': 11, 'sv': 6, 'hu': 1, 'no': 4, 'fr': 5, 'in': 1, 'ca': 2, 'cy': 2, 'tr': 1, 'lt': 1, 'pt': 3, 'ro': 1, 'pl': 1}",888,168,720,55.12,296858,184.26939788950963,37,27187,16.875853507138423,1,24396,15.143389199255122,2
+"Lambsdorff, Alexander Graf",Lambsdorff,19308,True,FDP,1271,1045,82.22,1067,888,"{'de': 888, 'en': 75, 'und': 54, 'fr': 14, 'pt': 2, 'et': 2, 'sv': 1, 'ro': 2, 'es': 4, 'lt': 2, 'ca': 1}",629,31,598,60.19,63315,60.588516746411486,9,8408,8.045933014354066,0,9745,9.325358851674642,2
+"Lehmann, Sven",svenlehmann,15774,True,Bündnis 90/Die Grünen,976,917,93.95,883,829,"{'de': 829, 'lt': 3, 'und': 43, 'en': 28, 'fr': 2, 'ht': 1, 'pt': 1, 'sv': 3, 'da': 1, 'pl': 1, 'uk': 1, 'nl': 1, 'no': 1, 'eu': 1, 'et': 1}",440,145,295,47.98,133344,145.4133042529989,41,20880,22.76990185387132,4,7178,7.827699018538714,2
+"Lindh, Helge",helgelindh,10265,True,SPD,271,248,91.51,270,248,{'de': 248},58,21,37,23.39,89957,362.72983870967744,96.5,13081,52.74596774193548,14.0,27428,110.59677419354838,14.5
+"Lindner, Christian",c_lindner,429643,True,FDP,1296,1212,93.52,1235,1155,"{'de': 1155, 'und': 21, 'nl': 23, 'lt': 1, 'in': 3, 'en': 6, 'fr': 1, 'no': 1, 'ht': 1}",750,142,608,61.88,381021,314.3737623762376,76.0,31524,26.00990099009901,2.0,90593,74.746699669967,12.0
+"Link, Michael",michael_g_link,1934,True,FDP,160,133,83.12,139,118,"{'de': 118, 'en': 14, 'und': 1}",11,3,8,8.27,3065,23.045112781954888,11,533,4.007518796992481,1,170,1.2781954887218046,0
+"Löbel, Nikolas",NikolasLoebel,1851,True,CDU,220,191,86.82,176,154,"{'de': 154, 'en': 21, 'und': 15, 'fr': 1}",69,21,48,36.13,3128,16.376963350785342,6,478,2.5026178010471205,1,312,1.6335078534031413,0
+"Lucassen, Rüdiger",MdB_Lucassen,3688,False,AfD,26,26,100.0,25,25,"{'de': 25, 'und': 1}",10,10,0,38.46,1080,41.53846153846154,25.5,302,11.615384615384615,4.5,153,5.884615384615385,3.5
+"Luksic, Oliver",OlliLuksic,10160,True,FDP,2930,2639,90.07,2765,2492,"{'de': 2492, 'en': 57, 'lt': 2, 'und': 62, 'no': 5, 'da': 2, 'fr': 2, 'fi': 1, 'eu': 1, 'pt': 2, 'sv': 6, 'es': 2, 'et': 1, 'nl': 2, 'in': 1, 'ca': 1}",589,26,563,22.32,141504,53.620310723759,13,22852,8.659340659340659,2,15771,5.976127320954907,1
+"Maas, Heiko",HeikoMaas,439133,True,SPD,711,674,94.8,687,658,"{'de': 658, 'pl': 1, 'fr': 5, 'en': 7, 'it': 1, 'no': 1, 'und': 1}",98,89,9,14.54,383686,569.2670623145401,250.5,55265,81.99554896142433,36.0,105479,156.49703264094956,82.0
+"Maier, Jens",JensMaierAfD,6007,False,AfD,420,405,96.43,418,403,"{'de': 403, 'und': 2}",103,102,1,25.43,39318,97.08148148148148,43,13916,34.3604938271605,13,7897,19.498765432098764,11
+"Maier, Prof. Dr. Lothar",ProfMaier,2437,False,AfD,118,117,99.15,116,115,"{'de': 115, 'und': 2}",0,0,0,0.0,638,5.452991452991453,3,205,1.7521367521367521,1,212,1.811965811965812,1
+"Matschie, Christoph",matschie,1966,True,SPD,92,74,80.43,84,69,"{'de': 69, 'und': 1, 'en': 4}",23,12,11,31.08,655,8.85135135135135,4.0,179,2.418918918918919,1.0,84,1.135135135135135,1.0
+"Meiser, Pascal",pascalmeiser,2579,False,Die Linke,243,187,76.95,230,175,"{'de': 175, 'und': 10, 'en': 2}",36,11,25,19.25,14156,75.70053475935829,10,3190,17.058823529411764,3,515,2.7540106951871657,1
+"Miazga, Corinna",CorinnaMiazga,7935,False,AfD,80,78,97.5,80,78,{'de': 78},0,0,0,0.0,17195,220.44871794871796,147.5,4626,59.30769230769231,36.0,2386,30.58974358974359,19.0
+"Mohrs, Falko",FalkoMohrs,2053,True,SPD,69,55,79.71,67,53,"{'de': 53, 'und': 2}",15,1,14,27.27,2262,41.127272727272725,15,217,3.9454545454545453,1,153,2.7818181818181817,1
+"Mrosek, Andreas",mrosek1958,2385,True,AfD,293,278,94.88,249,234,"{'de': 234, 'und': 43, 'da': 1}",36,0,36,12.95,2795,10.053956834532373,3.0,1181,4.248201438848921,1.0,469,1.6870503597122302,1.0
+"Müller, Claudia",GruenClaudia,2521,True,Bündnis 90/Die Grünen,890,692,77.75,768,606,"{'de': 606, 'und': 59, 'en': 18, 'no': 2, 'fr': 1, 'nl': 2, 'in': 2, 'et': 1, 'uk': 1}",380,58,322,54.91,6398,9.245664739884393,3.0,765,1.1054913294797688,0.0,650,0.9393063583815029,0.0
+"Müller, Sepp",mueller_sepp,1631,True,CDU,589,406,68.93,513,336,"{'und': 61, 'de': 336, 'en': 4, 'pt': 1, 'sv': 1, 'in': 1, 'no': 2}",151,13,138,37.19,3667,9.032019704433498,2.0,430,1.0591133004926108,0.0,601,1.480295566502463,0.0
+"Müller-Böhm, Roman",muellerboehm,1280,True,FDP,4,4,100.0,3,3,"{'und': 1, 'de': 3}",1,0,1,25.0,15,3.75,3.0,2,0.5,0.0,3,0.75,0.5
+"Münzenmaier, Sebastian",S_Muenzenmaier,5702,False,AfD,461,440,95.44,457,436,"{'de': 436, 'und': 3, 'in': 1}",9,0,9,2.05,20216,45.945454545454545,19.0,6288,14.290909090909091,6.0,3286,7.468181818181818,3.0
+"Nastic, Zaklin",ZaklinNastic,4214,False,Die Linke,505,434,85.94,480,428,"{'de': 428, 'und': 4, 'en': 2}",14,7,7,3.23,17909,41.264976958525345,18.0,9591,22.099078341013826,8.0,1010,2.327188940092166,1.0
+"Freihold, Brigitte",MdB_Freihold,792,False,Die Linke,297,230,77.44,291,228,"{'de': 228, 'und': 2}",20,20,0,8.7,680,2.9565217391304346,1.0,276,1.2,0.0,78,0.3391304347826087,0.0
+"Nestle, Dr. Ingrid",Ingrid_Nestle,2843,False,Bündnis 90/Die Grünen,502,412,82.07,492,405,"{'de': 405, 'und': 6, 'sv': 1}",91,63,28,22.09,4506,10.936893203883495,5.0,1075,2.6092233009708736,1.0,445,1.0800970873786409,1.0
+"Neumann, Christoph",Neumann_AfD,369,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Nolte, Jan",Jan_Nolte_AfD,1505,False,AfD,126,115,91.27,124,113,"{'de': 113, 'und': 2}",39,19,20,33.91,4661,40.530434782608694,10,1091,9.486956521739131,1,494,4.2956521739130435,1
+"Oehme, Ulrich",Ulrich_Oehme,1096,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ortleb, Josephine",joloulou,3004,False,SPD,47,42,89.36,43,38,"{'de': 38, 'en': 1, 'da': 1, 'und': 2}",15,1,14,35.71,4894,116.52380952380952,11.0,504,12,1.0,247,5.880952380952381,1.0
+"Oster, Josef",josefoster,603,True,CDU,2,2,100.0,2,2,{'de': 2},0,0,0,0.0,10,5,5.0,2,1,1.0,1,0.5,0.5
+"Pasemann, Frank",Frank_Pasemann,11843,True,AfD,512,397,77.54,496,391,"{'de': 391, 'und': 2, 'sv': 1, 'en': 2, 'no': 1}",8,1,7,2.02,59224,149.17884130982367,75,22757,57.322418136020154,26,9266,23.34005037783375,15
+"Pellmann, Sören",LINKEPELLI,6364,False,Die Linke,868,797,91.82,848,778,"{'de': 778, 'sv': 2, 'und': 14, 'lt': 1, 'en': 2}",167,37,130,20.95,11439,14.352572145545796,8,2508,3.1468005018820575,1,1489,1.8682559598494355,0
+"Perli, Victor",victorperli,5490,True,Die Linke,767,690,89.96,736,668,"{'de': 668, 'und': 19, 'en': 2, 'nl': 1}",217,46,171,31.45,95681,138.66811594202898,58.0,24361,35.30579710144927,13.0,4376,6.3420289855072465,2.0
+"Peterka, Tobias",TobiasMPeterka,1448,False,AfD,483,482,99.79,481,480,"{'de': 480, 'und': 2}",32,31,1,6.64,3755,7.79045643153527,2.0,1226,2.5435684647302903,0.0,992,2.0580912863070537,1.0
+"Petry, Dr. Frauke",FraukePetry,51476,True,Fraktionslos,641,588,91.73,613,564,"{'de': 564, 'sv': 2, 'und': 12, 'et': 2, 'pt': 2, 'en': 4, 'ht': 1, 'es': 1}",387,6,381,65.82,38470,65.42517006802721,8.0,6607,11.236394557823129,0.5,4056,6.8979591836734695,2.0
+"Pflüger, Tobias",tpflueger,3169,False,Die Linke,127,110,86.61,124,109,"{'de': 109, 'en': 1}",9,2,7,8.18,2670,24.272727272727273,11.0,835,7.590909090909091,4.0,355,3.227272727272727,1.0
+"Pilsinger, Stephan",StephPilsinger,1186,True,CSU,13,13,100.0,13,13,{'de': 13},4,0,4,30.77,141,10.846153846153847,2,27,2.076923076923077,0,67,5.153846153846154,2
+"Podolay, Paul Viktor",Paul_Podolay,746,False,AfD,3,3,100.0,2,2,"{'und': 1, 'de': 2}",1,0,1,33.33,5,1.6666666666666667,1,1,0.3333333333333333,0,7,2.3333333333333335,1
+"Pohl, Jürgen",Pohl_MdB,2483,False,AfD,79,63,79.75,76,61,"{'de': 61, 'und': 2}",15,0,15,23.81,2148,34.095238095238095,7,715,11.34920634920635,2,228,3.619047619047619,1
+"Polat, Filiz",filizgreen,4509,False,Bündnis 90/Die Grünen,656,558,85.06,631,539,"{'de': 539, 'en': 5, 'und': 10, 'da': 2, 'nl': 1, 'sv': 1}",58,49,9,10.39,12694,22.74910394265233,9.0,2530,4.534050179211469,2.0,917,1.6433691756272402,0.0
+"Protschka, Stephan",AfDProtschka,5552,True,AfD,1101,966,87.74,1070,942,"{'de': 942, 'und': 17, 'en': 2, 'sv': 2, 'no': 2, 'is': 1}",255,12,243,26.4,87567,90.64906832298136,29.0,21911,22.682194616977224,6.0,21894,22.664596273291924,6.5
+"Reichardt, Martin",M_Reichardt_AfD,6835,True,AfD,919,816,88.79,904,802,"{'de': 802, 'und': 10, 'in': 1, 'en': 1, 'es': 1, 'lt': 1}",390,36,354,47.79,30764,37.700980392156865,14.0,8882,10.884803921568627,3.0,4039,4.949754901960785,2.0
+"Remmers, Ingrid",Ingrid_Remmers,985,False,Die Linke,53,44,83.02,51,42,"{'de': 42, 'und': 2}",4,1,3,9.09,469,10.659090909090908,3.0,111,2.522727272727273,1.0,42,0.9545454545454546,0.0
+"Renner, Martin Erwin",Renner_AfD,6939,True,AfD,214,199,92.99,187,174,"{'de': 174, 'und': 21, 'fr': 1, 'en': 3}",15,0,15,7.54,16107,80.93969849246231,59,6887,34.608040201005025,28,849,4.266331658291457,2
+"Riexinger, Bernd",b_riexinger,39016,True,Die Linke,599,558,93.16,599,558,{'de': 558},49,30,19,8.78,122077,218.77598566308242,130.5,21862,39.17921146953405,23.0,18450,33.064516129032256,14.0
+"Reuther, Bernd",reuther_bernd,1420,True,FDP,168,129,76.79,165,127,"{'de': 127, 'en': 2}",19,3,16,14.73,1153,8.937984496124031,4,144,1.1162790697674418,0,136,1.054263565891473,0
+"Ullrich, Gerald",G_UllrichFDP,1184,True,FDP,475,379,79.79,462,375,"{'de': 375, 'en': 1, 'und': 3}",20,5,15,5.28,2692,7.102902374670185,2,528,1.3931398416886545,0,315,0.8311345646437994,0
+"Rouenhoff, Stefan",StefanRouenhoff,856,True,CDU,25,21,84.0,19,16,"{'de': 16, 'en': 5}",1,0,1,4.76,120,5.714285714285714,4,16,0.7619047619047619,0,4,0.19047619047619047,0
+"Sattelberger, Thomas",th_sattelberger,14865,True,FDP,2514,2119,84.29,2351,1979,"{'de': 1979, 'en': 52, 'und': 53, 'cs': 2, 'sv': 6, 'lv': 3, 'in': 3, 'lt': 4, 'es': 2, 'da': 2, 'nl': 3, 'pl': 1, 'no': 1, 'eu': 3, 'et': 1, 'fr': 1, 'cy': 1, 'tl': 2}",1152,53,1099,54.37,79682,37.60358659745163,6,11160,5.266635205285512,0,10262,4.84285040113261,1
+"Schäfer, Anita",SchaeferCDU,170,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Schäffler, Frank",f_schaeffler,14364,True,FDP,1019,847,83.12,981,816,"{'de': 816, 'und': 17, 'en': 11, 'et': 1, 'no': 1, 'es': 1}",123,17,106,14.52,98699,116.52774498229044,26,15319,18.086186540731994,3,7147,8.438016528925619,2
+"Scheer, Nina",NinaScheer_SPD,3659,False,SPD,44,34,77.27,43,33,"{'de': 33, 'und': 1}",3,0,3,8.82,1495,43.970588235294116,14.5,268,7.882352941176471,2.5,124,3.6470588235294117,1.0
+"Schielke-Ziesing, Ulrike",ulschzi,1640,False,AfD,339,316,93.22,338,315,"{'de': 315, 'und': 1}",14,9,5,4.43,1362,4.310126582278481,2.0,523,1.6550632911392404,1.0,265,0.8386075949367089,0.0
+"Schinnenburg, Dr. Wieland",WSchinnenburg,1384,False,FDP,239,211,88.28,225,200,"{'de': 200, 'und': 8, 'en': 3}",53,0,53,25.12,1202,5.696682464454977,2,176,0.8341232227488151,0,205,0.9715639810426541,0
+"Schmid, Dr. Nils",NilsSchmid,5801,True,SPD,503,480,95.43,462,447,"{'de': 447, 'fr': 7, 'und': 4, 'en': 18, 'tr': 2, 'pt': 1, 'ru': 1}",113,103,10,23.54,3823,7.964583333333334,3.0,765,1.59375,0.0,884,1.8416666666666666,1.0
+"Schneider, Jörg",Schneider_AfD,5774,False,AfD,376,348,92.55,362,334,"{'de': 334, 'und': 12, 'fr': 2}",13,0,13,3.74,21343,61.33045977011494,44.0,9874,28.373563218390803,22.0,836,2.4022988505747125,1.0
+"Schraps, Johannes",jschraps,1744,True,SPD,45,37,82.22,43,35,"{'de': 35, 'und': 2}",11,3,8,29.73,190,5.135135135135135,2,35,0.9459459459459459,0,33,0.8918918918918919,0
+"Schreiner, Felix",felixschreiner,1429,True,CDU,98,78,79.59,90,74,"{'de': 74, 'und': 3, 'sv': 1}",6,1,5,7.69,653,8.371794871794872,5.0,41,0.5256410256410257,0.0,99,1.2692307692307692,0.0
+"Schrodi, Michael",mischrodi,1635,True,SPD,229,211,92.14,220,204,"{'de': 204, 'und': 5, 'en': 2}",115,14,101,54.5,1499,7.104265402843602,3,248,1.1753554502369667,0,203,0.9620853080568721,0
+"Schulz, Martin",MartinSchulz,683428,True,SPD,51,47,92.16,45,43,"{'de': 43, 'en': 3, 'fr': 1}",1,1,0,2.13,24556,522.468085106383,265,3138,66.76595744680851,43,2476,52.680851063829785,31
+"Schulz, Uwe",Uwe_Schulz_AfD,1269,False,AfD,28,25,89.29,24,21,"{'de': 21, 'en': 1, 'und': 3}",2,0,2,8.0,111,4.44,2,39,1.56,0,30,1.2,1
+"Schweiger, Torsten",cdu_schweiger,535,True,CDU,16,14,87.5,13,11,"{'und': 3, 'de': 11}",0,0,0,0.0,21,1.5,1.5,10,0.7142857142857143,0.5,4,0.2857142857142857,0.0
+"Seitz, Thomas",Th_Seitz_AfD,2741,False,AfD,16,14,87.5,16,14,{'de': 14},2,0,2,14.29,94,6.714285714285714,7.0,21,1.5,1.5,142,10.142857142857142,3.0
+"Sichert, Martin",Martin_Sichert,2386,False,AfD,270,247,91.48,262,242,"{'de': 242, 'und': 2, 'fr': 2, 'en': 1}",96,25,71,38.87,4312,17.45748987854251,6,1307,5.291497975708502,1,640,2.591093117408907,1
+"Simon, Björn",BjoernSimon,281,False,CDU,66,56,84.85,66,56,{'de': 56},2,1,1,3.57,79,1.4107142857142858,1.0,7,0.125,0.0,8,0.14285714285714285,0.0
+"Sitta, Frank",franksitta,3361,True,FDP,25,22,88.0,24,21,"{'und': 1, 'de': 21}",14,0,14,63.64,89,4.045454545454546,2.0,10,0.45454545454545453,0.0,43,1.9545454545454546,1.0
+"Solms, Dr. Hermann Otto",solms,7499,True,FDP,109,100,91.74,106,97,"{'de': 97, 'und': 2, 'tr': 1}",51,11,40,51.0,4951,49.51,10.0,376,3.76,0.0,527,5.27,1.0
+"Sommer, Evrim",HESommer,4820,True,Die Linke,964,830,86.1,900,797,"{'de': 797, 'en': 9, 'tr': 16, 'ca': 1, 'und': 5, 'ro': 1, 'fr': 1}",178,93,85,21.45,17776,21.416867469879517,12.0,5747,6.924096385542168,3.0,1440,1.7349397590361446,1.0
+"Spaniel, Dr. Dirk",DirkSpaniel,3692,False,AfD,81,74,91.36,79,73,"{'de': 73, 'en': 1}",18,0,18,24.32,8860,119.72972972972973,33.0,3412,46.108108108108105,12.5,1131,15.283783783783784,5.0
+"Mieruch, Mario",MieruchMario,1322,False,Fraktionslos,5961,5183,86.95,5569,4833,"{'de': 4833, 'und': 211, 'en': 75, 'pt': 4, 'es': 3, 'da': 8, 'in': 5, 'pl': 4, 'fr': 4, 'nl': 4, 'sv': 7, 'ht': 2, 'tl': 1, 'no': 5, 'hu': 1, 'tr': 2, 'is': 3, 'eu': 4, 'et': 2, 'cy': 2, 'lv': 1, 'lt': 1, 'sl': 1}",3528,109,3419,68.07,37074,7.153000192938452,2,4849,0.9355585568203743,0,4283,0.8263553926297511,0
+"Staffler, Katrin",katrin_staffler,882,True,CSU,53,38,71.7,42,34,"{'de': 34, 'en': 4}",5,0,5,13.16,215,5.657894736842105,4.0,40,1.0526315789473684,0.5,43,1.131578947368421,0.0
+"Stark-Watzinger, Bettina",starkwatzinger,5043,True,FDP,827,707,85.49,803,686,"{'de': 686, 'und': 4, 'en': 13, 'no': 1, 'fi': 1, 'eu': 1, 'pt': 1}",282,36,246,39.89,28310,40.04243281471004,20,3480,4.9222065063649225,2,2755,3.896746817538897,1
+"Steier, Andreas",AndreasSteier,2251,True,CDU,274,255,93.07,256,239,"{'de': 239, 'en': 15, 'und': 1}",148,21,127,58.04,2249,8.819607843137256,2,466,1.8274509803921568,0,503,1.9725490196078432,1
+"Stein, Jens Mathias",stonie_kiel,1576,True,SPD,543,437,80.48,519,415,"{'de': 415, 'und': 5, 'fr': 1, 'it': 1, 'en': 14, 'es': 1}",229,5,224,52.4,2161,4.945080091533181,2,295,0.6750572082379863,0,394,0.9016018306636155,0
+"Stein, Peter",Peter_Stein_CDU,868,True,CDU,359,316,88.02,287,248,"{'de': 248, 'tr': 1, 'und': 47, 'en': 10, 'es': 2, 'pt': 1, 'sv': 4, 'fr': 1, 'da': 1, 'nl': 1}",114,2,112,36.08,1112,3.518987341772152,1.0,110,0.34810126582278483,0.0,589,1.8639240506329113,0.0
+"Storch, Beatrix von",Beatrix_vStorch,60652,True,AfD,483,414,85.71,467,404,"{'de': 404, 'en': 2, 'und': 8}",8,5,3,1.93,376006,908.2270531400966,806.0,96476,233.03381642512076,196.0,45943,110.97342995169082,83.0
+"Strack-Zimmermann, Dr. Marie-Agnes",MAStrackZi,18155,True,FDP,2738,2595,94.78,2381,2249,"{'de': 2249, 'und': 281, 'en': 36, 'pl': 2, 'lt': 1, 'eu': 1, 'hu': 1, 'et': 1, 'fr': 3, 'in': 1, 'tl': 1, 'pt': 3, 'nl': 3, 'da': 3, 'no': 1, 'sv': 6, 'it': 1, 'fi': 1}",2113,279,1834,81.43,160536,61.8635838150289,5,11395,4.391136801541426,0,9668,3.725626204238921,1
+"Strasser, Benjamin",bstrasser,4168,True,FDP,442,376,85.07,420,356,"{'de': 356, 'sv': 1, 'da': 2, 'ht': 1, 'fr': 1, 'und': 8, 'en': 5, 'hu': 1, 'it': 1}",134,42,92,35.64,13432,35.723404255319146,16.0,2014,5.3563829787234045,2.0,1362,3.622340425531915,1.0
+"Suding, Katja",KatjaSuding,12731,True,FDP,510,473,92.75,504,468,"{'de': 468, 'und': 3, 'da': 1, 'en': 1}",221,103,118,46.72,24781,52.39112050739958,22,2924,6.181818181818182,2,8882,18.77801268498943,3
+"Teuteberg, Linda",LindaTeuteberg,17158,True,FDP,252,208,82.54,245,203,"{'de': 203, 'und': 5}",49,10,39,23.56,47180,226.82692307692307,118.5,6206,29.83653846153846,10.5,5450,26.201923076923077,10.0
+"Theurer, Michael",EUTheurer,5997,True,FDP,434,379,87.33,411,358,"{'de': 358, 'und': 15, 'es': 1, 'en': 4, 'lt': 1}",176,13,163,46.44,9459,24.95778364116095,7,1330,3.509234828496042,0,1229,3.242744063324538,1
+"Thomae, Stephan",StephanThomae,2938,True,FDP,632,537,84.97,622,529,"{'de': 529, 'und': 3, 'en': 3, 'nl': 2}",39,15,24,7.26,9298,17.314711359404097,7,1373,2.5567970204841712,1,916,1.7057728119180633,0
+"Tiemann, Dr. Dietlind",dr_tiemann,578,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Todtenhausen, Manfred",MTodtenhausen,1358,True,FDP,76,49,64.47,73,46,"{'de': 46, 'und': 2, 'en': 1}",15,0,15,30.61,139,2.836734693877551,2,12,0.24489795918367346,0,17,0.3469387755102041,0
+"Toncar, Dr. Florian",florian_toncar,6047,True,FDP,386,358,92.75,371,343,"{'de': 343, 'und': 11, 'en': 3, 'sv': 1}",60,11,49,16.76,9756,27.251396648044693,18.0,1372,3.8324022346368714,2.0,794,2.217877094972067,1.0
+"Töns, Markus",Toens_NRW04,1378,True,SPD,269,223,82.9,232,190,"{'de': 190, 'und': 24, 'en': 6, 'nl': 1, 'no': 1, 'it': 1}",170,6,164,76.23,2030,9.103139013452914,2,98,0.43946188340807174,0,158,0.7085201793721974,0
+"Uhl, Markus",uhl_markus,749,False,CDU,1,1,100.0,1,1,{'de': 1},0,0,0,0.0,6,6,6,2,2,2,1,1,1
+"Ullmann, Prof. Dr. Andrew",UllmannMdB,2154,True,FDP,917,822,89.64,834,753,"{'de': 753, 'und': 25, 'en': 34, 'da': 3, 'no': 2, 'fr': 1, 'cy': 1, 'nl': 3}",404,25,379,49.15,7327,8.913625304136254,2.0,1040,1.2652068126520681,0.0,1582,1.924574209245742,1.0
+"Vogel, Johannes",johannesvogel,19366,True,FDP,2392,2226,93.06,1915,1774,"{'de': 1774, 'en': 120, 'und': 256, 'es': 5, 'nl': 7, 'sv': 16, 'in': 5, 'lt': 7, 'tr': 16, 'ht': 2, 'eu': 1, 'et': 5, 'da': 2, 'fr': 3, 'no': 1, 'pl': 1, 'pt': 1, 'lv': 1, 'tl': 1, 'is': 1, 'ro': 1}",1702,67,1635,76.46,105563,47.42273135669362,3.0,10917,4.904312668463612,0.0,8681,3.899820305480683,1.0
+"Wagner, Andreas",Andi_Wagner,3055,True,Die Linke,342,301,88.01,334,295,"{'de': 295, 'nl': 1, 'und': 5}",95,13,82,31.56,24050,79.90033222591362,8,3659,12.156146179401993,1,1411,4.687707641196013,1
+"Wagner, Daniela",DanyWagner_DA,1502,True,Bündnis 90/Die Grünen,219,169,77.17,195,147,"{'de': 147, 'und': 13, 'en': 7, 'sv': 1, 'eu': 1}",67,35,32,39.64,866,5.124260355029586,2,140,0.8284023668639053,0,110,0.650887573964497,0
+"Weeser, Sandra",sandra_weeser,3184,True,FDP,2281,2142,93.91,1938,1808,"{'de': 1808, 'en': 142, 'und': 136, 'tl': 7, 'in': 4, 'sv': 30, 'nl': 6, 'fr': 5, 'lt': 1, 'pl': 1, 'eu': 1, 'da': 1}",1363,36,1327,63.63,29826,13.92436974789916,1.0,4116,1.9215686274509804,0.0,3612,1.6862745098039216,0.0
+"Weidel, Dr. Alice",Alice_Weidel,111632,True,AfD,337,325,96.44,335,323,"{'de': 323, 'en': 2}",5,5,0,1.54,538536,1657.033846153846,1473,134138,412.7323076923077,353,62296,191.68,146
+"Weyel, Prof. Dr. Harald",h_weyel,4024,False,AfD,1047,821,78.41,868,667,"{'en': 78, 'de': 667, 'lt': 2, 'und': 39, 'pt': 5, 'et': 1, 'nl': 5, 'fr': 13, 'no': 2, 'in': 2, 'sv': 2, 'es': 2, 'eu': 1, 'ro': 1, 'da': 1}",446,4,442,54.32,5480,6.674786845310597,3,1172,1.4275274056029232,0,885,1.0779537149817295,1
+"Wildberg, Dr. Heiko",Heiko_Wildberg,325,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Wirth, Dr. Christian Friedrich",ChrWirthMdB,2403,False,AfD,63,63,100.0,53,53,"{'de': 53, 'und': 8, 'da': 1, 'en': 1}",25,3,22,39.68,3564,56.57142857142857,2,1199,19.03174603174603,0,378,6,1
+"Witt, Uwe",Witt_Uwe,3453,False,AfD,264,229,86.74,258,226,"{'de': 226, 'und': 3}",16,13,3,6.99,15111,65.98689956331877,25,4362,19.048034934497817,9,1524,6.655021834061135,3
+"Ziemiak, Paul",PaulZiemiak,41407,True,CDU,684,573,83.77,656,548,"{'de': 548, 'fr': 1, 'en': 8, 'und': 14, 'pl': 1, 'fi': 1}",87,72,15,15.18,100174,174.82373472949388,66,12325,21.509598603839443,8,33579,58.602094240837694,15
+"Braun, Jürgen",JuergenBraunAfD,3126,False,AfD,1877,1451,77.3,1777,1388,"{'de': 1388, 'eu': 6, 'und': 47, 'en': 5, 'nl': 2, 'ht': 1, 'fr': 1, 'in': 1}",436,8,428,30.05,34508,23.78221915920055,10,11057,7.62026188835286,2,3937,2.713301171605789,1
+"Jacobi, Fabian",Jacobi_AfD,1628,False,AfD,385,352,91.43,325,296,"{'de': 296, 'und': 30, 'en': 18, 'es': 1, 'nl': 1, 'pt': 2, 'da': 2, 'no': 1, 'hu': 1}",241,26,215,68.47,2359,6.701704545454546,2.0,624,1.7727272727272727,0.0,292,0.8295454545454546,0.0
+"König, Jörn",JoernKoenigAfD,770,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Magnitz, Frank",Frank_Magnitz,1942,False,AfD,2,2,100.0,1,1,"{'und': 1, 'de': 1}",1,0,1,50.0,1,0.5,0.5,0,0,0.0,1,0.5,0.5
+"Springer, René",Rene_Springer,3051,False,AfD,82,75,91.46,80,73,"{'de': 73, 'und': 2}",8,1,7,10.67,1934,25.786666666666665,6,661,8.813333333333333,2,194,2.5866666666666664,1
+"Kraft, Dr. Rainer",Dr_Rainer_Kraft,879,False,AfD,643,404,62.83,626,393,"{'de': 393, 'en': 7, 'und': 3, 'da': 1}",77,0,77,19.06,2873,7.111386138613861,2.0,690,1.7079207920792079,0.0,584,1.4455445544554455,1.0
+"Hoffmann, Dr. Bettina",bhoffmann_mdb,1661,False,Bündnis 90/Die Grünen,253,200,79.05,248,196,"{'de': 196, 'und': 4}",78,38,40,39.0,1666,8.33,2.0,360,1.8,0.0,196,0.98,0.0
+"Kappert-Gonther, Dr. Kirsten",KirstenKappert,3782,False,Bündnis 90/Die Grünen,297,250,84.18,262,225,"{'de': 225, 'und': 16, 'en': 9}",63,9,54,25.2,13770,55.08,14.0,2249,8.996,1.0,1093,4.372,1.0
+"Keul, Katja",KatjaKeul,2169,False,Bündnis 90/Die Grünen,161,135,83.85,148,125,"{'de': 125, 'en': 2, 'und': 6, 'da': 1, 'tr': 1}",47,4,43,34.81,1637,12.125925925925927,4,340,2.5185185185185186,0,211,1.5629629629629629,1
+"Stumpp, Margit",margit_stumpp,1731,True,Bündnis 90/Die Grünen,648,483,74.54,625,471,"{'de': 471, 'en': 4, 'und': 8}",35,14,21,7.25,2681,5.550724637681159,2,735,1.5217391304347827,0,326,0.6749482401656315,0
+"Biadacz, Marc",MBiadaczMdB,1100,True,CDU,247,191,77.33,233,178,"{'de': 178, 'und': 7, 'da': 1, 'en': 5}",11,9,2,5.76,1556,8.146596858638743,4,166,0.8691099476439791,0,418,2.18848167539267,0
+"Knoerig, Axel",axel_knoerig,346,True,CDU,16,16,100.0,16,16,{'de': 16},8,1,7,50.0,13,0.8125,0.0,1,0.0625,0.0,8,0.5,0.0
+"Mast, Katja",KatjaMast,2247,True,SPD,974,831,85.32,922,784,"{'de': 784, 'und': 38, 'lt': 2, 'en': 6, 'sv': 1}",270,91,179,32.49,32168,38.709987966305654,11,4913,5.9121540312876055,2,8942,10.760529482551144,2
+"Müntefering, Michelle",Mi_Muentefering,6655,True,SPD,751,610,81.23,519,425,"{'de': 425, 'und': 87, 'en': 86, 'ro': 1, 'it': 2, 'es': 2, 'no': 1, 'fr': 2, 'nl': 1, 'sv': 1, 'lt': 1, 'tr': 1}",154,12,142,25.25,11824,19.38360655737705,10.0,1842,3.019672131147541,1.0,712,1.1672131147540983,0.0
+"Silberhorn, Thomas",SilberhornMdB,2187,True,CSU,153,110,71.9,138,97,"{'de': 97, 'en': 9, 'und': 1, 'fr': 3}",19,6,13,17.27,3388,30.8,14.5,609,5.536363636363636,2.0,380,3.4545454545454546,1.0
+"Schreiber, Eva-Maria",MdB_Schreiber,1230,False,Die Linke,434,377,86.87,429,374,"{'de': 374, 'und': 1, 'fi': 1, 'en': 1}",52,34,18,13.79,1710,4.535809018567639,2,553,1.46684350132626,0,183,0.4854111405835544,0
+"Straetmanns, Friedrich",FrStraetmanns,1732,True,Die Linke,615,523,85.04,611,519,"{'de': 519, 'und': 3, 'en': 1}",92,73,19,17.59,7215,13.795411089866157,7,1401,2.6787762906309753,1,498,0.9521988527724665,0
+"Busen, Karlheinz",busen_mdb,887,True,FDP,23,16,69.57,23,16,{'de': 16},0,0,0,0.0,207,12.9375,8.0,25,1.5625,1.0,17,1.0625,0.0
+"Djir-Sarai, Bijan",DjirSarai,4605,True,FDP,306,242,79.08,289,239,"{'de': 239, 'und': 3}",13,5,8,5.37,25948,107.22314049586777,32.0,9962,41.16528925619835,4.0,1449,5.987603305785124,2.0
+"in der Beek, Olaf",olafinderbeek,5653,True,FDP,350,262,74.86,335,250,"{'de': 250, 'und': 5, 'lt': 1, 'sv': 2, 'en': 3, 'nl': 1}",26,2,24,9.92,15812,60.35114503816794,27.0,2170,8.282442748091603,2.0,1274,4.862595419847328,1.0
+"Willkomm, Katharina",k_willkomm,1113,True,FDP,567,451,79.54,553,437,"{'de': 437, 'en': 4, 'und': 9, 'pt': 1}",242,20,222,53.66,1645,3.647450110864745,2,166,0.36807095343680707,0,155,0.3436807095343681,0
+"Mansmann, Till",TillMansmann,581,True,FDP,48,43,89.58,47,43,{'de': 43},4,3,1,9.3,522,12.13953488372093,7,67,1.558139534883721,0,29,0.6744186046511628,0
+"Müller, Alexander",alexmuellerfdp,1556,True,FDP,450,361,80.22,437,353,"{'de': 353, 'und': 4, 'en': 4}",54,7,47,14.96,4831,13.382271468144044,6,923,2.556786703601108,1,480,1.3296398891966759,0
+"Reinhold, Hagen",reinholdmdb,3182,True,FDP,942,847,89.92,891,799,"{'de': 799, 'und': 32, 'no': 2, 'fi': 1, 'da': 1, 'en': 7, 'nl': 1, 'fr': 2, 'sv': 2}",223,81,142,26.33,31344,37.00590318772137,13,3511,4.14521841794569,1,3070,3.624557260920897,1
+"Skudelny, Judith",JudithSkudelny,1288,True,FDP,261,236,90.42,254,229,"{'de': 229, 'und': 6, 'sv': 1}",109,42,67,46.19,1159,4.911016949152542,2.0,133,0.5635593220338984,0.0,218,0.923728813559322,1.0
+"Dilcher, Esther",EstherDilcher,228,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Aggelidis, Grigorios",aggelidis_fdp,1068,False,FDP,213,195,91.55,211,193,"{'de': 193, 'und': 1, 'el': 1}",43,17,26,22.05,1362,6.984615384615385,4,200,1.0256410256410255,0,146,0.7487179487179487,0
+"Hollnagel, Dr. Bruno",DrHollnagel,699,False,AfD,44,44,100.0,44,44,{'de': 44},0,0,0,0.0,264,6,1.0,108,2.4545454545454546,0.5,64,1.4545454545454546,1.0
+"Wiehle, Wolfgang",WolfgangWiehle,1179,False,AfD,376,376,100.0,374,374,"{'de': 374, 'und': 2}",2,2,0,0.53,13519,35.954787234042556,18.0,3842,10.21808510638298,4.0,2145,5.704787234042553,3.0
+"Heilmann, Prof. Thomas",ThomasHeilmann,1802,True,CDU,197,169,85.79,194,167,"{'de': 167, 'ca': 1, 'und': 1}",70,5,65,41.42,1608,9.514792899408285,3,327,1.9349112426035502,0,958,5.668639053254438,0
+"Hocker, Dr. Gero",GeroHocker,2131,False,FDP,292,242,82.88,285,236,"{'de': 236, 'und': 5, 'en': 1}",149,3,146,61.57,5034,20.801652892561982,4.0,756,3.12396694214876,0.0,447,1.8471074380165289,1.0
+"Müller, Hansjörg Gerhard Georg",MdB_Mueller_AfD,1740,False,AfD,113,112,99.12,111,110,"{'de': 110, 'und': 2}",2,0,2,1.79,799,7.133928571428571,5.0,424,3.7857142857142856,3.0,265,2.3660714285714284,1.0
+"Müller-Rosentritt, Frank",theliberalfrank,2754,True,FDP,279,265,94.98,274,261,"{'de': 261, 'und': 4}",5,5,0,1.89,26588,100.33207547169812,18,19119,72.14716981132075,3,1157,4.366037735849057,1
+"Neumann, Prof. Dr. Martin",_MartinNeumann,1855,True,FDP,1356,1014,74.78,1342,1004,"{'de': 1004, 'sv': 2, 'und': 5, 'en': 3}",256,10,246,25.25,9404,9.274161735700197,3.0,1787,1.76232741617357,0.0,1353,1.334319526627219,1.0
+"Rottmann, Dr. Manuela",ManuelaRottman,3835,False,Bündnis 90/Die Grünen,1292,1220,94.43,1197,1137,"{'de': 1137, 'en': 28, 'und': 40, 'nl': 1, 'fr': 1, 'lt': 1, 'et': 1, 'da': 5, 'tr': 1, 'no': 1, 'pt': 1, 'uk': 1, 'in': 1, 'ro': 1}",888,79,809,72.79,15692,12.862295081967213,2.0,1542,1.2639344262295082,0.0,1507,1.2352459016393442,1.0
+"Alt, Renata",RenataAlt_MdB,1201,True,FDP,548,468,85.4,522,467,"{'de': 467, 'en': 1}",6,3,3,1.28,2112,4.512820512820513,2.0,496,1.0598290598290598,0.0,324,0.6923076923076923,0.0
+"Dassler, Britta",BrittaDassler,856,True,FDP,40,39,97.5,40,39,{'de': 39},5,3,2,12.82,314,8.051282051282051,2,38,0.9743589743589743,0,23,0.5897435897435898,0
+"Klein, Karsten",MdBKlein,1302,True,FDP,288,260,90.28,278,251,"{'de': 251, 'und': 8, 'en': 1}",98,21,77,37.69,2404,9.246153846153845,4.0,319,1.226923076923077,0.0,262,1.0076923076923077,0.0
+"Westig, Nicole",NicoleWestig,1069,False,FDP,131,100,76.34,128,98,"{'de': 98, 'en': 2}",39,1,38,39.0,1054,10.54,5.0,247,2.47,0.0,92,0.92,0.0
+"Völlers, Marja-Liisa",MarjaVoellers,1777,True,SPD,383,304,79.37,343,267,"{'de': 267, 'und': 20, 'tl': 1, 'en': 14, 'no': 1, 'pt': 1}",111,22,89,36.51,5494,18.07236842105263,7.0,596,1.9605263157894737,0.0,749,2.463815789473684,1.0
+"Herbrand, Markus",HerbrandMarkus,869,True,FDP,287,213,74.22,279,206,"{'de': 206, 'en': 4, 'und': 3}",39,0,39,18.31,2468,11.586854460093896,5,274,1.2863849765258215,0,172,0.8075117370892019,0
+"Ihnen, Ulla",ullaihnen,634,True,FDP,118,91,77.12,114,89,"{'de': 89, 'en': 2}",18,11,7,19.78,723,7.945054945054945,4,50,0.5494505494505495,0,41,0.45054945054945056,0
+"Kießling, Michael",Kiessling_MdB,302,True,CSU,10,10,100.0,10,10,{'de': 10},0,0,0,0.0,71,7.1,4.5,11,1.1,0.5,21,2.1,0.0
+"Lechte, Ulrich",ulrichlechte,1107,True,FDP,290,265,91.38,269,253,"{'de': 253, 'en': 11, 'und': 1}",112,99,13,42.26,2266,8.550943396226415,3,495,1.8679245283018868,0,338,1.2754716981132075,1
+"Ludwig, Daniela",DaniLudwigMdB,6686,True,CSU,1171,839,71.65,972,652,"{'de': 652, 'en': 36, 'und': 128, 'fr': 4, 'da': 3, 'pt': 1, 'es': 1, 'nl': 1, 'lt': 4, 'cy': 1, 'sv': 3, 'pl': 2, 'in': 3}",285,5,280,33.97,23464,27.96662693682956,11,3408,4.061978545887962,1,39253,46.785458879618595,28
+"Mohamed Ali, Amira",Amira_M_Ali,6605,True,Die Linke,189,179,94.71,189,179,{'de': 179},2,0,2,1.12,41065,229.41340782122904,152,7868,43.95530726256983,30,3341,18.664804469273744,14
+"Ploß, Dr. Christoph ",christophploss,2447,True,CDU,500,469,93.8,483,454,"{'de': 454, 'und': 12, 'en': 2, 'tr': 1}",196,146,50,41.79,14869,31.70362473347548,7,1760,3.7526652452025586,0,2456,5.2366737739872065,1
+"Schlund, Dr. Robby",DrRobbySchlund,216,False,AfD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Röttgen, Dr. Norbert",n_roettgen,49337,True,CDU,1774,1589,89.57,1538,1405,"{'de': 1405, 'en': 156, 'fr': 10, 'in': 1, 'und': 10, 'es': 2, 'it': 3, 'sv': 1, 'da': 1}",370,249,121,23.29,290902,183.07237256135934,65,60424,38.02643171806167,6,38300,24.103209565764633,6
+"Sauter, Christian",Chr_Sauter,350,True,FDP,8,8,100.0,8,8,{'de': 8},1,0,1,12.5,352,44,6.5,73,9.125,0.0,65,8.125,0.0
+"Seestern-Pauly, Matthias",mseesternpauly,852,False,FDP,41,36,87.8,40,35,"{'de': 35, 'en': 1}",1,1,0,2.78,414,11.5,7.0,86,2.388888888888889,0.0,30,0.8333333333333334,0.0
+"Throm, Alexander",alexander_throm,435,True,CDU,130,96,73.85,129,95,"{'de': 95, 'da': 1}",20,8,12,20.83,637,6.635416666666667,4.0,71,0.7395833333333334,0.0,118,1.2291666666666667,0.0
+"Malsack-Winkemann, Dr. Birgit",MalsackWinkeman,1557,False,AfD,198,198,100.0,193,193,"{'und': 2, 'de': 193, 'lt': 1, 'en': 2}",6,6,0,3.03,3859,19.48989898989899,13.0,1403,7.085858585858586,4.0,1485,7.5,2.0
+"Bauer, Nicole",nicole_ae_bauer,2145,True,FDP,166,133,80.12,161,132,"{'de': 132, 'en': 1}",23,2,21,17.29,2665,20.037593984962406,9,400,3.007518796992481,1,350,2.6315789473684212,1
+"Esdar, Wiebke",wiebkeesdar1,509,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Moll, Claudia",ClaudiaMollMdB,592,True,SPD,13,11,84.62,13,11,{'de': 11},5,1,4,45.45,79,7.181818181818182,7,11,1,1,9,0.8181818181818182,1
+"Rachel, Thomas",_ThomasRachel,678,False,CDU,34,30,88.24,32,29,"{'de': 29, 'und': 1}",5,0,5,16.67,411,13.7,9.0,67,2.2333333333333334,1.0,25,0.8333333333333334,0.5
+"Tatti, Jessica",jessica_tatti,458,False,Die Linke,6,6,100.0,6,6,{'de': 6},6,4,2,100.0,20,3.3333333333333335,4.0,0,0,0.0,5,0.8333333333333334,1.0
+"Ferschl, Susanne",SusanneFerschl,1124,False,Die Linke,634,535,84.38,619,520,"{'de': 520, 'und': 13, 'en': 2}",135,26,109,25.23,6428,12.014953271028038,5,1757,3.28411214953271,1,665,1.2429906542056075,0
+"Heidenblut, Dirk",DHeidenblut,794,True,SPD,5,5,100.0,5,5,{'de': 5},4,0,4,80.0,605,121,2,93,18.6,0,130,26,0
+"Hoffmann, Dr. Christoph",HoffmannForest,1268,True,FDP,2449,1554,63.45,2287,1442,"{'de': 1442, 'en': 32, 'und': 58, 'tr': 1, 'pt': 1, 'es': 5, 'eu': 2, 'da': 1, 'fr': 7, 'in': 1, 'tl': 1, 'nl': 1, 'no': 1, 'sv': 1}",155,2,153,9.97,4791,3.083011583011583,1.0,681,0.43822393822393824,0.0,535,0.34427284427284427,0.0
+"Tillmann, Antje",AntjeTillmann,663,True,CDU,196,137,69.9,192,135,"{'de': 135, 'fr': 1, 'und': 1}",55,2,53,40.15,890,6.4963503649635035,1,120,0.8759124087591241,0,143,1.0437956204379562,0
+"Westphal, Bernd",BerndWestphal4,536,False,SPD,60,42,70.0,55,37,"{'de': 37, 'und': 3, 'en': 1, 'da': 1}",5,1,4,11.9,530,12.619047619047619,5.0,61,1.4523809523809523,0.0,98,2.3333333333333335,0.0
+"Maag, Karin",MaagKarin,744,True,CDU,70,65,92.86,69,64,"{'de': 64, 'ht': 1}",44,0,44,67.69,507,7.8,2,42,0.6461538461538462,0,73,1.123076923076923,0
+"Ryglewski, Sarah",RyglewskiS,1112,True,SPD,100,81,81.0,89,72,"{'de': 72, 'en': 5, 'tr': 2, 'und': 2}",35,15,20,43.21,606,7.481481481481482,5,64,0.7901234567901234,0,67,0.8271604938271605,0
+"Hennrich, Michael",MichaelHennric2,230,False,CDU,15,15,100.0,15,15,{'de': 15},10,0,10,66.67,28,1.8666666666666667,1,4,0.26666666666666666,0,2,0.13333333333333333,0
+"Motschmann, Elisabeth",ElisabethMotsc1,866,True,CDU,92,80,86.96,84,75,"{'de': 75, 'en': 5}",7,4,3,8.75,1731,21.6375,6.0,211,2.6375,1.0,225,2.8125,1.0
+"Stegemann, Albert",StegemannAlbert,640,False,CDU,25,17,68.0,24,17,{'de': 17},2,1,1,11.76,282,16.58823529411765,5,49,2.8823529411764706,1,81,4.764705882352941,2
+"Mackensen, Isabel",IsabelMackensen,695,False,SPD,63,51,80.95,60,48,"{'de': 48, 'en': 2, 'und': 1}",25,0,25,49.02,244,4.784313725490196,2,19,0.37254901960784315,0,29,0.5686274509803921,0
+"Heidt, Peter",PeterHeidtFDP,563,False,FDP,226,179,79.2,216,170,"{'und': 5, 'de': 170, 'fi': 1, 'fr': 3}",11,2,9,6.15,1446,8.078212290502794,6,426,2.3798882681564244,2,84,0.4692737430167598,0
+"Connemann, Gitta",gitta_connemann,1713,True,CDU,195,149,76.41,190,147,"{'de': 147, 'und': 2}",11,8,3,7.38,11968,80.32214765100672,14,2236,15.006711409395972,2,1429,9.590604026845638,2
+"Fahimi, Yasmin",FahimiYasmin,904,True,SPD,151,134,88.74,148,131,"{'de': 131, 'en': 1, 'und': 2}",89,8,81,66.42,2088,15.582089552238806,3.0,282,2.1044776119402986,0.0,348,2.5970149253731343,1.0
+"Gnodtke, Eckhard",EckhardGnodtke,104,False,CDU,71,71,100.0,71,71,{'de': 71},37,37,0,52.11,145,2.0422535211267605,1,4,0.056338028169014086,0,41,0.5774647887323944,1
+"Patzelt, Martin",MPatzeltCDU,439,True,CDU,65,56,86.15,65,56,{'de': 56},1,1,0,1.79,435,7.767857142857143,2.0,64,1.1428571428571428,0.0,60,1.0714285714285714,0.0
+"Kulitz, Alexander",AKulitz,381,True,FDP,52,47,90.38,51,47,{'de': 47},2,2,0,4.26,152,3.234042553191489,2,30,0.6382978723404256,0,18,0.3829787234042553,0
+"Rützel, Bernd",ruetzelbernd,208,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Baumann, Dr. Bernd",BerndBaumannAfD,2227,False,AfD,53,51,96.23,52,50,"{'de': 50, 'und': 1}",8,8,0,15.69,15300,300,136,4298,84.27450980392157,30,1891,37.07843137254902,15
+"Frei, Thorsten",thorsten_frei,730,False,CDU,18,17,94.44,17,16,"{'de': 16, 'en': 1}",0,0,0,0.0,764,44.94117647058823,6,149,8.764705882352942,0,130,7.647058823529412,2
+"Grundl, Erhard",Erhard_Grundl,1333,False,Bündnis 90/Die Grünen,283,229,80.92,249,196,"{'de': 196, 'en': 8, 'und': 21, 'sv': 1, 'no': 1, 'uk': 1, 'fr': 1}",25,13,12,10.92,1519,6.633187772925764,4,405,1.7685589519650655,1,145,0.6331877729257642,0
+"Hohmann, Martin",HohmannMdb,428,False,AfD,107,107,100.0,103,103,"{'de': 103, 'und': 4}",1,0,1,0.93,659,6.158878504672897,2,156,1.4579439252336448,0,105,0.9813084112149533,1
+"Bubendorfer-Licht, Sandra",Bubendorferfdp,252,True,FDP,279,221,79.21,265,209,"{'de': 209, 'en': 4, 'da': 1, 'und': 5, 'no': 1, 'lt': 1}",20,7,13,9.05,1179,5.334841628959276,3,224,1.0135746606334841,0,102,0.46153846153846156,0
+"Martens, Dr. Jürgen",juergen_martens,250,False,FDP,49,47,95.92,49,47,{'de': 47},16,13,3,34.04,199,4.23404255319149,3,38,0.8085106382978723,0,25,0.5319148936170213,0
+"Bach, Bela",bela_bach,680,False,SPD,129,108,83.72,122,103,"{'und': 2, 'de': 103, 'en': 3}",33,0,33,30.56,744,6.888888888888889,3.0,115,1.0648148148148149,0.0,90,0.8333333333333334,0.0
+"Freitag, Dagmar",DagmarFreitag13,770,False,SPD,1350,890,65.93,1014,664,"{'de': 664, 'en': 186, 'und': 30, 'da': 2, 'et': 1, 'sv': 3, 'fr': 1, 'hu': 1, 'tr': 1, 'cy': 1}",115,1,114,12.92,5026,5.647191011235955,3.0,553,0.6213483146067416,0.0,535,0.601123595505618,0.0
+"Weingarten, Joe",DrJoeWeingarten,803,False,SPD,195,151,77.44,190,146,"{'de': 146, 'sv': 1, 'und': 2, 'da': 1, 'en': 1}",40,1,39,26.49,744,4.927152317880795,3,105,0.695364238410596,0,82,0.543046357615894,0
+"Schneidewind-Hartnagel, Charlotte",charlotte_mdb,121,False,Bündnis 90/Die Grünen,20,18,90.0,20,18,{'de': 18},0,0,0,0.0,26,1.4444444444444444,1.0,4,0.2222222222222222,0.0,4,0.2222222222222222,0.0
+"Zickenheiner, Gerhard",GZickenheiner,326,False,Bündnis 90/Die Grünen,111,105,94.59,105,101,"{'de': 101, 'en': 2, 'und': 2}",16,13,3,15.24,774,7.371428571428571,3,43,0.4095238095238095,0,56,0.5333333333333333,0
+"Monstadt, Dietrich",MdBMonstadt,67,False,CDU,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Vries, Christoph de",VriesChristoph,359,False,CDU,102,80,78.43,98,77,"{'de': 77, 'und': 2, 'es': 1}",22,3,19,27.5,331,4.1375,1.0,59,0.7375,0.0,63,0.7875,0.0
+"Nölke, Matthias",Matthiasnoelke,364,True,FDP,64,50,78.12,61,47,"{'de': 47, 'und': 2, 'no': 1}",23,0,23,46.0,215,4.3,1.0,10,0.2,0.0,27,0.54,0.0
+"Martin, Dorothee",Doro_Martin,3151,False,SPD,616,509,82.63,511,423,"{'de': 423, 'und': 38, 'en': 30, 'eu': 1, 'in': 3, 'et': 1, 'tr': 1, 'fr': 6, 'ht': 2, 'sv': 1, 'es': 1, 'lt': 1, 'nl': 1}",294,1,293,57.76,8815,17.31827111984283,4,419,0.8231827111984283,0,857,1.6836935166994107,0
+"Lehmann, Sylvia",LehmannSpd,71,False,SPD,0,0,0,0,0,{},0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hilse, Karsten",HilseMdb,374,False,AfD,1,1,100.0,0,0,{'und': 1},1,0,1,100.0,2,2,2,0,0,0,0,0,0
+"Huber, Johannes",HuberMdB,1752,False,AfD,165,138,83.64,157,134,"{'de': 134, 'und': 1, 'en': 2, 'ht': 1}",34,7,27,24.64,4674,33.869565217391305,15.5,1502,10.884057971014492,3.0,824,5.971014492753623,2.0
+"Krichbaum, Gunther",GuntherKrichba3,149,False,CDU,19,19,100.0,19,19,{'de': 19},9,0,9,47.37,57,3,2,8,0.42105263157894735,0,8,0.42105263157894735,0
+"Ludwig, Saskia",SaskiaLudwig17,1398,True,CDU,409,274,66.99,366,243,"{'de': 243, 'en': 18, 'und': 11, 'eu': 1, 'pl': 1}",50,4,46,18.25,5684,20.744525547445257,3.0,976,3.562043795620438,0.0,448,1.635036496350365,0.0
+"Möller, Siemtje",SiemtjeMdB,2805,False,SPD,327,244,74.62,270,201,"{'de': 201, 'und': 21, 'lt': 1, 'en': 15, 'pt': 1, 'fr': 2, 'nl': 2, 'is': 1}",130,17,113,53.28,3937,16.135245901639344,5.0,287,1.1762295081967213,0.0,452,1.8524590163934427,1.0
+"Otten, Gerold",Gerold_Otten,1404,False,AfD,74,72,97.3,70,70,"{'de': 70, 'und': 2}",11,3,8,15.28,2856,39.666666666666664,5.0,837,11.625,1.0,385,5.347222222222222,2.0
+"Kramp-Karrenbauer, Annegret",akk,120816,True,CDU,210,171,81.43,184,152,"{'de': 152, 'en': 12, 'sv': 1, 'und': 5, 'fr': 1}",21,9,12,12.28,54967,321.44444444444446,137,7896,46.175438596491226,28,16474,96.3391812865497,34
+"Klöckner, Julia",JuliaKloeckner,72635,True,CDU,632,518,81.96,576,464,"{'de': 464, 'und': 47, 'en': 4, 'fr': 1, 'cs': 2}",121,5,116,23.36,32602,62.938223938223935,26.0,4355,8.407335907335908,3.0,18624,35.95366795366795,7.0
+"Schulze, Svenja",SvenjaSchulze68,21399,True,SPD,416,311,74.76,366,278,"{'de': 278, 'en': 31, 'lt': 1, 'und': 1}",13,9,4,4.18,26634,85.63987138263666,52,6843,22.0032154340836,17,9232,29.684887459807072,11
+"Söder, Markus",Markus_Soeder,234886,True,CSU,551,496,90.02,539,484,"{'de': 484, 'und': 6, 'en': 3, 'pl': 1, 'da': 1, 'fr': 1}",23,22,1,4.64,517657,1043.663306451613,522.0,44925,90.57459677419355,42.0,140251,282.7641129032258,152.5
+"Walter-Borjans, Norbert",NowaboFM,50482,True,SPD,785,696,88.66,738,654,"{'de': 654, 'und': 27, 'en': 13, 'lt': 1, 'pl': 1}",344,65,279,49.43,123490,177.42816091954023,76.5,11678,16.778735632183906,5.0,12229,17.570402298850574,6.0
+"Meuthen, Prof. Dr. Jörg",Joerg_Meuthen,70554,True,AfD,350,344,98.29,343,338,"{'de': 338, 'it': 2, 'en': 2, 'und': 2}",0,0,0,0.0,364200,1058.7209302325582,983.0,79884,232.22093023255815,207.0,67432,196.02325581395348,167.0
+"Beck, Volker",Volker_Beck,93609,True,Bündnis 90/Die Grünen,5142,4392,85.41,4758,4112,"{'de': 4112, 'en': 105, 'und': 119, 'iw': 12, 'ht': 2, 'nl': 4, 'ro': 7, 'in': 1, 'es': 1, 'it': 1, 'lt': 1, 'sv': 2, 'pt': 3, 'fr': 7, 'da': 3, 'ca': 3, 'hi': 1, 'bg': 1, 'et': 1, 'no': 3, 'hu': 1, 'tl': 2}",3069,610,2459,69.88,139396,31.738615664845174,5.0,18631,4.2420309653916215,0.0,12254,2.790072859744991,1.0
+"Polenz, Ruprecht",polenz_r,61820,True,CDU,13288,11728,88.26,12066,10639,"{'de': 10639, 'und': 833, 'no': 11, 'en': 178, 'nl': 11, 'in': 4, 'ca': 1, 'da': 13, 'cy': 3, 'sv': 8, 'es': 4, 'et': 1, 'fr': 9, 'ht': 2, 'pt': 3, 'hu': 1, 'lt': 2, 'cs': 1, 'eu': 1, 'tr': 1, 'lv': 1, 'it': 1}",7259,478,6781,61.89,1874099,159.7969815825375,20.0,190279,16.224334924965895,1.0,162333,13.841490450204638,3.0
+"Kühnert, Kevin",KuehniKev,256195,True,SPD,3258,3053,93.71,2800,2606,"{'de': 2606, 'und': 265, 'en': 109, 'no': 4, 'sv': 6, 'fr': 10, 'et': 9, 'es': 9, 'lv': 1, 'ro': 1, 'is': 3, 'nl': 3, 'tl': 7, 'in': 4, 'tr': 2, 'pt': 2, 'da': 5, 'lt': 4, 'it': 2, 'eu': 1}",2636,206,2430,86.34,1489301,487.8155912217491,31,83821,27.45528987880773,0,57597,18.86570586308549,2
+"Stegner, Ralf",Ralf_Stegner,59942,True,SPD,4235,3580,84.53,4053,3437,"{'de': 3437, 'und': 33, 'en': 83, 'lt': 1, 'sv': 1, 'ht': 2, 'is': 2, 'fi': 4, 'hu': 3, 'da': 2, 'fr': 3, 'eu': 1, 'pl': 1, 'in': 2, 'nl': 2, 'no': 2, 'pt': 1}",2,0,2,0.06,254011,70.95279329608938,12.0,27967,7.812011173184358,1.0,212364,59.3195530726257,16.0
