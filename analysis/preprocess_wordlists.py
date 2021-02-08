@@ -82,7 +82,7 @@ update_wordlist = [word for word in wordlist if word not in remove_words1]
 
 new_wordlist = preprocess_wordlist_fuzzy(update_wordlist)
 remove_words2 = ["pcr", "rzahl", "rwert", "rwerte"]
-wordlist_fuzzy = [word for word in new_wordlist if word not in remove_words1]
+wordlist_fuzzy = [word for word in new_wordlist if word not in remove_words2]
 
 d = [wordlist, wordlist_stemming, wordlist_lemma, wordlist_fuzzy]
 data = zip_longest(*d, fillvalue='')
