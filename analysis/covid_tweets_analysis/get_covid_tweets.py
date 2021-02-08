@@ -10,15 +10,15 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import TweetTokenizer
 import shutil
 
-POLITICIANS_LIST = '../assets/all_politicians.json'
-TWEETS_SOURCE_FOLDER = './formated_data/tweet/'
-COVID_TWEETS_SOURCE_FOLDER = './filtered_data/covid_tweets/'
-NON_COVID_TWEETS_SOURCE_FOLDER = './filtered_data/non_covid_tweets/'
+POLITICIANS_LIST = '../../assets/all_politicians.json'
+TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
+COVID_TWEETS_SOURCE_FOLDER = '../filtered_data/covid_tweets/'
+NON_COVID_TWEETS_SOURCE_FOLDER = '../filtered_data/non_covid_tweets/'
 RESULTS_FILE_OVERVIEW = 'covid_tweets_overview.csv'
 RESULTS_FILE_DETAIL = 'covid_tweets_detail.csv'
-PREPROCESSED_WORDLIST_FUZ = './preprocessing_wordlist/wordlist_fuzzy.json'
-PREPROCESSED_WORDLIST = './preprocessing_wordlist/wordlist_matching.json'
-UNCERTAIN_WORDS = './preprocessing_wordlist/uncertain_words.json'
+PREPROCESSED_WORDLIST_FUZ = '../preprocessing_wordlist/wordlist_fuzzy.json'
+PREPROCESSED_WORDLIST = '../preprocessing_wordlist/wordlist_matching.json'
+UNCERTAIN_WORDS = '../preprocessing_wordlist/uncertain_words.json'
 REMAINING_NON_COVID_TWEETS = 'non_covid_tweets.csv'
 
 results_overview = []
