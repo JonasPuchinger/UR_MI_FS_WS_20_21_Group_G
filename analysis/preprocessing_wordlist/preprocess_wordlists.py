@@ -7,7 +7,7 @@ import re
 
 WORDLIST_FUZZY = 'wordlist_fuzzy.json'
 WORDLIST_MATCHING = 'wordlist_matching.json'
-WORDLIST = '../assets/wordlist.json'
+WORDLIST = '../../assets/wordlist.json'
 
 wordlist = json.load(codecs.open(WORDLIST, 'r', 'utf-8-sig'))
 pre.set_options(pre.OPT.NUMBER)
