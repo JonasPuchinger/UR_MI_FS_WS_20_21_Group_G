@@ -9,12 +9,12 @@ from gensim import corpora
 import pickle
 import gensim
 
-nltk.download('wordnet')
-nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('stopwords')
 de_stop = set(nltk.corpus.stopwords.words('german'))
 parser = German()
 nlp = spacy.load("de_core_news_md")
-TWEETS_SOURCE_FOLDER = '../formated_data/tweet/marcobuelow.json'
+TWEETS_SOURCE_FOLDER = '../formated_data/tweet/KerstinGriese.json'
 
 # tokenization for getting nouns and removing hashtags and mentions
 def tokenize(text):
@@ -68,28 +68,29 @@ id2word.save('dictionary.gensim')
 
 # get coherence value for different amounts of topics and create a line chart
 if __name__ == '__main__':
-    limit=10
+    limit=22 # not included
     start=1
-    step=1
+    step=3
 
     def compute_coherence_values():
         coherence_values_c_v = []
         coherence_values_u_mass = []
         model_list = []
         for num_topics in range(start, limit, step):
-            lda_model = gensim.models.ldamodel.LdaModel(corpus=corpus, num_topics = num_topics, id2word=id2word, passes=10)
+            lda_model = gensim.models.LdaMulticore(corpus=corpus, num_topics = num_topics, id2word=id2word, passes=10)
             model_list.append(lda_model)
             lda_model.save('model5.gensim')
             coherence_model_c_v = CoherenceModel(model=lda_model, texts=text_data, dictionary=id2word, coherence='c_v')
             coherence_values_c_v.append(coherence_model_c_v.get_coherence())
             coherence_model_u_mass = CoherenceModel(model=lda_model, corpus=corpus, coherence='u_mass')
             coherence_values_u_mass.append(coherence_model_u_mass.get_coherence())
+            print(num_topics)
         return model_list, coherence_values_c_v, coherence_values_u_mass
 
     model_list, coherence_values_c_v, coherence_values_u_mass = compute_coherence_values()
     
     for model in model_list:
-        topics = model.print_topics(num_words=4)
+        topics = model.print_topics(num_words=6)
         for topic in topics:
             print(topic) 
 
@@ -105,6 +106,7 @@ if __name__ == '__main__':
     plt.xlabel("Num Topics")
     plt.ylabel("Coherence score_u_mass")
     plt.legend(("coherence_values"), loc='best')
+    plt.savefig("u_mass.png")
     plt.show()
 
     for m, cv in zip(x, coherence_values_c_v):
