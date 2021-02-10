@@ -4,13 +4,7 @@ from gensim.models import CoherenceModel
 import gensim
 from gensim import corpora
 import pickle
-#from ..clean_data import clean_for_lda
-
-import sys
-import os
-SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
-sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, '..')))
-from clean_data import clean_for_lda
+from analysis.clean_data import clean_for_lda as cd
 
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 POLITICIAN = 'Hansjoerg_Durz'
@@ -21,7 +15,7 @@ with open(TWEETS_SOURCE_FOLDER + POLITICIAN + '.json', 'r', encoding='utf-8') as
     data = json.load(json_file)
     for tweet in data:
         text = tweet.get("raw_data").get("full_text")
-        cleaned_data = clean_for_lda(text)
+        cleaned_data = cd(text)
         text_data.append(cleaned_data)
 id2word = corpora.Dictionary(text_data)
 corpus = [id2word.doc2bow(text) for text in text_data]
@@ -30,8 +24,8 @@ id2word.save('dictionary.gensim')
 
 # get coherence value for different amounts of topics and create line charts for the two value types
 if __name__ == '__main__':
-    limit=15 # not included
     start=1
+    limit=15 # not included
     step=1
 
     def compute_coherence_values():
