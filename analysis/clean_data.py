@@ -12,10 +12,11 @@ from textblob_de import TextBlobDE as TextBlob
 de_stop = set(nltk.corpus.stopwords.words('german'))
 nlp = spacy.load("de_core_news_md")
 
-
+parser = German()
 
 def clean_for_lda(text):
     tokens = nlp(text)
+    #tokens = parser(text)
     tokens = [token for token in tokens if remove_whitespaces(token)]
     tokens = [get_lemma(token) for token in tokens]
     tokens = [to_lower(token) for token in tokens]
@@ -82,7 +83,7 @@ def get_lemma(token):
     return nlp(token.lemma_)[0]
     
     
-testdata = "@petergruenn https://t.co/jLq2Vy1HLh Wie oft noch? Vorschläge des Bundes für eine stärkere 🦉 Koordination in Krisen werden in ruhigen Zeiten regelmäßig als Angriff auf die Verfassung und das Föderalismusprinzip brüsk genau von denen zurückgewiesen, die dann in der Not mangelnde Führung des Bundes beklagen! #corona"
+testdata = "@petergruenn https://t.co/jLq2Vy1HLh Wie oft noch? Vorschläge FFP-2 des Bundes für eine stärkere 🦉 Koordination in Krisen werden in ruhigen Zeiten regelmäßig als Angriff auf die Verfassung und das Föderalismusprinzip brüsk genau von denen zurückgewiesen, die dann in der Not mangelnde Führung des Bundes beklagen! #corona"
 
 
 #print(clean_for_lda(testdata))

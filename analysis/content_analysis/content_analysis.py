@@ -32,7 +32,7 @@ id2word.save('dictionary.gensim')
 if __name__ == '__main__':
     limit=15 # not included
     start=1
-    step=2
+    step=1
 
     def compute_coherence_values():
         coherence_values_c_v = []
@@ -62,7 +62,8 @@ if __name__ == '__main__':
     plt.ylabel("Coherence score c_v")
     plt.legend(("coherence_values"), loc='best')
     plt.savefig("c_v_" + POLITICIAN + ".png")
-
+    plt.close()
+    
     plt.plot(x, coherence_values_u_mass)
     plt.xlabel("Num Topics")
     plt.ylabel("Coherence score_u_mass")
