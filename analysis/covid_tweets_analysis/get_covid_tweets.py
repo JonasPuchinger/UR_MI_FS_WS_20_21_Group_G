@@ -9,7 +9,7 @@ import codecs
 from fuzzywuzzy import fuzz
 from nltk.tokenize import TweetTokenizer
 
-POLITICIANS_LIST = '../../assets/test_politicians.json'
+POLITICIANS_LIST = '../../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 COVID_TWEETS_FOLDER = '../filtered_data/covid_tweets/'
 NON_COVID_TWEETS_FOLDER = '../filtered_data/non_covid_tweets/'
@@ -203,8 +203,6 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         all_tweets_by_politician = get_all_tweets_by_politician(screen_name=p_screen_name, user_id=p_user_id)
         print(p_name)
         results_matching = match_tweets(all_tweets_by_politician)
-        #print(len(results_matching[0]))
-        #print(len(results_matching[1]))
 
         create_dict_results_overview(p_name, p_screen_name, p_party, results_matching[0])
         create_dict_results_detail(p_name, p_party, results_matching[0])
@@ -238,10 +236,6 @@ for filename in os.listdir(TWEETS_SOURCE_FOLDER):
             all_tweets = [t for t in json.load(infile)]
             covid_tweets = [t for t in all_tweets if t['id_'] in covid_tweets_ids]
             non_covid_tweets = [t for t in all_tweets if t['id_'] not in covid_tweets_ids]
-            print("covid")
-            print(len(covid_tweets))
-            print("non covid")
-            print(len(non_covid_tweets))
     with open(f_path_covid_tweets, 'w', encoding='utf-8') as outfile:
         json.dump(covid_tweets, outfile, ensure_ascii=False)
 
