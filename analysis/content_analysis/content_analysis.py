@@ -1,76 +1,38 @@
 import json
-import spacy
-from spacy.lang.de import German
 import matplotlib.pyplot as plt
 from gensim.models import CoherenceModel
-import nltk
-from nltk.corpus import wordnet as wn
+import gensim
 from gensim import corpora
 import pickle
-import gensim
+#from ..clean_data import clean_for_lda
 
-#nltk.download('wordnet')
-#nltk.download('stopwords')
-de_stop = set(nltk.corpus.stopwords.words('german'))
-parser = German()
-nlp = spacy.load("de_core_news_md")
-TWEETS_SOURCE_FOLDER = '../formated_data/tweet/KerstinGriese.json'
+import sys
+import os
+SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
+sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, '..')))
+from clean_data import clean_for_lda
 
-# tokenization for getting nouns and removing hashtags and mentions
-def tokenize(text):
-    lda_tokens = []
-    tokens = parser(text)
-    for token in tokens:
-        if token.orth_.isspace():
-            continue
-        elif token.like_url:
-            continue
-        elif token.orth_.startswith('@'):
-            continue
-        elif token.orth_.startswith('#'):
-            continue
-        else:
-            nlp_token = nlp(str(token))
-            for token in nlp_token:
-                if token.pos_ == 'NOUN':
-                    lda_tokens.append(token.lower_)
-    return lda_tokens
-
-# Reduce word to lemma to get the root
-def get_lemma(word):
-    lemma = wn.morphy(word)
-    if lemma is None:
-        return word
-    else:
-        return lemma
-
-# Remove stopwords 
-def prepare_text_for_lda(text):
-    tokens = tokenize(text)
-    tokens = [token for token in tokens if len(token) > 3]
-    tokens = [token for token in tokens if token not in de_stop]
-    tokens = [get_lemma(token) for token in tokens]
-    return tokens
+TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
+POLITICIAN = 'Hansjoerg_Durz'
 
 # get text of tweets
 text_data = []
-with open(TWEETS_SOURCE_FOLDER, 'r', encoding='utf-8') as json_file:
+with open(TWEETS_SOURCE_FOLDER + POLITICIAN + '.json', 'r', encoding='utf-8') as json_file:
     data = json.load(json_file)
     for tweet in data:
         text = tweet.get("raw_data").get("full_text")
-        tokens = prepare_text_for_lda(text)
-        text_data.append(tokens)
-
+        cleaned_data = clean_for_lda(text)
+        text_data.append(cleaned_data)
 id2word = corpora.Dictionary(text_data)
 corpus = [id2word.doc2bow(text) for text in text_data]
 pickle.dump(corpus, open('corpus.pkl', 'wb'))
 id2word.save('dictionary.gensim')
 
-# get coherence value for different amounts of topics and create a line chart
+# get coherence value for different amounts of topics and create line charts for the two value types
 if __name__ == '__main__':
-    limit=22 # not included
+    limit=15 # not included
     start=1
-    step=3
+    step=2
 
     def compute_coherence_values():
         coherence_values_c_v = []
@@ -99,15 +61,13 @@ if __name__ == '__main__':
     plt.xlabel("Num Topics")
     plt.ylabel("Coherence score c_v")
     plt.legend(("coherence_values"), loc='best')
-    plt.savefig("c_v.png")
-    plt.show()
+    plt.savefig("c_v_" + POLITICIAN + ".png")
 
     plt.plot(x, coherence_values_u_mass)
     plt.xlabel("Num Topics")
     plt.ylabel("Coherence score_u_mass")
     plt.legend(("coherence_values"), loc='best')
-    plt.savefig("u_mass.png")
-    plt.show()
+    plt.savefig("u_mass_" + POLITICIAN + ".png")
 
     for m, cv in zip(x, coherence_values_c_v):
         print("Num Topics =", m, " has Coherence Value (c_v) of", round(cv, 4))
