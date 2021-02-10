@@ -25,9 +25,6 @@ results_detail = []
 non_covid_tweets = []
 covid_tweets_ids = []
 
-tweets_of_pol = []
-matching_part_1 = []
-
 wordlist_fuzzy = json.load(codecs.open(PREPROCESSED_WORDLIST_FUZ, 'r', 'utf-8-sig'))
 wordlist = json.load(codecs.open(PREPROCESSED_WORDLIST, 'r', 'utf-8-sig'))
 uncertain_words = json.load(codecs.open(UNCERTAIN_WORDS, 'r', 'utf-8-sig'))
@@ -71,15 +68,14 @@ def get_all_tweets_by_politician(screen_name, user_id):
             tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id)]
             result = []
             for t in tweets_by_user:
-                result.append([t['raw_data']['created_at'], preprocessing_tweet(t['raw_data']['full_text']),
-                               t['raw_data']['full_text'], t['id_']])
+                result.append([t, preprocessing_tweet(t['raw_data']['full_text'])])
             return result
     return ""
 
 
 def check_match(tweets):
-    covid_tweets = []
     remaining_tweets = []
+    matched_tweets = []
 
     def match_wordlist_and_tweet(tweet):
         list_uncertain_words = []
@@ -88,21 +84,47 @@ def check_match(tweets):
                 if word in uncertain_words and len(np.unique(list_uncertain_words)) < 2:
                     list_uncertain_words.append(word)
                 else:
-                    return [word, 'match', tweet[0], tweet[1], tweet[2], tweet[3]]
+                    return [word, 'match', tweet[0], tweet[1]]
 
     for t in tweets:
         result = match_wordlist_and_tweet(t)
-        if not result is None:
-            covid_tweets.append(result)
+        if result is not None:
+            matched_tweets.append(result)
         else:
             remaining_tweets.append(t)
 
-    return covid_tweets, remaining_tweets
+    return matched_tweets, remaining_tweets
+
+
+def check_match_regex(tweets):
+    remaining_tweets = []
+    matched_tweets = []
+
+    def match_regex(tweet):
+        list_uncertain_words = []
+        for word in wordlist:
+            pattern = "\\b" + word
+            for token in tweet[1]:
+                match = re.match(pattern, token)
+                if match is not None:
+                    if token in uncertain_words and len(np.unique(list_uncertain_words)) < 2:
+                        list_uncertain_words.append(token)
+                    else:
+                        return [pattern, token, tweet[0], tweet[1]]
+
+    for t in tweets:
+        result = match_regex(t)
+        if result is not None:
+            matched_tweets.append(result)
+        else:
+            remaining_tweets.append(t)
+
+    return matched_tweets, remaining_tweets
 
 
 def check_match_fuzzy(tweets):
-    covid_tweets = []
     remaining_tweets = []
+    matched_tweets = []
 
     def match_fuzzy(tweet):
         list_uncertain_words = []
@@ -112,42 +134,64 @@ def check_match_fuzzy(tweets):
                     if token in uncertain_words and len(np.unique(list_uncertain_words)) < 2:
                         list_uncertain_words.append(token)
                     else:
-                        return [word, token, tweet[0], tweet[1], tweet[2], tweet[3]]
+                        return [word, token, tweet[0], tweet[1]]
 
     for t in tweets:
         result = match_fuzzy(t)
-        if not result is None:
-            covid_tweets.append(result)
+        if result is not None:
+            matched_tweets.append(result)
         else:
             remaining_tweets.append(t)
 
-    return covid_tweets, remaining_tweets
+    return matched_tweets, remaining_tweets
 
 
-def check_match_regex(tweets):
-    covid_tweets = []
-    remaining_tweets = []
+def match_tweets(tweets_by_pol):
+    matched_covid_tweets = []
+    matching_part_1 = check_match(tweets_by_pol)
+    matched_covid_tweets.extend(matching_part_1[0])
+    matching_part_2 = check_match_regex(matching_part_1[1])
+    matched_covid_tweets.extend(matching_part_2[0])
+    matching_part_3 = check_match_fuzzy(matching_part_2[1])
+    matched_covid_tweets.extend(matching_part_3[0])
+    return matched_covid_tweets, matching_part_3[1]
 
-    def match_regex(tweet):
-        list_uncertain_words = []
-        for word in wordlist:
-            pattern = "\\b" + word
-            for token in tweet[1]:
-                result = re.match(pattern, token)
-                if result is not None:
-                    if token in uncertain_words and len(np.unique(list_uncertain_words)) < 2:
-                        list_uncertain_words.append(token)
-                    else:
-                        return [pattern, token, tweet[0], tweet[1], tweet[2], tweet[3]]
 
-    for t in tweets:
-        result = match_regex(t)
-        if not result is None:
-            covid_tweets.append(result)
-        else:
-            remaining_tweets.append(t)
+def create_dict_results_overview(name, screen_name, party, results):
+    p_tweets_stats = {
+        'name': name,
+        'screen_name': screen_name,
+        'party': party,
+        'covid_tweets': len(results),
+    }
+    results_overview.append(p_tweets_stats)
 
-    return covid_tweets, remaining_tweets
+
+def create_dict_results_detail(name, party, results):
+    for i in results:
+        p_tweets_stats = {
+            'name': name,
+            'party': party,
+            'created at': i[2]['raw_data']['created_at'],
+            'id': i[2]['id_'],
+            'word from wordlist': i[0],
+            'match': i[1],
+            'original tweet': i[2]['raw_data']['full_text'],
+            'tweet': i[3],
+        }
+        covid_tweets_ids.append(i[2]['id_'])
+        results_detail.append(p_tweets_stats)
+
+
+def create_dict_remaining_tweets(name, party, results):
+    for tweet in results:
+        p_tweets_stats = {
+            'name': name,
+            'party': party,
+            'created at': tweet[0]['raw_data']['created_at'],
+            'tweet': tweet[0]['raw_data']['full_text'],
+        }
+        non_covid_tweets.append(p_tweets_stats)
 
 
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
@@ -156,46 +200,15 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_user_id = p['id']
         p_screen_name = p['screen_name']
         p_party = p['Partei']
-        tweets_of_pol = get_all_tweets_by_politician(screen_name=p_screen_name, user_id=p_user_id)
+        all_tweets_by_politician = get_all_tweets_by_politician(screen_name=p_screen_name, user_id=p_user_id)
         print(p_name)
-        matching_part_1 = check_match(tweets_of_pol)
-        covid_tweets = matching_part_1[0]
-        matching_part_2 = check_match_regex(matching_part_1[1])
-        covid_tweets.extend(matching_part_2[0])
-        matching_part_3 = check_match_fuzzy(matching_part_2[1])
-        non_covid_tweets = matching_part_3[1]
-        covid_tweets.extend(matching_part_3[0])
+        results_matching = match_tweets(all_tweets_by_politician)
+        #print(len(results_matching[0]))
+        #print(len(results_matching[1]))
 
-        p_tweets_stats = {
-            'name': p_name,
-            'screen_name': p_screen_name,
-            'party': p_party,
-            'covid_tweets': len(covid_tweets),
-        }
-        results_overview.append(p_tweets_stats)
-
-        for i in covid_tweets:
-            p_tweets_stats = {
-                'name': p_name,
-                'party': p_party,
-                'created at': i[2],
-                'id': i[5],
-                'word from wordlist': i[0],
-                'match': i[1],
-                'original tweet': i[3],
-                'tweet': i[4],
-            }
-            covid_tweets_ids.append(i[5])
-            results_detail.append(p_tweets_stats)
-
-        for tweet in non_covid_tweets:
-            p_remaining_tweets_stats = {
-                'name': p_name,
-                'party': p_party,
-                'created at': tweet[0],
-                'tweet': tweet[2],
-            }
-            non_covid_tweets.append(p_remaining_tweets_stats)
+        create_dict_results_overview(p_name, p_screen_name, p_party, results_matching[0])
+        create_dict_results_detail(p_name, p_party, results_matching[0])
+        create_dict_remaining_tweets(p_name, p_party, results_matching[1])
 
     keys_results_overview = results_overview[0].keys()
     keys_results_detail = results_detail[0].keys()
@@ -225,7 +238,10 @@ for filename in os.listdir(TWEETS_SOURCE_FOLDER):
             all_tweets = [t for t in json.load(infile)]
             covid_tweets = [t for t in all_tweets if t['id_'] in covid_tweets_ids]
             non_covid_tweets = [t for t in all_tweets if t['id_'] not in covid_tweets_ids]
-
+            print("covid")
+            print(len(covid_tweets))
+            print("non covid")
+            print(len(non_covid_tweets))
     with open(f_path_covid_tweets, 'w', encoding='utf-8') as outfile:
         json.dump(covid_tweets, outfile, ensure_ascii=False)
 
