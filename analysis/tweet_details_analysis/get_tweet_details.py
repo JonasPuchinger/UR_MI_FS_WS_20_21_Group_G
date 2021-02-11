@@ -87,20 +87,21 @@ def get_all_hashtags(all_tweets):
                     hashtags_dict[party].append(text)
                 else:
                     hashtags_dict[party] = [text] 
-                    
+
 for entry in politicians_list:
     filename = entry['screen_name'] + '.json'
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            all_tweets = [t for t in json.load(infile)]
-            #get_all_mentions(all_tweets)
-            #get_all_links(all_tweets)
+            #all_tweets = [t for t in json.load(infile)]
+            all_tweets = [t for t in json.load(infile) if t['raw_data']['user_id_str'] == str(entry['id'])] #just tweets by user
+            get_all_mentions(all_tweets)
+            get_all_links(all_tweets)
             get_all_hashtags(all_tweets)
 
 def create_mentions_count_file():
     count_list = collections.Counter(mentions_list).most_common()
-    with open('mentions_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/mentions_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
 
 def create_mentions_party_file():
@@ -108,43 +109,43 @@ def create_mentions_party_file():
         count_list = collections.Counter(value).most_common()
         mentions_dict[key] = count_list
 
-    with open('mentions_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/mentions_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(mentions_dict), outfile, ensure_ascii=False)
 
-#create_mentions_count_file()
-#create_mentions_party_file()
+create_mentions_count_file()
+create_mentions_party_file()
 
 def create_domains_count_file():
     count_list = collections.Counter(domains_list).most_common()
-    with open('domains_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/domains_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
 
 def create_domains_party_file():
     for key, value in domains_dict.items():
         count_list = collections.Counter(value).most_common()
         domains_dict[key] = count_list
-    with open('domains_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/domains_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(domains_dict), outfile, ensure_ascii=False)
 
 def create_links_count_file():
     count_list = collections.Counter(link_list).most_common()
-    with open('links_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/links_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
 
-#create_domains_count_file()
-#create_domains_party_file()
-#create_links_count_file()
+create_domains_count_file()
+create_domains_party_file()
+create_links_count_file()
 
 def create_hashtags_count_file():
     count_list = collections.Counter(hashtags_list).most_common()
-    with open('hashtags_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/hashtags_count_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(count_list), outfile, ensure_ascii=False)
 
 def create_hashtags_party_file():
     for key, value in hashtags_dict.items():
         count_list = collections.Counter(value).most_common()
         hashtags_dict[key] = count_list
-    with open('hashtags_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/hashtags_party_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(hashtags_dict), outfile, ensure_ascii=False)
 
 

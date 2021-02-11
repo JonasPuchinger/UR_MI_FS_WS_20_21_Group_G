@@ -121,11 +121,12 @@ for entry in politicians_list:
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
-            all_tweets = [t for t in json.load(infile)]
+            #all_tweets = [t for t in json.load(infile)]
+            all_tweets = [t for t in json.load(infile) if t['raw_data']['user_id_str'] == str(entry['id'])] #just tweets by user
             full_list.append(get_detailed_info(all_tweets))
 
 def create_file():
-    with open('tweet_details_per_politician_all_tweets.json', 'w', encoding='utf-8') as outfile:
+    with open('tweets_by_user/tweet_details_per_politician_all_tweets.json', 'w', encoding='utf-8') as outfile:
         json.dump(str(full_list), outfile, ensure_ascii=False)
 
 create_file()
