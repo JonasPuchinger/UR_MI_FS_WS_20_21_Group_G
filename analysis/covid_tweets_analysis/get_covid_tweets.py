@@ -73,6 +73,23 @@ def get_all_tweets_by_politician(screen_name, user_id):
     return ""
 
 
+def get_quote_tweets(screen_name, remaining_tweets):
+    quote_tweets_ids = [t[0]['raw_data']['quoted_status_id_str'] for t in remaining_tweets if
+                        t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' in t[0]['raw_data']]
+    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
+
+    if os.path.isfile(f_path):
+        with open(f_path, 'r', encoding='utf-8') as infile:
+            all_tweets = [t for t in json.load(infile)]
+
+            quote_tweets = [t for t in all_tweets if t['id_'] in quote_tweets_ids]
+            result = []
+            for t in quote_tweets:
+                result.append([t['id_'], preprocessing_tweet(t['raw_data']['full_text'])])
+            return result
+    return ""
+
+
 def check_match(tweets):
     remaining_tweets = []
     matched_tweets = []
@@ -204,9 +221,31 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         print(p_name)
         results_matching = match_tweets(all_tweets_by_politician)
 
+        remaining_tweets = results_matching[1]
+        quote_tweets_by_politician = get_quote_tweets(p_screen_name, remaining_tweets)
+        results_quote_tweet_matching = match_tweets(quote_tweets_by_politician)
+
+        all_covid_quote_tweet_ids = [i[2] for i in results_quote_tweet_matching[0]]
+
+        covid_quote_tweets = [["", "quote", t[0], t[1]] for t in remaining_tweets if (
+                t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' in t[0]['raw_data'] and
+                t[0]['raw_data']['quoted_status_id_str'] in all_covid_quote_tweet_ids)]
+
+        results_matching[0].extend(covid_quote_tweets)
+
+        all_remaining_tweets = []
+        for t in results_matching[1]:
+            if not t[0]['raw_data']['is_quote_status']:
+                all_remaining_tweets.append(t)
+            if t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' not in t[0]['raw_data']:
+                all_remaining_tweets.append(t)
+            if 'quoted_status_id_str' in t[0]['raw_data'] and t[0]['raw_data'][
+                'quoted_status_id_str'] not in all_covid_quote_tweet_ids:
+                all_remaining_tweets.append(t)
+
         create_dict_results_overview(p_name, p_screen_name, p_party, results_matching[0])
         create_dict_results_detail(p_name, p_party, results_matching[0])
-        create_dict_remaining_tweets(p_name, p_party, results_matching[1])
+        create_dict_remaining_tweets(p_name, p_party, all_remaining_tweets)
 
     keys_results_overview = results_overview[0].keys()
     keys_results_detail = results_detail[0].keys()
