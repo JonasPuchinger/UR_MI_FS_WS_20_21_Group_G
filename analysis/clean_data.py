@@ -6,16 +6,15 @@ from nltk.corpus import wordnet as wn
 import re
 from textblob_de import TextBlobDE as TextBlob
 
-nlp = spacy.load("de_core_news_md")
+nlp = spacy.load("de_core_news_sm")
 
-try: 
+try:
     de_stop = set(nltk.corpus.stopwords.words('german'))
 except:
-    #download wordnet and stopwords if necessary
+    # download wordnet and stopwords if necessary
     nltk.download('wordnet')
     nltk.download('stopwords')
     de_stop = set(nltk.corpus.stopwords.words('german'))
-
 
 def clean_for_lda(text):
     tokens = nlp(text)
@@ -37,7 +36,7 @@ def clean_for_filtering(text):
     tokens = [token for token in tokens if remove_mention(token)]
     tokens = [token for token in tokens if remove_punctuation_and_smileys(token)]
     tokens = [to_lower(token) for token in tokens]
-    return tokens
+    return [str(token) for token in tokens]
 
 def remove_stopwords(token):
     return True if str(token) not in de_stop else False
@@ -60,16 +59,13 @@ def get_nouns(token):
 def to_lower(token):
     return nlp(token.lower_)[0]
 
+
 def remove_punctuation_and_smileys(token):
-    if re.sub(r'[^\w\s]','', str(token)) == '': 
+    if re.sub(r'[^\w\s]', '', str(token)) == '':
         return False
     return True
+
 
 # Reduce word to lemma to get the root
 def get_lemma(token):
     return nlp(token.lemma_)[0]
-    
-testdata = "@petergruenn https://t.co/jLq2Vy1HLh Wie R0 oft noch? Vorschläge FFP-2 des Bundes für eine stärkere 🦉 Koordination in Krisen werden in ruhigen Zeiten regelmäßig als Angriff auf die Verfassung und das Föderalismusprinzip brüsk genau von denen zurückgewiesen, die dann in der Not mangelnde Führung des Bundes beklagen! #corona"
-
-print(clean_for_lda(testdata))
-
