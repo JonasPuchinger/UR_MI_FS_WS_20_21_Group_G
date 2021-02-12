@@ -9,11 +9,8 @@ TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 
 def get_politicians_list():
-    politicians = []
     with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
-        for p in json.load(infile):
-            politicians.append(p)
-    return politicians
+      return [p for p in json.load(infile)]
 
 politicians_list = get_politicians_list()
 
@@ -41,7 +38,7 @@ def get_detail_info(tweet):
             info['screen_name'] = p['screen_name']
             info['id'] = p['id']
             info['party'] = p['Partei']
-    return info
+        return info
 
 def format_date(date):
     return datetime.strftime(datetime.strptime(date,'%a %b %d %H:%M:%S +0000 %Y'), '%Y-%m-%d') 
@@ -145,7 +142,6 @@ def create_file(data, file):
         dict_writer = csv.DictWriter(outfile, keys)
         dict_writer.writeheader()
         dict_writer.writerows(data)
-
 
 def create_files():
     create_file(hashtags_tweets_by_user, 'tweets_by_user/hashtags_tweets_by_user.csv')
