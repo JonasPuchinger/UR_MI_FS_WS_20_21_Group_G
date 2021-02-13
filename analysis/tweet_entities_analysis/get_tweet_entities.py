@@ -38,46 +38,44 @@ def get_detail_info(tweet):
             info['screen_name'] = p['screen_name']
             info['id'] = p['id']
             info['party'] = p['Partei']
-        return info
+    return info
 
 def format_date(date):
     return datetime.strftime(datetime.strptime(date,'%a %b %d %H:%M:%S +0000 %Y'), '%Y-%m-%d') 
 
 def get_hashtags(all_tweets, info_dict):
-    hashtags_list_of_dicts = []
+    hashtags_list = []
     for tweet in all_tweets:
         hashtags_of_tweet = tweet.get('raw_data').get('entities').get('hashtags')
         if len(hashtags_of_tweet) > 0:
             date = format_date(tweet.get('raw_data').get('created_at'))
             tweet_id = tweet.get('raw_data').get('id')
             for hashtag in hashtags_of_tweet:
-                hashtag_dict = dict.fromkeys(['hashtag', 'date', 'tweet_id'])
-                hashtag_dict['hashtag'] = hashtag.get('text')
-                hashtag_dict['date'] = date
-                hashtag_dict['tweet_id'] = tweet_id
-                hashtags_list_of_dicts.append(hashtag_dict)
-    info_dict['hashtags'] = hashtags_list_of_dicts
-    return info_dict
+                temp_dict = info_dict.copy()
+                temp_dict['hashtag'] = '#' + hashtag.get('text')
+                temp_dict['date'] = date
+                temp_dict['tweet_id'] = tweet_id
+                hashtags_list.append(temp_dict)
+    return hashtags_list
 
 def get_mentions(all_tweets, info_dict):
-    mentions_list_of_dicts = []
+    mentions_list = []
     for tweet in all_tweets:
         mentions_of_tweet = tweet.get('raw_data').get('entities').get('user_mentions')
         if len(mentions_of_tweet) > 0:
             date = format_date(tweet.get('raw_data').get('created_at'))
             tweet_id = tweet.get('raw_data').get('id')
             for mention in mentions_of_tweet:
-                mention_dict = dict.fromkeys(['mention', 'date', 'tweet_id'])
-                mention_dict['mention'] = mention.get('screen_name')
-                mention_dict['date'] = date
-                mention_dict['tweet_id'] = tweet_id
-                mentions_list_of_dicts.append(mention_dict)
-    info_dict['mentions'] = mentions_list_of_dicts
-    return info_dict
+                temp_dict = info_dict.copy()
+                temp_dict['mention'] = mention.get('screen_name')
+                temp_dict['date'] = date
+                temp_dict['tweet_id'] = tweet_id
+                mentions_list.append(temp_dict)
+    return mentions_list
 
 def get_links(all_tweets, info_dict):
-    links_list_of_dicts = []
-    domains_list_of_dicts = []
+    links_list = []
+    domains_list = []
     for tweet in all_tweets:
         links_of_tweet = tweet.get('raw_data').get('entities').get('urls')
         if len(links_of_tweet) > 0:
@@ -87,22 +85,18 @@ def get_links(all_tweets, info_dict):
                 url = link.get('expanded_url')
                 if "bit.ly" in url or "tinyurl.com" in url:
                     url = expand_url(url)   
-                link_dict = dict.fromkeys(['link', 'date', 'tweet_id'])
-                link_dict['link'] = url
-                link_dict['date'] = date
-                link_dict['tweet_id'] = tweet_id
-                links_list_of_dicts.append(link_dict)   
+                temp_dict_link = info_dict.copy()
+                temp_dict_link['link'] = url
+                temp_dict_link['date'] = date
+                temp_dict_link['tweet_id'] = tweet_id
+                links_list.append(temp_dict_link)
+                temp_dict_domain = info_dict.copy()  
                 domain = get_domain(url)
-                domain_dict = dict.fromkeys(['domain', 'date', 'tweet_id'])
-                domain_dict['domain'] = domain
-                domain_dict['date'] = date
-                domain_dict['tweet_id'] = tweet_id
-                domains_list_of_dicts.append(domain_dict)  
-    all_links_dict = info_dict.copy()
-    all_links_dict['links'] = links_list_of_dicts
-    all_domains_dict = info_dict.copy()
-    all_domains_dict['domains'] = domains_list_of_dicts   
-    return all_links_dict, all_domains_dict                   
+                temp_dict_domain['domain'] = domain
+                temp_dict_domain['date'] = date
+                temp_dict_domain['tweet_id'] = tweet_id
+                domains_list.append(temp_dict_domain)    
+    return links_list, domains_list                   
 
 hashtags_tweets_by_user = []
 hashtags_all_tweets = []
@@ -137,20 +131,21 @@ for entry in politicians_list:
                 domains_tweet_by_user.append(domains)
 
 def create_file(data, file):
-    keys = data[0].keys()
+    keys = data[0][0].keys()
     with open(file, 'w', newline='', encoding='utf-8') as outfile:
         dict_writer = csv.DictWriter(outfile, keys)
         dict_writer.writeheader()
-        dict_writer.writerows(data)
+        for entry in data:
+            dict_writer.writerows(entry)
 
 def create_files():
-    create_file(hashtags_tweets_by_user, 'tweets_by_user/hashtags_tweets_by_user.csv')
-    create_file(mentions_tweets_by_user, 'tweets_by_user/mentions_tweets_by_user.csv')
-    create_file(links_tweets_by_user, 'tweets_by_user/links_tweets_by_user.csv')
-    create_file(domains_tweet_by_user, 'tweets_by_user/domains_tweets_by_user.csv')
     create_file(hashtags_all_tweets, 'all_tweets/hashtags_all_tweets.csv')
     create_file(mentions_all_tweets, 'all_tweets/mentions_all_tweets.csv')
     create_file(links_all_tweets, 'all_tweets/links_all_tweets.csv')
     create_file(domains_all_tweets, 'all_tweets/domains_all_tweets.csv')
-
+    create_file(hashtags_tweets_by_user, 'tweets_by_user/hashtags_tweets_by_user.csv')
+    create_file(mentions_tweets_by_user, 'tweets_by_user/mentions_tweets_by_user.csv')
+    create_file(links_tweets_by_user, 'tweets_by_user/links_tweets_by_user.csv')
+    create_file(domains_tweet_by_user, 'tweets_by_user/domains_tweets_by_user.csv')
+    
 create_files()
