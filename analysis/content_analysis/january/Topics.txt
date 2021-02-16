@@ -1,0 +1,5 @@
+[(0, '0.017*"amp" + 0.012*"deutschland" + 0.010*"jahr" + 0.009*"bundestag" + 0.009*"weremember" + 0.007*"mensch"'), 
+(1, '0.010*"jahr" + 0.009*"tb" + 0.008*"spd" + 0.007*"cdu" + 0.007*"mensch" + 0.006*"bundestag"'), 
+(2, '0.009*"jed" + 0.007*"frau" + 0.007*"afd" + 0.006*"amp" + 0.005*"bundestag" + 0.005*"tag"'), 
+(3, '0.009*"berlin" + 0.005*"kind" + 0.004*"eu" + 0.004*"cdu" + 0.003*"frage" + 0.003*"mietendeckel"'), 
+(4, '0.006*"land" + 0.005*"amp" + 0.004*"jahr" + 0.004*"thema" + 0.004*"bundeswehr" + 0.003*"iran"')]

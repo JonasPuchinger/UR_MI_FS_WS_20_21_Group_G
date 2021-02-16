@@ -48,12 +48,12 @@ def remove_mention(token):
     return False if token.orth_.startswith('@') else True
 
 def remove_whitespaces(token):
-    return True if not token.orth_.isspace() else False
+    if str(token) == "" or re.sub(r'\s*', '', str(token)) == '':
+        return False
+    return True if not token.text.isspace() else False
 
 def get_nouns(token):
     blob = TextBlob(str(token))
-    print(str(token))
-    print(blob.tags[0])
     try:
         if blob.tags[0][1] == 'NN':
             return True
