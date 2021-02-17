@@ -11,7 +11,7 @@ from analysis.clean_data import clean_for_filtering
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 COVID_TWEETS_FOLDER = '../filtered_data/covid_tweets/'
-NON_COVID_TWEETS_FOLDER = '../filtered_data/non_covid_tweets/'
+NON_COVID_TWEETS_FOLDER = '../filtered_data/total_non_covid_tweets/'
 RESULTS_FILE_OVERVIEW = 'covid_tweets_overview.csv'
 RESULTS_FILE_DETAIL = 'covid_tweets_detail.csv'
 PREPROCESSED_WORDLIST = '../preprocessing_wordlist/preprocessed_wordlist.json'
