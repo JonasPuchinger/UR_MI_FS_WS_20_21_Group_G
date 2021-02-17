@@ -1,0 +1,5 @@
+[(0, '0.159*"coronavirus" + 0.087*"verschwörungstheorien" + 0.087*"virus" + 0.087*"rassismus" + 0.087*"information" + 0.087*"aufbereiten"'), 
+(1, '0.064*"eu-ebene" + 0.064*"untereinander" + 0.064*"informell" + 0.064*"maßnahme" + 0.064*"deutschland" + 0.064*"europa"'), 
+(2, '0.102*"betroffene" + 0.102*"unfug" + 0.102*"wirklichkeit" + 0.102*"abstandsregelungen" + 0.102*"schrank" + 0.017*"coronavirus"'), 
+(3, '0.064*"afd" + 0.064*"wachsamkeit" + 0.064*"gebot" + 0.064*"tabubruch" + 0.064*"thüringen" + 0.064*"maske"'), 
+(4, '0.029*"schrank" + 0.029*"coronavirus" + 0.029*"aufbereiten" + 0.029*"parlament" + 0.029*"alltag" + 0.029*"einheitsfront"')]

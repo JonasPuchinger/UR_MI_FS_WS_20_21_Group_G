@@ -8,39 +8,47 @@ from gensim import corpora
 import pickle
 from analysis.clean_data import clean_for_lda as cd
 from datetime import datetime, date, timedelta
+import time
 
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 POLITICIANS_LIST = '../../assets/all_politicians.json'
-dates = ['2020-11-04',' 2020-03-13', '2020-09-09', '2020-11-18', '2020-11-07', '2020-03-25', '2020-03-18', '2020-10-28'] # Top 5
 
+start_end_date = [['01/02/2020', '29/02/2020']]
 
-def days_of_month():
-    d1 = date(2020, 1, 1)
-    d2 = date(2020, 1, 31)
-    delta = d2 - d1
-    return [(d1 + timedelta(days=i)).strftime('%Y-%m-%d') for i in range(delta.days + 1)]
+""" ,['03/1/2020', '03/31/2020'],
+['04/1/2020', '04/30/2020'],
+['05/1/2020', '05/31/2020'],
+['06/1/2020', '06/30/2020'],
+['07/1/2020', '07/31/2020'],
+['08/1/2020', '08/31/2020'],
+['09/1/2020', '09/30/2020'],
+['10/1/2020', '10/31/2020'],
+['11/1/2020', '11/30/2020'],
+['12/1/2020', '12/31/2020'], """
 
 def get_politicians_list():
         with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             return [p for p in json.load(infile)]
 politicians_list = get_politicians_list()
 
-def format_date(date):
-        return datetime.strftime(datetime.strptime(date,'%a %b %d %H:%M:%S +0000 %Y'), '%Y-%m-%d') 
+def format_date(current_date):
+    return datetime.strftime(datetime.strptime(current_date,'%a %b %d %H:%M:%S +0000 %Y'), '%d/%m/%Y') 
 
-for date in dates:   
-    path = os.getcwd() + "\\" + date
+def check_date(current_date):
+    return True if time.strptime(current_date, '%d/%m/%Y') >= time.strptime(date[0], '%d/%m/%Y') and time.strptime(current_date, '%d/%m/%Y') <= time.strptime(date[1], '%d/%m/%Y') else False
+
+for date in start_end_date:
+    path = os.getcwd() + "\\" + 'february'
     Path(path).mkdir(parents=True, exist_ok=True)
     path = path + "\\"
-   
     text_data = []
-    # get text of the relevant tweets of all politicians
+
     for politician in politicians_list:  
-        with open(TWEETS_SOURCE_FOLDER + politician['screen_name'] + '.json', 'r', encoding='utf-8') as json_file:
+        with open(TWEETS_SOURCE_FOLDER +  politician['screen_name'] + '.json', 'r', encoding='utf-8') as json_file:
             data = json.load(json_file)
             if data != []:
                 for tweet in data:
-                    if(format_date(tweet.get('raw_data').get('created_at')) == date):
+                    if(check_date(format_date(tweet.get('raw_data').get('created_at')))):
                         text = tweet.get("raw_data").get("full_text")
                         cleaned_data = cd(text)
                         text_data.append(cleaned_data)

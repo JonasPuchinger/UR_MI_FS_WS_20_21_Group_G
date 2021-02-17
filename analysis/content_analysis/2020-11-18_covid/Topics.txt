@@ -1,0 +1,5 @@
+[(0, '0.060*"infektionsschutzgesetz" + 0.026*"bundestag" + 0.021*"parlament" + 0.011*"tb" + 0.010*"amp" + 0.009*"erm‰chtigungsgesetz"'), 
+(1, '0.035*"infektionsschutzgesetz" + 0.024*"bundestag" + 0.019*"demokratie" + 0.017*"parlament" + 0.014*"b1811" + 0.014*"corona"'), 
+(2, '0.029*"infektionsschutzgesetz" + 0.009*"corona" + 0.007*"maﬂnahme" + 0.007*"parlament" + 0.007*"b1811" + 0.006*"vorschlag"'), 
+(3, '0.030*"infektionsschutzgesetz" + 0.024*"bundestag" + 0.018*"parlament" + 0.011*"corona" + 0.010*"pandemie" + 0.009*"regierung"'), 
+(4, '0.038*"infektionsschutzgesetz" + 0.033*"bundestag" + 0.033*"afd" + 0.018*"b1811" + 0.018*"amp" + 0.012*"bevoelkerungsschutzgesetz"')]
