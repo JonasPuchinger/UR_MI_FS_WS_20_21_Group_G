@@ -20,7 +20,6 @@ RESULTS_FILE_QUOTE_COVID_TWEETS = 'quote_covid_tweets.csv'
 RESULTS_FILE_QUOTE_NON_COVID_TWEETS = 'quote_non_covid_tweets.csv'
 PREPROCESSED_WORDLIST = '../preprocessing_wordlist/preprocessed_wordlist.json'
 UNCERTAIN_WORDS = '../preprocessing_wordlist/uncertain_words.json'
-NON_COVID_TWEETS = 'non_covid_tweets.csv'
 
 dict_results_overview = []
 dict_results_detail = []
@@ -34,7 +33,7 @@ wordlist = json.load(codecs.open(PREPROCESSED_WORDLIST, 'r', 'utf-8-sig'))
 uncertain_words = json.load(codecs.open(UNCERTAIN_WORDS, 'r', 'utf-8-sig'))
 
 
-def add_extend_info(t):
+def add_info(t):
     info = ""
     if t['raw_data']['entities']['hashtags']:
         for tag in t['raw_data']['entities']['hashtags']:
@@ -55,7 +54,7 @@ def get_all_tweets(screen_name):
             all_tweets = [t for t in json.load(infile)]
             result = []
             for t in all_tweets:
-                tweet_info = t['raw_data']['full_text'] + add_extend_info(t)
+                tweet_info = t['raw_data']['full_text'] + add_info(t)
                 result.append([t, clean_for_filtering(tweet_info)])
             return result
     return ""
@@ -269,12 +268,9 @@ for filename in os.listdir(TWEETS_SOURCE_FOLDER):
 
     with open(f_path_covid_tweets_by_pol, 'w', encoding='utf-8') as outfile:
         json.dump(list({v['id_']: v for v in covid_tweets_by_pol}.values()), outfile, ensure_ascii=False)
-
     with open(f_path_non_covid_tweets_by_pol, 'w', encoding='utf-8') as outfile:
         json.dump(list({v['id_']: v for v in non_covid_tweets_by_pol}.values()), outfile, ensure_ascii=False)
-
     with open(f_path_quote_covid_tweets, 'w', encoding='utf-8') as outfile:
         json.dump(list({v['id_']: v for v in quote_covid_tweets}.values()), outfile, ensure_ascii=False)
-
     with open(f_path_quote_non_covid_tweets, 'w', encoding='utf-8') as outfile:
         json.dump(list({v['id_']: v for v in quote_non_covid_tweets}.values()), outfile, ensure_ascii=False)
