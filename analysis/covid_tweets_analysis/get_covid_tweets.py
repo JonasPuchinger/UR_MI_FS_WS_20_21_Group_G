@@ -7,53 +7,56 @@ import codecs
 from fuzzywuzzy import fuzz
 from analysis.clean_data import clean_for_filtering
 
-
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
-COVID_TWEETS_FOLDER = '../filtered_data/covid_tweets/'
-NON_COVID_TWEETS_FOLDER = '../filtered_data/total_non_covid_tweets/'
+COVID_TWEETS_BY_POL_FOLDER = '../filtered_data/covid_tweets_by_politician/'
+NON_COVID_TWEETS_BY_POL_FOLDER = '../filtered_data/non_covid_tweets_by_politician/'
+QUOTE_COVID_TWEETS_FOLDER = '../filtered_data/quote_covid_tweets/'
+QUOTE_NON_COVID_TWEETS_FOLDER = '../filtered_data/quote_non_covid_tweets/'
 RESULTS_FILE_OVERVIEW = 'covid_tweets_overview.csv'
-RESULTS_FILE_DETAIL = 'covid_tweets_detail.csv'
+RESULTS_FILE_COVID_TWEETS_BY_P = 'covid_tweets_by_politician.csv'
+RESULTS_FILE_NON_COVID_TWEETS_BY_P = 'non_covid_tweets_by_politician.csv'
+RESULTS_FILE_QUOTE_COVID_TWEETS = 'quote_covid_tweets.csv'
+RESULTS_FILE_QUOTE_NON_COVID_TWEETS = 'quote_non_covid_tweets.csv'
 PREPROCESSED_WORDLIST = '../preprocessing_wordlist/preprocessed_wordlist.json'
 UNCERTAIN_WORDS = '../preprocessing_wordlist/uncertain_words.json'
 NON_COVID_TWEETS = 'non_covid_tweets.csv'
 
-results_overview = []
-results_detail = []
-non_covid_tweets = []
-covid_tweets_ids = []
+dict_results_overview = []
+dict_results_detail = []
+dict_non_covid_tweets = []
+covid_tweet_by_politician_id = []
+non_covid_tweet_by_politician_id = []
+quote_covid_tweet_id = []
+quote_non_covid_tweet_id = []
 
 wordlist = json.load(codecs.open(PREPROCESSED_WORDLIST, 'r', 'utf-8-sig'))
 uncertain_words = json.load(codecs.open(UNCERTAIN_WORDS, 'r', 'utf-8-sig'))
 
 
-def get_all_tweets_by_politician(screen_name, user_id):
+def add_extend_info(t):
+    info = ""
+    if t['raw_data']['entities']['hashtags']:
+        for tag in t['raw_data']['entities']['hashtags']:
+            info += " " + tag['text']
+    if t['raw_data'].get('card') is not None:
+        if t['raw_data']['card']['binding_values'].get('title') is not None:
+            info += " " + t['raw_data']['card']['binding_values']['title']['string_value']
+        if t['raw_data']['card']['binding_values'].get('description') is not None:
+            info += " " + t['raw_data']['card']['binding_values']['description']['string_value']
+    return info
+
+
+def get_all_tweets(screen_name):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
 
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
             all_tweets = [t for t in json.load(infile)]
-            tweets_by_user = [t for t in all_tweets if t['raw_data']['user_id_str'] == str(user_id)]
             result = []
-            for t in tweets_by_user:
-                result.append([t, clean_for_filtering(t['raw_data']['full_text'])])
-            return result
-    return ""
-
-
-def get_quote_tweets(screen_name, remaining_tweets):
-    quote_tweets_ids = [t[0]['raw_data']['quoted_status_id_str'] for t in remaining_tweets if
-                        t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' in t[0]['raw_data']]
-    f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
-
-    if os.path.isfile(f_path):
-        with open(f_path, 'r', encoding='utf-8') as infile:
-            all_tweets = [t for t in json.load(infile)]
-
-            quote_tweets = [t for t in all_tweets if t['id_'] in quote_tweets_ids]
-            result = []
-            for t in quote_tweets:
-                result.append([t['id_'], clean_for_filtering(t['raw_data']['full_text'])])
+            for t in all_tweets:
+                tweet_info = t['raw_data']['full_text'] + add_extend_info(t)
+                result.append([t, clean_for_filtering(tweet_info)])
             return result
     return ""
 
@@ -150,10 +153,10 @@ def create_dict_results_overview(name, screen_name, party, results):
         'party': party,
         'covid_tweets': len(results),
     }
-    results_overview.append(p_tweets_stats)
+    dict_results_overview.append(p_tweets_stats)
 
 
-def create_dict_results_detail(name, party, results):
+def create_dict_covid_tweets_by_pol(name, party, results):
     for i in results:
         p_tweets_stats = {
             'name': name,
@@ -165,11 +168,10 @@ def create_dict_results_detail(name, party, results):
             'original tweet': i[2]['raw_data']['full_text'],
             'tweet': i[3],
         }
-        covid_tweets_ids.append(i[2]['id_'])
-        results_detail.append(p_tweets_stats)
+        dict_results_detail.append(p_tweets_stats)
 
 
-def create_dict_remaining_tweets(name, party, results):
+def create_dict_non_covid_tweets_by_pol(name, party, results):
     for tweet in results:
         p_tweets_stats = {
             'name': name,
@@ -177,77 +179,102 @@ def create_dict_remaining_tweets(name, party, results):
             'created at': tweet[0]['raw_data']['created_at'],
             'tweet': tweet[0]['raw_data']['full_text'],
         }
-        non_covid_tweets.append(p_tweets_stats)
+        dict_non_covid_tweets.append(p_tweets_stats)
 
 
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     for p in json.load(infile):
+
+        covid_tweet_by_politician = []
+        non_covid_tweet_by_politician = []
+        quote_covid_tweet = []
+        quote_non_covid_tweet = []
+
         p_name = p['Name']
         p_user_id = p['id']
         p_screen_name = p['screen_name']
         p_party = p['Partei']
 
-        all_tweets_by_politician = get_all_tweets_by_politician(screen_name=p_screen_name, user_id=p_user_id)
+        print(p_name)
 
-        results_matching = match_tweets(all_tweets_by_politician)
+        all_tweets = get_all_tweets(screen_name=p_screen_name)
+        results_matching = match_tweets(all_tweets)
 
-        remaining_tweets = results_matching[1]
-        quote_tweets_by_politician = get_quote_tweets(p_screen_name, remaining_tweets)
-        results_quote_tweet_matching = match_tweets(quote_tweets_by_politician)
+        all_covid_tweets = results_matching[0]
+        all_non_covid_tweets = results_matching[1]
 
-        all_covid_quote_tweet_ids = [i[2] for i in results_quote_tweet_matching[0]]
+        for t in all_covid_tweets:
+            tweet = t[2]
+            if tweet['raw_data']['user_id_str'] == str(p_user_id):
+                covid_tweet_by_politician.append(t)
+                covid_tweet_by_politician_id.append(tweet['id_'])
+            elif tweet['raw_data']['user_id_str'] != str(p_user_id):
+                quote_covid_tweet.append(t)
+                quote_covid_tweet_id.append(tweet['id_'])
 
-        covid_quote_tweets = [["", "quote", t[0], t[1]] for t in remaining_tweets if (
-                t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' in t[0]['raw_data'] and
-                t[0]['raw_data']['quoted_status_id_str'] in all_covid_quote_tweet_ids)]
+        for t in all_non_covid_tweets:
+            tweet = t[0]
+            if tweet['raw_data']['user_id_str'] == str(p_user_id):
+                if tweet['raw_data']['is_quote_status'] and 'quoted_status_id_str' in tweet['raw_data']:
+                    if tweet['raw_data']['quoted_status_id_str'] in quote_covid_tweet_id:
+                        covid_tweet_by_politician.append(["quote", "quote", t[0], t[1]])
+                        covid_tweet_by_politician_id.append(tweet['id_'])
+                    else:
+                        non_covid_tweet_by_politician.append(t)
+                        non_covid_tweet_by_politician_id.append(tweet['id_'])
+                else:
+                    non_covid_tweet_by_politician.append(t)
+                    non_covid_tweet_by_politician_id.append(tweet['id_'])
 
-        results_matching[0].extend(covid_quote_tweets)
+            elif tweet['raw_data']['user_id_str'] != str(p_user_id):
+                quote_non_covid_tweet.append(t)
+                quote_non_covid_tweet_id.append(tweet['id_'])
 
-        all_remaining_tweets = []
-        for t in results_matching[1]:
-            if not t[0]['raw_data']['is_quote_status']:
-                all_remaining_tweets.append(t)
-            if t[0]['raw_data']['is_quote_status'] and 'quoted_status_id_str' not in t[0]['raw_data']:
-                all_remaining_tweets.append(t)
-            if 'quoted_status_id_str' in t[0]['raw_data'] and t[0]['raw_data'][
-                'quoted_status_id_str'] not in all_covid_quote_tweet_ids:
-                all_remaining_tweets.append(t)
+        create_dict_results_overview(p_name, p_screen_name, p_party, covid_tweet_by_politician)
+        create_dict_covid_tweets_by_pol(p_name, p_party, covid_tweet_by_politician)
+        create_dict_non_covid_tweets_by_pol(p_name, p_party, non_covid_tweet_by_politician)
 
-        create_dict_results_overview(p_name, p_screen_name, p_party, results_matching[0])
-        create_dict_results_detail(p_name, p_party, results_matching[0])
-        create_dict_remaining_tweets(p_name, p_party, all_remaining_tweets)
-
-    keys_results_overview = results_overview[0].keys()
-    keys_results_detail = results_detail[0].keys()
-    keys_remaining_tweets = non_covid_tweets[0].keys()
+    keys_results_overview = dict_results_overview[0].keys()
+    keys_results_detail = dict_results_detail[0].keys()
+    keys_remaining_tweets = dict_non_covid_tweets[0].keys()
 
     with open(RESULTS_FILE_OVERVIEW, 'w', newline='', encoding='utf-8') as outfile:
         dict_writer = csv.DictWriter(outfile, keys_results_overview)
         dict_writer.writeheader()
-        dict_writer.writerows(results_overview)
+        dict_writer.writerows(dict_results_overview)
 
-    with open(RESULTS_FILE_DETAIL, 'w', newline='', encoding='utf-8') as outfile:
+    with open(RESULTS_FILE_COVID_TWEETS_BY_P, 'w', newline='', encoding='utf-8') as outfile:
         dict_writer = csv.DictWriter(outfile, keys_results_detail)
         dict_writer.writeheader()
-        dict_writer.writerows(results_detail)
+        dict_writer.writerows(dict_results_detail)
 
-    with open(NON_COVID_TWEETS, 'w', newline='', encoding='utf-8') as outfile:
+    with open(RESULTS_FILE_NON_COVID_TWEETS_BY_P, 'w', newline='', encoding='utf-8') as outfile:
         dict_writer = csv.DictWriter(outfile, keys_remaining_tweets)
         dict_writer.writeheader()
-        dict_writer.writerows(non_covid_tweets)
-
+        dict_writer.writerows(dict_non_covid_tweets)
 
 for filename in os.listdir(TWEETS_SOURCE_FOLDER):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
-    f_path_covid_tweets = os.path.join(COVID_TWEETS_FOLDER, filename)
-    f_path_non_covid_tweets = os.path.join(NON_COVID_TWEETS_FOLDER, filename)
+    f_path_covid_tweets_by_pol = os.path.join(COVID_TWEETS_BY_POL_FOLDER, filename)
+    f_path_non_covid_tweets_by_pol = os.path.join(NON_COVID_TWEETS_BY_POL_FOLDER, filename)
+    f_path_quote_covid_tweets = os.path.join(QUOTE_COVID_TWEETS_FOLDER, filename)
+    f_path_quote_non_covid_tweets = os.path.join(QUOTE_NON_COVID_TWEETS_FOLDER, filename)
     if os.path.isfile(f_path):
         with open(f_path, 'r', encoding='utf-8') as infile:
             all_tweets = [t for t in json.load(infile)]
-            covid_tweets = [t for t in all_tweets if t['id_'] in covid_tweets_ids]
-            non_covid_tweets = [t for t in all_tweets if t['id_'] not in covid_tweets_ids]
-    with open(f_path_covid_tweets, 'w', encoding='utf-8') as outfile:
-        json.dump(covid_tweets, outfile, ensure_ascii=False)
+            covid_tweets_by_pol = [t for t in all_tweets if t['id_'] in covid_tweet_by_politician_id]
+            non_covid_tweets_by_pol = [t for t in all_tweets if t['id_'] in non_covid_tweet_by_politician_id]
+            quote_covid_tweets = [t for t in all_tweets if t['id_'] in quote_covid_tweet_id]
+            quote_non_covid_tweets = [t for t in all_tweets if t['id_'] in quote_non_covid_tweet_id]
 
-    with open(f_path_non_covid_tweets, 'w', encoding='utf-8') as outfile:
-        json.dump(non_covid_tweets, outfile, ensure_ascii=False)
+    with open(f_path_covid_tweets_by_pol, 'w', encoding='utf-8') as outfile:
+        json.dump(list({v['id_']: v for v in covid_tweets_by_pol}.values()), outfile, ensure_ascii=False)
+
+    with open(f_path_non_covid_tweets_by_pol, 'w', encoding='utf-8') as outfile:
+        json.dump(list({v['id_']: v for v in non_covid_tweets_by_pol}.values()), outfile, ensure_ascii=False)
+
+    with open(f_path_quote_covid_tweets, 'w', encoding='utf-8') as outfile:
+        json.dump(list({v['id_']: v for v in quote_covid_tweets}.values()), outfile, ensure_ascii=False)
+
+    with open(f_path_quote_non_covid_tweets, 'w', encoding='utf-8') as outfile:
+        json.dump(list({v['id_']: v for v in quote_non_covid_tweets}.values()), outfile, ensure_ascii=False)
