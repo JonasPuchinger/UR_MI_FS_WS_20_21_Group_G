@@ -1,0 +1,5 @@
+[(0, '0.012*"jahr" + 0.011*"deutschland" + 0.009*"cdu" + 0.009*"glückwunsch" + 0.009*"afd" + 0.008*"amp"'), 
+(1, '0.009*"tb" + 0.007*"parlament" + 0.006*"amp" + 0.005*"bundestag" + 0.005*"maßnahme" + 0.005*"regierung"'), 
+(2, '0.013*"frau" + 0.008*"mensch" + 0.006*"amp" + 0.005*"schule" + 0.005*"gewalt" + 0.004*"demokratie"'), 
+(3, '0.009*"is" + 0.008*"amp" + 0.008*"trump" + 0.007*"on" + 0.006*"it" + 0.006*"i"'), 
+(4, '0.019*"amp" + 0.016*"bundestag" + 0.010*"jahr" + 0.009*"afd" + 0.009*"corona" + 0.008*"jed"')]
