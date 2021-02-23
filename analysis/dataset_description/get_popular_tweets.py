@@ -1,5 +1,6 @@
 import os
 import json
+import csv
 
 ALL_POLITICIANS_FILE = '../../assets/all_politicians.json'
 COVID_TWEETS_FOLDER = '../filtered_data/covid_tweets_by_politician'
@@ -28,6 +29,7 @@ for p in all_politicians:
                     'screen_name': p_screen_name,
                     'p_user_id': p['id'],
                     'party': p['Partei'],
+                    'date': covid_tweet['raw_data']['created_at'],
                     'tweet': covid_tweet
                 }
                 all_covid_tweets.append(p_covid_tweet)
@@ -42,6 +44,7 @@ for p in all_politicians:
                     'screen_name': p_screen_name,
                     'p_user_id': p['id'],
                     'party': p['Partei'],
+                    'date': non_covid_tweet['raw_data']['created_at'],
                     'tweet': non_covid_tweet
                 }
                 all_non_covid_tweets.append(p_non_covid_tweet)
@@ -64,8 +67,9 @@ for party in parties:
     most_popular_non_covid_tweets += most_popular_non_covid_tweets_per_party
 
 
-with open('most_popular_covid_tweets.json', 'w', encoding='utf-8') as most_popular_covid_tweets_outfile:
-    json.dump(most_popular_covid_tweets, most_popular_covid_tweets_outfile, ensure_ascii=False)
-
-with open('most_popular_non_covid_tweets.json', 'w', encoding='utf-8') as most_popular_non_covid_tweets_outfile:
-    json.dump(most_popular_non_covid_tweets, most_popular_non_covid_tweets_outfile, ensure_ascii=False)
+with open('most_popular_covid_tweets.csv', 'w', encoding='utf-8', newline='') as most_popular_covid_tweets_file:
+    data = most_popular_covid_tweets
+    keys = data[0].keys()
+    dict_writer = csv.DictWriter(most_popular_covid_tweets_file, keys)
+    dict_writer.writeheader()
+    dict_writer.writerows(data)

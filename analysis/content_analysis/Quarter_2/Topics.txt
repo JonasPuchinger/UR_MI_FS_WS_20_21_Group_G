@@ -1,0 +1,5 @@
+[(0, '0.012*"kind" + 0.007*"corona" + 0.007*"berlin" + 0.007*"schule" + 0.006*"frage" + 0.005*"afd"'), 
+(1, '0.013*"deutschland" + 0.012*"afd" + 0.008*"jahr" + 0.006*"polizei" + 0.006*"amp" + 0.005*"klaren"'), 
+(2, '0.010*"bundestag" + 0.010*"amp" + 0.009*"corona" + 0.006*"jahr" + 0.006*"mensch" + 0.006*"woche"'), 
+(3, '0.008*"is" + 0.006*"on" + 0.005*"i" + 0.005*"we" + 0.005*"rassismus" + 0.005*"trump"'), 
+(4, '0.022*"amp" + 0.010*"mensch" + 0.010*"coronakrise" + 0.009*"corona" + 0.008*"zeit" + 0.007*"krise"')]
