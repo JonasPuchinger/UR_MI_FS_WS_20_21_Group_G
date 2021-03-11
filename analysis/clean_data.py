@@ -27,7 +27,7 @@ def clean_for_lda(text):
     tokens = [token for token in tokens if remove_mention(token)]
     tokens = [get_lemma(token) for token in tokens]
     tokens = [to_lower(token) for token in tokens]
-    tokens = [token for token in tokens if proof_amp(token)]
+    tokens = [token for token in tokens if remove_amp_tb(token)]
     tokens = [token for token in tokens if get_nouns(token)]
     tokens = [token for token in tokens if len(token) > 2]
     return [str(token) for token in tokens]
@@ -56,8 +56,9 @@ def remove_whitespaces(token):
         return False
     return True if not token.text.isspace() else False
 
-def proof_amp(token):
-    return True if str(token) != 'amp' and 'amp' not in str(token) else False
+# The abbreviation TB has to be removed. The ampersand (&) was transformed into '&amp;' in the scraping process. This has to be deleted as well.
+def remove_amp_tb(token):
+    return True if str(token) != 'amp' and str(token) != 'tb' else False
 
 def get_nouns(token):
     blob = TextBlob(str(token))

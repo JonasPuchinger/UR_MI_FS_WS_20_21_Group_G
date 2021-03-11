@@ -1,5 +1,5 @@
-[(0, '0.012*"jahr" + 0.011*"deutschland" + 0.009*"cdu" + 0.009*"glückwunsch" + 0.009*"afd" + 0.008*"amp"'), 
-(1, '0.009*"tb" + 0.007*"parlament" + 0.006*"amp" + 0.005*"bundestag" + 0.005*"maßnahme" + 0.005*"regierung"'), 
-(2, '0.013*"frau" + 0.008*"mensch" + 0.006*"amp" + 0.005*"schule" + 0.005*"gewalt" + 0.004*"demokratie"'), 
-(3, '0.009*"is" + 0.008*"amp" + 0.008*"trump" + 0.007*"on" + 0.006*"it" + 0.006*"i"'), 
-(4, '0.019*"amp" + 0.016*"bundestag" + 0.010*"jahr" + 0.009*"afd" + 0.009*"corona" + 0.008*"jed"')]
+[(0, '0.018*"bundestag" + 0.012*"corona" + 0.011*"afd" + 0.006*"cdu" + 0.006*"lockdown" + 0.006*"woche"'), 
+(1, '0.013*"deutschland" + 0.010*"afd" + 0.010*"mensch" + 0.008*"jahr" + 0.007*"land" + 0.006*"bundestag"'), 
+(2, '0.007*"tag" + 0.006*"mensch" + 0.005*"problem" + 0.004*"berlin" + 0.004*"maske" + 0.004*"euro"'), 
+(3, '0.009*"glückwunsch" + 0.007*"corona" + 0.006*"zeit" + 0.005*"frage" + 0.005*"spd" + 0.005*"thema"'), 
+(4, '0.011*"jahr" + 0.009*"trump" + 0.008*"usa" + 0.007*"biden" + 0.007*"frage" + 0.006*"mensch"')]

@@ -1,5 +1,0 @@
-[(0, '0.013*"afd" + 0.010*"amp" + 0.005*"spd" + 0.005*"uhr" + 0.005*"berlin" + 0.005*"jed"'), 
-(1, '0.037*"afd" + 0.033*"cdu" + 0.025*"thüringen" + 0.018*"fdp" + 0.011*"partei" + 0.010*"thueringen"'), 
-(2, '0.017*"amp" + 0.012*"tb" + 0.010*"jahr" + 0.008*"demokratie" + 0.006*"deutschland" + 0.006*"afd"'), 
-(3, '0.008*"deutschland" + 0.005*"amp" + 0.004*"eu" + 0.004*"is" + 0.004*"europa" + 0.004*"land"'), 
-(4, '0.021*"hanau" + 0.014*"mensch" + 0.007*"opfer" + 0.007*"jed" + 0.006*"hass" + 0.006*"rassismus"')]
