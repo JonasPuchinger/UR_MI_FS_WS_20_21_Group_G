@@ -33,16 +33,17 @@ wordlist = json.load(codecs.open(PREPROCESSED_WORDLIST, 'r', 'utf-8-sig'))
 uncertain_words = json.load(codecs.open(UNCERTAIN_WORDS, 'r', 'utf-8-sig'))
 
 
-def add_info(t):
+# Attaching hashtags, card title, card description to tweet
+def add_info(tweet):
     info = ""
-    if t['raw_data']['entities']['hashtags']:
-        for tag in t['raw_data']['entities']['hashtags']:
+    if tweet['raw_data']['entities']['hashtags']:
+        for tag in tweet['raw_data']['entities']['hashtags']:
             info += " " + tag['text']
-    if t['raw_data'].get('card') is not None:
-        if t['raw_data']['card']['binding_values'].get('title') is not None:
-            info += " " + t['raw_data']['card']['binding_values']['title']['string_value']
-        if t['raw_data']['card']['binding_values'].get('description') is not None:
-            info += " " + t['raw_data']['card']['binding_values']['description']['string_value']
+    if tweet['raw_data'].get('card') is not None:
+        if tweet['raw_data']['card']['binding_values'].get('title') is not None:
+            info += " " + tweet['raw_data']['card']['binding_values']['title']['string_value']
+        if tweet['raw_data']['card']['binding_values'].get('description') is not None:
+            info += " " + tweet['raw_data']['card']['binding_values']['description']['string_value']
     return info
 
 
@@ -60,6 +61,7 @@ def get_all_tweets(screen_name):
     return ""
 
 
+# Check if there is a clear match (word from tweet/ word from wordlist)
 def check_match(tweets):
     remaining_tweets = []
     matched_tweets = []
@@ -84,6 +86,7 @@ def check_match(tweets):
     return matched_tweets, remaining_tweets
 
 
+# Check if there is a match between the regular expression and a word from the tweet
 def check_match_regex(tweets):
     remaining_tweets = []
     matched_tweets = []
@@ -110,6 +113,7 @@ def check_match_regex(tweets):
     return matched_tweets, remaining_tweets
 
 
+# Using Fuzzy Matching to check, if there is a match between tweet and wordlist
 def check_match_fuzzy(tweets):
     remaining_tweets = []
     matched_tweets = []
@@ -134,6 +138,7 @@ def check_match_fuzzy(tweets):
     return matched_tweets, remaining_tweets
 
 
+# Matching takes place in three steps: Clear match, Pattern Matching, Fuzzy Matching
 def match_tweets(tweets_by_pol):
     matched_covid_tweets = []
     matching_part_1 = check_match(tweets_by_pol)
@@ -194,8 +199,6 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         p_screen_name = p['screen_name']
         p_party = p['Partei']
 
-        print(p_name)
-
         all_tweets = get_all_tweets(screen_name=p_screen_name)
         results_matching = match_tweets(all_tweets)
 
@@ -211,6 +214,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
                 quote_covid_tweet.append(t)
                 quote_covid_tweet_id.append(tweet['id_'])
 
+        # A quoted tweet is also considered a COVID-tweet if the original tweet is viewed as such
         for t in all_non_covid_tweets:
             tweet = t[0]
             if tweet['raw_data']['user_id_str'] == str(p_user_id):
