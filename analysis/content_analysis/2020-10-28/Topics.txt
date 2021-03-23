@@ -1,0 +1,5 @@
+[(0, '0.013*"alarmstuferot" + 0.010*"wellenbrechershutdown" + 0.008*"veranstalter" + 0.007*"land" + 0.007*"künstler" + 0.007*"lockdown"'), 
+(1, '0.011*"amp" + 0.008*"corona" + 0.007*"lockdown" + 0.006*"deutschland" + 0.006*"gastronomie" + 0.006*"weihnachten"'), 
+(2, '0.016*"parlament" + 0.014*"kontrolle" + 0.014*"corona" + 0.013*"lauterbach" + 0.012*"lockdown" + 0.010*"privatwohnungen"'), 
+(3, '0.018*"be" + 0.015*"amp" + 0.010*"there" + 0.008*"it" + 0.008*"kontakt" + 0.007*"let"'), 
+(4, '0.015*"bundestag" + 0.007*"afd" + 0.007*"wohnung" + 0.006*"frage" + 0.006*"spd" + 0.006*"maßnahme"')]

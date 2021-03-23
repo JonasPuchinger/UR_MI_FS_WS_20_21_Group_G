@@ -1,0 +1,5 @@
+[(0, '0.025*"trump" + 0.014*"biden" + 0.012*"amp" + 0.010*"wahl" + 0.009*"usa" + 0.007*"auszählung"'), 
+(1, '0.017*"trump" + 0.013*"demokratie" + 0.012*"usa" + 0.011*"election2020" + 0.008*"stimme" + 0.008*"wahl"'), 
+(2, '0.024*"biden" + 0.014*"trump" + 0.010*"electionnight" + 0.010*"usa" + 0.009*"stimme" + 0.007*"jed"'), 
+(3, '0.013*"trump" + 0.011*"wahl" + 0.010*"amp" + 0.009*"usa" + 0.008*"biden" + 0.008*"votes"'), 
+(4, '0.013*"elections2020" + 0.013*"trump" + 0.009*"demokratie" + 0.006*"stimme" + 0.006*"uselection2020" + 0.006*"michigan"')]

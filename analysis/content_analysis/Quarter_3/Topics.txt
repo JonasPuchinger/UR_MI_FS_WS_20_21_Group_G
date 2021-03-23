@@ -1,0 +1,5 @@
+[(0, '0.015*"bundestag" + 0.014*"afd" + 0.009*"partei" + 0.006*"spd" + 0.006*"cdu" + 0.006*"frau"'), 
+(1, '0.011*"jahr" + 0.005*"deutschland" + 0.004*"problem" + 0.003*"frau" + 0.003*"polizei" + 0.003*"kritik"'), 
+(2, '0.011*"deutschland" + 0.010*"land" + 0.007*"berlin" + 0.007*"jahr" + 0.007*"corona" + 0.006*"glückwunsch"'), 
+(3, '0.007*"fall" + 0.006*"jahr" + 0.006*"belarus" + 0.005*"kind" + 0.004*"klaren" + 0.004*"fdp"'), 
+(4, '0.017*"mensch" + 0.009*"moria" + 0.008*"spd" + 0.006*"deutschland" + 0.006*"bundestag" + 0.005*"bundesregierung"')]
