@@ -14,3 +14,10 @@
 
     - `most_popular_covid_tweets.json`
     - `most_popular_non_covid_tweets.json`
+
+- `create_annotation_files.py`: script that formats the collected viral COVID- and non-COVID-tweets and outputs them for the actual annotation.
+
+    Output files:
+    
+    - `covid_tweets_annotation.csv`
+    - `non_covid_tweets_annotation.csv`
