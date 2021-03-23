@@ -1,0 +1,46 @@
+[
+    {
+        "date": "2020/01/27",
+        "description": "First confirmed COVID-19 case in Germany"
+    },
+    {
+        "date": "2020/03/11",
+        "description": "WHO announces COVID-19 outbreak a pandemic"
+    },
+    {
+        "date": "2020/03/16",
+        "description": "Schools and daycare centers close, border controls and entry ban come into force"
+    },
+    {
+        "date": "2020/03/25",
+        "description": "German parliament decides on COVID aid package (156 bn €)"
+    },
+    {
+        "date": "2020/04/20",
+        "description": "Loosening of coronavirus restrictions"
+    },
+    {
+        "date": "2020/06/16",
+        "description": "Release of official COVID Tracing App"
+    },
+    {
+        "date": "2020/08/26",
+        "description": "City of Berlin forbids demonstration against coronavirus restrictions"
+    },
+    {
+        "date": "2020/10/28",
+        "description": "The federal and state governments decide on partial lockdown (starts on 2020/11/02)"
+    },
+    {
+        "date": "2020/11/18",
+        "description": "Adoption of the new Infection Protection Act"
+    },
+    {
+        "date": "2020/12/13",
+        "description": "Stricter lockdown"
+    },
+    {
+        "date": "2020/12/27",
+        "description": "Vaccinations start in Germany"
+    }
+]

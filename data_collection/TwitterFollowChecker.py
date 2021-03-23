@@ -10,6 +10,10 @@ from selenium.common.exceptions import NoSuchElementException
 class TwitterFollowChecker:
 
     def __init__(self, twitter_username, twitter_handle, twitter_pw):
+        '''
+        Initialize the class with the passed credentials and start a headless browser.
+        Note: geckodriver.exe needs to be on the PATH or in this directory for this script to work.
+        '''
         self.start_url = 'https://www.unfollowspy.com/'
         self.twitter_username = twitter_username
         self.twitter_handle = twitter_handle
@@ -21,6 +25,10 @@ class TwitterFollowChecker:
 
 
     def login(self):
+        '''
+        Logs into the webapp with the provided credentials.
+        If Twitter intercepts the login, authenticates itself to the Twitter API.
+        '''
         self.driver.get(self.start_url)
         login_btn = self.driver.find_element_by_class_name('twitbutton')
         login_btn.click()
@@ -52,6 +60,9 @@ class TwitterFollowChecker:
 
 
     def get_follow(self, user1, user2):
+        '''
+        Uses the webapp to request the follower relationship between two accounts and returns them.
+        '''
         user1_input = self.driver.find_element_by_id('userone')
         user2_input = self.driver.find_element_by_id('usertwo')
         user1_input.send_keys(Keys.CONTROL + 'a')
