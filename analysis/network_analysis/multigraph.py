@@ -5,18 +5,7 @@ import networkx as nx
 from matplotlib import colors
 from collections import Counter
 
-# node_colors_hex = {
-#     'SPD': '#ff0000',
-#     'CDU': '#000000',
-#     'AfD': '#0000ff',
-#     'FDP': '#ffff00',
-#     'Bündnis 90/Die Grünen': '#00ff00',
-#     'Die Linke': '#800080',
-#     'CSU': '#add8e6',
-#     'Fraktionslos': '#777777',
-#     'Nachrichtenportal': '#ffa500',
-#     'Virologe': '#800000',
-# }
+# Color palette
 
 node_colors_hex = {
     'SPD': '#D62728',
@@ -31,12 +20,18 @@ node_colors_hex = {
     'Virologe': '#800000',
 }
 
+# Paths for data directories and files
+
 USERS_FOLDER = '../formated_data/user/'
 ALL_POLITICIANS_FILE = '../../assets/all_politicians.json'
 NEWS_PORTALS_FILE = '../../assets/news_portals.json'
 VIROLOGISTS_FILE = '../../assets/virologists.json'
 POLITICIANS_RELATIONS_FOLDER = '../formated_data/relationship_politicians'
 ADDITIONAL_ACCOUNTS_RELATIONS_FOLDER = '../formated_data/relationship_additional_accounts'
+MENTIONS_BY_USERS_FILE = '../tweet_entities_analysis/tweets_by_user/mentions_tweets_by_user.csv'
+TWEETS_FOLDER = '../formated_data/tweet/'
+
+# Opening and reading data from files
 
 with open(ALL_POLITICIANS_FILE, 'r', encoding='utf-8') as infile_all_politicians:
     all_politicians = json.load(infile_all_politicians)
@@ -45,10 +40,14 @@ with open(NEWS_PORTALS_FILE, 'r', encoding='utf-8') as infile_news_portals:
 with open(VIROLOGISTS_FILE, 'r', encoding='utf-8') as infile_virologists:
     virologists = json.load(infile_virologists)
 
+# Preparing files and data
+
 additional_accounts = news_portals + virologists
 all_accounts = all_politicians + additional_accounts
 all_screen_names = [a['screen_name'] for a in all_accounts]
 all_acc_ids = [a['id'] for a in all_accounts]
+
+# Helper functions
 
 def get_user_id(screen_name):
     return next((u['id'] for u in all_accounts if u['screen_name'] == screen_name), None)
@@ -61,7 +60,12 @@ def get_acc_association(acc):
 
 def convert_color_to_rgba_dict(hex_color):
     rgba = colors.to_rgba(hex_color)
-    return {'r': f'{int(rgba[0] * 255)}','g': f'{int(rgba[1] * 255)}', 'b': f'{int(rgba[2] * 255)}', 'a': f'{rgba[3]}'}
+    return {'r': f'{int(rgba[0] * 255)}', 'g': f'{int(rgba[1] * 255)}', 'b': f'{int(rgba[2] * 255)}', 'a': f'{rgba[3]}'}
+
+def get_tweet_from_list(tweet_id, tweet_list):
+    return next((t for t in tweet_list if t['id_'] == tweet_id), None)
+
+# Creating nodes for the network graph
 
 nodes = [(acc['id'], {
             'label': acc['Name'],
@@ -73,6 +77,7 @@ nodes = [(acc['id'], {
 
 node_color_map = [n[1]['color'] for n in nodes]
 
+# Creating edges based on follower relationships
 
 edges_followers = []
 
@@ -90,8 +95,7 @@ for a_rel_file in os.listdir(ADDITIONAL_ACCOUNTS_RELATIONS_FOLDER):
         curr_a_rels = json.load(infile_curr_a_rels)
         edges_followers += [(curr_a_id, r['target_id']) for r in curr_a_rels if  r['value'] in (1, 2)]
 
-
-MENTIONS_BY_USERS_FILE = '../tweet_entities_analysis/tweets_by_user/mentions_tweets_by_user.csv'
+# Creating edges based on mentions
 
 with open(MENTIONS_BY_USERS_FILE, encoding='utf-8') as infile_mentions:
     mentions = [{k: v for k, v in row.items()} for row in csv.DictReader(infile_mentions, skipinitialspace=True)]
@@ -101,8 +105,7 @@ edges_mentions = [(int(m['id']), get_user_id(m['mention'])) for m in mentions if
 edges_mentions_counter = Counter(edges_mentions)
 weighted_edges_mentions = [(e[0], e[1], edges_mentions_counter[e]) for e in edges_mentions_counter]
 
-
-TWEETS_FOLDER = '../formated_data/tweet/'
+# Creating edges based on replies
 
 edges_replies = []
 
@@ -117,9 +120,7 @@ edges_replies = [e for e in edges_replies if e[0] in all_acc_ids and e[1] in all
 edges_replies_counter = Counter(edges_replies)
 weighted_edges_replies = [(e[0], e[1], edges_replies_counter[e]) for e in edges_replies_counter]
 
-
-def get_tweet_from_list(tweet_id, tweet_list):
-    return next((t for t in tweet_list if t['id_'] == tweet_id), None)
+# Creating edges based on quote tweets
 
 edges_quotes = []
 
@@ -138,7 +139,11 @@ edges_quotes = [e for e in edges_quotes if e[0] in all_acc_ids and e[1] in all_a
 edges_quotes_counter = Counter(edges_quotes)
 weighted_edges_quotes = [(e[0], e[1], edges_quotes_counter[e]) for e in edges_quotes_counter]
 
+# Initializing the network graph
+
 G = nx.MultiDiGraph()
+
+# Adding all nodes and edges to the graph
 
 G.add_nodes_from(nodes)
 G.add_edges_from(edges_followers)
@@ -146,7 +151,11 @@ G.add_weighted_edges_from(weighted_edges_mentions)
 G.add_weighted_edges_from(weighted_edges_replies)
 G.add_weighted_edges_from(weighted_edges_quotes)
 
+# Associating color information with the nodes (needs to be done like this for Gephi to correctly read it)
+
 for i, n in enumerate(G.nodes):
     G.add_node(n, viz={'color': convert_color_to_rgba_dict(node_color_map[i]), 'size': 20})
 
-nx.write_gexf(G, 'multi_graph.gexf')
+# Save graph object to .gexf file (can be imported in Gephi)
+
+# nx.write_gexf(G, 'multi_graph.gexf')

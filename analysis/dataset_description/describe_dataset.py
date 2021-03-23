@@ -3,12 +3,17 @@ import json
 import csv
 from statistics import mean, median
 
+# Paths for data directories and files
+
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 USERS_SOURCE_FOLDER = '../formated_data/user/'
 RESULTS_FILE = 'politicians_tweets_stats.csv'
 
 results = []
+
+# Functions to calculate/collect tweet statisitics for a given politician in our dataset
+# For an explanation of the statistics check the list below
 
 def count_tweets_for_user(screen_name, user_id):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
@@ -131,6 +136,33 @@ def get_verification_status(screen_name, user_id):
                 return verified
     return 'False'
 
+# Loop over all politicians in our dataset
+# For every politician, a object with the following statistics is generated:
+# name: Name of the politician
+# screen_name: Twitter handle
+# followers: number of followers
+# verified: If account is verified or not
+# party: Politicial party the politician belongs to
+# total_tweets_found: How many tweets were scraped by requests for this politician
+# tweets_by_politician: How many of the scraped tweets are authored by the politician itself
+# ratio_own_tweets: Ratio tweets_by_politician / total_tweets_found
+# total_german_tweets: How many of all scraped tweets for a politician are annotated by Twitter as German
+# german_tweets_by_politician: How many of the politicians tweets are annotated by Twitter as German
+# tweets_by_annotated_language: Dictionary of how many tweets per language are in the politicians scraped tweets
+# replies_by_politician: How many of the politicians tweets are replies
+# replies_by_politician_to_self: How many of the politicians replies are replies to themself (part of a thread)
+# replies_by_politician_to_others: How many of the politicians replies are replies to other accounts
+# ratio_replies_to_own_tweets: Ratio replies_by_politician / tweets_by_politician
+# total_likes: Number of total likes of all tweets by the politician in the dataset
+# mean_likes: Mean number of likes over all tweets by the politician in the dataset
+# median_likes: Median number of likes over all tweets by the politician in the dataset
+# total_retweets: Number of total retweets of all tweets by the politician in the dataset
+# mean_retweets: Mean number of retweets over all tweets by the politician in the dataset
+# median_retweets: Median number of retweets over all tweets by the politician in the dataset
+# total_replies_to: Number of total replies to all tweets by the politician in the dataset
+# mean_replies_to: Mean number of retweets to all tweets by the politician in the dataset
+# median_replies_to: Median number of retweets to all tweets by the politician in the dataset
+
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     for p in json.load(infile):
         p_name = p['Name']
@@ -177,6 +209,8 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             'median_replies_to': p_median_replies_to
         }
         results.append(p_tweets_stats)
+
+# Saving the collected statistics in a .csv file
 
 keys = results[0].keys()
 
