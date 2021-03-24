@@ -3,6 +3,7 @@ import json
 import csv
 from textblob_de import TextBlobDE as TextBlob
 
+# Paths for data directories and files
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 COVID_TWEETS_FOLDER = '../filtered_data/covid_tweets_by_politician/'
 NON_COVID_TWEETS_FOLDER = '../filtered_data/non_covid_tweets_by_politician/'
@@ -13,6 +14,7 @@ covid_tweet_sentiment = []
 non_covid_tweet_sentiment = []
 
 
+# Get polarity of tweet by TextBlob
 def get_sentiment(screen_name, type):
     if type == "covid":
         folder = COVID_TWEETS_FOLDER
@@ -25,19 +27,24 @@ def get_sentiment(screen_name, type):
         with open(f_path, 'r', encoding='utf-8') as infile:
             covid_tweets = [t for t in json.load(infile)]
             result = []
-            for t in covid_tweets:
-                result.append([t, TextBlob(t['raw_data']['full_text']).polarity])
+            for tweet in covid_tweets:
+                result.append([tweet, TextBlob(tweet['raw_data']['full_text']).polarity])
             return result
     return ""
 
 
+# Loop over all politicians in our dataset
+# For every politician, a object with the following statistics is generated:
+# name: Name of the politician
+# party: Political party the politician belongs to
+# tweet: Unique tweet of the politician
+# polarity: polarity of the tweet
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     for p in json.load(infile):
         p_name = p['Name']
         p_user_id = p['id']
         p_screen_name = p['screen_name']
         p_party = p['Partei']
-        print(p_name)
         covid_tweets_sent = get_sentiment(p_screen_name, "covid")
         non_covid_tweets_sent = get_sentiment(p_screen_name, "non-covid")
 
@@ -61,6 +68,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
             }
             non_covid_tweet_sentiment.append(non_covid_tweet_sentiment_stats)
 
+    # Saving the collected statistics in a .csv file
     keys_covid_tweet = covid_tweet_sentiment[0].keys()
     keys_non_covid_tweet = non_covid_tweet_sentiment[0].keys()
 
