@@ -1,5 +1,7 @@
-# Collection of Tweets
+# Data Collection
 
-1. Edit the settings in `config.cfg`
+- `start_scraper.py`: script that fetches tweets for a list of accounts via `TweetScraper`. `config.cfg` is used to set the timeframe, time intervals and the list of accounts to use for the requests, which are generated accoriding to these settings by `generate_requests.py`.
 
-2. Execute `start_scraper.py`
+- `fill_missing_users.py`: script that fetches Twitter account information for accounts that have not been fetches during the scraping of the tweets. When no tweets for a specific account are found by `TweetScraper`, no account information is stored. This fixes this problem via a separate CrawlerSpider, `TwitterUserScraper`.
+
+- `get_twitter_relationships.py`: script that fetches follower relationships. It uses `TwitterFollowChecker.py`, which is essentially a WebScraper using Selenium, that accesses a webapp with the functionality to check the needed information. This approach is better than accessing the data directly through the Twitter API, because the rate limits are much lower that way. It is necessary to store Twitter account information in `twitter_account_credentials.cfg`, because the script  needs this information to authenticate itself to the webapp. While the rate limits are less strict, there is still a limit of 180 requests per 15 minutes. The script may therefore stop when this limit is reached. (Note: geckodriver.exe needs to be on the PATH or in this directory for this script to work)

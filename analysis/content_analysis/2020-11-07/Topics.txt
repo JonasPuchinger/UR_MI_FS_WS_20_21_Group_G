@@ -1,0 +1,5 @@
+[(0, '0.014*"amp" + 0.014*"demokratie" + 0.007*"election2020" + 0.007*"president-elect" + 0.007*"usa" + 0.007*"biden"'), 
+(1, '0.024*"amp" + 0.014*"le0711" + 0.007*"trump" + 0.005*"on" + 0.005*"deutschland" + 0.005*"polizei"'), 
+(2, '0.011*"le0711" + 0.010*"polizei" + 0.007*"election2020" + 0.006*"uselection2020" + 0.006*"trump" + 0.005*"thank"'), 
+(3, '0.021*"le0711" + 0.013*"it" + 0.013*"we" + 0.010*"glückwunsch" + 0.010*"did" + 0.008*"demo"'), 
+(4, '0.039*"biden" + 0.023*"joe" + 0.015*"usa" + 0.013*"this" + 0.012*"be" + 0.012*"it"')]

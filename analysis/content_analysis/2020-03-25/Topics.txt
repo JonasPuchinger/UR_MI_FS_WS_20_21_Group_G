@@ -1,0 +1,5 @@
+[(0, '0.016*"bundestag" + 0.009*"corona" + 0.007*"coronakrise" + 0.007*"covid2019" + 0.007*"demokratie" + 0.007*"land"'), 
+(1, '0.016*"corona" + 0.010*"mensch" + 0.010*"bundestag" + 0.010*"euro" + 0.009*"deutschland" + 0.008*"coronavirus"'), 
+(2, '0.044*"bundestag" + 0.016*"krise" + 0.011*"coronapandemie" + 0.011*"coronakrise" + 0.010*"corona" + 0.009*"covid2019"'), 
+(3, '0.016*"amp" + 0.015*"corona" + 0.008*"hilfe" + 0.008*"mensch" + 0.006*"zeit" + 0.006*"bundestag"'), 
+(4, '0.029*"amp" + 0.017*"bundestag" + 0.014*"covid2019" + 0.013*"zeit" + 0.012*"coronapandemie" + 0.010*"krise"')]

@@ -1,0 +1,5 @@
+[(0, '0.019*"coronavirus" + 0.010*"zeit" + 0.008*"jahr" + 0.007*"krise" + 0.005*"politik" + 0.005*"corona"'), 
+(1, '0.012*"land" + 0.010*"frage" + 0.008*"mensch" + 0.006*"corona" + 0.005*"arbeit" + 0.005*"staat"'), 
+(2, '0.009*"mensch" + 0.007*"tag" + 0.007*"berlin" + 0.007*"frau" + 0.005*"bundestag" + 0.005*"problem"'), 
+(3, '0.010*"bundesregierung" + 0.009*"deutschland" + 0.007*"bundestag" + 0.006*"coronavirus" + 0.005*"tag" + 0.005*"maßnahme"'), 
+(4, '0.030*"afd" + 0.019*"cdu" + 0.013*"thüringen" + 0.012*"partei" + 0.011*"fdp" + 0.010*"spd"')]
