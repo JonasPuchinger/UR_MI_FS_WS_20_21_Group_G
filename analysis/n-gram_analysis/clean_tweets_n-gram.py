@@ -2,7 +2,7 @@ import csv
 from analysis.clean_data import clean_for_n_gram_analysis
 
 # Paths for data directories and files
-RESULTS_FILE = 'clean_n-gram.csv'
+RESULTS_FILE = 'clean_tweets_n-gram.csv'
 dict_covid_tweets = []
 
 # Clean all COVID-tweets for n-gram analysis
