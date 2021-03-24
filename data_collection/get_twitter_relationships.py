@@ -5,7 +5,7 @@ from TwitterFollowChecker import TwitterFollowChecker
 import configparser
 from selenium.common.exceptions import TimeoutException
 
-# Constants
+# Paths to directories and files
 RESULTS_FOLDER_POLITICIANS = '../analysis/formated_data/relationship_politicians/'
 RESULTS_FOLDER_ADDITIONAL_ACCOUNTS = '../analysis/formated_data/relationship_additional_accounts/'
 ALL_POLITICIANS_FILE = '../assets/all_politicians.json'

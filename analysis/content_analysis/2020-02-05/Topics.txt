@@ -1,0 +1,5 @@
+[(0, '0.032*"thüringen" + 0.030*"mitte" + 0.017*"kandidat" + 0.013*"wahl" + 0.011*"thueringen" + 0.010*"thüringer"'), 
+(1, '0.025*"tb" + 0.025*"afd" + 0.020*"neuwahl" + 0.017*"wahl" + 0.016*"demokratie" + 0.012*"thueringen"'), 
+(2, '0.044*"thüringen" + 0.035*"afd" + 0.021*"partei" + 0.019*"stimme" + 0.019*"ministerpräsidenten" + 0.015*"tag"'), 
+(3, '0.014*"amp" + 0.007*"leute" + 0.005*"jed" + 0.005*"thueringen" + 0.004*"schande" + 0.004*"mensch"'), 
+(4, '0.056*"fdp" + 0.045*"thüringen" + 0.042*"afd" + 0.040*"cdu" + 0.032*"thueringen" + 0.016*"wahl"')]
