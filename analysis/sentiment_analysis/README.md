@@ -9,5 +9,5 @@
     - `covid_tweets_sentiment.csv`
     - `non_covid_tweets_sentiment.csv`
 
-- `sentiment_visualized.ipynb`: Notebook to evaluate the sentiment analysis of COVID- and non-COVID-tweets. Some descriptive statistics of the data sets are calculated (Total COVID-tweets/non-COVID-tweets, Number/Percentage of COVID/non-COVID tweets per party/sentiment (positive, neutral, negative), Mean/Max/Min polarity of the year). Various graphs will be produced:  Bar charts, boxplots, line charts. These analyses and visualizations are mainly used in section 5.1 (Automatic Sentiment Detection) of our work. 
+- `sentiment_visualized.ipynb`: Notebook to evaluate the sentiment analysis of COVID- and non-COVID-tweets. Some descriptive statistics of the data sets are calculated (Total COVID-tweets/non-COVID-tweets, Number/Percentage of COVID/non-COVID tweets per party/sentiment (positive, neutral, negative), Mean/Max/Min polarity of the year). Various graphs will be produced:  Bar charts, boxplots, line charts. These analyses and visualizations are mainly used in section 5.1 (Automatic Sentiment Detection) of our work.
 

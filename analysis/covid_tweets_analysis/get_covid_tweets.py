@@ -7,6 +7,7 @@ import codecs
 from fuzzywuzzy import fuzz
 from analysis.clean_data import clean_for_filtering
 
+# Paths for data directories and files
 POLITICIANS_LIST = '../../assets/all_politicians.json'
 TWEETS_SOURCE_FOLDER = '../formated_data/tweet/'
 COVID_TWEETS_BY_POL_FOLDER = '../filtered_data/covid_tweets_by_politician/'
@@ -34,6 +35,7 @@ uncertain_words = json.load(codecs.open(UNCERTAIN_WORDS, 'r', 'utf-8-sig'))
 
 
 # Attaching hashtags, card title, card description to tweet
+# If a tweet contains no text but a card, the title and description can be used to check whether the tweet is covid-related.
 def add_info(tweet):
     info = ""
     if tweet['raw_data']['entities']['hashtags']:
@@ -47,6 +49,7 @@ def add_info(tweet):
     return info
 
 
+# Reading all tweets of the politician
 def get_all_tweets(screen_name):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, f'{screen_name}.json')
 
@@ -61,7 +64,8 @@ def get_all_tweets(screen_name):
     return ""
 
 
-# Check if there is a clear match (word from tweet/ word from wordlist)
+# Check if there is a clear match (word from tweet/ keyword)
+# If the keyword is one of the uncertain words, then at least two different ones must appear in a tweet for it to be considered a COVID-tweet.
 def check_match(tweets):
     remaining_tweets = []
     matched_tweets = []
@@ -150,6 +154,11 @@ def match_tweets(tweets_by_pol):
     return matched_covid_tweets, matching_part_3[1]
 
 
+# For every politician, a object with the following statistics is generated:
+# name: Name of the politician
+# screen_name: Twitter handle
+# party: Political party the politician belongs to
+# covid_tweets: Number of COVID-tweets
 def create_dict_results_overview(name, screen_name, party, results):
     p_tweets_stats = {
         'name': name,
@@ -160,6 +169,15 @@ def create_dict_results_overview(name, screen_name, party, results):
     dict_results_overview.append(p_tweets_stats)
 
 
+# For every COVID-tweet, a object with the following statistics is generated:
+# name: Name of the politician
+# party: Political party the politician belongs to
+# created at: Timestamp (creation of the tweet)
+# id: Tweet ID
+# word from wordlist: Keyword of the match
+# match: Type of match
+# original tweet: Original tweet of the politician
+# tweet: Preprocessed tweet of the politician
 def create_dict_covid_tweets_by_pol(name, party, results):
     for i in results:
         p_tweets_stats = {
@@ -175,6 +193,11 @@ def create_dict_covid_tweets_by_pol(name, party, results):
         dict_results_detail.append(p_tweets_stats)
 
 
+# For every non-COVID-tweet, a object with the following statistics is generated:
+# name: Name of the politician
+# party: Political party the politician belongs to
+# created at: Timestamp (creation of the tweet)
+# tweet: Original tweet of the politician
 def create_dict_non_covid_tweets_by_pol(name, party, results):
     for tweet in results:
         p_tweets_stats = {
@@ -185,7 +208,7 @@ def create_dict_non_covid_tweets_by_pol(name, party, results):
         }
         dict_non_covid_tweets.append(p_tweets_stats)
 
-
+# Loop over all politicians in our dataset
 with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     for p in json.load(infile):
 
@@ -241,6 +264,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
     keys_results_detail = dict_results_detail[0].keys()
     keys_remaining_tweets = dict_non_covid_tweets[0].keys()
 
+    # Saving the collected statistics in a .csv file
     with open(RESULTS_FILE_OVERVIEW, 'w', newline='', encoding='utf-8') as outfile:
         dict_writer = csv.DictWriter(outfile, keys_results_overview)
         dict_writer.writeheader()
@@ -256,6 +280,7 @@ with open(POLITICIANS_LIST, 'r', encoding='utf-8') as infile:
         dict_writer.writeheader()
         dict_writer.writerows(dict_non_covid_tweets)
 
+# Writing the tweets (COVID-tweets, non-COVID-tweets, quote COVID-tweets, quote non-COVID-tweets) to .json files
 for filename in os.listdir(TWEETS_SOURCE_FOLDER):
     f_path = os.path.join(TWEETS_SOURCE_FOLDER, filename)
     f_path_covid_tweets_by_pol = os.path.join(COVID_TWEETS_BY_POL_FOLDER, filename)
